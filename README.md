@@ -40,7 +40,7 @@ There are some background information if you want to know such as the categories
 
 In this sections, we will test whether we can use normal way ( just question and answer) by using ChartGPT or other AI (MS-New_Bing or Google Bard) to solve different CTF challenge. Below are the Test list;
 
-1. [Shell Shock Attack Challenge CVE-2014-6271/CVE-2014-6278]()
+1. [Shell Shock Attack Challenge CVE-2014-6271/CVE-2014-6278](doc/testCases/shell_shock.md)
 2. [Buffer overflow attack challenge]()
 3. [Blocking Brute Force Attacks]()
 
