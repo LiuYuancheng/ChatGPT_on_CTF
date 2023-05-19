@@ -1,15 +1,15 @@
-# ChartGPT_on_CTF
+# ChatGPT_on_CTF
 
-**Project Design Purpose:**  We want to see whether ChartGPT or other AI (MS-New_Bing or Google Bard) are able to help the user to go to some test environment to run cmd to solve the CTF problem (Understand the challenge question and capture the flag). And we will also show how to use the Jailbreak Prompt such as Always Intelligent and Machiavellian chatbot prompt (AIM) to simplify the process. Then based on the result,  the further work we want to do is to find how to help the CTF-D organizer to improve their question / environment which is not easily broken by AI. 
+**Project Design Purpose:**  We want to see whether ChatGPT or other AI (MS-New_Bing or Google Bard) are able to help the user to go to some test environment to run cmd to solve the CTF problem (Understand the challenge question and capture the flag). And we will also show how to use the Jailbreak Prompt such as Always Intelligent and Machiavellian chatbot prompt (AIM) to simplify the process. Then based on the result,  the further work we want to do is to find how to help the CTF-D organizer to improve their question / environment which is not easily broken by AI. 
 
 ![](doc/img/rm/introduction.png)
 
 [TOC]
 
-- [ChartGPT_on_CTF](#chartgpt-on-ctf)
+- [ChatGPT_on_CTF](#Chatgpt-on-ctf)
     + [Introduction](#introduction)
       - [Background and Reference](#background-and-reference)
-    + [Chart-GPT Challenge Solving Test Cases](#chart-gpt-challenge-solving-test-cases)
+    + [Chat-GPT Challenge Solving Test Cases](#Chat-gpt-challenge-solving-test-cases)
     + [Jailbreak Prompt Bypass](#jailbreak-prompt-bypass)
     + [Result Analysis](#result-analysis)
     + [CTF-GPT Program Design](#ctf-gpt-program-design)
@@ -20,12 +20,12 @@
 
 ### Introduction 
 
-In this project we will test ChartGPT and other AI's performance on fixing the different CTF challenges. Now we are going to cover below topic:
+In this project we will test ChatGPT and other AI's performance on fixing the different CTF challenges. Now we are going to cover below topic:
 
-- Test case examples of how ChartGTP solve the CTF-challenge. 
+- Test case examples of how ChatGTP solve the CTF-challenge. 
 - Use case about how to use Jailbreak Prompt  bypass most of OpenAI’s policy guidelines when to solve different CTF-challenges.
 - Try to create a program can automatic do some steps of the CTF challenge analysis by using different tools(such as penetration tools)
-- Analysis the test case result to summarize which kind of CTF challenge will be easily broken by ChartGPT/OpenAI
+- Analysis the test case result to summarize which kind of CTF challenge will be easily broken by ChatGPT/OpenAI
 
 **Final Goal** : we want to try to use OpenAI to create automatic tools/interface which can auto login the CTF web and the hands-on environment to finish the CTF-D competition. Currently we are planning to use the [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT) as the interface between our current CTF-GPT's module to the CTF-D web and test cloud environment.
 
@@ -50,9 +50,9 @@ There are some background information if you want to know such as the categories
 
 ------
 
-### Chart-GPT Challenge Solving Test Cases
+### Chat-GPT Challenge Solving Test Cases
 
-In this sections, we will test whether we can use normal way ( just question and answer) by using ChartGPT or other AI (MS-New_Bing or Google Bard) to solve different CTF challenge. Below are the Test list;
+In this sections, we will test whether we can use normal way ( just question and answer) by using ChatGPT or other AI (MS-New_Bing or Google Bard) to solve different CTF challenge. Below are the Test list;
 
 1. [Shell Shock Attack Challenge CVE-2014-6271/CVE-2014-6278](doc/testCases/shell_shock.md)
 2. [Buffer overflow attack challenge]()
@@ -64,11 +64,11 @@ In this sections, we will test whether we can use normal way ( just question and
 
 ###  Jailbreak Prompt Bypass
 
-The Chart GPT's policy guidelines will stop GPT give the solution to attack a website, or scan the vulnerability of a system directly. Such as if you paste the scan result in GPT and ask how to attack the web direct, GPT will not give you the answer :
+The Chat GPT's policy guidelines will stop GPT give the solution to attack a website, or scan the vulnerability of a system directly. Such as if you paste the scan result in GPT and ask how to attack the web direct, GPT will not give you the answer :
 
 ![](doc/img/rm/q2_4.png)
 
-This section will show the cases to use different Jailbreak Prompt to by pass different chartGPT's policy guidelines. 
+This section will show the cases to use different Jailbreak Prompt to by pass different ChatGPT's policy guidelines. 
 
 [ Click this link to for the detail information ](doc/jailbreak.md)
 
