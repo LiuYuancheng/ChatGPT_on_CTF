@@ -2,6 +2,8 @@
 
 **Project Design Purpose:**  We want to see whether ChartGPT or other AI (MS-New_Bing or Google Bard) are able to help the user to go to some test environment to run cmd to solve the CTF problem (Understand the challenge question and capture the flag). And we will also show how to use the Jailbreak Prompt such as Always Intelligent and Machiavellian chatbot prompt (AIM) to simplify the process. Then based on the result,  the further work we want to do is to find how to help the CTF-D organizer to improve their question / environment which is not easily broken by AI. 
 
+![](doc/img/rm/introduction.png)
+
 [TOC]
 
 - [ChartGPT_on_CTF](#chartgpt-on-ctf)
@@ -26,6 +28,8 @@ In this project we will test ChartGPT and other AI's performance on fixing the d
 - Analysis the test case result to summarize which kind of CTF challenge will be easily broken by ChartGPT/OpenAI
 
 **Final Goal** : we want to try to use OpenAI to create automatic tools/interface which can auto login the CTF web and the hands-on environment to finish the CTF-D competition. Currently we are planning to use the [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT) as the interface between our current CTF-GPT's module to the CTF-D web and test cloud environment.
+
+
 
 
 

@@ -1,12 +1,12 @@
 # Jailbreak Prompt Bypass
 
-The Chart GPT's policy guidelines will stop GPT give the solution to attack a website, or scan the vulnerability of a system directly. Such as if you paste the scan result in GPT and ask how to attack the web direct, GPT will not give you the answer :
+The Chat GPT's policy guidelines will stop GPT give the solution to attack a website, or scan the vulnerability of a system directly. Such as if you paste the scan result in GPT and ask how to attack the web direct, GPT will not give you the answer :
 
 ![](![](img/rm/q2_4.png)
 
 
 
-If the participants doesn't know  how to "split" the question , is there any way that he can capture the flag? (obviously ChartGPT has understand want we want, but the OpenAI’s policy guidelines that it’s placed on ChatGPT stop it do so. )
+If the participants doesn't know  how to "split" the question , is there any way that he can capture the flag? (obviously ChatGPT has understand want we want, but the OpenAI’s policy guidelines that it’s placed on ChatGPT stop it do so. )
 
 [TOC]
 
