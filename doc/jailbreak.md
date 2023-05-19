@@ -8,6 +8,11 @@ The Chart GPT's policy guidelines will stop GPT give the solution to attack a we
 
 If the participants doesn't know  how to "split" the question , is there any way that he can capture the flag? (obviously ChartGPT has understand want we want, but the OpenAI’s policy guidelines that it’s placed on ChatGPT stop it do so. )
 
+[TOC]
+
+- [Jailbreak Prompt Bypass](#jailbreak-prompt-bypass)
+    + [Cyber Attack Question](#cyber-attack-question)
+
 
 
 ### Cyber Attack Question

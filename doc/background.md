@@ -4,6 +4,13 @@ This document will archive all the background information and reference of the p
 
 [TOC]
 
+- [Background Information](#background-information)
+    + [1. What is CTF-D and the CTF challenge](#1-what-is-ctf-d-and-the-ctf-challenge)
+
+
+
+------
+
 ### 1. What is CTF-D and the CTF challenge 
 
 Capture The Flags, or CTFs, are a kind of computer security competition. Teams of competitors (or just individuals) are pitted against each other in a test of computer security skill. Normally there are 5 main types of challenge during the event: 

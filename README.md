@@ -4,6 +4,16 @@
 
 [TOC]
 
+- [ChartGPT_on_CTF](#chartgpt-on-ctf)
+    + [Introduction](#introduction)
+      - [Background and Reference](#background-and-reference)
+    + [Chart-GPT Challenge Solving Test Cases](#chart-gpt-challenge-solving-test-cases)
+    + [Jailbreak Prompt Bypass](#jailbreak-prompt-bypass)
+    + [Result Analysis](#result-analysis)
+    + [CTF-GPT Program Design](#ctf-gpt-program-design)
+
+
+
 ------
 
 ### Introduction 
@@ -69,6 +79,8 @@ This section will show the cases to use different Jailbreak Prompt to by pass di
 ### Result Analysis 
 
 [under working]
+
+So currently we think AI has been a new challenge for the CTF event organizer, if trained the AI with the CTF participation work flow (the step to find flag and answer the question) and with the task management plugin such AS Auto-GPT, now it may not difficult for AI to do attend the CTF itself and solve the challenge.  
 
 
 
