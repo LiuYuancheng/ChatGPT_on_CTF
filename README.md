@@ -55,7 +55,7 @@ There are some background information if you want to know such as the categories
 In this sections, we will test whether we can use normal way ( just question and answer) by using ChatGPT or other AI (MS-New_Bing or Google Bard) to solve different CTF challenge. Below are the Test list;
 
 1. [Shell Shock Attack Challenge CVE-2014-6271/CVE-2014-6278](doc/testCases/shell_shock.md)
-2. [Buffer overflow attack challenge]()
+2. [Buffer overflow attack challenge](doc/testCases/brute_force.md)
 3. [Blocking Brute Force Attacks]()
 
 
@@ -85,6 +85,36 @@ This section will show the cases to use different Jailbreak Prompt to by pass di
 [under working]
 
 So currently we think AI has been a new challenge for the CTF event organizer, if trained the AI with the CTF participation work flow (the step to find flag and answer the question) and with the task management plugin such AS Auto-GPT, now it may not difficult for AI to do attend the CTF itself and solve the challenge.  
+
+Currently based on some of our test, we think ChatGPT is quite good to solving the challenge question with below structure:
+
+```mermaid
+flowchart TD
+    A[Knowledge set A] --> |Knowledge point 1 -2| D 
+    B[Knowledge Point B] --> |Knowledge point 3 -4| D
+    C[Knowledge Point C] --> |Knowledge point 7 -8| D
+    E[Knowledge Point E] --> |Knowledge point 5 -6| F
+    D[Challenge solution step1] -->|result| F
+    F[Capture the flag]
+```
+
+
+
+Which is the participant needs know a lot knowledge but only take few steps to solve the challenge (problem solving is straightforward )
+
+If will be a little difficult for Chart GPT to solve the problem with below structure:
+
+```mermaid
+flowchart TD
+    A[Knowledge set A] --> |Knowledge point 1| B
+    B[Testing step] --> |test result| D
+    C[Knowledge Point C] --> |Knowledge point 7| D
+    D[Testing step] -->|test results ...| F
+    D[Testing step] -->|incorrect results filtering| D
+    F[Capture the flag]
+```
+
+The participant only need a little related knowledge but need to follow complex steps to try different possible solutions and analysis the result then find the answer. 
 
 
 

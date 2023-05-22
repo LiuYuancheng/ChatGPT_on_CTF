@@ -64,7 +64,7 @@ Assume we have one participants who doesn't have any knowledge about the penetra
 
 ### Problem Solving with the ChatGPT
 
-Based on the 5 point we design the question this use may ask and see whether he can find the answer by using the answer give by ChatGPT. And see the flag could be found through how many questions.
+Based on the 5 point we design the question this user may ask and see whether he can find the answer by using the answer give by ChatGPT. And see the flag could be found through how many questions.
 
 
 
