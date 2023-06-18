@@ -1,6 +1,6 @@
 # ChatGPT_on_CTF
 
-**Project Design Purpose:**  We want to see whether ChatGPT or other AI (MS-New_Bing or Google Bard) are able to help the user to go to some test environment to run cmd to solve the CTF problem (Understand the challenge question and capture the flag). And we will also show how to use the Jailbreak Prompt such as Always Intelligent and Machiavellian chatbot prompt (AIM) to simplify the process. Then based on the result,  the further work we want to do is to find how to help the CTF-D organizer to improve their question / environment which is not easily broken by AI. 
+**Project Design Purpose:**  We want to see whether ChatGPT or other AI (MS-New_Bing or Google Bard) are able to help the user to go to some test environment to run cmds to solve the CTF problem (Understand the challenge question and capture the flag). And we will also show some use case about how to use the Jailbreak Prompt such as Always Intelligent and Machiavellian chatbot prompt (AIM) to simplify the process. Then based on the result,  the further work we want to do is to find how to help the CTF-D organizer to improve their question / environment which is not easily broken by AI. 
 
 ![](doc/img/rm/introduction.png)
 
@@ -56,7 +56,9 @@ In this sections, we will test whether we can use normal way ( just question and
 
 1. [Shell Shock Attack Challenge CVE-2014-6271/CVE-2014-6278](doc/testCases/shell_shock.md)
 2. [Buffer overflow attack challenge](doc/testCases/brute_force.md)
-3. [Blocking Brute Force Attacks]()
+3. [Blocking Brute Force Attacks](doc/testCases/brute_force.md)
+4. Command injection attack attacks challenge [under edit]
+5. Library Hijacking attack challenge [under edit]
 
 
 
@@ -64,7 +66,7 @@ In this sections, we will test whether we can use normal way ( just question and
 
 ###  Jailbreak Prompt Bypass
 
-The Chat GPT's policy guidelines will stop GPT give the solution to attack a website, or scan the vulnerability of a system directly. Such as if you paste the scan result in GPT and ask how to attack the web direct, GPT will not give you the answer :
+The Chat GPT's policy guidelines will stop GPT giving the solution to attack a website, or scan the vulnerability of a system directly. Such as if you paste the scan result in GPT and ask how to attack the web direct, GPT will not give you the answer :
 
 ![](doc/img/rm/q2_4.png)
 
@@ -84,9 +86,9 @@ This section will show the cases to use different Jailbreak Prompt to by pass di
 
 [under working]
 
-So currently we think AI has been a new challenge for the CTF event organizer, if trained the AI with the CTF participation work flow (the step to find flag and answer the question) and with the task management plugin such AS Auto-GPT, now it may not difficult for AI to do attend the CTF itself and solve the challenge.  
+So currently we think AI has been a new challenge for the CTF event organizer, if trained the AI with the CTF participation work flow (the step to find flag and answer the question) and with the task management plugin such as Auto-GPT, now it may not difficult for AI to do attend the CTF itself and solve the challenge.  
 
-Currently based on some of our test, we think ChatGPT is quite good to solving the challenge question with below structure:
+Currently based on some of our test, we think ChatGPT is quite good to solving the challenge questions with below structure:
 
 ```mermaid
 flowchart TD
@@ -110,7 +112,7 @@ flowchart TD
     B[Testing step] --> |test result| D
     C[Knowledge Point C] --> |Knowledge point 7| D
     D[Testing step] -->|test results ...| F
-    D[Testing step] -->|incorrect results filtering| D
+    D[Testing step] -->|incorrect results filtering loop | D
     F[Capture the flag]
 ```
 
