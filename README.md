@@ -55,7 +55,7 @@ There are some background information if you want to know such as the categories
 In this sections, we will test whether we can use normal way ( just question and answer) by using ChatGPT or other AI (MS-New_Bing or Google Bard) to solve different CTF challenge. Below are the Test list;
 
 1. [Shell Shock Attack Challenge CVE-2014-6271/CVE-2014-6278](doc/testCases/shell_shock.md)
-2. [Buffer overflow attack challenge](doc/testCases/brute_force.md)
+2. [Buffer overflow attack challenge](doc/testCases/buffer_overflow.md)
 3. [Blocking Brute Force Attacks](doc/testCases/brute_force.md)
 4. Command injection attack attacks challenge [under edit]
 5. Library Hijacking attack challenge [under edit]
