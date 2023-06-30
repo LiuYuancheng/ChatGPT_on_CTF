@@ -166,7 +166,7 @@ If we ask Google-Bard to find the flag with the same questions, it can not handl
 
 ### Problem solving with the MS-New-Bing
 
-To test the performance of google bard we will ask the same question to the Google-bard. 
+To test the performance of google bard we will ask the same question to the MS-New-Bing. 
 
 ##### Question 1
 
