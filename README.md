@@ -58,7 +58,7 @@ In this sections, we will test whether we can use normal way ( just question and
 2. [Buffer overflow attack challenge](doc/testCases/buffer_overflow.md)
 3. [Blocking Brute Force Attacks](doc/testCases/brute_force.md)
 4. Command injection attack attacks challenge [under edit]
-5. Library Hijacking attack challenge [under edit]
+5. [Library Hijacking attack challenge](doc/testCases/library_hijacking.md)
 
 
 
