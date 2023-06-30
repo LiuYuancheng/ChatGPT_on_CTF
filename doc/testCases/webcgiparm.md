@@ -20,6 +20,21 @@
 
 **Table of Contents**
 
+- [Test Case 4: ChatGPT on Command Injection Attack to web-CGI challenge](#test-case-4--chatgpt-on-command-injection-attack-to-web-cgi-challenge)
+    + [CTF-D Challenge Detail](#ctf-d-challenge-detail)
+        * [CTF-D Challenge Question and Cloud Environment](#ctf-d-challenge-question-and-cloud-environment)
+        * [Instructor's challenge analysis](#instructor-s-challenge-analysis)
+    + [Problem Solving with AI-LLM](#problem-solving-with-ai-llm)
+        * [Test participants' challenge analysis](#test-participants--challenge-analysis)
+    + [Problem Solving with the ChatGPT](#problem-solving-with-the-chatgpt)
+        * [Question 1](#question-1)
+        * [Question 2](#question-2)
+        * [Question 3](#question-3)
+    + [Problem Solving with the Google-Bard](#problem-solving-with-the-google-bard)
+        * [Question 1](#question-1-1)
+    + [Problem solving with the MS-New-Bing](#problem-solving-with-the-ms-new-bing)
+        * [Question 1](#question-1-2)
+
 
 
 ------
