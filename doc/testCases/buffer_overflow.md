@@ -65,7 +65,7 @@ After ssh login the env, you need to find 2 files to solve the problem:
 
 ##### Instructor's challenge analysis
 
-As a CTF-D challenge builder/instructor, we expect the participants to follow below sequence to solve the problem :
+As a CTF-D challenge builder/instructor, we expect the participants to follow below steps to solve the problem :
 
 ![](../img/testCases/bufferoverflow/workflow.png)
 
