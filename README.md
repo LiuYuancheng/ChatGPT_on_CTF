@@ -80,10 +80,22 @@ Currently we did 5 test to test 4 different types of CTF challenges, currently b
 1. [Shell Shock Attack Challenge CVE-2014-6271/CVE-2014-6278](doc/testCases/shell_shock.md)
 2. [Buffer overflow attack challenge](doc/testCases/buffer_overflow.md)
 3. [Blocking Brute Force Attacks](doc/testCases/brute_force.md)
-4. [Command injection attack to web openCGI challenge](doc/testCases/library_hijacking.md)
+4. [Command injection attack to web openCGI challenge](doc/testCases/webcgiparm.md)
 5. [Library Hijacking attack challenge](doc/testCases/library_hijacking.md)
 
 Currently AI can solve test case 1, 2, 3, 5 and can not solve test case 4. 
+
+| Test Cases                                               | OpenAI-Chat-GPT-4.0 | Google-Bard | Microsoft-New-Bing |
+| -------------------------------------------------------- | ------------------- | ----------- | ------------------ |
+| Shell Shock Attack Challenge CVE-2014-6271/CVE-2014-6278 |                     |             |                    |
+|                                                          |                     |             |                    |
+|                                                          |                     |             |                    |
+|                                                          |                     |             |                    |
+|                                                          |                     |             |                    |
+
+
+
+
 
 
 

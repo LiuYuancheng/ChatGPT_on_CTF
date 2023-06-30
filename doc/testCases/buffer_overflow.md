@@ -265,7 +265,7 @@ Analysis of AI's answer:
 
 ------
 
-### Problem Solving with Micsoft-New-Bing
+### Problem Solving with Microsoft-New-Bing
 
 ##### Question 1
 

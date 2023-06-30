@@ -103,7 +103,7 @@ Assume we have one participant who doesn't have any knowledge about the penetrat
 
 ### Problem Solving with the ChatGPT
 
-Based on the 5 assumption points we designed the questions this user may ask and see whether he can find the answer by using the answer give by ChatGPT. And see the flag could be found through how many questions.
+Based on the 5 assumption points we designed the questions this user may ask and see whether he can find the answer by using the answer give by ChatGPT. And see whether the flag could be found through how many questions.
 
 
 
