@@ -4,6 +4,8 @@ This document will archive all the background information and reference of the p
 
 [TOC]
 
+**Table of Contents**
+
 - [Background Information](#background-information)
     + [1. What is CTF-D and the CTF challenge](#1-what-is-ctf-d-and-the-ctf-challenge)
 
