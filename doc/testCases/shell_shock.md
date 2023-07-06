@@ -10,11 +10,11 @@
 
 **Problem Solving Result :**
 
-| AI-LLM Type         | Understand the question                                      | Solve the problem |
-| ------------------- | ------------------------------------------------------------ | ----------------- |
-| OpenAI-Chat-GPT-4.0 | Fully understand the question.                               | Yes               |
-| Google-Bard         | Understand the question but only get part of the information from execution result. | No                |
-| Microsoft-New-Bing  | Understand the question but not get key information to solve the problem. | No                |
+| AI-LLM Type         | Understand the question                                      | Solve the problem | Number of Questions |
+| ------------------- | ------------------------------------------------------------ | ----------------- | ------------------- |
+| OpenAI-Chat-GPT-4.0 | Fully understand the question.                               | Yes               | 3                   |
+| Google-Bard         | Understand the question but only get part of the information from execution result. | No                | 3                   |
+| Microsoft-New-Bing  | Understand the question but not get key information to solve the problem. | No                | 3                   |
 
 [TOC]
 
