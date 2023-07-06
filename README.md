@@ -145,7 +145,7 @@ Currently based on the 5 test cases we think AI has been a new challenge for the
 
 ##### Challenge /Question mode which may be easy to be solved by AI
 
-Currently based on some of our test, we think AI large language models ( ChatGPT )  is quite good to solving the challenge questions with below structure:
+Currently based on some of our test, we think AI large language models ( ChatGPT )  is quite good to solving the challenge questions with below structure [**Question mode 1**] :
 
 ```mermaid
 flowchart TD
@@ -166,16 +166,16 @@ Which is the participant needs know a lot knowledge but only take few steps to s
 
 ##### Challenge /Question mode which may be difficult to be solved by AI
 
-It will be a little difficult for A ( Chart GPT) to solve the problem with below structure:
+It will be a little difficult for AI-LLM ( ChatGPT) to solve the problem with below structure:
 
 ```mermaid
 flowchart TD
     A[Knowledge set A] --> |Knowledge point 1| B
     B[Testing steps] --> |test result| D
-    B[Testing steps] -->|incorrect results filtering loop | B
-    C[Knowledge Point C] --> |Knowledge point 7| D
+    B[Testing steps] -->|Incorrect results filtering loop | B
+    C[Knowledge set C] --> |Knowledge point 7| D
     D[Testing result analysis] -->|test results ...| F
-    D[Testing result analysis] -->|incorrect results filtering loop | D
+    D[Testing result analysis] -->|Incorrect results filtering loop | D
     F[Capture the flag]
 ```
 
