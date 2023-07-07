@@ -319,13 +319,13 @@ flowchart TD
    	C[shall_shock-CVEs knowledge] --> |CVE2014-6278| D
    	E[Web request handling knowledge] --> |curl http request cmd| D
     D[Shall_shock attack on web OpenCGI] -->|result| F
-    H[linux sysetm knowlege] -->|linux file structure| F
-    H[linux sysetm knowlege] -->|linux serach cmd| F
+    H[linux sysetm knowledge] -->|linux file structure| F
+    H[linux sysetm knowledge] -->|linux serach cmd| F
     F[Result analysis]-->|result| G
     G[Capture the flag]
 ```
 
-We can see even the problem solving steps is not exactly linear, it still belongs to the  **Question mode 1** ( participant needs know a lot knowledge but only take few steps to solve the challenge) we introduced in the project readme **Result Analysis** session. And one of the AI-LLM can solve the problem which also verify our conclusion. 
+We can see even the problem solving steps is not exactly linear, it still belongs to the  **Challenge Question mode A1** ( participant needs know a lot knowledge but only take few steps to solve the challenge) which we introduced in the project readme **Result Analysis** session. And one of the AI-LLM can solve the problem which also verify our conclusion. 
 
 
 

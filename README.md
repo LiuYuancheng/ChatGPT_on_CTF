@@ -145,7 +145,11 @@ Currently based on the 5 test cases we think AI has been a new challenge for the
 
 ##### Challenge /Question mode which may be easy to be solved by AI
 
-Currently based on some of our test, we think AI large language models ( ChatGPT )  is quite good to solving the challenge questions with below structure [**Question mode 1**] :
+Currently based on some of our test, we think AI large language models ( ChatGPT )  is quite good to solving the challenge questions with below structure:
+
+**Challenge Question mode A1**
+
+If the participant needs know a lot knowledge but only take few steps to solve the challenge ( problem solving is straightforward but need the ability to collect information and integrate knowledges), this kind of the challenge will be easily solved by AI-LLM. The question mode graph is shown below:
 
 ```mermaid
 flowchart TD
@@ -158,15 +162,30 @@ flowchart TD
     G[Capture the flag]
 ```
 
+**Challenge Question mode A2**
 
+If the participant needs to try different value for same input (such as brute force to get the flag),  this kind of the challenge will be easily solved by AI-LLM. The question mode graph is shown below:
 
-Which is the participant needs know a lot knowledge but only take few steps to solve the challenge (problem solving is straightforward )
+```mermaid
+flowchart TD
+    A[Knowledge set A] --> |Knowledge points 1 -2| D 
+    B[Knowledge Set B] --> |Knowledge points 3 -4| D
+    D[Testing steps] -->| Repeat try different possible answer | D
+    D[Challenge solution step 1] -->|result| F
+    F[Capture the flag]
+```
 
 
 
 ##### Challenge /Question mode which may be difficult to be solved by AI
 
 It will be a little difficult for AI-LLM ( ChatGPT) to solve the problem with below structure:
+
+**Challenge Question mode B1**:
+
+If the participant only needs a little related knowledge but need to follow complex steps to try different possible solutions and analysis the result then find the answer.  The question mode graph is shown below:
+
+
 
 ```mermaid
 flowchart TD
@@ -178,8 +197,6 @@ flowchart TD
     D[Testing result analysis] -->|Incorrect results filtering loop | D
     F[Capture the flag]
 ```
-
-The participant only needs a little related knowledge but need to follow complex steps to try different possible solutions and analysis the result then find the answer. 
 
 
 

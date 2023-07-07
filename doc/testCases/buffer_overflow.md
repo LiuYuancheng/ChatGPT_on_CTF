@@ -352,7 +352,33 @@ Analysis of AI's answer:
 
 ##### Conclusion
 
-- OpenAI-ChatGPT-4.0 can understand the question correctly and after several attempt it can solve the problem.
+- MS-New-Bing can understand the question correctly and solve the problem to find the file,  but as it doesn't have strong relation ship with the previous question, so it can not continuous giving the correct answer to solve the problem.
+
+
+
+------
+
+### Summary 
+
+Based on the instructor's challenge analysis and participants challenge analysis the challenge question structure will be as below tree:
+
+```mermaid
+flowchart TD
+    A[linux sysetm knowledge] --> |find, file struction, permission| D 
+    B[Buffer overflow knowledge] --> |integer overflow| D
+    B[Buffer overflow knowledge] --> |stack smash| D
+    D[Testing steps] -->| Repeat try different possible input string | D
+    D[Testing steps] -->|result| F
+    F[Capture the flag]
+```
+
+We can see even the problem solving is linear and need to repeat try same type of input, it belongs to the  **Challenge Question mode A2** ( the participant needs to try different value for same input to brute force to get the flag) which we introduced in the project readme **Result Analysis** session. And one of the AI-LLM can solve the problem which also verify our conclusion. 
+
+
+
+
+
+
 
 
 
