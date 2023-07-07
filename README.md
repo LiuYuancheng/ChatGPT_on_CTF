@@ -175,6 +175,21 @@ flowchart TD
     F[Capture the flag]
 ```
 
+**Challenge Question mode A3**
+
+If the Question's solving process is linear and almost don't have the fork steps (such as need to install some tool then analyze the log to solve the problem ), this kind of the challenge will be easily solved by AI-LLM. The question mode graph is shown below:
+
+```mermaid
+flowchart TD
+    A[Knowledge set A] --> |Knowledge points 1 -2| B
+    B[Challenge solution step 1] --> |Result| C
+	C[Challenge solution step 2] --> |Result| D
+	D[Challenge solution step 3] --> |Result| F
+    F[Capture the flag]
+```
+
+
+
 
 
 ##### Challenge /Question mode which may be difficult to be solved by AI
