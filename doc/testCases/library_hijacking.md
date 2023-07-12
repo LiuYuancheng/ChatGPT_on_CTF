@@ -81,10 +81,10 @@ In this section we will show different AI-LLM's performance to solving the chall
 
 ##### Test participants' challenge analysis 
 
-Assume we have one participant who doesn't have any knowledge about library hijacking attack. Based on the question. He want to use ChatGPT to help he solve the problem. Now he know three points based on the challenge question: 
+Assume we have one participant who doesn't have any knowledge about library hijacking attack. He wants to use ChatGPT to help him to solve the problem. Now he know three points based on the challenge question: 
 
-1. The is a python file named try_it.py .
-2. Some attack technology named  library hijacking attack.
+1. The is an executable python program file named `try_it.py` .
+2. Some attack technology named "library hijacking attack".
 3. Need to switch to another user named John from current use.
 
 
