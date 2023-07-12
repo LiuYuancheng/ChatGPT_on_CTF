@@ -376,12 +376,6 @@ We can see even the problem solving is linear and need to repeat try same type o
 
 
 
-
-
-
-
-
-
 ------
 
 >  last edit by LiuYuancheng (liu_yuan_cheng@hotmail.com) by 06/06/2023 if you have any problem, please send me a message. 
