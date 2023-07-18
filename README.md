@@ -96,6 +96,7 @@ Currently we did 5 test to test 4 different types of CTF challenges, currently b
 3. [Blocking Brute Force Attacks](doc/testCases/brute_force.md)
 4. [Command injection attack to web openCGI challenge](doc/testCases/webcgiparm.md)
 5. [Library Hijacking attack challenge](doc/testCases/library_hijacking.md)
+6. [Reverse Engineering of C program challenge](doc/testCases/reverse_engineering.md)
 
 For each test cases,  the steps of each test will cover : 
 
