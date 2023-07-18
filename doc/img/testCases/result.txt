@@ -1,0 +1,316 @@
+yc@yc-OptiPlex-7040:~/reverseEng/Reverse-Engineering-test-main$ r2 -A a.out 
+[Cannot find function at 0x000010e0 sym. and entry0 (aa)
+[x] Analyze all flags starting with sym. and entry0 (aa)
+[x] Analyze function calls (aac)
+[x] Analyze len bytes of instructions for references (aar)
+[x] Check for objc references
+[x] Check for vtables
+[x] Type matching analysis for all functions (aaft)
+[x] Propagate noreturn information
+[x] Use -AA or aaaa to perform additional experimental analysis.
+[0x000010e0]> pdd
+            ;-- entry0:
+            ;-- section..text:
+            ;-- .text:
+            ;-- _start:
+            ;-- rip:
+            0x000010e0      f3             invalid                     ; [16] -r-x section size 741 named .text
+            0x000010e1      0f             invalid
+            0x000010e2      1e             invalid
+            0x000010e3      fa             cli
+            0x000010e4      31ed           xor ebp, ebp
+            0x000010e6      4989d1         mov r9, rdx
+            0x000010e9      5e             pop rsi
+            0x000010ea      4889e2         mov rdx, rsp
+            0x000010ed      4883e4f0       and rsp, 0xfffffffffffffff0
+            0x000010f1      50             push rax
+            0x000010f2      54             push rsp
+            0x000010f3      4c8d05c60200.  lea r8, qword sym.__libc_csu_fini ; 0x13c0
+            0x000010fa      488d0d4f0200.  lea rcx, qword sym.__libc_csu_init ; 0x1350
+            0x00001101      488d3dd70100.  lea rdi, qword main         ; 0x12df
+            0x00001108      ff15d22e0000   call qword [reloc.__libc_start_main] ; [0x3fe0:8]=0
+            0x0000110e      f4             hlt
+            0x0000110f      90             nop
+            ; CALL XREF from entry.fini0 @ +0x27
+┌ 34: sym.deregister_tm_clones ();
+│           0x00001110      488d3df92e00.  lea rdi, qword obj.completed.8061 ; obj.__TMC_END
+│                                                                      ; 0x4010
+│           0x00001117      488d05f22e00.  lea rax, qword obj.completed.8061 ; obj.__TMC_END
+│                                                                      ; 0x4010
+│           0x0000111e      4839f8         cmp rax, rdi
+│       ┌─< 0x00001121      7415           je 0x1138
+│       │   0x00001123      488b05ae2e00.  mov rax, qword [reloc._ITM_deregisterTMCloneTable] ; [0x3fd8:8]=0
+│       │   0x0000112a      4885c0         test rax, rax
+│      ┌──< 0x0000112d      7409           je 0x1138
+│      ││   0x0000112f      ffe0           jmp rax
+       ││   0x00001131      0f1f80000000.  nop dword [rax]
+│      ││   ; CODE XREFS from sym.deregister_tm_clones @ 0x1121, 0x112d
+└      └└─> 0x00001138      c3             ret
+            0x00001139      0f1f80000000.  nop dword [rax]
+            ; CODE XREF from entry.init0 @ +0x4
+┌ 51: sym.register_tm_clones ();
+│       ┌─> 0x00001140      488d3dc92e00.  lea rdi, qword obj.completed.8061 ; obj.__TMC_END
+│       ╎                                                              ; 0x4010
+│       ╎   0x00001147      488d35c22e00.  lea rsi, qword obj.completed.8061 ; obj.__TMC_END
+│       ╎                                                              ; 0x4010
+│       ╎   0x0000114e      4829fe         sub rsi, rdi
+│       ╎   0x00001151      4889f0         mov rax, rsi
+│       ╎   0x00001154      48c1ee3f       shr rsi, 0x3f
+│       ╎   0x00001158      48c1f803       sar rax, 3
+│       ╎   0x0000115c      4801c6         add rsi, rax
+│       ╎   0x0000115f      48d1fe         sar rsi, 1
+│      ┌──< 0x00001162      7414           je 0x1178
+│      │╎   0x00001164      488b05852e00.  mov rax, qword [reloc._ITM_registerTMCloneTable] ; [0x3ff0:8]=0
+│      │╎   0x0000116b      4885c0         test rax, rax
+│     ┌───< 0x0000116e      7408           je 0x1178
+│     ││╎   0x00001170      ffe0           jmp rax
+      ││╎   0x00001172      660f1f440000   nop word [rax + rax]
+│     ││╎   ; CODE XREFS from sym.register_tm_clones @ 0x1162, 0x116e
+└     └└──> 0x00001178      c3             ret
+        ╎   0x00001179      0f1f80000000.  nop dword [rax]
+        ╎   ;-- entry.fini0:
+        ╎   ;-- __do_global_dtors_aux:
+        ╎   0x00001180      f3             invalid
+        ╎   0x00001181      0f             invalid
+        ╎   0x00001182      1e             invalid
+        ╎   0x00001183      fa             cli
+        ╎   0x00001184      803d852e0000.  cmp byte [obj.completed.8061], 0 ; obj.__TMC_END
+        ╎                                                              ; [0x4010:1]=0
+       ┌──< 0x0000118b      752b           jne 0x11b8
+       │╎   0x0000118d      55             push rbp
+       │╎   0x0000118e      48833d622e00.  cmp qword [reloc.__cxa_finalize], 0 ; [0x3ff8:8]=0
+       │╎   0x00001196      4889e5         mov rbp, rsp
+      ┌───< 0x00001199      740c           je 0x11a7
+      ││╎   0x0000119b      488b3d662e00.  mov rdi, qword [obj.__dso_handle] ; [0x4008:8]=0x4008 obj.__dso_handle
+      ││╎   0x000011a2      e8d9feffff     call sym..plt.got
+      ││╎   ; CODE XREF from entry.fini0 @ +0x19
+      └───> 0x000011a7      e864ffffff     call sym.deregister_tm_clones
+       │╎   0x000011ac      c6055d2e0000.  mov byte [obj.completed.8061], 1 ; obj.__TMC_END
+       │╎                                                              ; [0x4010:1]=0
+       │╎   0x000011b3      5d             pop rbp
+       │╎   0x000011b4      c3             ret
+       │╎   0x000011b5      0f1f00         nop dword [rax]
+       │╎   ; CODE XREF from entry.fini0 @ +0xb
+       └──> 0x000011b8      c3             ret
+        ╎   0x000011b9      0f1f80000000.  nop dword [rax]
+        ╎   ;-- entry.init0:
+        ╎   ;-- frame_dummy:
+        ╎   0x000011c0      f3             invalid
+        ╎   0x000011c1      0f             invalid
+        ╎   0x000011c2      1e             invalid
+        ╎   0x000011c3      fa             cli
+        └─< 0x000011c4      e977ffffff     jmp sym.register_tm_clones
+            ; CALL XREF from sym.check_password @ +0xc4
+            ;-- secret_function:
+            0x000011c9      f3             invalid
+            0x000011ca      0f             invalid
+            0x000011cb      1e             invalid
+            0x000011cc      fa             cli
+            0x000011cd      55             push rbp
+            0x000011ce      4889e5         mov rbp, rsp
+            0x000011d1      488d3d300e00.  lea rdi, qword str.Congratulations__You_found_the_secret_function ; 0x2008 ; "Congratulations! You found the secret function!"
+            0x000011d8      e8b3feffff     call sym.imp.puts
+            0x000011dd      48             invalid                     ; 0x2038 ; "Here's your flag: CTF{Reverse_Engineering_Is_Fun}"
+            0x000011de      8d             invalid
+            0x000011df      3d             invalid
+            0x000011e0      54             push rsp
+            0x000011e1      0e             invalid
+            0x000011e2      0000           add byte [rax], al
+            0x000011e4      e8a7feffff     call sym.imp.puts
+            0x000011e9      90             nop
+            0x000011ea      5d             pop rbp
+            0x000011eb      c3             ret
+            ; CALL XREF from main @ +0x4b
+            ;-- check_password:
+            0x000011ec      f3             invalid
+            0x000011ed      0f             invalid
+            0x000011ee      1e             invalid
+            0x000011ef      fa             cli
+            0x000011f0      55             push rbp
+            0x000011f1      4889e5         mov rbp, rsp
+            0x000011f4      53             push rbx
+            0x000011f5      4883ec38       sub rsp, 0x38
+            0x000011f9      48897dc8       mov qword [rbp - 0x38], rdi
+            0x000011fd      64488b042528.  mov rax, qword fs:[0x28]
+            0x00001206      488945e8       mov qword [rbp - 0x18], rax
+            0x0000120a      31c0           xor eax, eax
+            0x0000120c      c745d4000000.  mov dword [rbp - 0x2c], 0
+            0x00001213      48b86f664875.  movabs rax, 0x267337727548666f ; 'ofHur7s&'
+            0x0000121d      488945de       mov qword [rbp - 0x22], rax
+            0x00001221      66c745e64d00   mov word [rbp - 0x1a], 0x4d ; 'M'
+            0x00001227      488b45c8       mov rax, qword [rbp - 0x38]
+            0x0000122b      4889c7         mov rdi, rax
+            0x0000122e      e86dfeffff     call sym.imp.strlen
+            0x00001233      4889c3         mov rbx, rax
+            0x00001236      488d45de       lea rax, qword [rbp - 0x22]
+            0x0000123a      4889c7         mov rdi, rax
+            0x0000123d      e85efeffff     call sym.imp.strlen
+            0x00001242      4839c3         cmp rbx, rax
+            0x00001245      7552           jne 0x1299
+            0x00001247      c745d8000000.  mov dword [rbp - 0x28], 0
+            0x0000124e      eb32           jmp 0x1282
+            ; CODE XREF from sym.check_password @ +0xab
+            0x00001250      8b45d8         mov eax, dword [rbp - 0x28]
+            0x00001253      4863d0         movsxd rdx, eax
+            0x00001256      488b45c8       mov rax, qword [rbp - 0x38]
+            0x0000125a      4801d0         add rax, rdx
+            0x0000125d      0fb610         movzx edx, byte [rax]
+            0x00001260      8b45d8         mov eax, dword [rbp - 0x28]
+            0x00001263      4898           cdqe
+            0x00001265      0fb64405de     movzx eax, byte [rbp + rax - 0x22]
+            0x0000126a      38c2           cmp dl, al
+            0x0000126c      7409           je 0x1277
+            0x0000126e      c745d4000000.  mov dword [rbp - 0x2c], 0
+            0x00001275      eb22           jmp 0x1299
+            ; CODE XREF from sym.check_password @ +0x80
+            0x00001277      c745d4010000.  mov dword [rbp - 0x2c], 1
+            0x0000127e      8345d801       add dword [rbp - 0x28], 1
+            ; CODE XREF from sym.check_password @ +0x62
+            0x00001282      8b45d8         mov eax, dword [rbp - 0x28]
+            0x00001285      4863d8         movsxd rbx, eax
+            0x00001288      488b45c8       mov rax, qword [rbp - 0x38]
+            0x0000128c      4889c7         mov rdi, rax
+            0x0000128f      e80cfeffff     call sym.imp.strlen
+            0x00001294      4839c3         cmp rbx, rax
+            0x00001297      72b7           jb 0x1250
+            ; CODE XREFS from sym.check_password @ +0x59, +0x89
+            0x00001299      837dd400       cmp dword [rbp - 0x2c], 0
+            0x0000129d      7418           je 0x12b7
+            0x0000129f      488d3dca0d00.  lea rdi, qword str.Password_accepted__Access_granted. ; 0x2070 ; "Password accepted! Access granted."
+            0x000012a6      e8e5fdffff     call sym.imp.puts
+            0x000012ab      b800000000     mov eax, 0
+            0x000012b0      e814ffffff     call sym.secret_function
+            0x000012b5      eb0c           jmp 0x12c3
+            ; CODE XREF from sym.check_password @ +0xb1
+            0x000012b7      488d3dda0d00.  lea rdi, qword str.Invalid_password__Access_denied. ; 0x2098 ; "Invalid password! Access denied."
+            0x000012be      e8cdfdffff     call sym.imp.puts
+            ; CODE XREF from sym.check_password @ +0xc9
+            0x000012c3      90             nop
+            0x000012c4      488b45e8       mov rax, qword [rbp - 0x18]
+            0x000012c8      644833042528.  xor rax, qword fs:[0x28]
+            0x000012d1      7405           je 0x12d8
+            0x000012d3      e8d8fdffff     call sym.imp.__stack_chk_fail
+            ; CODE XREF from sym.check_password @ +0xe5
+            0x000012d8      4883c438       add rsp, 0x38
+            0x000012dc      5b             pop rbx
+            0x000012dd      5d             pop rbp
+            0x000012de      c3             ret
+            ; DATA XREF from entry0 @ +0x21
+            ;-- main:
+            0x000012df      f3             invalid
+            0x000012e0      0f             invalid
+            0x000012e1      1e             invalid
+            0x000012e2      fa             cli
+            0x000012e3      55             push rbp
+            0x000012e4      4889e5         mov rbp, rsp
+            0x000012e7      4883ec20       sub rsp, 0x20
+            0x000012eb      64488b042528.  mov rax, qword fs:[0x28]
+            0x000012f4      488945f8       mov qword [rbp - 8], rax
+            0x000012f8      31c0           xor eax, eax
+            0x000012fa      488d3db80d00.  lea rdi, qword str.Enter_the_password: ; 0x20b9 ; "Enter the password: "
+            0x00001301      b800000000     mov eax, 0
+            0x00001306      e8b5fdffff     call sym.imp.printf
+            0x0000130b      488d45e0       lea rax, qword [rbp - 0x20]
+            0x0000130f      4889c6         mov rsi, rax
+            0x00001312      488d3db50d00.  lea rdi, qword [0x000020ce] ; "%s"
+            0x00001319      b800000000     mov eax, 0
+            0x0000131e      e8adfdffff     call sym.imp.__isoc99_scanf
+            0x00001323      488d45e0       lea rax, qword [rbp - 0x20]
+            0x00001327      4889c7         mov rdi, rax
+            0x0000132a      e8bdfeffff     call sym.check_password
+            0x0000132f      b800000000     mov eax, 0
+            0x00001334      488b55f8       mov rdx, qword [rbp - 8]
+            0x00001338      644833142528.  xor rdx, qword fs:[0x28]
+            0x00001341      7405           je 0x1348
+            0x00001343      e868fdffff     call sym.imp.__stack_chk_fail
+            ; CODE XREF from main @ +0x62
+            0x00001348      c9             leave
+            0x00001349      c3             ret
+            0x0000134a      660f1f440000   nop word [rax + rax]
+            ; DATA XREF from entry0 @ +0x1a
+            ;-- __libc_csu_init:
+            0x00001350      f3             invalid
+            0x00001351      0f             invalid
+            0x00001352      1e             invalid
+            0x00001353      fa             cli
+            0x00001354      4157           push r15
+            0x00001356      4c8d3d3b2a00.  lea r15, qword obj.__frame_dummy_init_array_entry ; loc.__init_array_start
+                                                                       ; 0x3d98
+            0x0000135d      4156           push r14
+            0x0000135f      4989d6         mov r14, rdx
+            0x00001362      4155           push r13
+            0x00001364      4989f5         mov r13, rsi
+            0x00001367      4154           push r12
+            0x00001369      4189fc         mov r12d, edi
+            0x0000136c      55             push rbp
+            0x0000136d      488d2d2c2a00.  lea rbp, qword obj.__do_global_dtors_aux_fini_array_entry ; loc.__init_array_end
+                                                                       ; 0x3da0
+            0x00001374      53             push rbx
+            0x00001375      4c29fd         sub rbp, r15
+            0x00001378      4883ec08       sub rsp, 8
+            0x0000137c      e87ffcffff     call sym._init
+            0x00001381      48c1fd03       sar rbp, 3
+            0x00001385      741f           je 0x13a6
+            0x00001387      31db           xor ebx, ebx
+            0x00001389      0f1f80000000.  nop dword [rax]
+            ; CODE XREF from sym.__libc_csu_init @ +0x54
+            0x00001390      4c89f2         mov rdx, r14
+            0x00001393      4c89ee         mov rsi, r13
+            0x00001396      4489e7         mov edi, r12d
+            0x00001399      41ff14df       call qword [r15 + rbx*8]
+            0x0000139d      4883c301       add rbx, 1
+            0x000013a1      4839dd         cmp rbp, rbx
+            0x000013a4      75ea           jne 0x1390
+            ; CODE XREF from sym.__libc_csu_init @ +0x35
+            0x000013a6      4883c408       add rsp, 8
+            0x000013aa      5b             pop rbx
+            0x000013ab      5d             pop rbp
+            0x000013ac      415c           pop r12
+            0x000013ae      415d           pop r13
+            0x000013b0      415e           pop r14
+            0x000013b2      415f           pop r15
+            0x000013b4      c3             ret
+            0x000013b5      66662e0f1f84.  nop word cs:[rax + rax]
+            ; DATA XREF from entry0 @ +0x13
+            ;-- __libc_csu_fini:
+            0x000013c0      f3             invalid
+            0x000013c1      0f             invalid
+            0x000013c2      1e             invalid
+            0x000013c3      fa             cli
+            0x000013c4      c3             ret
+            0x000013c5      0000           add byte [rax], al
+            0x000013c7  ~   00f3           add bl, dh
+            ;-- section..fini:
+            ;-- .fini:
+            ;-- _fini:
+            0x000013c8      f3             invalid                     ; [17] -r-x section size 13 named .fini
+            0x000013c9      0f             invalid
+            0x000013ca      1e             invalid
+            0x000013cb      fa             cli
+            0x000013cc      4883ec08       sub rsp, 8
+            0x000013d0      4883c408       add rsp, 8
+            0x000013d4      c3             ret
+            0x000013d5      ff             invalid
+            0x000013d6      ff             invalid
+            0x000013d7      ff             invalid
+            0x000013d8      ff             invalid
+            0x000013d9      ff             invalid
+            0x000013da      ff             invalid
+            0x000013db      ff             invalid
+            0x000013dc      ff             invalid
+            0x000013dd      ff             invalid
+            0x000013de      ff             invalid
+            0x000013df      ff             invalid
+            0x000013e0      ff             invalid
+            0x000013e1      ff             invalid
+            0x000013e2      ff             invalid
+            0x000013e3      ff             invalid
+            0x000013e4      ff             invalid
+            0x000013e5      ff             invalid
+            0x000013e6      ff             invalid
+            0x000013e7      ff             invalid
+            0x000013e8      ff             invalid
+            0x000013e9      ff             invalid
+            0x000013ea      ff             invalid
+            0x000013eb      ff             invalid
+
