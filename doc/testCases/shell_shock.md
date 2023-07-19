@@ -309,6 +309,10 @@ The detail you can refer to [jailbreak detail](../jailbreak.md)
 
 ### Summary
 
+Based on the test result the AI-LLM performance of solving the problem:
+
+ **OpenAI-Chat-GPT-4.0 > Google-Bard > Microsoft-New-Bing**
+
 Based on the instructor's challenge analysis and participants challenge analysis the challenge question structure will be as below tree:
 
 ```mermaid

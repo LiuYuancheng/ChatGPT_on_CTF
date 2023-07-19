@@ -189,6 +189,10 @@ Analysis  and verify the result:
 
 ### Summary 
 
+Based on the test result the AI-LLM performance of solving the problem:
+
+ **OpenAI-Chat-GPT-4.0 ==  Microsoft-New-Bing > Google-Bard**
+
 Based on the instructor's challenge analysis and participants challenge analysis the challenge question structure will be as below tree:
 
 ```mermaid
