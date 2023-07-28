@@ -1,0 +1,9 @@
+# This is the config file template for the module <monitorApp.py>
+# Setup the paramter with below format (every line follow <key>:<val> format, the
+# key can not be changed):
+
+API_KEY:<Put your API key here>
+
+AI_MODEL:gpt-3.5-turbo
+
+QUES_BANK:questionbank.txt

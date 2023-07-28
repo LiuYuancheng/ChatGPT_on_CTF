@@ -1,0 +1,13 @@
+Question:In which of the following, a person is constantly followed/chased by another person or group of several peoples?
+a) Phishing
+b) Bulling
+c) Stalking
+d) Identity theft
+Answer:c
+
+Question:Which one of the following can be considered as the class of computer threats?
+a) Dos Attack
+b) Phishing
+c) Soliciting
+d) Both A and C
+Answer:a
