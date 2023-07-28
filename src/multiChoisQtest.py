@@ -44,6 +44,8 @@ count = 0
 
 answerCount = 0 
 questionStr = ""
+
+# load the question bank
 with open(questionsFile) as fp:
     for line in fp.readlines():
         if line[0] in FILTER_CHAR: 
@@ -60,7 +62,8 @@ with open(questionsFile) as fp:
             answerList.append(answerStr)
         elif questionStr:
             questionStr += line +' , '
-        
+
+# get AI's answer        
 def get_completion(prompt, model=AI_MODEL):
     messages = [{"role": "user", "content": prompt}]
     response = openai.ChatCompletion.create( model=model,
@@ -68,8 +71,8 @@ def get_completion(prompt, model=AI_MODEL):
                                             temperature=0,)
     return response.choices[0].message["content"]
 
+# 
 correctCount = 0
-
 for i in range(count):
     question = questionsList[i]
     answer = get_completion(question)
@@ -80,4 +83,4 @@ for i in range(count):
 result = 100.0*correctCount/count
 
 print(str(correctCount) + '/' +str(count))
-print(str(result))
+print(str(result)+'%')

@@ -11,3 +11,129 @@ b) Phishing
 c) Soliciting
 d) Both A and C
 Answer:a
+
+Question:Which of the following is considered as the unsolicited commercial email?
+a) Virus
+b) Malware
+c) Spam
+d) All of the above
+Answer:c
+
+Question:Which of the following usually observes each activity on the internet of the victim, gather all information in the background, and send it to someone else?
+a) Malware
+b) Spyware
+c) Adware
+d) All of the above
+Answer:b
+
+Question:_______ is a type of software designed to help the user's computer detect viruses and avoid them.
+a) Malware
+b) Adware
+c) Antivirus
+d) Both B and C
+Answer:c
+
+Question:Which one of the following is a type of antivirus program?
+a) Quick heal
+b) Mcafee
+c) Kaspersky
+d) All of the above
+Answer:d
+
+Question:It can be a software program or a hardware device that filters all data packets coming through the internet, a network, etc. it is known as the_______:
+a) Antivirus
+b) Firewall
+c) Cookies
+d) Malware
+Answer:b
+
+Question:Which of the following refers to stealing one's idea or invention of others and use it for their own benefits?
+a) Piracy
+b) Plagiarism
+c) Intellectual property rights
+d) All of the above
+Answer:d
+
+Question:Read the following statement carefully and find out whether it is correct about the hacking or not?
+a) No, in any situation, hacking cannot be legal
+b) It may be possible that in some cases, it can be referred to as a legal task
+Answer:b
+
+Question:Which of the following refers to exploring the appropriate, ethical behaviors related to the online environment and digital media platform?
+a) Cyber low
+b) Cyberethics
+c) Cybersecurity
+d) Cybersafety
+Answer:b
+
+Question:Which of the following refers to the violation of the principle if a computer is no more accessible?
+a) Access control
+b) Confidentiality
+c) Availability
+d) All of the above
+Answer:c
+
+Question:Which one of the following refers to the technique used for verifying the integrity of the message?
+a) Digital signature
+b) Decryption algorithm
+c) Protocol
+d) Message Digest
+Answer:d
+
+Question:Which one of the following usually used in the process of Wi-Fi-hacking?
+a) Aircrack-ng
+b) Wireshark
+c) Norton
+d) All of the above
+Answer:a
+
+Question:Which of the following port and IP address scanner famous among the users?
+a) Cain and Abel
+b) Angry IP Scanner
+c) Snort
+d) Ettercap
+Answer:b
+
+Question:In ethical hacking and cybersecurity, there are _______ types of scanning:
+a) 1
+b) 2
+c) 3
+d) 4
+Answer:c
+
+Question:Which of the following is not a type of scanning?
+a) Xmas Tree Scan
+b) Cloud scan
+c) Null Scan
+d) SYN Stealth
+Answer:b
+
+Question:In system hacking, which of the following is the most crucial activity?
+a) Information gathering
+b) Covering tracks
+c) Cracking passwords
+d) None of the above
+Answer:c
+
+Question:Which of the following are the types of scanning?
+a) Network, vulnerability, and port scanning
+b) Port, network, and services
+c) Client, Server, and network
+d) None of the above
+Answer:a
+
+Question:Which one of the following is actually considered as the first computer virus?
+a) Sasser
+b) Blaster
+c) Creeper
+d) Both A and C
+Answer:c
+
+Question:To protect the computer system against the hacker and different kinds of viruses, one must always keep _________ on in the computer system.
+a) Antivirus
+b) Firewall
+c) Vlc player
+d) Script
+Answer:b
+
+# https://www.javatpoint.com/cyber-security-mcq to q21
