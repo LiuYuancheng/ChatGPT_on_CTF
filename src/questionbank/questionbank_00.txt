@@ -1,0 +1,418 @@
+# CTF cyber-security question from  https://www.javatpoint.com/cyber-security-mcq 
+Question:In which of the following, a person is constantly followed/chased by another person or group of several peoples?
+a) Phishing
+b) Bulling
+c) Stalking
+d) Identity theft
+Answer:c
+
+Question:Which one of the following can be considered as the class of computer threats?
+a) Dos Attack
+b) Phishing
+c) Soliciting
+d) Both A and C
+Answer:a
+
+Question:Which of the following is considered as the unsolicited commercial email?
+a) Virus
+b) Malware
+c) Spam
+d) All of the above
+Answer:c
+
+Question:Which of the following usually observes each activity on the internet of the victim, gather all information in the background, and send it to someone else?
+a) Malware
+b) Spyware
+c) Adware
+d) All of the above
+Answer:b
+
+Question:_______ is a type of software designed to help the user's computer detect viruses and avoid them.
+a) Malware
+b) Adware
+c) Antivirus
+d) Both B and C
+Answer:c
+
+Question:Which one of the following is a type of antivirus program?
+a) Quick heal
+b) Mcafee
+c) Kaspersky
+d) All of the above
+Answer:d
+
+Question:It can be a software program or a hardware device that filters all data packets coming through the internet, a network, etc. it is known as the_______:
+a) Antivirus
+b) Firewall
+c) Cookies
+d) Malware
+Answer:b
+
+Question:Which of the following refers to stealing one's idea or invention of others and use it for their own benefits?
+a) Piracy
+b) Plagiarism
+c) Intellectual property rights
+d) All of the above
+Answer:d
+
+Question:Read the following statement carefully and find out whether it is correct about the hacking or not?
+a) No, in any situation, hacking cannot be legal
+b) It may be possible that in some cases, it can be referred to as a legal task
+Answer:b
+
+Question:Which of the following refers to exploring the appropriate, ethical behaviors related to the online environment and digital media platform?
+a) Cyber low
+b) Cyberethics
+c) Cybersecurity
+d) Cybersafety
+Answer:b
+
+Question:Which of the following refers to the violation of the principle if a computer is no more accessible?
+a) Access control
+b) Confidentiality
+c) Availability
+d) All of the above
+Answer:c
+
+Question:Which one of the following refers to the technique used for verifying the integrity of the message?
+a) Digital signature
+b) Decryption algorithm
+c) Protocol
+d) Message Digest
+Answer:d
+
+Question:Which one of the following usually used in the process of Wi-Fi-hacking?
+a) Aircrack-ng
+b) Wireshark
+c) Norton
+d) All of the above
+Answer:a
+
+Question:Which of the following port and IP address scanner famous among the users?
+a) Cain and Abel
+b) Angry IP Scanner
+c) Snort
+d) Ettercap
+Answer:b
+
+Question:In ethical hacking and cybersecurity, there are _______ types of scanning:
+a) 1
+b) 2
+c) 3
+d) 4
+Answer:c
+
+Question:Which of the following is not a type of scanning?
+a) Xmas Tree Scan
+b) Cloud scan
+c) Null Scan
+d) SYN Stealth
+Answer:b
+
+Question:In system hacking, which of the following is the most crucial activity?
+a) Information gathering
+b) Covering tracks
+c) Cracking passwords
+d) None of the above
+Answer:c
+
+Question:Which of the following are the types of scanning?
+a) Network, vulnerability, and port scanning
+b) Port, network, and services
+c) Client, Server, and network
+d) None of the above
+Answer:a
+
+Question:Which one of the following is actually considered as the first computer virus?
+a) Sasser
+b) Blaster
+c) Creeper
+d) Both A and C
+Answer:c
+
+Question:To protect the computer system against the hacker and different kinds of viruses, one must always keep _________ on in the computer system.
+a) Antivirus
+b) Firewall
+c) Vlc player
+d) Script
+Answer:b
+
+Question:Code Red is a type of ________
+a) An Antivirus Program
+b) A photo editing software
+c) A computer virus
+d) A video editing software
+Answer:c
+
+Question:Which of the following can be considered as the elements of cybersecurity?
+a) Application Security
+b) Operational Security
+c) Network Security
+d) All of the above
+Answer:d
+
+Question:Which of the following are famous and common cyber-attacks used by hackers to infiltrate the user's system?
+a) DDos and Derive-by Downloads
+b) Malware & Malvertising
+c) Phishing and Password attacks
+d) All of the above
+Answer:d
+
+Question:Which one of the following is also referred to as malicious software?
+a) Maliciousware
+b) Badware
+c) Illegalware
+d) Malware
+Answer:d
+
+Question:Hackers usually use the computer virus for ______ purpose.
+a) To log, monitor each and every user's stroke
+b) To gain access to sensitive information like user's Id and Passwords
+c) To corrupt the user's data stored in the computer system
+d) All of the above
+Answer:d
+
+Question:In Wi-Fi Security, which of the following protocol is more used?
+a) WPA
+b) WPA2
+c) WPS
+d) Both A and C
+Answer:b
+
+Question:The term "TCP/IP" stands for_____
+a) Transmission Contribution protocol/internet protocol
+b) Transmission Control Protocol/internet protocol
+c) Transaction Control protocol/internet protocol
+d) Transmission Control Protocol/internet protocol
+Answer:b
+
+Question:The response time and transit time are used to measure the ____________ of a network.
+a) Security
+b) Longevity
+c) Reliability
+d) Performance
+Answer:d
+
+Question:Which of the following factors of the network gets hugely impacted when the number of users exceeds the network's limit?
+a) Reliability
+b) Performance
+c) Security
+d) Longevity
+Answer:d
+
+Question:In computer networks, the encryption techniques are primarily used for improving the ________
+a) Security
+b) Performance
+c) Reliability
+d) Longevity
+Answer:a
+
+Question:Which of the following statements is correct about the firewall?
+a) It is a device installed at the boundary of a company to prevent unauthorized physical access.
+b) It is a device installed at the boundary of an incorporate to protect it against unauthorized access.
+c) It is a kind of wall built to prevent files form damaging the corporate.
+d) None of the above.
+Answer:b
+
+Question:When was the first computer virus created?
+a) 1970
+b) 1971
+c) 1972
+d) 1969
+Answer:b
+
+Question:Which of the following is considered as the world's first antivirus program?
+a) Creeper
+b) Reaper
+c) Tinkered
+d) Ray Tomlinson
+Answer:b
+
+Question:Which one of the following principles of cybersecurity refers that the security mechanism must be as small and simple as possible?
+a) Open-Design
+b) Economy of the Mechanism
+c) Least privilege
+d) Fail-safe Defaults
+Answer:b
+
+Question:Which of the following principle of cyber security restricts how privileges are initiated whenever any object or subject is created?
+a) Least privilege
+b) Open-Design
+c) Fail-safe Defaults
+d) None of the above
+Answer:c
+
+Question:Suppose an employee demands the root access to a UNIX system, where you are the administrator; that right or access should not be given to the employee unless that employee has work that requires certain rights, privileges. It can be considered as a perfect example of which principle of cyber security?
+a) Least privileges
+b) Open Design
+c) Separation of Privileges
+d) Both A & C
+Answer:a
+
+Question:Which of the following can also consider as the instances of Open Design?
+a) CSS
+b) DVD Player
+c) Only A
+d) Both A and B
+Answer:d
+
+Question:Which one of the following principles states that sometimes it is become more desirable to rescored the details of intrusion that to adopt more efficient measure to avoid it?
+a) Least common mechanism
+b) Compromise recording
+c) Psychological acceptability
+d) Work factor
+Answer:b
+
+Question:The web application like banking websites should ask its users to log-in again after some specific period of time, let say 30 min. It can be considered as an example of which cybersecurity principle?
+a) Compromise recording
+b) Psychological acceptability
+c) Complete mediation
+d) None of the above
+Answer:c
+
+Question:Which one of the following statements is correct about Email security in the network security methods?
+a) One has to deploy hardware, software, and security procedures to lock those apps down.
+b) One should know about what the normal behavior of a network looks like so that he/she can spot any changes, breaches in the behavior of the network.
+c) Phishing is one of the most commonly used methods that are used by hackers to gain access to the network
+d) All of the above
+Answer:c
+
+Question:Which of the following statements is true about the VPN in Network security?
+a) It is a type of device that helps to ensure that communication between a device and a network is secure.
+b) It is usually based on the IPsec( IP Security) or SSL (Secure Sockets Layer)
+c) It typically creates a secure, encrypted virtual "tunnel" over the open internet
+d) All of the above
+Answer:d
+
+Question:Which of the following types of text is transformed with the help of a cipher algorithm?
+a) Transformed text
+b) Complex text
+c) Scalar text
+d) Plain text
+Answer:d
+
+Question:The term "CHAP" stands for __________
+a) Circuit Hardware Authentication Protocols
+b) Challenge Hardware Authentication Protocols
+c) Challenge Handshake Authentication Protocols
+d) Circuit Handshake Authentication Protocols
+Answer:c
+
+Question:Which type of the following malware does not replicate or clone themselves through infection?
+a) Rootkits
+b) Trojans
+c) Worms
+d) Viruses
+Answer:b
+
+Question:Which of the following malware types allow the attacker to access the administrative controls and enables him/her to do almost anything he/she wants to do with the infected computers?
+a) RATs
+b) Worms
+c) Rootkits
+d) Botnets
+Answer:a
+
+Question:Which of the following statements is true about the Trojans?
+a) Trojans perform tasks for which they are designed or programmed
+b) Trojans replicate themselves or clone themselves through infections
+c) Trojans do nothing harmful to the user's computer systems
+d) None of the above
+Answer:a
+
+Question:Which of the following is just opposite to the Open Design principle?
+a) Security through obscurity
+b) Least common mechanism
+c) Least privileges
+d) Work factor
+Answer:a
+
+Question:Which of the following is a type of independent malicious program that never requires any host program?
+a) Trojan Horse
+b) Worm
+c) Trap Door
+d) Virus
+Answer:b
+
+Question:Which of the following is usually considered as the default port number of Apache and several other web servers?
+a) 20
+b) 40
+c) 80
+d) 87
+Answer:c
+
+Question:DNS translates a Domain name into _________
+a) Hex
+b) Binary
+c) IP
+d) URL
+Answer:d
+
+Question:Which one of the following systems cannot be considered as an example of the operating systems?
+a) Windows 8
+b) Red Hat Linux
+c) BSD Linux
+d) Microsoft Office
+Answer:d
+
+Question:In the CIA Triad, which one of the following is not involved?
+a) Availability
+b) Confidentiality
+c) Authenticity
+d) Integrity
+Answer:c
+
+Question:In any organization, company, or firm, the policies of information security come under__________
+a) CIA Triad
+b) Confidentiality
+c) Authenticity
+d) None of the above
+Answer:a
+
+Question:Why are the factors like Confidentiality, Integrity, Availability, and Authenticity considered as the fundamentals?
+a) They help in understanding the hacking process
+b) These are the main elements for any security breach
+c) They help to understand the security and its components in a better manner
+d) All of the above
+Answer:c
+
+Question:In order to ensure the security of the data/information, we need to ____________ the data:
+a) Encrypt
+b) Decrypt
+c) Delete
+d) None of the above
+Answer:a
+
+Question:Which one of the following is considered as the most secure Linux operating system that also provides anonymity and the incognito option for securing the user's information?
+a) Ubuntu
+b) Tails
+c) Fedora
+d) All of the above
+Answer:b
+
+Question:Which type following UNIX account provides all types of privileges and rights which one can perform administrative functions?
+a) Client
+b) Guest
+c) Root
+d) Administrative
+Answer:d
+
+Question:Which of the following is considered as the first hacker's conference?
+a) OSCON
+b) DEVON
+c) DEFCON
+d) SECTION
+Answer:c
+
+Question:Which of the following is known as the oldest phone hacking techniques used by hackers to make free calls?
+a) Phreaking
+b) Phishing
+c) Cracking
+d) Spraining
+Answer:a
+
+Question:ame of the Hacker who breaks the SIPRNET system?
+a) John Draper
+b) Kevin Mitnick
+c) John von Neumann
+d) Kevin Poulsen
+Answer:d

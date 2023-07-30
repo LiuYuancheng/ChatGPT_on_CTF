@@ -15,12 +15,29 @@
 # License:     n.a
 #-----------------------------------------------------------------------------
 import os
+import sys
+import time
 import ConfigLoader
 
 import openai
 
+
+print("Current working directory is : %s" % os.getcwd())
+DIR_PATH = dirpath = os.path.dirname(__file__)
+print("Current source code location : %s" % dirpath)
+APP_NAME = ('OpenAI', 'ctf_mq')
+
+TOPDIR = 'src'
+
+#-----------------------------------------------------------------------------
+# Init the logger:
+idx = dirpath.find(TOPDIR)
+gTopDir = dirpath[:idx + len(TOPDIR)] if idx != -1 else dirpath   # found it - truncate right after TOPDIR
+# Config the lib folder 
+import Log
+Log.initLogger(gTopDir, 'Logs', APP_NAME[0], APP_NAME[1], historyCnt=100, fPutLogsUnderDate=True)
+
 # load the config file.
-dirpath = os.path.dirname(__file__)
 CONFIG_FILE_NAME = 'config.txt'
 gGonfigPath = os.path.join(dirpath, CONFIG_FILE_NAME)
 iConfigLoader = ConfigLoader.ConfigLoader(gGonfigPath, mode='r')
@@ -34,8 +51,9 @@ openai.api_key = CONFIG_DICT['API_KEY']
 AI_MODEL = CONFIG_DICT['AI_MODEL']
 
 # question bank file
-questionsFile = CONFIG_DICT['QUES_BANK']
-
+Q_BANK_DIR = 'questionbank'
+questionsFile = os.path.join(Q_BANK_DIR, CONFIG_DICT['QUES_BANK'])
+# init the line filter charactor
 FILTER_CHAR = ('#', '', '\n', '\r', '\t')
 
 questionsList = []
@@ -59,7 +77,7 @@ with open(questionsFile) as fp:
         if 'Answer' in line:
             questionsList.append(questionStr)
             answerStr = line.split(':', 1)[1]
-            answerList.append(answerStr)
+            answerList.append(answerStr.strip())
         elif questionStr:
             questionStr += line +' , '
 
@@ -72,15 +90,21 @@ def get_completion(prompt, model=AI_MODEL):
     return response.choices[0].message["content"]
 
 # 
+print("Start to check the questions.")
 correctCount = 0
 for i in range(count):
+    print('Start to test question %s' %str(i+1))
     question = questionsList[i]
-    answer = get_completion(question)
-    print(answer)
-    if answer[0].lower() ==  answerList[i]:
+    answer = str(get_completion(question)).strip()
+    if (answer[0].lower() == answerList[i]) or answerList[i]+')' in answer:
         correctCount+=1
-
+        Log.info('Question %s: correct.' %str(i+1))
+    else:
+        Log.info('Question %s: incorrect. correct answer: %s, AI answer: %s' %(str(i+1),str(answerList[i]), str(answer) ))
+    time.sleep(0.5) # speed to avoid reach the 1 min text limitation.
+    
 result = 100.0*correctCount/count
 
 print(str(correctCount) + '/' +str(count))
 print(str(result)+'%')
+Log.info('Ai correct rate: %s ' %str(result))

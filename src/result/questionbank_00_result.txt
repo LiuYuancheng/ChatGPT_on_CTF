@@ -1,0 +1,77 @@
+Question bank: questionbank_00
+
+2023-07-30 20:37:28,936 INFO     Question 1: correct.
+2023-07-30 20:37:30,093 INFO     Question 2: incorrect. correct answer: a, AI answer: d) Both A and C
+2023-07-30 20:37:31,357 INFO     Question 3: correct.
+2023-07-30 20:37:33,049 INFO     Question 4: incorrect. correct answer: b, AI answer: d) All of the above
+2023-07-30 20:37:34,213 INFO     Question 5: correct.
+2023-07-30 20:37:35,852 INFO     Question 6: correct.
+2023-07-30 20:37:36,928 INFO     Question 7: correct.
+2023-07-30 20:37:38,636 INFO     Question 8: correct.
+2023-07-30 20:37:41,219 INFO     Question 9: correct.
+2023-07-30 20:37:42,429 INFO     Question 10: correct.
+2023-07-30 20:37:43,568 INFO     Question 11: correct.
+2023-07-30 20:37:44,614 INFO     Question 12: incorrect. correct answer: d, AI answer: a) Digital signature
+2023-07-30 20:37:45,939 INFO     Question 13: incorrect. correct answer: a, AI answer: d) All of the above
+2023-07-30 20:37:47,000 INFO     Question 14: correct.
+2023-07-30 20:37:48,045 INFO     Question 15: correct.
+2023-07-30 20:37:49,261 INFO     Question 16: correct.
+2023-07-30 20:37:50,834 INFO     Question 17: incorrect. correct answer: c, AI answer: The most crucial activity in system hacking is a) Information gathering.
+2023-07-30 20:37:52,171 INFO     Question 18: correct.
+2023-07-30 20:37:53,195 INFO     Question 19: correct.
+2023-07-30 20:37:54,388 INFO     Question 20: incorrect. correct answer: b, AI answer: a) Antivirus
+2023-07-30 20:37:56,248 INFO     Question 21: correct.
+2023-07-30 20:37:57,554 INFO     Question 22: correct.
+2023-07-30 20:37:58,752 INFO     Question 23: correct.
+2023-07-30 20:37:59,956 INFO     Question 24: correct.
+2023-07-30 20:38:01,219 INFO     Question 25: correct.
+2023-07-30 20:38:05,281 INFO     Question 26: correct.
+2023-07-30 20:38:06,549 INFO     Question 27: incorrect. correct answer: b, AI answer: d) Transmission Control Protocol/internet protocol
+2023-07-30 20:38:07,730 INFO     Question 28: correct.
+2023-07-30 20:38:10,730 INFO     Question 29: incorrect. correct answer: d, AI answer: b) Performance
+2023-07-30 20:38:11,743 INFO     Question 30: correct.
+2023-07-30 20:38:13,302 INFO     Question 31: correct.
+2023-07-30 20:38:15,359 INFO     Question 32: incorrect. correct answer: b, AI answer: The correct answer is d) 1969. The first computer virus, known as the Creeper virus, was created in 1969 by Bob Thomas.
+2023-07-30 20:38:17,045 INFO     Question 33: incorrect. correct answer: b, AI answer: a) Creeper
+2023-07-30 20:38:18,337 INFO     Question 34: correct.
+2023-07-30 20:38:19,660 INFO     Question 35: incorrect. correct answer: c, AI answer: a) Least privilege
+2023-07-30 20:38:21,336 INFO     Question 36: incorrect. correct answer: a, AI answer: d) Both A & C
+2023-07-30 20:38:22,432 INFO     Question 37: correct.
+2023-07-30 20:38:23,558 INFO     Question 38: correct.
+2023-07-30 20:38:26,570 INFO     Question 39: incorrect. correct answer: c, AI answer: The correct answer is d) None of the above.
+
+The principle being demonstrated in this scenario is the principle of "Session Timeout." This principle states that web applications should automatically log out users after a certain period of inactivity to protect against unauthorized access if the user leaves their device unattended.
+2023-07-30 20:38:27,676 INFO     Question 40: incorrect. correct answer: c, AI answer: d) All of the above
+2023-07-30 20:38:28,859 INFO     Question 41: correct.
+2023-07-30 20:38:29,909 INFO     Question 42: correct.
+2023-07-30 20:38:31,103 INFO     Question 43: correct.
+2023-07-30 20:38:32,336 INFO     Question 44: correct.
+2023-07-30 20:38:33,545 INFO     Question 45: incorrect. correct answer: a, AI answer: c) Rootkits
+2023-07-30 20:38:34,705 INFO     Question 46: incorrect. correct answer: a, AI answer: d) None of the above
+2023-07-30 20:38:35,821 INFO     Question 47: correct.
+2023-07-30 20:38:36,837 INFO     Question 48: correct.
+2023-07-30 20:38:38,083 INFO     Question 49: correct.
+2023-07-30 20:38:39,137 INFO     Question 50: incorrect. correct answer: d, AI answer: c) IP
+2023-07-30 20:38:40,374 INFO     Question 51: correct.
+2023-07-30 20:38:41,620 INFO     Question 52: incorrect. correct answer: c, AI answer: a) Availability
+2023-07-30 20:38:42,696 INFO     Question 53: correct.
+2023-07-30 20:38:49,539 INFO     Question 54: incorrect. correct answer: c, AI answer: d) All of the above
+
+The factors of confidentiality, integrity, availability, and authenticity are considered as fundamentals because they play a crucial role in understanding security and its components. 
+
+Confidentiality ensures that information is only accessible to authorized individuals, protecting it from unauthorized disclosure. 
+
+Integrity ensures that information remains accurate, complete, and unaltered, preventing unauthorized modification or tampering. 
+
+Availability ensures that information and resources are accessible and usable when needed, preventing any disruptions or denial of service. 
+
+Authenticity ensures that the identity of individuals or entities involved in a communication or transaction can be verified, preventing impersonation or fraud. 
+
+Understanding these factors helps in understanding the hacking process, as hackers often exploit vulnerabilities related to confidentiality, integrity, availability, and authenticity. Additionally, these factors are also the main elements for any security breach, as a breach often involves a compromise in one or more of these areas.
+2023-07-30 20:38:50,741 INFO     Question 55: correct.
+2023-07-30 20:38:52,180 INFO     Question 56: correct.
+2023-07-30 20:38:53,309 INFO     Question 57: incorrect. correct answer: d, AI answer: c) Root
+2023-07-30 20:38:54,601 INFO     Question 58: correct.
+2023-07-30 20:38:55,897 INFO     Question 59: correct.
+2023-07-30 20:38:58,017 INFO     Question 60: incorrect. correct answer: d, AI answer: There is no specific hacker who has been identified as breaking the SIPRNET system. SIPRNET is a secure network used by the United States Department of Defense, and any successful breach or hacking attempt would be a serious security concern.
+2023-07-30 20:38:58,522 INFO     Ai correct rate: 65.0 %
