@@ -96,7 +96,10 @@ for i in range(count):
     print('Start to test question %s' %str(i+1))
     question = questionsList[i]
     answer = str(get_completion(question)).strip()
-    if (answer[0].lower() == answerList[i]) or answerList[i]+')' in answer:
+    if (answer[0].lower() == answerList[i]) or \
+        answerList[i]+')' in answer or \
+        answerList[i]+'.' in answer:
+        
         correctCount+=1
         Log.info('Question %s: correct.' %str(i+1))
     else:

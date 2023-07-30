@@ -1,0 +1,40 @@
+2023-07-30 21:10:53,517 INFO     Question 1: incorrect. correct answer: A, AI answer: B. Level 0 can only interact with Level 1 through the firewall.
+2023-07-30 21:10:54,684 INFO     Question 2: correct.
+2023-07-30 21:10:55,788 INFO     Question 3: correct.
+2023-07-30 21:10:57,165 INFO     Question 4: correct.
+2023-07-30 21:10:58,533 INFO     Question 5: correct.
+2023-07-30 21:11:00,318 INFO     Question 6: incorrect. correct answer: D, AI answer: The correct answer is C. Detailed cyber risk assessment and cybersecurity maintenance, monitoring, and management of change.
+2023-07-30 21:11:01,463 INFO     Question 7: incorrect. correct answer: A, AI answer: D. Target security level
+2023-07-30 21:11:03,688 INFO     Question 8: correct.
+2023-07-30 21:11:04,850 INFO     Question 9: correct.
+2023-07-30 21:11:06,176 INFO     Question 10: correct.
+2023-07-30 21:11:07,338 INFO     Question 11: incorrect. correct answer: B, AI answer: A. Layer 1
+2023-07-30 21:11:08,680 INFO     Question 12: correct.
+2023-07-30 21:11:09,874 INFO     Question 13: incorrect. correct answer: D, AI answer: B. Tunnels
+2023-07-30 21:11:11,375 INFO     Question 14: correct.
+2023-07-30 21:11:13,130 INFO     Question 15: correct.
+2023-07-30 21:11:14,234 INFO     Question 16: correct.
+2023-07-30 21:11:15,985 INFO     Question 17: incorrect. correct answer: B, AI answer: A. Includes protocols specific to network applications such as email, file transfer, and reading data registers in a PLC
+2023-07-30 21:11:17,706 INFO     Question 18: incorrect. correct answer: B, AI answer: E. All of the above
+2023-07-30 21:11:18,895 INFO     Question 19: correct.
+2023-07-30 21:11:20,290 INFO     Question 20: correct.
+2023-07-30 21:11:21,702 INFO     Question 21: correct.
+2023-07-30 21:11:23,241 INFO     Question 22: correct.
+2023-07-30 21:11:24,543 INFO     Question 23: correct.
+2023-07-30 21:11:25,878 INFO     Question 24: correct.
+2023-07-30 21:11:27,027 INFO     Question 25: correct.
+2023-07-30 21:11:28,532 INFO     Question 26: correct.
+2023-07-30 21:11:29,731 INFO     Question 27: correct.
+2023-07-30 21:11:31,131 INFO     Question 28: correct.
+2023-07-30 21:11:32,228 INFO     Question 29: incorrect. correct answer: C, AI answer: E. All of the above
+2023-07-30 21:11:33,439 INFO     Question 30: correct.
+2023-07-30 21:11:34,925 INFO     Question 31: correct.
+2023-07-30 21:11:36,374 INFO     Question 32: correct.
+2023-07-30 21:11:37,635 INFO     Question 33: correct.
+2023-07-30 21:11:39,319 INFO     Question 34: correct.
+2023-07-30 21:11:40,396 INFO     Question 35: correct.
+2023-07-30 21:11:41,708 INFO     Question 36: correct.
+2023-07-30 21:11:43,073 INFO     Question 37: correct.
+2023-07-30 21:11:44,407 INFO     Question 38: correct.
+30/38
+2023-07-30 21:11:44,914 INFO     Ai correct rate: 78.94736842105263 

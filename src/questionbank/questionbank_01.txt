@@ -1,0 +1,271 @@
+# ISA Cybersecurity Specialist Exam
+#https://www.examtopics.com/exams/isa/cybersecurity-fundamentals-specialist
+
+
+Question: Which characteristic is MOST closely associated with the deployment of a demilitarized zone (DMZ)?
+A. Level 4 systems must use the DMZ to communicate with Level 3 and below.
+B. Level 0 can only interact with Level 1 through the firewall.
+C. Internet access through the firewall is allowed.
+D. Email is prevented, thereby mitigating the risk of phishing attempts.
+Answer:A
+
+Question:Whose responsibility is it to determine the level of risk an organization is willing to tolerate?
+A. Management
+B. Legal Department
+C. Operations Department
+D. Safety Department
+Answer:A
+
+Question:Which activity is part of establishing policy, organization, and awareness?
+A. Communicate policies.
+B. Establish the risk tolerance.
+C. Identify detailed vulnerabilities.
+D. Implement countermeasures.
+Answer:A
+
+Question:Which service does an Intrusion Detection System (IDS) provide?
+A. It is the lock on the door for networks and computer systems.
+B. It is effective against all vulnerabilities in networks and computer systems.
+C. It blocks malicious activity in networks and computer systems.
+D. It detects attempts to break into or misuse a computer system.
+Answer:D
+
+Question:Which is the PRIMARY responsibility of the network layer of the Open Systems Interconnection (OSI) model?
+A. Forwards packets, including routing through intermediate routers
+B. Gives transparent transfer of data between end users
+C. Provides the rules for framing, converting electrical signals to data
+D. Handles the physics of getting a message from one device to another
+Answer:A
+
+Question:Which steps are included in the ISA/IEC 62443 assess phase?
+A. Cybersecurity requirements specification and detailed cyber risk assessment
+B. Cybersecurity requirements specification and allocation of IACS assets to zones and conduits
+C. Detailed cyber risk assessment and cybersecurity maintenance, monitoring, and management of change
+D. Allocation of IACS assets to zones and conduits, and detailed cyber risk assessment
+Answer:D
+
+Question:What type of security level defines what a component or system is capable of meeting?
+A. Capability security level
+B. Achieved security level
+C. Design security level
+D. Target security level
+Answer:A
+
+Question:Which steps are part of implementing countermeasures?
+A. Establish the risk tolerance and select common countermeasures.
+B. Establish the risk tolerance and update the business continuity plan.
+C. Select common countermeasures and update the business continuity plan.
+D. Select common countermeasures and collaborate with stakeholders.
+Answer:A
+
+Question:Authorization (user accounts) must be granted based on which of the following?
+A. Individual preferences
+B. Common needs for large groups
+C. Specific roles
+D. System complexity
+Answer:C
+
+
+Question:Which of the following refers to internal rules that govern how an organization protects critical system resources?
+A. Formal guidance
+B. Legislation
+C. Security policy
+D. Code of conduct
+Answer:C
+
+Question:In which layer is the physical address assigned?
+A. Layer 1
+B. Layer 2
+C. Layer 3
+D. Layer 7
+Answer:B
+
+Question:Which of the following is an element of security policy, organization, and awareness?
+A. Product development requirements
+B. Staff training and security awareness
+C. Technical requirement assessment
+D. Penetration testing
+Answer:B
+
+Question:What are the connections between security zones called?
+A. Firewalls
+B. Tunnels
+C. Pathways
+D. Conduits
+Answer:D
+
+Question:Which is a commonly used protocol for managing secure data transmission on the Internet?
+A. Datagram Transport Layer Security (DTLS)
+B. Microsoft Point-to-Point Encryption (MPPE)
+C. Secure Telnet
+D. Secure Sockets Layer (SSL)
+Answer:D
+
+Question:Why is OPC Classic considered firewall unfriendly?
+A. OPC Classic uses DCOM, which dynamically assigns any port between 1024 and 65535.
+B. OPC Classic is allowed to use only port 80.
+C. OPC Classic works with control devices from different manufacturers.
+D. OPC Classic is an obsolete communication standard.
+Answer:A
+
+Question:Which layer specifies the rules for Modbus Application Protoco1 (MBAP)?
+A. Data link layer
+B. Session layer
+C. Presentation layer
+D. Application layer
+Answer:D
+
+Question:Which is a role of the application layer?
+A. Includes protocols specific to network applications such as email, file transfer, and reading data registers in a PLC
+B. Includes user applications specific to network applications such as email, file transfer, and reading data registers in a PLC
+C. Provides the mechanism for opening, closing, and managing a session between end-user application processes
+D. Delivers and formats information, possibly with encryption and security
+Answer:B
+
+Question:Which factor drives the selection of countermeasures?
+A. Foundational requirements
+B. Output from a risk assessment
+C. Security levels
+D. System design
+Answer:B
+
+Question:Which layer in the Open Systems Interconnection (OSI) model would include the use of the File Transfer Protocol (FTP)?
+A. Application layer
+B. Data link layer
+C. Session layer
+D. Transport layer
+Answer:A
+
+Question:Which of the following is a trend that has caused a significant percentage of security vulnerabilities?
+A. IACS developing into a network of air-gapped systems
+B. IACS evolving into a number of closed proprietary systems
+C. IACS using equipment designed for measurement and control
+D. IACS becoming integrated with business and enterprise systems
+Answer:D
+
+Question:Why is patch management more difficult for IACS than for business systems?
+A. Overtime pay is required for technicians.
+B. Many more approvals are required.
+C. Patching a live automation system can create safety risks.
+D. Business systems automatically update.
+Answer:C
+
+Question:Which is a PRIMARY reason why network security is important in IACS environments?
+A. PLCs are inherently unreliable.
+B. PLCs are programmed using ladder logic.
+C. PLCs use serial or Ethernet communications methods.
+D. PLCs under cyber attack can have costly and dangerous impacts.
+Answer:D
+
+Question:Which statement is TRUE regarding Intrusion Detection Systems (IDS)?
+A. Modern IDS recognize IACS devices by default.
+B. They are very inexpensive to design and deploy.
+C. They are effective against known vulnerabilities.
+D. They require a small amount of care and feeding
+Answer:C
+
+Question:Which is the BEST practice when establishing security zones?
+A. Security zones should contain assets that share common security requirements.
+B. Security zones should align with physical network segments.
+C. Assets within the same logical communication network should be in the same security zone.
+D. All components in a large or complex system should be in the same security zone.
+Answer:A
+
+Question:Security Levels (SLs) are broken down into which three types?
+A. SL-1, SL-2, and SL-3
+B. Target, capability, and achieved
+C. Target, capability, and availability
+D. Target, capacity, and achieved
+Answer:B
+
+Question:Which is an important difference between IT systems and IACS?
+A. The IACS security priority is integrity.
+B. The IT security priority is availability.
+C. IACS cybersecurity must address safety issues.
+D. Routers are not used in IACS networks.
+Answer:C
+
+Question:Which of the following is a recommended default rule for IACS firewalls?
+A. Allow all traffic by default.
+B. Allow IACS devices to access the Internet.
+C. Allow traffic directly from the IACS network to the enterprise network.
+D. Block all traffic by default.
+Answer:D
+
+Question:What do packet filter firewalls examine?
+A. The packet structure and sequence
+B. The relationships between packets in a session
+C. Every incoming packet up to the application layer
+D. Only the source, destination, and ports in the header of each packet
+Answer:D
+
+Question:Who must be included in a training and security awareness program?
+A. Vendors and suppliers
+B. Employees
+C. All personnel
+D. Temporary staff
+Answer:C
+
+Question:Which communications system covers a large geographic area
+A. Campus Area Network (CAN)
+B. Local Area Network (LAN)
+C. Storage Area Network (SAN)
+D. Wide Area Network (WAN)
+Answer:D
+
+Question:Which is the PRIMARY reason why Modbus over Ethernet is easy to manage in a firewall?
+A. Modbus uses a single master to communicate with multiple slaves using simple commands.
+B. Modbus is a proprietary protocol that is widely supported by vendors.
+C. Modbus uses explicit source and destination IP addresses and a single known TCP port.
+D. Modbus has no known security vulnerabilities, so firewall rules are simple to implement.
+Answer:C
+
+Question:Which of the following is the BEST example of detection-in-depth best practices?
+A. Firewalls and unexpected protocols being used
+B. IDS sensors deployed within multiple zones in the production environment
+C. Role-based access control and unusual data transfer patterns
+D. Role-based access control and VPNs
+Answer:B
+
+Question:What are the four main categories for documents in the ISA-62443 (IEC 62443) series?
+A. General, Policies and Procedures, System, and Component
+B. End-User, Integrator, Vendor, and Regulator
+C. Assessment, Mitigation, Documentation, and Maintenance
+D. People, Processes, Technology, and Training
+Answer:A
+
+Question:What are the three main components of the ISASecure Integrated Threat Analysis (ITA) Program?
+A. Software development security assurance, functional security assessment, and communications robustness testing
+B. Software robustness security testing, functional software assessment assurance, and essential security functionality assessment
+C. Communications robustness testing, functiona1 security assurance, and software robustness communications
+D. Communication speed, disaster recovery, and essential security functionality assessment
+Answer:A
+
+Question:Which of the following can be employed as a barrier device in a segmented network?
+A. Router
+B. Unmanaged switch
+C. VPN
+D. Domain controller
+Answer:A
+
+Question:What is the purpose of ISO/IEC 15408 (Common Criteria)?
+A. To define a security management organization
+B. To describe a process for risk management
+C. To define a product development evaluation methodology
+D. To describe what constitutes a secure product
+Answer:C
+
+Question:What does Layer 1 of the ISO/OSI protocol stack provide?
+A. Data encryption, routing, and end-to-end connectivity
+B. Framing, converting electrical signals to data, and error checking
+C. The electrical and physical specifications of the data connection
+D. User applications specific to network applications such as reading data registers in a PLC
+Answer:C
+
+Question:At Layer 4 of the Open Systems Interconnection (OSI) model, what identifies the application that will handle a packet inside a host?
+A. A TCP/UDP application ID
+B. A TCP/UDP host ID
+C. A TCP/UDP port number
+D. A TCP/UDP registry number
+Answer:C
+

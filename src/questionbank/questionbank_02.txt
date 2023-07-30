@@ -1,0 +1,483 @@
+# CCIE Advanced Security Written Exam
+# https://www.examtopics.com/exams/cisco/400-251/view/
+Question:In an 802.11 WLAN, which option is the Layer 2 identifier of a basic service set, and also is typically the MAC address of the radio of the access point?
+A. BSSID
+B. SSID
+C. VBSSID
+D. MBSSID
+Answer:A
+
+Question:What term describes an access point which is detected by your wireless network, but is not a trusted or managed access point?
+A. rogue
+B. unclassified
+C. interferer
+D. malicious
+Answer:A
+
+Question:A router has four interfaces addressed as 10.1.1.1/24, 10.1.2.1/24, 10.1.3.1/24, and 10.1.4.1/24. What is the smallest summary route that can be advertised covering these four subnets?
+A. 10.1.2.0/22
+B. 10.1.0.0/22
+C. 10.1.0.0/21
+D. 10.1.0.0/16
+Answer:C
+
+Question:Which two address translation types can map a group of private addresses to a smaller group of public addresses? (Choose two.)
+A. static NAT
+B. dynamic NAT
+C. dynamic NAT with overloading
+D. PAT
+E. VAT
+Answer:C
+
+Question:Which authentication mechanism is available to OSPFv3?
+A. simple passwords
+B. MD5
+C. null
+D. IKEv2
+E. IPsec AH/ESP
+Answer:E
+
+Question:Which two IPv6 tunnel types support only point-to-point communication? 
+A. manually configured
+B. automatic 6to4
+C. ISATAP
+Answer:A
+
+Question:Which two EIGRP packet types are considered to be unreliable packets? 
+A. update
+B. query
+C. reply
+D. acknowledgement
+Answer:D
+
+Question:Before BGP update messages may be sent, a neighbor must stabilize into which neighbor state?
+A. Active
+B. Idle
+C. Connecte
+Answer:D
+
+Question:Which protocol does 802.1X use between the supplicant and the authenticator to authenticate users who wish to access the network?
+A. SNMP
+B. TACACS+
+C. RADIUS
+D. EAP over LAN
+E. PPPoE
+Answer:D
+
+Question:Which two statements are correct regarding the AES encryption algorithm? 
+A. It is a FIPS-approved symmetric block cipher.
+B. It supports a block size of 128, 192, or 256 bits.
+C. It supports a variable length block size from 16 to 448 bits.
+D. It supports a cipher key size of 128, 192, or 256 bits.
+E. The AES encryption algorithm is based on the presumed difficulty of factoring large integers.
+Answer:A
+
+Question:What are two benefits of using IKEv2 instead of IKEv1 when deploying remote-access IPsec VPNs? 
+A. IKEv2 supports EAP authentication methods as part of the protocol.
+B. IKEv2 inherently supports NAT traversal.
+C. IKEv2 messages use random message IDs.
+D. The IKEv2 SA plus the IPsec SA can be established in six messages instead of nine messages.
+E. All IKEv2 messages are encryption-protected.
+Answer:A
+
+Question:DNSSEC was designed to overcome which security limitation of DNS?
+A. DNS man-in-the-middle attacks
+B. DNS flood attacks
+C. DNS fragmentation attacks
+D. DNS hash attacks
+E. DNS replay attacks
+F. DNS violation attacks
+Answer:A
+
+Question:Which SSL protocol takes an application message to be transmitted, fragments the data into manageable blocks, optionally compresses the data, applies a MAC, encrypts, adds a header, and transmits the resulting unit in a TCP segment?
+A. SSL Handshake Protocol
+B. SSL Alert Protocol
+C. SSL Record Protocol
+D. SSL Change CipherSpec Protocol
+Answer:C
+
+Question:How does a DHCP client request its previously used IP address in a DHCP DISCOVER packet?
+A. It is included in the CIADDR field.
+B. It is included as DHCP Option 50 in the OPTIONS field.
+C. It is included in the YIADDR field.
+D. It is the source IP address of the UDP/53 wrapper packet.
+E. The client cannot request its last IP address; it is assigned automatically by the server.
+Answer:B
+
+Question:Which common Microsoft protocol allows Microsoft machine administration and operates over TCP port 3389?
+A. remote desktop protocol
+B. desktop mirroring
+C. desktop shadowing
+D. Tarantella remote desktop
+Answer:A
+
+Question:To prevent a potential attack on a Cisco IOS router with the echo service enabled, what action should you take?
+A. Disable the service with the no ip echo command.
+B. Disable the service with the no echo command.
+C. Disable tcp-small-servers.
+D. Disable this service with a global access-list.
+Answer:C
+
+
+Question:Which query type is required for an nslookup on an IPv6 addressed host?
+A. type=AAAA
+B. type=ANY
+C. type=PTR
+D. type=NAME-IPV6
+Answer:A
+
+Question:In the context of a botnet, what is true regarding a command and control server?
+A. It can launch an attack using IRC or Twitter.
+B. It is another name for a zombie.
+C. It is used to generate a worm.
+D. It sends the command to the botnets via adware.
+Answer:A
+
+Question:Which option is used for anti-replay prevention in a Cisco IOS IPsec implementation?
+A. session token
+B. one-time password
+C. time stamps
+D. sequence number
+E. nonce
+Answer:D
+
+Question:Which Cisco ASA feature can be used to update non-compliant antivirus/antispyware definition files on an AnyConnect client?
+A. dynamic access policies
+B. dynamic access policies with Host Scan and advanced endpoint assessment
+C. Cisco Secure Desktop
+D. advanced endpoint assessment
+Answer:B
+
+Question:An attacker configures an access point to broadcast the same SSID that is used at a public hot- spot, and launches a deauthentication attack against the clients that are connected to the hot-spot, with the hope that the clients will then associate to the AP of the attacker.
+In addition to the deauthentication attack, what attack has been launched?
+A. man-in-the-middle
+B. MAC spoofing
+C. Layer 1 DoS
+D. disassociation attack
+Answer:A
+
+Question:Which statement best describes the concepts of rootkits and privilege escalation?
+A. Rootkits propagate themselves.
+B. Privilege escalation is the result of a rootkit.
+C. Rootkits are a result of a privilege escalation.
+D. Both of these require a TCP port to gain access.
+Answer:B
+
+Question:Which multicast capability is not supported by the Cisco ASA appliance?
+A. ASA configured as a rendezvous point
+B. Sending multicast traffic across a VPN tunnel
+C. NAT of multicast traffic
+D. IGMP forwarding (stub) mode
+Answer:B
+
+Question:Which method of output queuing is supported on the Cisco ASA appliance?
+A. CBWFQ
+B. priority queuing
+C. MDRR
+D. WFQ
+E. custom queuing
+Answer:B
+
+Question:Troubleshooting the web authentication fallback feature on a Cisco Catalyst switch shows that clients with the 802.1X supplicant are able to authenticate, but clients without the supplicant are not able to use web authentication. Which configuration option will correct this issue?
+A. switch(config)# aaa accounting auth-proxy default start-stop group radius
+B. switch(config-if)# authentication host-mode multi-auth
+C. switch(config-if)# webauth
+D. switch(config)# ip http server
+E. switch(config-if)# authentication priority webauth dot1x
+Answer:D
+
+Question:Which option on the Cisco ASA appliance must be enabled when implementing botnet traffic filtering?
+A. HTTP inspection
+B. static entries in the botnet blacklist and whitelist
+C. global ACL
+D. NetFlow
+E. DNS inspection and DNS snooping
+Answer:E
+
+Question:Which signature engine is used to create a custom IPS signature on a Cisco IPS appliance that triggers when a vulnerable web application identified by the "/ runscript.php" URI is run?
+A. AIC HTTP
+B. Service HTTP
+C. String TCP
+D. Atomic IP
+E. META
+F. Multi-String
+Answer:B
+
+Question:The ASA can be configured to drop IPv6 headers with routing-type 0 using the MPF. Choose the correct configuration.
+A. policy-map type inspect ipv6 IPv6_PMAP match header routing-type eq 0 drop log
+B. policy-map type inspect icmpv6 ICMPv6_PMAP match header routing-type eq 0 drop log
+C. policy-map type inspect ipv6-header HEADER_PMAP match header routing-type eq 0 drop log
+D. policy-map type inspect http HEADER_PMAP match routing-header 0 drop log
+E. policy-map type inspect ipv6 IPv6_PMAP match header type 0 drop log
+F. policy-map type inspect ipv6-header HEADER_PMAP match header type 0
+Answer:A
+
+Question:Regarding VSAs, which statement is true?
+A. VSAs may be implemented on any RADIUS server.
+B. VSAs are proprietary, and therefore may only be used on the RADIUS server of that vendor. For example, a Cisco VSA may only be used on a Cisco RADIUS server, such as ACS or ISE.
+C. VSAs do not apply to RADIUS; they are a TACACS attribute.
+D. Each VSA is defined in an RFC and is considered to be a standard.
+Answer:A
+
+Question:Which of the following describes the DHCP "starvation" attack?
+A. Exhaust the address space available on the DHCP servers so that an attacker can inject their own DHCP server for malicious reasons.
+B. Saturate the network with DHCP requests to prevent other network services from working.
+C. Inject a DHCP server on the network for the purpose of overflowing DNS servers with bogus learned host names.
+D. Send DHCP response packets for the purpose of overloading CAM tables.
+Answer:A
+
+Question:Which Cisco technology protects against Spanning Tree Protocol manipulation?
+A. spanning-tree protection
+B. root guard and BPDU guard
+C. Unicast Reverse Path Forwarding
+D. MAC spoof guard
+E. port security
+Answer:B
+
+Question:Which type of PVLAN ports can communicate among themselves and with the promiscuous port?
+A. isolated
+B. community
+C. primary
+D. secondary
+E. protected
+Answer:B
+
+Question:Which statement is true about the Cisco NEAT 802.1X feature?
+A. The multidomain authentication feature is not supported on the authenticator switch interface.
+B. It allows a Cisco Catalyst switch to act as a supplicant to another Cisco Catalyst authenticator switch.
+C. The supplicant switch uses CDP to send MAC address information of the connected host to the authenticator switch.
+D. It supports redundant links between the supplicant switch and the authenticator switch.
+Answer:B
+
+Question:Which additional configuration component is required to implement a MACSec Key Agreement policy on user-facing Cisco Catalyst switch ports?
+A. PKI
+B. TACACS+
+C. multi-auth host mode
+D. port security
+E. 802.1x
+Answer:E
+
+Question:During a computer security forensic investigation, a laptop computer is retrieved that requires content analysis and information retrieval. Which file system is on it, assuming it has the default installation of Microsoft Windows Vista operating system?
+A. HSFS
+B. WinFS
+C. NTFS
+D. FAT
+E. FAT32
+Answer:C
+
+Question:What does the Common Criteria (CC) standard define?
+A. The current list of Common Vulnerabilities and Exposures (CVEs)
+B. The U.S standards for encryption export regulations
+C. Tools to support the development of pivotal, forward-looking information system technologies
+D. The international standards for evaluating trust in information systems and products
+E. The international standards for privacy laws
+F. The standards for establishing a security incident response system
+Answer:D
+
+Question:Which of the following best describes Chain of Evidence in the context of security forensics?
+A. Evidence is locked down, but not necessarily authenticated.
+B. Evidence is controlled and accounted for to maintain its authenticity and integrity.
+C. The general whereabouts of evidence is known.
+D. Someone knows where the evidence is and can say who had it if it is not logged.
+Answer:B
+
+Question:Which option is a benefit of implementing RFC 2827?
+A. prevents DoS from legitimate, non-hostile end systems
+B. prevents disruption of special services such as Mobile IP
+C. defeats DoS attacks which employ IP source address spoofing
+D. restricts directed broadcasts at the ingress router
+E. allows DHCP or BOOTP packets to reach the relay agents as appropriate
+Answer:C
+
+Question:Question #71Topic 1
+Which of the following provides the features of route summarization, assignment of contiguous blocks of addresses, and combining routes for multiple classful networks into a single route?
+A. classless interdomain routing
+B. route summarization
+C. supernetting
+D. private IP addressing
+Answer:A
+
+Question:Aggregate global IPv6 addresses begin with which bit pattern in the first 16-bit group?
+A. 000/3
+B. 001/3
+C. 010/2
+D. 011/2
+Answer:B
+
+Question:Which layer of the OSI reference model typically deals with the physical addressing of interface cards?
+A. physical layer
+B. data-link layer
+C. network layer
+D. host layer
+Answer:B
+
+Question:Which statement best describes a key difference in IPv6 fragmentation support compared to IPv4?
+A. In IPv6, IP fragmentation is no longer needed because all Internet links must have an IP MTU of 1280 bytes or greater.
+B. In IPv6, PMTUD is no longer performed by the source node of an IP packet.
+C. In IPv6, IP fragmentation is no longer needed since all nodes must perform PMTUD and send packets equal to or smaller than the minimum discovered path MTU.
+D. In IPv6, PMTUD is no longer performed by any node since the don't fragment flag is removed from the IPv6 header.
+E. In IPv6, IP fragmentation is performed only by the source node of a large packet, and not by any other devices in the data path.
+Answer:B
+
+Question:If a host receives a TCP packet with an SEQ number of 1234, an ACK number of 5678, and a length of 1000 bytes, what will it send in reply?
+A. a TCP packet with SEQ number: 6678, and ACK number: 1234
+B. a TCP packet with SEQ number: 2234, and ACK number: 5678
+C. a TCP packet with SEQ number: 1234, and ACK number: 2234
+D. a TCP packet with SEQ number: 5678, and ACK number 2234
+Answer:D
+
+Question:A network administrator uses a LAN analyzer to troubleshoot OSPF router exchange messages sent to all OSPF routers. To which one of these MAC addresses are these messages sent?
+A. 00-00-1C-EF-00-00
+B. 01-00-5E-00-00-05
+C. 01-00-5E-EF-00-00
+D. EF-FF-FF-00-00-05
+E. EF-00-00-FF-FF-FF
+F. FF-FF-FF-FF-FF-FF
+Answer:B
+
+Question:Which option correctly describes the security enhancement added for OSPFv3?
+A. The AuType field in OSPFv3 now supports the more secure SHA-1 and SHA-2 algorithms in addition to MD5.
+B. The AuType field is removed from the OSPFv3 header since simple password authentication is no longer an option.
+C. The Authentication field in OSPFv3 is increased from 64 bits to 128 bits to accommodate more secure authentication algorithms.
+D. Both the AuType and Authentication fields are removed from the OSPF header in OSPFv3, since now it relies on the IPv6 Authentication Header (AH) and IPv6 Encapsulating Security Payload (ESP) to provide integrity, authentication, and/or confidentiality.?
+E. The Authentication field is removed from the OSPF header in OSPFv3, because OSPFv3 must only run inside of an authenticated IPSec tunnel.
+Answer:D
+
+Question:Which IPv6 tunnel type is a standard that is defined in RFC 4214?
+A. ISATAP
+B. 6to4
+C. GREv6
+D. manually configured
+Answer:A
+
+Question:What IP protocol number is used in the protocol field of an IPv4 header, when IPv4 is used to tunnel IPv6 packets?
+A. 6
+B. 27
+C. 41
+D. 47
+E. 51
+Answer:C
+
+Question:An IPv6 multicast receiver joins an IPv6 multicast group using which mechanism?
+A. IGMPv3 report
+B. IGMPv3 join
+C. MLD report
+D. general query
+E. PIM join
+Answer:C
+
+Question:Which configuration implements an ingress traffic filter on a dual-stack ISR border router to prevent attacks from the outside to services such as DNSv6 and
+DHCPv6?
+A. ! ipv6 access-list test deny ipv6 FF05::/16 any deny ipv6 any FF05::/16 ! output omitted permit ipv6 any any !
+B. ! ipv6 access-list test permit ipv6 any FF05::/16 ! output omitted deny ipv6 any any !
+C. ! ipv6 access-list test deny ipv6 any any eq dns deny ipv6 any any eq dhcp ! output omitted permit ipv6 any any !
+D. ! ipv6 access-list test deny ipv6 any 2000::/3 ! output omitted permit ipv6 any any !
+E. ! ipv6 access-list test deny ipv6 any FE80::/10 ! output omitted permit ipv6 any any
+Answer:A
+
+Question:Which option explains the passive scan technique that is used by wireless clients to discover available wireless networks?
+A. listening for access point beacons that contain available wireless networks
+B. sending a null probe request
+C. sending a null association request
+D. listening for access point probe response frames that contain available wireless networks
+Answer:A
+
+Question:Which protocol can be used to encrypt traffic sent over a GRE tunnel?
+A. SSL
+B. SSH
+C. IPsec
+D. DH
+E. TLS
+Answer:C
+
+Question:Which VTP mode allows the Cisco Catalyst switch administrator to make changes to the VLAN configuration that only affect the local switch and are not propagated to other switches in the VTP domain?
+A. transparent
+B. server
+C. client
+D. local
+E. pass-through
+Answer:A
+
+Question:Which type of VPN is based on the concept of trusted group members using the GDOI key management protocol?
+A. DMVPN
+B. SSLVPN
+C. GETVPN
+D. EzVPN
+E. MPLS VPN
+F. FlexVPN
+Answer:C
+
+Question:Based on RFC 4890, what is the ICMP type and code that should never be dropped by the firewall to allow PMTUD?
+A. ICMPv6 Type 1 Code 0 no route to host
+B. ICMPv6 Type 1 Code 1 communication with destination administratively prohibited
+C. ICMPv6 Type 2 Code 0 packet too big
+D. ICMPv6 Type 3 Code 1 fragment reassembly time exceeded
+E. ICMPv6 Type 128 Code 0 echo request
+F. ICMPv6 Type 129 Code 0 echo reply
+Answer:C
+
+Question:A firewall rule that filters on the protocol field of an IP packet is acting on which layer of the OSI reference model?
+A. network layer
+B. application layer
+C. transport layer
+D. session layer
+Answer:A
+
+Question:Which layer of the OSI model is referenced when utilizing http inspection on the Cisco ASA to filter Instant Messaging or Peer to Peer networks with the Modular
+Policy Framework?
+A. application layer
+B. presentation layer
+C. network layer
+D. transport layer
+Answer:A
+
+Question:When a Cisco IOS Router receives a TCP packet with a TTL value less than or equal to 1, what will it do?
+A. Route the packet normally
+B. Drop the packet and reply with an ICMP Type 3, Code 1 (Destination Unreachable, Host Unreachable)
+C. Drop the packet and reply with an ICMP Type 11, Code 0 (Time Exceeded, Hop Count Exceeded)
+D. Drop the packet and reply with an ICMP Type 14, Code 0 (Timestamp Reply)
+Answer:C
+
+Question:According to OWASP guidelines, what is the recommended method to prevent cross-site request forgery?
+A. Allow only POST requests.
+B. Mark all cookies as HTTP only.
+C. Use per-session challenge tokens in links within your web application.
+D. Always use the "secure" attribute for cookies.
+E. Require strong passwords.
+Answer:C
+
+Question:Which option is used to collect wireless traffic passively, for the purposes of eavesdropping or information gathering?
+A. network taps
+B. repeater Access Points
+C. wireless sniffers
+D. intrusion prevention systems
+Answer:C
+
+Question:Which traffic class is defined for non-business-relevant applications and receives any bandwidth that remains after QoS policies have been applied?
+A. scavenger class
+B. best effort
+C. discard eligible
+D. priority queued
+Answer:A
+
+Question:What feature on the Cisco ASA is used to check for the presence of an up-to-date antivirus vendor on an AnyConnect client?
+A. Dynamic Access Policies with no additional options
+B. Dynamic Access Policies with Host Scan enabled
+C. advanced endpoint assessment
+D. LDAP attribute maps obtained from Antivirus vendor
+Answer:B
+
+Question:What type of attack consists of injecting traffic that is marked with the DSCP value of EF into the network?
+A. brute-force attack
+B. QoS marking attack
+C. DHCP starvation attack
+D. SYN flood attack
+Answer:B
+
+Question:Which statement is true regarding Cisco ASA operations using software versions 8.3 and later?
+A. The global access list is matched first before the interface access lists.
+B. Both the interface and global access lists can be applied in the input or output direction.
+C. When creating an access list entry using the Cisco ASDM Add Access Rule window, choosing "global" as the interface will apply the access list entry globally.
+D. NAT control is enabled by default.
+E. The static CLI command is used to configure static NAT translation rules.
+Answer:C

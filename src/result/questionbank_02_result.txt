@@ -1,0 +1,71 @@
+2023-07-30 21:34:32,503 INFO     Question 1: correct.
+2023-07-30 21:34:34,835 INFO     Question 2: correct.
+2023-07-30 21:34:39,151 INFO     Question 3: incorrect. correct answer: C, AI answer: The smallest summary route that can be advertised covering these four subnets is 10.1.0.0/22 (option B). This summary route includes all four subnets (10.1.1.0/24, 10.1.2.0/24, 10.1.3.0/24, and 10.1.4.0/24) and provides the most efficient summarization.
+2023-07-30 21:34:41,591 INFO     Question 4: correct.
+2023-07-30 21:34:43,258 INFO     Question 5: correct.
+2023-07-30 21:34:45,504 INFO     Question 6: correct.
+2023-07-30 21:34:47,546 INFO     Question 7: correct.
+2023-07-30 21:34:49,304 INFO     Question 8: correct.
+2023-07-30 21:34:50,870 INFO     Question 9: incorrect. correct answer: D, AI answer: C. RADIUS
+2023-07-30 21:34:53,058 INFO     Question 10: correct.
+2023-07-30 21:34:55,400 INFO     Question 11: correct.
+2023-07-30 21:34:57,962 INFO     Question 12: correct.
+2023-07-30 21:34:59,210 INFO     Question 13: correct.
+2023-07-30 21:35:01,015 INFO     Question 14: correct.
+2023-07-30 21:35:02,284 INFO     Question 15: correct.
+2023-07-30 21:35:03,438 INFO     Question 16: correct.
+2023-07-30 21:35:04,525 INFO     Question 17: correct.
+2023-07-30 21:35:06,028 INFO     Question 18: correct.
+2023-07-30 21:35:07,087 INFO     Question 19: correct.
+2023-07-30 21:35:08,591 INFO     Question 20: correct.
+2023-07-30 21:35:09,812 INFO     Question 21: correct.
+2023-07-30 21:35:11,619 INFO     Question 22: correct.
+2023-07-30 21:35:13,324 INFO     Question 23: incorrect. correct answer: B, AI answer: A. ASA configured as a rendezvous point
+2023-07-30 21:35:15,062 INFO     Question 24: correct.
+2023-07-30 21:35:17,992 INFO     Question 25: incorrect. correct answer: D, AI answer: The correct configuration option to correct this issue is:
+
+B. switch(config-if)# authentication host-mode multi-auth
+
+This configuration option allows the switch to support multiple authentication methods, including both 802.1X and web authentication. By enabling multi-authentication mode, clients without the 802.1X supplicant will be able to use web authentication as a fallback method.
+2023-07-30 21:35:19,910 INFO     Question 26: incorrect. correct answer: E, AI answer: B. static entries in the botnet blacklist and whitelist
+2023-07-30 21:35:21,455 INFO     Question 27: correct.
+2023-07-30 21:35:24,682 INFO     Question 28: correct.
+2023-07-30 21:35:26,435 INFO     Question 29: incorrect. correct answer: A, AI answer: D. Each VSA is defined in an RFC and is considered to be a standard.
+2023-07-30 21:35:28,150 INFO     Question 30: correct.
+2023-07-30 21:35:29,322 INFO     Question 31: correct.
+2023-07-30 21:35:30,702 INFO     Question 32: correct.
+2023-07-30 21:35:32,175 INFO     Question 33: incorrect. correct answer: B, AI answer: D. It supports redundant links between the supplicant switch and the authenticator switch.
+2023-07-30 21:35:33,286 INFO     Question 34: incorrect. correct answer: E, AI answer: A. PKI
+2023-07-30 21:35:34,495 INFO     Question 35: correct.
+2023-07-30 21:35:35,764 INFO     Question 36: correct.
+2023-07-30 21:35:37,484 INFO     Question 37: correct.
+2023-07-30 21:35:38,927 INFO     Question 38: correct.
+2023-07-30 21:35:40,006 INFO     Question 39: incorrect. correct answer: A, AI answer: C. supernetting
+2023-07-30 21:35:41,254 INFO     Question 40: incorrect. correct answer: B, AI answer: The correct answer is A. 000/3.
+2023-07-30 21:35:42,474 INFO     Question 41: incorrect. correct answer: B, AI answer: A. physical layer
+2023-07-30 21:35:44,739 INFO     Question 42: incorrect. correct answer: B, AI answer: C. In IPv6, IP fragmentation is no longer needed since all nodes must perform PMTUD and send packets equal to or smaller than the minimum discovered path MTU.
+2023-07-30 21:35:46,471 INFO     Question 43: incorrect. correct answer: D, AI answer: The correct answer is C. a TCP packet with SEQ number: 1234, and ACK number: 2234.
+2023-07-30 21:35:48,655 INFO     Question 44: incorrect. correct answer: B, AI answer: The correct answer is C. 01-00-5E-EF-00-00. This is the multicast MAC address used for OSPF router exchange messages.
+2023-07-30 21:35:51,629 INFO     Question 45: correct.
+2023-07-30 21:35:52,775 INFO     Question 46: correct.
+2023-07-30 21:35:53,831 INFO     Question 47: correct.
+2023-07-30 21:35:54,923 INFO     Question 48: correct.
+2023-07-30 21:35:57,063 INFO     Question 49: incorrect. correct answer: A, AI answer: C. ! ipv6 access-list test deny ipv6 any any eq dns deny ipv6 any any eq dhcp ! output omitted permit ipv6 any any !
+2023-07-30 21:36:00,971 INFO     Question 50: incorrect. correct answer: A, AI answer: The correct option is D. listening for access point probe response frames that contain available wireless networks. 
+
+In a passive scan, wireless clients listen for access point probe response frames that are broadcasted by nearby access points. These frames contain information about the available wireless networks, including the network name (SSID), supported encryption methods, and signal strength. By listening to these frames, wireless clients can discover and display a list of available wireless networks for the user to choose from.
+2023-07-30 21:36:02,019 INFO     Question 51: correct.
+2023-07-30 21:36:03,466 INFO     Question 52: correct.
+2023-07-30 21:36:04,554 INFO     Question 53: correct.
+2023-07-30 21:36:07,338 INFO     Question 54: correct.
+2023-07-30 21:36:08,406 INFO     Question 55: correct.
+2023-07-30 21:36:09,685 INFO     Question 56: correct.
+2023-07-30 21:36:11,259 INFO     Question 57: correct.
+2023-07-30 21:36:12,999 INFO     Question 58: correct.
+2023-07-30 21:36:14,341 INFO     Question 59: correct.
+2023-07-30 21:36:15,771 INFO     Question 60: incorrect. correct answer: A, AI answer: B. best effort
+2023-07-30 21:36:17,009 INFO     Question 61: correct.
+2023-07-30 21:36:18,140 INFO     Question 62: correct.
+2023-07-30 21:36:20,389 INFO     Question 63: correct.
+46/63
+2023-07-30 21:36:20,901 INFO     Ai correct rate: 73.01587301587301 
