@@ -98,6 +98,7 @@ Currently we did 5 test to test 4 different types of CTF challenges, currently b
 5. [TestCase05: Library Hijacking attack challenge](doc/testCases/library_hijacking.md)
 6. [TestCase06: Reverse Engineering of C program challenge](doc/testCases/reverse_engineering.md)
 7. [Testcase07: Memory Dump analysis](doc/testCases/memory_dump_analysis.md)
+8. [Testcase08: CTF multi choice questions](src/readme.md)  
 
 For each test cases,  the steps of each test will cover : 
 

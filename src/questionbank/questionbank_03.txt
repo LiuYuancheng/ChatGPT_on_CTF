@@ -1,0 +1,303 @@
+# Microsoft Cybersecurity Architect SC100
+# https://www.theknowledgeacademy.com/blog/cyber-security-mcq-and-answers/
+
+Question:Which of these describes an ongoing pursuit by an individual/group? 
+a) Stalking 
+b) Identity theft 
+c) Phishing  
+d) Bulling 
+Answer:a
+
+Question:Which one of the following is considered in the category of computer threats? 
+a) Soliciting 
+b) DoS attack 
+c) Phishing 
+d) Both A and B 
+Answer:b
+
+Question:Which of the following typically keeps tabs on every online activity the victim engages in, compiles all the data in the background, and sends it to a third party? 
+a) Adware 
+b) Malware 
+c) Spyware 
+d) All of the above 
+Answer:c
+
+Question:Which one is considered to be a type of antivirus program? 
+a) Kaspersky 
+b) Mcafee 
+c) Quick heal 
+d) All of the above 
+Answer:d
+
+Question:Which of these scanners for ports and IP addresses is most used by users? 
+a) Cain and Abel 
+b) Ettercap 
+c) Snort 
+d) Angry IP Scanner 
+Answer:d
+
+Question:Which of the following phrases describes taking someone else's creation or idea and using it for one's own advantage? 
+a) Intellectual property rights 
+b) Piracy 
+c) Plagiarism 
+d) All of the above 
+Answer:d
+
+Question:Which of the following describes investigating moral conduct concerning the digital media landscape? 
+a) Cyberethics 
+b) Cyber low 
+c) Cybersafety 
+d) Cybersecurity 
+Answer:a
+
+Question:State whether True or False: Data encryption is used to ensure confidentiality. 
+a) True 
+b) False 
+c) It cannot be understood 
+d) None 
+Answer:a
+
+Question:Determine the earliest method of free phone calls used by hackers. 
+a) Cracking 
+b) Spamming 
+c) Phreaking 
+d) Phishing 
+Answer:c
+
+Question:Which of the following statements best describes how the principle would be broken if a computer was no longer accessible? 
+a) Confidentiality 
+b) Access control 
+c) Availability 
+d) All of the above 
+Answer:c
+
+Question:Which of these methods is used to check the validity of a message? 
+a) Digital signature 
+b) Protocol 
+c) Message Digest 
+d) Decryption algorithm 
+Answer:c
+
+Question:Which of the following is typically used when hacking Wi-Fi? 
+a) Wireshark 
+b) Aircrack-ng 
+c) Norton 
+d) All of the above 
+Answer:b
+
+Question: Among the following, which is not a form of scanning? 
+a) Null Scan 
+b) Xmas Tree Scan 
+c) SYN Stealth 
+d) Cloud Scan 
+Answer:d
+
+Question:The Code Red is similar to a: 
+a) Photo Editing Software 
+b) Antivirus Program 
+c) Video Editing Software 
+d) Computer Virus 
+Answer:d
+
+Question:Which of these was the first antivirus software ever created? 
+a) Reaper 
+b) Ray Tomlinson
+c) Creeper
+d) Tinkered 
+Answer:a
+
+Question:What kind of malware does not replicate or clone itself through infection? 
+a) Rootkits 
+b) Worms 
+c) Viruses 
+d) Trojans 
+Answer:d
+
+Question:The DNS would convert any domain name into: 
+a) Hex 
+b) Binary 
+c) URL 
+d) IP 
+Answer:c
+
+Question:The most important step in system hacking is: 
+a) Cracking passwords 
+b) Covering tracks 
+c) Information gathering 
+d) None of the above 
+Answer:a
+
+Question:Which of the following describes the different forms of scanning? 
+a) Client, Server, and network 
+b) Network, vulnerability, and port scanning 
+c) Port, network, and services 
+d) None of the above 
+Answer:b
+
+Question:Determine the attack type that employs a fake server with a relay address. 
+a) SMB 
+b) NetBIOS 
+c) NTLM 
+d) MITM 
+Answer:d
+
+Question:Pick one of the following methods for hiding information inside a picture: 
+a) Image Rendering 
+b) Steganography 
+c) Rootkits 
+d) Bitmapping 
+Answer:b
+
+Question:Choose one of the following strategies to prevent browser-based hacking: 
+a) Adware remover in the browser  
+b) Anti-malware in the browser 
+c) Remote browser access 
+d) Incognito mode in the browser 
+Answer:c
+
+Question:Which of these is the port number (default) for many web servers, including apache? 
+a) 80 
+b) 20 
+c) 87 
+d) 40 
+Answer:a
+
+Question:They are malicious hackers whose primary goal is to commit cybercrimes to make money. Who are "they" in this context? 
+a) White Hat Hackers 
+b) Black Hat Hackers
+c) Hacktivists 
+d) Gray Hat Hackers 
+Answer:b
+
+Question:Any company or organisation's IT security is managed and maintained by  
+a) IT Security Engineer 
+b) Security Auditor 
+c) CEO of the organisation 
+d) Software Security Specialist 
+Answer:d
+
+Question:What does EDR stand for? 
+a) Endless Detection and Response 
+b) Endpoint Detection and Response 
+c) Endpoint Detection and Recovery 
+d) Endless Detection and Recovery 
+Answer:b
+
+Question:The _______ of a network is assessed using the response and transit times. 
+a) Longevity 
+b) Performance 
+c) Reliability 
+d) Security 
+Answer:b
+
+Question:Which of the following statements concerning the firewall is true? 
+a) It is a barrier created to stop files from hurting the company. 
+b) It is a tool put in place at a business's perimeter to stop uninvited physical entrance. 
+c) It is a device placed at an organisation's perimeter to prevent unwanted access. 
+d) None of the above 
+Answer:c
+
+Question: Which of the following Cyber Security principles limits how privileges are started whenever an object or subject is created? 
+a) Open-Design 
+b) Fail-safe Defaults 
+c) Least privilege 
+d) None of the above 
+Answer:b
+
+Question:Which of these conferences was the first one for hackers? 
+a) DEFCON 
+b) OSCON 
+c) SECTION 
+d) DEVON 
+Answer:a
+
+Question:What is changed when cypher algorithms are used? 
+a) Scalar test 
+b) Plain test 
+c) Complex test 
+d) None 
+Answer:b
+
+Question:What does CHAP stand for? 
+a) Circuit Handshake Authentication Protocols 
+b) Challenge Handshake Authentication Protocols 
+c) Circuit Hardware Authentication Protocols 
+d) Challenge Hardware Authentication Protocols 
+Answer:b
+
+Question:Which of the following is the least strong security encryption? 
+a) WPA 
+b) WPA3 
+c) WEP 
+d) WPA2 
+Answer:c
+
+Question:Which of the items listed below is the least strong security protocol? 
+a) SFTP 
+b) SSL 
+c) SMTP 
+d) HTTPS 
+Answer:c
+
+Question:What is used for encrypting data at the network level? 
+a) IPSec 
+b) S/MIME 
+c) SMTP 
+d) HTTPS 
+Answer:a
+
+Question:What does PCT stand for? 
+a) Private Connecting Technology 
+b) Private Communication Technique 
+c) Personal Communication Technology 
+d) Private Communication Technology 
+Answer:d
+
+Question:Which one of the following is a private search engine? 
+a) Bing 
+b) Google 
+c) Yahoo 
+d) Duckduckgo 
+Answer:d
+
+Question:Choose the phrase from the list below that best describes the initial stage of ethical hacking. 
+a) Footprinting 
+b) ARP Poisoning 
+c) DNS Poisoning 
+d) Enumeration 
+Answer:a
+
+Question:What is the purpose of using a proxy server for a hacker? 
+a) Create a ghost server on the network 
+b) Create a stronger connection with the target 
+c) For obtaining remote access connection 
+d) Hiding malicious activity on the network  
+Answer:d
+
+Question:Determine the kind of symmetric key algorithm that encrypts data using a streaming cypher. 
+a) Blowfish 
+b) MD5 
+c) RC4
+d) SHA 
+Answer:c
+
+Question:Determine the number of characters the Linux OS will allow in file names. 
+a) 64 
+b) 256 
+c) 128 
+d) 32 
+Answer:b
+
+Question:Choose the one that is autonomous and does not require a host program from the list below: 
+a) Trap door 
+b) Trojan horse 
+c) Virus 
+d) Worm 
+Answer:d
+
+Question:A DNS translates a domain name to which of these: 
+a) Hex 
+b) IP 
+c) Binary 
+d) URL 
+Answer:b

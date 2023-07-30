@@ -64,7 +64,8 @@ answerCount = 0
 questionStr = ""
 
 # load the question bank
-with open(questionsFile) as fp:
+#with open(questionsFile) as fp:
+with open(questionsFile, encoding="utf8") as fp:
     for line in fp.readlines():
         if line[0] in FILTER_CHAR: 
             questionStr = None
@@ -99,7 +100,7 @@ for i in range(count):
     if (answer[0].lower() == answerList[i]) or \
         answerList[i]+')' in answer or \
         answerList[i]+'.' in answer:
-        
+
         correctCount+=1
         Log.info('Question %s: correct.' %str(i+1))
     else:

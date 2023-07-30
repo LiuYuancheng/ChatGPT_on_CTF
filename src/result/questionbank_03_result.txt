@@ -1,0 +1,45 @@
+2023-07-30 22:02:29,522 INFO     Question 1: incorrect. correct answer: a, AI answer: c) Phishing
+2023-07-30 22:02:31,049 INFO     Question 2: incorrect. correct answer: b, AI answer: d) Both A and B
+2023-07-30 22:02:32,631 INFO     Question 3: incorrect. correct answer: c, AI answer: d) All of the above
+2023-07-30 22:02:34,463 INFO     Question 4: correct.
+2023-07-30 22:02:36,004 INFO     Question 5: correct.
+2023-07-30 22:02:37,601 INFO     Question 6: correct.
+2023-07-30 22:02:39,313 INFO     Question 7: correct.
+2023-07-30 22:02:40,796 INFO     Question 8: correct.
+2023-07-30 22:02:41,872 INFO     Question 9: correct.
+2023-07-30 22:02:43,501 INFO     Question 10: correct.
+2023-07-30 22:02:45,099 INFO     Question 11: incorrect. correct answer: c, AI answer: a) Digital signature
+2023-07-30 22:02:46,315 INFO     Question 12: correct.
+2023-07-30 22:02:47,874 INFO     Question 13: correct.
+2023-07-30 22:02:48,892 INFO     Question 14: correct.
+2023-07-30 22:02:50,366 INFO     Question 15: incorrect. correct answer: a, AI answer: c) Creeper
+2023-07-30 22:02:52,113 INFO     Question 16: correct.
+2023-07-30 22:02:53,616 INFO     Question 17: incorrect. correct answer: c, AI answer: d) IP
+2023-07-30 22:02:55,307 INFO     Question 18: incorrect. correct answer: a, AI answer: c) Information gathering
+2023-07-30 22:02:56,620 INFO     Question 19: correct.
+2023-07-30 22:02:57,922 INFO     Question 20: correct.
+2023-07-30 22:02:59,940 INFO     Question 21: correct.
+2023-07-30 22:03:02,586 INFO     Question 22: incorrect. correct answer: c, AI answer: I would choose option b) Anti-malware in the browser. This strategy involves using a browser extension or plugin that scans and detects any malicious software or code present in web pages or downloads. It helps to prevent browser-based hacking by blocking or alerting the user about potential threats and vulnerabilities.
+2023-07-30 22:03:03,603 INFO     Question 23: correct.
+2023-07-30 22:03:05,012 INFO     Question 24: correct.
+2023-07-30 22:03:07,421 INFO     Question 25: incorrect. correct answer: d, AI answer: e) IT Security Manager
+2023-07-30 22:03:10,523 INFO     Question 26: correct.
+2023-07-30 22:03:11,580 INFO     Question 27: correct.
+2023-07-30 22:03:13,097 INFO     Question 28: correct.
+2023-07-30 22:03:14,154 INFO     Question 29: incorrect. correct answer: b, AI answer: c) Least privilege
+2023-07-30 22:03:15,319 INFO     Question 30: correct.
+2023-07-30 22:03:16,360 INFO     Question 31: correct.
+2023-07-30 22:03:17,660 INFO     Question 32: correct.
+2023-07-30 22:03:18,689 INFO     Question 33: correct.
+2023-07-30 22:03:20,039 INFO     Question 34: correct.
+2023-07-30 22:03:21,067 INFO     Question 35: correct.
+2023-07-30 22:03:22,243 INFO     Question 36: correct.
+2023-07-30 22:03:23,496 INFO     Question 37: correct.
+2023-07-30 22:03:24,848 INFO     Question 38: correct.
+2023-07-30 22:03:26,054 INFO     Question 39: correct.
+2023-07-30 22:03:27,242 INFO     Question 40: correct.
+2023-07-30 22:03:28,545 INFO     Question 41: correct.
+2023-07-30 22:03:29,540 INFO     Question 42: correct.
+2023-07-30 22:03:30,959 INFO     Question 43: correct.
+33/43
+2023-07-30 22:03:31,462 INFO     Ai correct rate: 76.74418604651163 
