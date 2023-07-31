@@ -42,8 +42,8 @@ Answer:A
 | 2    | ISA Cybersecurity Specialist Exam (ICS/IEC 62443)     | questionbank_01.txt    | 30                   | 38                 | 78.94%                       |
 | 3    | CCIE Advanced Security Written Exam 2023              | questionbank_02.txt    | 46                   | 63                 | 73.01%                       |
 | 4    | Microsoft Cybersecurity Architect SC100               | questionbank_03.txt    | 33                   | 43                 | 76.74 %                      |
-| 5    | 首届360杯网络安全职业技能CTF大赛初赛                  | questionbank_07.txt    |                      |                    | need to translate to English |
-| 6    | 华东师范 XCTF 集训营 2020                             | 360CTF理论大赛试题.pdf |                      |                    | Applying for answer          |
+| 5    | 首届360杯网络安全职业技能CTF大赛初赛                  | 360CTF理论大赛试题.pdf |                      |                    | Applying for answer          |
+| 6    | 华东师范 XCTF 集训营 2020                             | questionbank_07.txt    |                      |                    | need to translate to English |
 
 
 
