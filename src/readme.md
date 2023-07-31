@@ -36,14 +36,17 @@ Answer:A
 
 **Test result of questions bank**:
 
-| idx  | Question bank                                         | Question bank file     | correct  Answer  num | total Question num | correct rate                 |
-| ---- | ----------------------------------------------------- | ---------------------- | -------------------- | ------------------ | ---------------------------- |
-| 1    | CTF cyber-security question example (javatpoint exam) | questionbank_00.txt    | 39                   | 60                 | 65.0%                        |
-| 2    | ISA Cybersecurity Specialist Exam (ICS/IEC 62443)     | questionbank_01.txt    | 30                   | 38                 | 78.94%                       |
-| 3    | CCIE Advanced Security Written Exam 2023              | questionbank_02.txt    | 46                   | 63                 | 73.01%                       |
-| 4    | Microsoft Cybersecurity Architect SC100               | questionbank_03.txt    | 33                   | 43                 | 76.74 %                      |
-| 5    | 首届360杯网络安全职业技能CTF大赛初赛                  | 360CTF理论大赛试题.pdf |                      |                    | Applying for answer          |
-| 6    | 华东师范 XCTF 集训营 2020                             | questionbank_07.txt    |                      |                    | need to translate to English |
+| idx  | Question bank                                                | Question bank file     | correct  Answer  num | total Question num | correct rate                 |
+| ---- | ------------------------------------------------------------ | ---------------------- | -------------------- | ------------------ | ---------------------------- |
+| 1    | CTF cyber-security question example (javatpoint exam)        | questionbank_00.txt    | 39                   | 60                 | 65.0%                        |
+| 2    | ISA Cybersecurity Specialist Exam (ICS/IEC 62443)            | questionbank_01.txt    | 30                   | 38                 | 78.94%                       |
+| 3    | CCIE Advanced Security Written Exam 2023                     | questionbank_02.txt    | 46                   | 63                 | 73.01%                       |
+| 4    | Microsoft Cybersecurity Architect SC100                      | questionbank_03.txt    | 33                   | 43                 | 76.74 %                      |
+| 5    | 首届360杯网络安全职业技能CTF大赛初赛                         | 360CTF理论大赛试题.pdf |                      |                    | Applying for answer          |
+| 6    | 华东师范 XCTF 集训营 2020                                    | questionbank_07.txt    |                      |                    | need to translate to English |
+| 7    | Yeahhub CTF-repo: Certified Ethical Hacker 2021 v10 exam part (1-2) | questionbank_08.txt    | 38                   | 46                 | 82.60 %                      |
+| 8    | Yeahhub CTF-repo: Certified Ethical Hacker 2021 v10 exam part (3-4) | questionbank_09.txt    | 38                   | 53                 | 71.69%                       |
+| 9    | Yeahhub CTF-repo: Certified Ethical Hacker 2021 v10 exam part (5-6) | questionbank_10.txt    | 31                   | 62                 | 50.0%                        |
 
 
 

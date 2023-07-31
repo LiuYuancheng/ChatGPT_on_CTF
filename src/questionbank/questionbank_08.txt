@@ -1,0 +1,329 @@
+# Certified Ethical Hacker 2021 v10 part (1-2)
+# from yeahhub CTF-repo: https://www.yeahhub.com/category/ctf-challenges/
+# part 1: https://www.yeahhub.com/certified-ethical-hacker-v10-multiple-choice-questions-answers-part-1/
+# part 2: https://www.yeahhub.com/certified-ethical-hacker-v10-multiple-choice-questions-answers-part-2/
+
+
+Question:An unauthorized individual enters a building following an employee through the employee entrance after the lunch rush. What type of breach has the individual just performed?
+A. Reverse Social Engineering
+B. Tailgating
+C. Piggybacking
+D. Announced
+Answer:B
+
+Question:Which of the following is the best countermeasure to encrypting ransomwares?
+A. Use multiple antivirus softwares
+B. Keep some generation of off-line backup
+C. Analyze the ransomware to get decryption key of encrypted data
+D. Pay a ransom
+Answer:B
+
+Question:If an attacker uses the command SELECT*FROM user WHERE name = x AND userid IS NULL; ; which type of SQL injection attack is the attacker performing?
+A. End of Line Comment
+B. UNION SQL Injection
+C. Illegal/Logically Incorrect Query
+D. Tautology
+Answer:A
+
+Question:Sophia travels a lot and worries that her laptop containing confidential documents might be stolen. What is the best protection that will work for her?
+A. Full Disk encryption
+B. BIOS password
+C. Hidden folders
+D. Password protected files
+Answer:A
+
+Question:An attacker has installed a RAT on a host. The attacker wants to ensure that when a user attempts to go to www.MyPersonalBank.com, that the user is directed to a phishing site. Which file does the attacker need to modify?
+A. Boot.ini
+B. Sudoers
+C. Networks
+D. Hosts
+Answer:D
+
+Question:Which of the following options represents a conceptual characteristic of an anomaly-based IDS over a signature-based IDS?
+A. Produces less false positives
+B. Can identify unknown attacks
+C. Requires vendor updates for a new threat
+D. Cannot deal with encrypted network traffic
+Answer:B
+
+Question:You are logged in as a local admin on a Windows 7 system and you need to launch the Computer Management Console from command line.
+Question:Which command would you use?
+A. c:\gpedit
+B. c:\compmgmt.msc
+C. c:\ncpa.cp
+D. c:\services.msc
+Answer:B
+
+Question:Which of the following act requires employers standard national numbers to identify them on standard transactions?
+A. SOX
+B. HIPAA
+C. DMCA
+D. PCI-DSS
+Answer:B
+
+Question:In Wireshark, the packet bytes panes show the data of the current packet in which format?
+A. Decimal
+B. ASCII only
+C. Binary
+D. Hexadecimal
+Answer:D
+
+Question:_________ is a set of extensions to DNS that provide the origin authentication of DNS data to DNS clients (resolvers) so as to reduce the threat of DNS poisoning, spoofing, and similar types of attacks.
+A. DNSSEC
+B. Resource records
+C. Resource transfer
+D. Zone transfer
+Answer:A
+
+Question:PGP, SSL, and IKE are all examples of which type of cryptography?
+A. Hash Algorithm
+B. Digest
+C. Secret Key
+D. Public Key
+Answer:D
+
+Question:Which of the following is considered as one of the most reliable forms of TCP scanning?
+A. TCP Connect/Full Open Scan
+B. Half-open Scan
+C. NULL Scan
+D. Xmas Scan
+Answer:A
+
+Question:Which of the following scanning method splits the TCP header into several packets and makes it difficult for packet filters to detect the purpose of the packet?
+A. ICMP Echo scanning
+B. SYN/FIN scanning using IP fragments
+C. ACK flag probe scanning
+D. IPID scanning
+Answer:B
+
+Question:Which of the following is the BEST way to defend against network sniffing?
+A. Restrict Physical Access to Server Rooms hosting Critical Servers
+B. Use Static IP Address
+C. Using encryption protocols to secure network communications
+D. Register all machines MAC Address in a Centralized Database
+Answer:C
+
+Question:You have successfully gained access to a Linux server and would like to ensure that the succeeding outgoing traffic from this server will not be caught by Network-Based Intrusion Detection Systems (NIDS). What is the best way to evade the NIDS?
+A. Out of band signaling
+B. Protocol Isolation
+C. Encryption
+D. Alternate Data Streams
+Answer:C
+
+Question:What is the purpose of a demilitarized zone on a network?
+A. To scan all traffic coming through the DMZ to the internal network
+B. To only provide direct access to the nodes within the DMZ and protect the network behind it
+C. To provide a place to put the honeypot
+D. To contain the network devices you wish to protect
+Answer:B
+
+Question:You need to deploy a new web-based software package for your organization. The package requires three separate servers and needs to be available on the Internet. What is the recommended architecture in terms of server placement?
+A. All three servers need to be placed internally
+B. A web server facing the Internet, an application server on the internal network, a database server on the internal network
+C. A web server and the database server facing the Internet, an application server on the internal network
+D. All three servers need to face the Internet so that they can communicate between themselves
+Answer:B
+
+Question:The security administrator of ABC needs to permit Internet traffic in the host 10.0.0.2 and UDP traffic in the host 10.0.0.3. He also needs to permit all FTP traffic to the rest of the network and deny all other traffic. After he applied his ACL configuration in the router, nobody can access to the ftp, and the permitted hosts cannot access the Internet. According to the next configuration, what is happening in the network?
+A. The ACL 104 needs to be first because is UDP
+B. The ACL 110 needs to be changed to port 80
+C. The ACL for FTP must be before the ACL 110
+D. The first ACL is denying all TCP traffic and the other ACLs are being ignored by the router
+Answer:D
+
+Question:When conducting a penetration test, it is crucial to use all means to get all available information about the target network. One of the ways to do that is by sniffing the network. Which of the following cannot be performed by the passive network sniffing?
+A. Identifying operating systems, services, protocols and devices
+B. Modifying and replaying captured network traffic
+C. Collecting unencrypted information about usernames and passwords
+D. Capturing a network traffic for further analysis
+Answer:B
+
+Question:A companys Web development team has become aware of a certain type of security vulnerability in their Web software. To mitigate the possibility of this vulnerability being exploited, the team wants to modify the software requirements to disallow users from entering HTML as input into their Web application. What kind of Web application vulnerability likely exists in their software?
+A. Cross-site scripting vulnerability
+B. Web site defacement vulnerability
+C. SQL injection vulnerability
+D. Cross-site Request Forgery vulnerability
+Answer:A
+
+Question:Insecure direct object reference is a type of vulnerability where the application does not verify if the user is authorized to access the internal object via its name or key. Suppose a malicious user Rob tries to get access to the account of a benign user Ned. Which of the following requests best illustrates an attempt to exploit an insecure direct object reference vulnerability?
+A. GET/restricted/goldtransfer?to=Rob&from=1 or 1=1 HTTP/1.1Host: westbank.com
+B. GET/restricted/accounts/?name=Ned HTTP/1.1 Host: westbank.com
+C. GET/restricted/bank.getaccount(Ned) HTTP/1.1 Host: westbank.com
+D. GET/restricted/\r\n\%00account%00Ned%00access HTTP/1.1 Host: westbank.com
+Answer:B
+
+Question:Which tool allows analysts and pen testers to examine links between data using graphs and link analysis?
+A. Metasploit
+B. Cain & Abel
+C. Maltego
+D. Wireshark
+Answer:C
+
+Question:Which of these is capable of searching for and locating rogue access points?
+A. HIDS
+B. NIDS
+C. WISS
+D. WIPS
+Answer:D
+
+Question:A hacker is an intelligent individual with excellent computer skills and the ability to explore a computers software and hardware without the owners permission. Their intention can either be to simply gain knowledge or to illegally make changes. Which of the following class of hacker refers to an individual who works both offensively and defensively at various times?
+A. White Hat
+B. Suicide Hacker
+C. Gray Hat
+D. Black Hat
+Answer:C
+
+Question:Websites and web portals that provide web services commonly use the Simple Object Access Protocol (SOAP). Which of the following is an incorrect definition or characteristics of the protocol?
+A. Based on XML
+B. Only compatible with the application protocol HTTP
+C. Exchanges data between web services
+D. Provides a structured model for messaging
+Answer:B
+
+You have gained physical access to a Windows 2008 R2 server which has an accessible disc drive. When you attempt to boot the server and log in, you are unable to guess the password. In your toolkit, you have an Ubuntu 9.10 Linux LiveCD. Which Linux-based tool can change any users password or activate disabled Windows accounts?
+A. John the Ripper
+B. SET
+C. CHNTPW
+D. Cain & Abel
+Answer:C
+
+Question:What type of vulnerability/attack is it when the malicious person forces the users browser to send an authenticated request to a server?
+A. Cross-site request forgery
+B. Cross-site scripting
+C. Session hijacking
+D. Server side request forgery
+Answer:A
+
+Question:From the following table, identify the wrong answer in terms of Range (ft).
+A. 802.11b
+B. 802.11g
+C. 802.16(WiMax)
+D. 802.11a
+Answer:D
+
+Question:What would you enter, if you wanted to perform a stealth scan using Nmap?
+A. nmap -sU
+B. nmap -sS
+C. nmap -sM
+D. nmap -sT
+Answer:B
+
+Question:You are doing an internal security audit and intend to find out what ports are open on all the servers. What is the best way to find out?
+A. Scan servers with Nmap
+B. Scan servers with MBSA
+C. Telnet to every port on each server
+D. Physically go to each server
+Answer:A
+
+Question:Steve, a scientist who works in a governmental security agency, developed a technological solution to identify people based on walking patterns and implemented this approach to a physical control access. A camera captures people walking and identifies the individuals using Steves approach. After that, people must approximate their RFID badges. Both the identifications are required to open the door. In this case, we can say:
+A. Although the approach has two phases, it actually implements just one authentication factor
+B. The solution implements the two authentication factors: physical object and physical characteristic
+C. The solution will have a high level of false positives
+D. Biological motion cannot be used to identify people
+Answer:B
+
+Question:Which Intrusion Detection System is the best applicable for large environments where critical assets on the network need extra scrutiny and is ideal for observing sensitive network segments?
+A. Honeypots
+B. Firewalls
+C. Network-based intrusion detection system (NIDS)
+D. Host-based intrusion detection system (HIDS)
+Answer:C
+
+Question:Which of the following is a serious vulnerability in the popular OpenSSL cryptographic software library? This weakness allows stealing the information protected, under normal conditions, by the SSL/TLS encryption used to secure the Internet.
+A. SSL/TLS Renegotiation Vulnerability
+B. Shellshock
+C. Heartbleed Bug
+D. POODLE
+Answer:C
+
+Question:Which protocol is used for setting up secure channels between two devices, typically in VPNs?
+A. PPP
+B. IPSEC
+C. PEM
+D. SET
+Answer:B
+
+Question:Which of the following Secure Hashing Algorithm (SHA) produces a 160-bit digest from a message with a maximum length of (264-1) bits and resembles the MD5 algorithm?
+A. SHA-2
+B. SHA-3
+C. SHA-1
+D. SHA-0
+Answer:C
+
+Question:When does the Payment Card Industry Data Security Standard (PCI-DSS) require organizations to perform external and internal penetration testing?
+A. At least twice a year or after any significant upgrade or modification
+B. At least once a year and after any significant upgrade or modification
+C. At least once every two years and after any significant upgrade or modification
+D. At least once every three years or after any significant upgrade or modification
+Answer:B
+
+Question:If a tester is attempting to ping a target that exists but receives no response or a response that states the destination is unreachable, ICMP may be disabled and the network may be using TCP. Which other option could the tester use to get a response from a host using TCP?
+A. Traceroute
+B. Hping
+C. TCP ping
+D. Broadcast ping
+Answer:B
+
+Question:Which of the following types of jailbreaking allows user-level access but does not allow iboot-level access?
+A. Bootrom Exploit
+B. iBoot Exploit
+C. Sandbox Exploit
+D. Userland Exploit
+Answer:D
+
+Question:What is not a PCI compliance recommendation?
+A. Use a firewall between the public network and the payment card data.
+B. Use encryption to protect all transmission of card holder data over any public network.
+C. Rotate employees handling credit card transactions on a yearly basis to different departments.
+D. Limit access to card holder data to as few individuals as possible.
+Answer:C
+
+Question:The white box testing methodology enforces what kind of restriction?
+A. Only the internal operation of a system is known to the tester.
+B. The internal operation of a system is completely known to the tester.
+C. The internal operation of a system is only partly accessible to the tester.
+D. Only the external operation of a system is accessible to the tester.
+Answer:B
+
+Question:Identify the web application attack where the attackers exploit vulnerabilities in dynamically generated web pages to inject client-side script into web pages viewed by other users.
+A. SQL injection attack
+B. Cross-Site Scripting (XSS)
+C. LDAP Injection attack
+D. Cross-Site Request Forgery (CSRF)
+Answer:B
+
+Question:This tool is an 802.11 WEP and WPA-PSK keys cracking program that can recover keys once enough data packets have been captured. It implements the standard FMS attack along with some optimizations like KoreK attacks, as well as the PTW attack, thus making the attack much faster compared to other WEP cracking tools. Which of the following tools is being described?
+A. wificracker
+B. Airguard
+C. WLAN-crack
+D. Aircrack-ng
+Answer:D
+
+Question:The following is part of a log file taken from the machine on the network with the IP address of 192.168.0.110: What type of activity has been logged?
+A. Teardrop attack targeting 192.168.0.110
+B. Denial of service attack targeting 192.168.0.105
+C. Port scan targeting 192.168.0.110
+D. Port scan targeting 192.168.0.105
+Answer:C
+
+Question:You are attempting to run an Nmap port scan on a web server. Which of the following commands would result in a scan of common ports with the least amount of noise in order to evade IDS?
+A. nmap -A  Pn
+B. nmap -sP -p-65535 -T5
+C. nmap -sT -O -T0
+D. nmap -A host-timeout 99 -T1
+Answer:C
+
+Question:Bob, your senior colleague, has sent you a mail regarding aa deal with one of the clients. You are requested to accept the offer and you oblige. After 2 days, Bob denies that he had ever sent a mail. What do you want to know to prove yourself that it was Bob who had send a mail?
+A. Confidentiality
+B. Integrity
+C. Non-Repudiation
+D. Authentication
+Answer:C
+
+Question:What is attempting an injection attack on a web server based on responses to True/False questions called?
+A. DMS-specific SQLi
+B. Compound SQLi
+C. Blind SQLi
+D. Classic SQLi
+Answer:C
+

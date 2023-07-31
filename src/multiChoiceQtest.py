@@ -82,18 +82,27 @@ with open(questionsFile, encoding="utf8") as fp:
 
 # get AI's answer        
 def get_completion(prompt, model=AI_MODEL):
-    messages = [{"role": "user", "content": prompt}]
-    response = openai.ChatCompletion.create( model=model,
-                                            messages=messages,
-                                            temperature=0,)
-    return response.choices[0].message["content"]
+    try:
+        messages = [{"role": "user", "content": prompt}]
+        response = openai.ChatCompletion.create( model=model,
+                                                messages=messages,
+                                                temperature=0,)
+        return response.choices[0].message["content"]
+    except Exception as err:
+        print('error: %s'%str(err))
+        print('----')
+        print('input prompt: %s' %str(prompt))
+        return 'error'
 
-# 
 print("Start to check the questions.")
 correctCount = 0
 for i in range(count):
+    if i == len(questionsList): break
     print('Start to test question %s' %str(i+1))
     question = questionsList[i]
+    if not question:
+        Log.info('Question %s got problem: %s.' %(str(i+1), question))
+        continue
     answer = str(get_completion(question)).strip()
     if (answer[0].lower() == answerList[i]) or \
         answerList[i]+')' in answer or \
@@ -102,7 +111,7 @@ for i in range(count):
         Log.info('Question %s: correct.' %str(i+1))
     else:
         Log.info('Question %s: incorrect. correct answer: %s, AI answer: %s' %(str(i+1),str(answerList[i]), str(answer) ))
-    time.sleep(0.5) # speed to avoid reach the 1 min text limitation.
+    time.sleep(1) # speed to avoid reach the 1 min text limitation.
     
 result = 100.0*correctCount/count
 
