@@ -1,0 +1,333 @@
+# Certified Ethical Hacker 2021 v10 part (3-4)
+# from yeahhub CTF-repo: https://www.yeahhub.com/category/ctf-challenges/
+# part 1: https://www.yeahhub.com/certified-ethical-hacker-v10-multiple-choice-questions-answers-part-3/
+# part 2: https://www.yeahhub.com/certified-ethical-hacker-v10-multiple-choice-questions-answers-part-4/
+
+Question:The establishment of a TCP connection involves a negotiation called three-way handshake. What type of message does the client send to the server in order to begin this negotiation?
+A. ACK
+B. SYN
+C. RST
+D. SYN-ACK
+Answer:B
+
+Question:You need a tool that can do network intrusion prevention and intrusion detection, function as a network sniffer, and record network activity. What tool would you most likely select?
+A. Snort
+B. Nmap
+C. Cain & Abel
+D. Nessus
+Answer:A
+
+Question:Which of the following will perform an Xmas scan using NMAP?
+A. nmap -sA 192.168.1.254
+B. nmap -sP 192.168.1.254
+C. nmap -sX 192.168.1.254
+D. nmap -sV 192.168.1.254
+Answer:C
+
+Question:Code injection is a form of attack in which a malicious user:
+A. Inserts text into a data field that gets interpreted as code
+B. Gets the server to execute arbitrary code using a buffer overflow
+C. Inserts additional code into the JavaScript running in the browser
+D. Gains access to the codebase on the server and inserts new code
+Answer:A
+
+Question:The collection of potentially actionable, overt, and publicly available information is known as
+A. Open-source intelligence
+B. Human intelligence
+C. Social intelligence
+D. Real intelligence
+Answer:A
+
+Question:Which one of the following Google advanced search operators allows an attacker to restrict the results to those websites in the given domain?
+A. [cache:]
+B. [site:]
+C. [inurl:]
+D. [link:]
+Answer:B
+
+Question:This asymmetry cipher is based on factoring the product of two large prime numbers. What cipher is described above?
+A. SHA
+B. RSA
+C. MD5
+D. RC5
+Answer:B
+
+Question:Firewalls are the software or hardware systems that are able to control and monitor the traffic coming in and out the target network based on pre-defined set of rules. Which of the following types of firewalls can protect against SQL injection attacks?
+A. Data-driven firewall
+B. Stateful firewall
+C. Packet firewall
+D. Web application firewall
+Answer:D
+
+Question:During a recent security assessment, you discover the organization has one Domain Name Server (DNS) in a Demilitarized Zone (DMZ) and a second DNS server on the internal network. What is this type of DNS configuration commonly called?
+A. DynDNS
+B. DNS Scheme
+C. DNSSEC
+D. Split DNS
+Answer:D
+
+Question:In which of the following cryptography attack methods, the attacker makes a series of interactive queries, choosing subsequent plaintexts based on the information from the previous encryptions?
+A. Chosen-plaintext attack
+B. Ciphertext-only attack
+C. Adaptive chosen-plaintext attack
+D. Known-plaintext attack
+Answer:A
+
+Question:Which of the following attacks exploits web age vulnerabilities that allow an attacker to force an unsuspecting user's browser to send malicious requests they did not intend?
+A. Command Injection Attacks
+B. File Injection Attack
+C. Cross-Site Request Forgery (CSRF)
+D. Hidden Field Manipulation Attack
+Answer:C
+
+Question:Which is the first step followed by Vulnerability Scanners for scanning a network?
+A. TCP/UDP Port scanning
+B. Firewall detection
+C. OS Detection
+D. Checking if the remote host is alive
+Answer:D
+
+Question:Shellshock allowed an unauthorized user to gain access to a server. It affected many Internet-facing services, which OS did it not directly affect?
+A. Linux
+B. Unix
+C. OS X
+D. Windows
+Answer:D
+
+Question:Alice encrypts her data using her public key PK and stores the encrypted data in the cloud. Which of the following attack scenarios will compromise the privacy of her data?
+A. None of these scenarios compromise the privacy of Alice's data
+B. Agent Andrew subpoenas Alice, forcing her to reveal her private key. However, the cloud server successfully resists Andrew's attempt to access the stored data
+C. Hacker Harry breaks into the cloud server and steals the encrypted data
+D. Alice also stores her private key in the cloud, and Harry breaks into the cloud server as before
+Answer:D
+
+Question:A hacker named Jack is trying to compromise a bank's computer system. He needs to know the operating system of that computer to launch further attacks. What process would help him?
+A. Banner Grabbing
+B. IDLE/IPID Scanning
+C. SSDP Scanning
+D. UDP Scanning
+Answer:A
+
+Question:What two conditions must a digital signature meet?
+A. Has to be legible and neat.
+B. Has to be unforgeable, and has to be authentic.
+C. Must be unique and have special characters.
+D. Has to be the same number of characters as a physical signature and must be unique.
+Answer:B
+
+Question:Bob, a network administrator at BigUniversity, realized that some students are connecting their notebooks in the wired network to have Internet access. In the university campus, there are many Ethernet ports available for professors and authorized visitors but not for students. He identified this when the IDS alerted for malware activities in the network. What should Bob do to avoid this problem?
+A. Disable unused ports in the switches
+B. Separate students in a different VLAN
+C. Use the 802.1x protocol
+D. Ask students to use the wireless network
+Answer:C
+
+Question:Which of the following Bluetooth hacking techniques does an attacker use to send messages to users without the recipient's consent, similar to email spamming?
+A. Bluesmacking
+B. Bluesniffing
+C. Bluesnarfing
+D. Bluejacking
+Answer:D
+
+Question:Which method of password cracking takes the most time and effort?
+A. Shoulder surfing
+B. Brute force
+C. Dictionary attack
+D. Rainbow tables
+Answer:B
+
+Question:Which of the following program infects the system boot sector and the executable files at the same time?
+A. Stealth virus
+B. Polymorphic virus
+C. Macro virus
+D. Multipartite Virus
+Answer:D
+
+Question:You are a Penetration Tester and are assigned to scan a server. You need to use a scanning technique wherein the TCP Header is split into many packets so that it becomes difficult to detect what the packets are meant for. Which of the below scanning technique will you use?
+A. ACK flag scanning
+B. TCP Scanning
+C. IP Fragment Scanning
+D. Inverse TCP flag scanning
+Answer:C
+
+Question:An IT employee got a call from one of our best customers. The caller wanted to know about the company's network infrastructure, systems, and team. New opportunities of integration are in sight for both company and customer. What should this employee do?
+A. The employees cannot provide any information; but, anyway, he/she will provide the name of the person in charge.
+B. Since the company's policy is all about Customer Service, he/she will provide information.
+C. Disregarding the call, the employee should hang up.
+D. The employee should not provide any information without previous management authorization.
+Answer:D
+
+Question:You perform a scan of your company's network and discover that TCP port 123 is open. What services by default run on TCP port 123?
+A. Telnet
+B. POP3
+C. Network Time Protocol
+D. DNS
+Answer:C
+
+Question:Based on the below log, which of the following sentences are true?
+Question:Mar 1, 2016, 7:33:28 AM 10.240.250.23 ' 54373 10.249.253.15 ' 22 tcp_ip
+A. SSH communications are encrypted it's impossible to know who is the client or the server
+B. Application is FTP and 10.240.250.23 is the client and 10.249.253.15 is the server
+C. Application is SSH and 10.240.250.23 is the client and 10.249.253.15 is the server
+D. Application is SSH and 10.240.250.23 is the server and 10.249.253.15 is the server
+Answer:C
+
+Question:You have successfully comprised a server having an IP address of 10.10.0.5. You would like to enumerate all machines in the same network quickly. What is the best Nmap command you will use?
+A. nmap -T4 -q 10.10.0.0/24
+B. nmap -T4 -F 10.10.0.0/24
+C. nmap -T4 -r 10.10.1.0/24
+D. nmap -T4 -O 10.10.0.0/24
+Answer:B
+
+Question:''..is an attack type for a rogue Wi-Fi access point that appears to be a legitimate one offered on the premises, but actually has been set up to eavesdrop on wireless communications. It is the wireless version of the phishing scam. An attacker fools wireless users into connecting a laptop or mobile phone to a tainted hotspot by posing as a legitimate provider. This type of attack may be used to steal the passwords of unsuspecting users by either snooping the communication link or by phishing, which involves setting up a fraudulent web site and luring people there. Fill in the blank with appropriate choice.
+A. Evil Twin Attack
+B. Sinkhole Attack
+C. Collision Attack
+D. Signal Jamming Attack
+Answer:A
+
+Question:DNS cache snooping is a process of determining if the specified resource address is present in the DNS cache records. It may be useful during the examination of the network to determine what software update resources are used, thus discovering what software is installed. What command is used to determine if the entry is present in DNS cache?
+A. nslookup -fullrecursive update.antivirus.com
+B. dnsnooping 'rt update.antivirus.com
+C. nslookup -norecursive update.antivirus.com
+D. dns 'snoop update.antivirus.com
+Answer:C
+
+Question:You are working as a Security Analyst in a company XYZ that owns the whole subnet range of 23.0.0.0/8 and 192.168.0.0/8. While monitoring the data, you find a high number of outbound connections. You see that IP's owned by XYZ (Internal) and private IP's are communicating to a Single Public IP. Therefore, the Internal IP's are sending data to the Public IP. After further analysis, you find out that this Public IP is a blacklisted IP, and the internal communicating devices are compromised. What kind of attack does the above scenario depict?
+A. Botnet Attack
+B. Spear Phishing Attack
+C. Advanced Persistent Threats
+D. Rootkit Attack
+Answer:A
+
+Question:Which of the following is an adaptive SQL Injection testing technique used to discover coding errors by inputting massive amounts of random data and observing the changes in the output?
+A. Function Testing
+B. Dynamic Testing
+C. Static Testing
+D. Fuzzing Testing
+Answer:D
+
+Question:Some clients of TPNQM SA were redirected to a malicious site when they tried to access the TPNQM main site. Bob, a system administrator at TPNQM SA, found that they were victims of DNS Cache Poisoning. What should Bob recommend to deal with such a threat?
+A. The use of security agents in clients' computers
+B. The use of DNSSEC
+C. The use of double-factor authentication
+D. Client awareness
+Answer:B
+
+Question:In which of the following password protection technique, random strings of characters are added to the password before calculating their hashes?
+A. Keyed Hashing
+B. Key Stretching
+C. Salting
+D. Double Hashing
+Answer:C
+
+Question:Which Nmap option would you use if you were not concerned about being detected and wanted to perform a very fast scan?
+A. -T0
+B. -T5
+C. -O
+D. -A
+Answer:B
+
+Question:Which of the following provides a security professional with most information about the system's security posture?
+A. Wardriving, warchalking, social engineering
+B. Social engineering, company site browsing, tailgating
+C. Phishing, spamming, sending trojans
+D. Port scanning, banner grabbing, service identification
+Answer:D
+
+Question:What is the most common method to exploit the 'Bash Bug' or 'ShellShock' vulnerability?
+A. Manipulate format strings in text fields
+B. SSH
+C. SYN Flood
+D. Through Web servers utilizing CGI (Common Gateway Interface) to send a malformed environment variable to a vulnerable Web server
+Answer:D
+
+Question:What term describes the amount of risk that remains after the vulnerabilities are classified and the countermeasures have been deployed?
+A. Deferred risk
+B. Impact risk
+C. Inherent risk
+D. Residual risk
+Answer:D
+
+Question:A hacker has managed to gain access to a Linux host and stolen the password file from /etc/passwd. How can he use it?
+A. The file reveals the passwords to the root user only.
+B. The password file does not contain the passwords themselves.
+C. He cannot read it because it is encrypted.
+D. He can open it and read the user ids and corresponding passwords.
+Answer:B
+
+Question:A technician is resolving an issue where a computer is unable to connect to the Internet using a wireless access point. The computer is able to transfer files locally to other machines, but cannot successfully reach the Internet. When the technician examines the IP address and default gateway they are both on the 192.168.1.0/24. Which of the following has occurred?
+A. The computer is not using a private IP address.
+B. The gateway is not routing to a public IP address.
+C. The gateway and the computer are not on the same network.
+D. The computer is using an invalid IP address.
+Answer:B
+
+Question:Chandler works as a pen-tester in an IT-firm in New York. As a part of detecting viruses in the systems, he uses a detection method where the anti-virus executes the malicious codes on a virtual machine to simulate CPU and memory activities.
+Question:Which type of virus detection method did Chandler use in this context?
+A. Heuristic Analysis
+B. Code Emulation
+C. Integrity checking
+D. Scanning
+Answer:B
+
+Question:An attacker scans a host with the below command. Which three flags are set? (Choose three.)
+A. This is ACK scan. ACK flag is set
+B. This is Xmas scan. SYN and ACK flags are set
+C. This is Xmas scan. URG, PUSH and FIN are set
+D. This is SYN scan. SYN flag is set
+Answer:C
+
+Question:Due to a slowdown of normal network operations, the IT department decided to monitor internet traffic for all of the employees. From a legal standpoint, what would be troublesome to take this kind of measure?
+A. All of the employees would stop normal work activities
+B. IT department would be telling employees who the boss is
+C. Not informing the employees that they are going to be monitored could be an invasion of privacy.
+D. The network could still experience traffic slow down.
+Answer:C
+
+Question:Which component of IPsec performs protocol-level functions that are required to encrypt and decrypt the packets?
+A. Internet Key Exchange (IKE)
+B. Oakley
+C. IPsec Policy Agent
+D. IPsec driver
+Answer:A
+
+Question:An attacker, using a rogue wireless AP, performed an MITM attack and injected an HTML code to embed a malicious applet in all HTTP connections. When users accessed any page, the applet ran and exploited many machines. Which one of the following tools the hacker probably used to inject HTML code?
+A. Wireshark
+B. Ettercap
+C. Aircrack-ng
+D. Tcpdump
+Answer:B
+
+Question:You are monitoring the network of your organizations. You notice that:
+Question:1. There are huge outbound connections from your Internal Network to External IPs
+Question:2. On further investigation, you see that the external IPs are blacklisted
+Question:3. Some connections are accepted, and some are dropped
+Question:4. You find that it is a CnC communication
+Question:Which of the following solution will you suggest?
+A. Block the Blacklist IP's @ Firewall
+B. Update the Latest Signatures on your IDS/IPS
+C. Clean the Malware which are trying to Communicate with the External Blacklist IP's
+D. Both B and C
+Answer:D
+
+Question:Security Policy is a definition of what it means to be secure for a system, organization or other entity. For Information Technologies, there are sub-policies like Computer Security Policy, Information Protection Policy, Information Security Policy, network Security Policy, Physical Security Policy, Remote Access Policy, and User Account Policy. What is the main theme of the sub-policies for Information Technologies?
+A. Availability, Non-repudiation, Confidentiality
+B. Authenticity, Integrity, Non-repudiation
+C. Confidentiality, Integrity, Availability
+D. Authenticity, Confidentiality, Integrity
+Answer:C
+
+Question:Which of the following antennas is commonly used in communications for a frequency band of 10 MHz to VHF and UHF?
+A. Omnidirectional antenna
+B. Dipole antenna
+C. Yagi antenna
+D. Parabolic grid antenna
+Answer:C
+
+Question:Why should the security analyst disable/remove unnecessary ISAPI filters?
+A. To defend against social engineering attacks
+B. To defend against webserver attacks
+C. To defend against jailbreaking
+D. To defend against wireless attacks
+Answer:B

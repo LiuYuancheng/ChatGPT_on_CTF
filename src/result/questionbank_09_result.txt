@@ -1,0 +1,53 @@
+2023-07-31 13:35:48,018 INFO     Question 1: correct.
+2023-07-31 13:35:49,645 INFO     Question 2: correct.
+2023-07-31 13:35:50,984 INFO     Question 3: correct.
+2023-07-31 13:35:52,417 INFO     Question 4: correct.
+2023-07-31 13:35:53,462 INFO     Question 5: correct.
+2023-07-31 13:35:54,670 INFO     Question 6: correct.
+2023-07-31 13:35:55,677 INFO     Question 7: correct.
+2023-07-31 13:35:56,797 INFO     Question 8: correct.
+2023-07-31 13:35:57,902 INFO     Question 9: correct.
+2023-07-31 13:35:59,008 INFO     Question 10: incorrect. correct answer: A, AI answer: C. Adaptive chosen-plaintext attack
+2023-07-31 13:36:00,463 INFO     Question 11: correct.
+2023-07-31 13:36:01,600 INFO     Question 12: correct.
+2023-07-31 13:36:02,604 INFO     Question 13: correct.
+2023-07-31 13:36:03,902 INFO     Question 14: incorrect. correct answer: D, AI answer: C. Hacker Harry breaks into the cloud server and steals the encrypted data
+2023-07-31 13:36:05,000 INFO     Question 15: correct.
+2023-07-31 13:36:06,319 INFO     Question 16: correct.
+2023-07-31 13:36:08,891 INFO     Question 17: incorrect. correct answer: C, AI answer: The correct answer is B. Separate students in a different VLAN.
+
+By separating students in a different VLAN, Bob can restrict their access to only the necessary resources and prevent them from connecting their notebooks to the wired network. This will help to avoid any potential malware activities and maintain network security.
+2023-07-31 13:36:10,065 INFO     Question 18: correct.
+2023-07-31 13:36:11,139 INFO     Question 19: correct.
+2023-07-31 13:36:12,452 INFO     Question 20: correct.
+2023-07-31 13:36:13,553 INFO     Question 21: correct.
+2023-07-31 13:36:14,962 INFO     Question 22: correct.
+2023-07-31 13:36:16,025 INFO     Question 23: correct.
+2023-07-31 13:36:18,063 INFO     Question 24: correct.
+2023-07-31 13:36:22,088 INFO     Question 25: incorrect. correct answer: B, AI answer: The best Nmap command to quickly enumerate all machines in the same network would be option A: nmap -T4 -q 10.10.0.0/24. This command uses the -T4 option to set the timing template to aggressive, which speeds up the scanning process. The -q option is used to suppress normal output and only display the results. The IP address range 10.10.0.0/24 specifies the network range to scan.
+2023-07-31 13:36:23,345 INFO     Question 26: correct.
+2023-07-31 13:36:25,224 INFO     Question 27: correct.
+2023-07-31 13:36:26,428 INFO     Question 28: correct.
+2023-07-31 13:36:28,168 INFO     Question 29: correct.
+2023-07-31 13:36:29,562 INFO     Question 30: correct.
+2023-07-31 13:36:30,668 INFO     Question 31: correct.
+2023-07-31 13:36:31,726 INFO     Question 32: correct.
+2023-07-31 13:36:32,971 INFO     Question 33: correct.
+2023-07-31 13:36:34,525 INFO     Question 34: correct.
+2023-07-31 13:36:35,601 INFO     Question 35: correct.
+2023-07-31 13:36:36,920 INFO     Question 36: incorrect. correct answer: B, AI answer: D. He can open it and read the user ids and corresponding passwords.
+2023-07-31 13:36:39,610 INFO     Question 37: incorrect. correct answer: B, AI answer: C. The gateway and the computer are not on the same network.
+2023-07-31 13:36:40,594 INFO     Question 38: incorrect. correct answer: B, AI answer: D. Scanning
+2023-07-31 13:36:42,538 INFO     Question 39: incorrect. correct answer: C, AI answer: The correct answers are:
+
+A. This is ACK scan. ACK flag is set.
+D. This is SYN scan. SYN flag is set.
+2023-07-31 13:36:44,045 INFO     Question 40: correct.
+2023-07-31 13:36:45,205 INFO     Question 41: correct.
+2023-07-31 13:36:46,248 INFO     Question 42: correct.
+2023-07-31 13:36:47,337 INFO     Question 43: correct.
+2023-07-31 13:36:48,606 INFO     Question 44: correct.
+2023-07-31 13:36:49,810 INFO     Question 45: correct.
+2023-07-31 13:36:51,109 INFO     Question 46: correct.
+38/53
+2023-07-31 13:36:51,612 INFO     Ai correct rate: 71.69811320754717 

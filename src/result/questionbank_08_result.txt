@@ -1,0 +1,60 @@
+2023-07-31 13:21:09,350 INFO     Question 1: incorrect. correct answer: B, AI answer: C. Piggybacking
+2023-07-31 13:21:11,798 INFO     Question 2: correct.
+2023-07-31 13:21:12,912 INFO     Question 3: incorrect. correct answer: A, AI answer: C. Illegal/Logically Incorrect Query
+2023-07-31 13:21:13,991 INFO     Question 4: correct.
+2023-07-31 13:21:16,056 INFO     Question 5: correct.
+2023-07-31 13:21:17,343 INFO     Question 6: correct.
+2023-07-31 13:21:18,597 INFO     Question 7: incorrect. correct answer: B, AI answer: The correct answer is D. c:\services.msc.
+2023-07-31 13:21:19,636 INFO     Question 8: correct.
+2023-07-31 13:21:20,653 INFO     Question 9: correct.
+2023-07-31 13:21:21,861 INFO     Question 10: correct.
+2023-07-31 13:21:22,877 INFO     Question 11: correct.
+2023-07-31 13:21:24,234 INFO     Question 12: correct.
+2023-07-31 13:21:25,425 INFO     Question 13: correct.
+2023-07-31 13:21:26,566 INFO     Question 14: correct.
+2023-07-31 13:21:27,693 INFO     Question 15: correct.
+2023-07-31 13:21:29,282 INFO     Question 16: correct.
+2023-07-31 13:21:37,348 INFO     Question 17: incorrect. correct answer: B, AI answer: The recommended architecture in terms of server placement for deploying a new web-based software package for an organization is option B: A web server facing the Internet, an application server on the internal network, and a database server on the internal network.
+
+This architecture follows the principle of separating the different components of the software package for security and scalability purposes. The web server, which handles the incoming requests from the Internet, should be placed in a DMZ (Demilitarized Zone) to provide a layer of protection between the Internet and the internal network.
+
+The application server, which processes the business logic and handles the application's functionality, should be placed on the internal network. This ensures that the sensitive application code and data are not directly exposed to the Internet.
+
+The database server, which stores and manages the application's data, should also be placed on the internal network. This provides an additional layer of security and control over the data, as it is not directly accessible from the Internet.
+
+By separating the servers and placing them in different network zones, organizations can better control access, secure sensitive data, and scale their infrastructure as needed.
+2023-07-31 13:21:41,803 INFO     Question 18: incorrect. correct answer: D, AI answer: C. The ACL for FTP must be before the ACL 110.
+
+The current configuration is denying all traffic by default because there is no explicit permit statement. The ACL 110 is currently placed before the ACL for FTP, which means that it is denying all traffic, including FTP traffic, before it can reach the FTP ACL. 
+
+To fix this issue, the ACL for FTP should be placed before ACL 110 so that FTP traffic can be permitted before it is denied by ACL 110.
+2023-07-31 13:21:43,125 INFO     Question 19: correct.
+2023-07-31 13:21:44,214 INFO     Question 20: correct.
+2023-07-31 13:21:48,304 INFO     Question 21: correct.
+2023-07-31 13:21:49,348 INFO     Question 22: correct.
+2023-07-31 13:21:50,755 INFO     Question 23: correct.
+2023-07-31 13:21:51,851 INFO     Question 24: correct.
+2023-07-31 13:21:53,019 INFO     Question 25: correct.
+2023-07-31 13:21:53,528 INFO     Question 26 got problem: None.
+2023-07-31 13:21:54,118 INFO     Question 27: correct.
+2023-07-31 13:21:55,655 INFO     Question 28: correct.
+2023-07-31 13:21:56,736 INFO     Question 29: correct.
+2023-07-31 13:21:58,034 INFO     Question 30: correct.
+2023-07-31 13:21:59,658 INFO     Question 31: correct.
+2023-07-31 13:22:00,904 INFO     Question 32: correct.
+2023-07-31 13:22:02,123 INFO     Question 33: correct.
+2023-07-31 13:22:04,067 INFO     Question 34: correct.
+2023-07-31 13:22:05,362 INFO     Question 35: correct.
+2023-07-31 13:22:06,683 INFO     Question 36: correct.
+2023-07-31 13:22:07,732 INFO     Question 37: incorrect. correct answer: B, AI answer: C. TCP ping
+2023-07-31 13:22:08,874 INFO     Question 38: correct.
+2023-07-31 13:22:10,207 INFO     Question 39: correct.
+2023-07-31 13:22:11,684 INFO     Question 40: correct.
+2023-07-31 13:22:12,914 INFO     Question 41: correct.
+2023-07-31 13:22:14,374 INFO     Question 42: correct.
+2023-07-31 13:22:16,775 INFO     Question 43: correct.
+2023-07-31 13:22:24,489 INFO     Question 44: correct.
+2023-07-31 13:22:25,474 INFO     Question 45: incorrect. correct answer: C, AI answer: D. Authentication
+2023-07-31 13:22:26,613 INFO     Question 46: correct.
+38/46
+2023-07-31 13:22:27,116 INFO     Ai correct rate: 82.6086956521739 

@@ -47,6 +47,10 @@ Answer:A
 | 7    | Yeahhub CTF-repo: Certified Ethical Hacker 2021 v10 exam part (1-2) | questionbank_08.txt    | 38                   | 46                 | 82.60 %                      |
 | 8    | Yeahhub CTF-repo: Certified Ethical Hacker 2021 v10 exam part (3-4) | questionbank_09.txt    | 38                   | 53                 | 71.69%                       |
 | 9    | Yeahhub CTF-repo: Certified Ethical Hacker 2021 v10 exam part (5-6) | questionbank_10.txt    | 31                   | 62                 | 50.0%                        |
+| 10   | Yeahhub CTF-repo: Certified Ethical Hacker 2021 v10 exam part (7-8) | questionbank_11.txt    | 38                   | 45                 | 84.44%                       |
+| 11   | Yeahhub CTF-repo: Certified Ethical Hacker 2021 v10 exam part (9-10) | questionbank_12.txt    | 35                   | 45                 | 77.77%                       |
+| 12   | Yeahhub CTF-repo: Certified Ethical Hacker 2021 v10 exam part (11-12) | questionbank_13.txt    | 36                   | 46                 | 78.26%                       |
+| 13   | Yeahhub CTF-repo: Certified Ethical Hacker 2021 v10 exam part (13-14) | questionbank_14.txt    | 32                   | 44                 | 72.72 %                      |
 
 
 
