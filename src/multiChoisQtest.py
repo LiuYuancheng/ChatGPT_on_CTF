@@ -1,32 +1,30 @@
 
 #!/usr/bin/python
 #-----------------------------------------------------------------------------
-# Name:        mutlitchoiceQtester
+# Name:        multi-choice-CTF-question-tester
 #
-# Purpose:     This module is used to test the OpenAI's question answer correct 
-#              rate to answer the noraml mutliple-cyber-sercurity-qesution which
-#              may appear in the CTF event  
+# Purpose:     This module is used to test the OpenAI's question solving correctness
+#              rate of the normal multiple choice cyber-security questions which may 
+#              appear in the CTF event.
 #              
 # Author:      Yuancheng Liu
 #
-# Created:     2023/07/2
+# Created:     2023/07/28
 # Version:     v_0.1
 # Copyright:   n.a
 # License:     n.a
 #-----------------------------------------------------------------------------
+
 import os
-import sys
 import time
 import ConfigLoader
 
 import openai
 
-
 print("Current working directory is : %s" % os.getcwd())
 DIR_PATH = dirpath = os.path.dirname(__file__)
 print("Current source code location : %s" % dirpath)
 APP_NAME = ('OpenAI', 'ctf_mq')
-
 TOPDIR = 'src'
 
 #-----------------------------------------------------------------------------
@@ -46,7 +44,7 @@ if iConfigLoader is None:
     exit()
 CONFIG_DICT = iConfigLoader.getJson()
 
-# set OpenAI's config
+# Set OpenAI's config
 openai.api_key = CONFIG_DICT['API_KEY']
 AI_MODEL = CONFIG_DICT['AI_MODEL']
 
@@ -100,7 +98,6 @@ for i in range(count):
     if (answer[0].lower() == answerList[i]) or \
         answerList[i]+')' in answer or \
         answerList[i]+'.' in answer:
-
         correctCount+=1
         Log.info('Question %s: correct.' %str(i+1))
     else:
