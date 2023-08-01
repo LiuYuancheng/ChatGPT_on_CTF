@@ -1,0 +1,312 @@
+# Certified Ethical Hacker 2021 v10 part (13-14)
+# from yeahhub CTF-repo: https://www.yeahhub.com/category/ctf-challenges/
+# part 1: https://www.yeahhub.com/certified-ethical-hacker-v10-multiple-choice-questions-answers-part-13/
+# part 2: https://www.yeahhub.com/certified-ethical-hacker-v10-multiple-choice-questions-answers-part-14/
+
+Question:Which of the following is the successor of SSL?
+A. GRE
+B. IPSec
+C. RSA
+D. TLS
+Answer:D
+
+Question:This international organization regulates billions of transactions daily and provides security guidelines to protect personally identifiable information (PII). These security controls provide a baseline and prevent low-level hackers sometimes known as script kiddies from causing a data breach. Which of the following organization is being described?
+A. Institute of Electrical and Electronics Engineers(IEEE)
+B. International Security Industry Organization (ISIO)
+C. Center for Disease Control (CDC)
+D. Payment Card Industry (PCI)
+Answer:D
+
+Question:Which of the following DoS tools is used to attack target web applications by starvation of available sessions on the web server? The tool keeps sessions at halt using never-ending POST transmissions and sending an arbitrarily large content-length header value.
+A. Stacheldraht
+B. LOIC
+C. R-U-Dead-Yet? (RUDY)
+D. MyDoom
+Answer:C
+
+Question:WPA2 uses AES for wireless data encryption at which of the following encryption levels?
+A. 64 bit and CCMP
+B. 128 bit and CRC
+C. 128 bit and CCMP
+D. 128 bi and TKIP
+Answer:C
+
+Question:You are tasked to configure the DHCP server to lease the last 100 usable IP addresses in subnet 10.1.4.0/23. Which of the following IP addresses could be leased as a result of the new configuration?
+A. 10.1.4.254
+B. 10.1.255.200
+C. 10.1.5.200
+D. 10.1.4.156
+Answer:C
+
+Question:Your company was hired by a small healthcare provider to perform a technician assessment on the network. What is the best approach for discovering vulnerabilities on a Windows-based computer?
+A. Create a disk image of a clean Windows installation
+B. Use the built-in Windows Update tool
+C. Use a scan tool like Nessus
+D. Check MITRE.org for the latest list of CVE findings
+Answer:C
+
+Question:You are analyzing a traffic on the network with Wireshark. You want to routinely run a cron job which will run the capture against a specific set of IPs.   192.168.8.0/24. What command you would use?
+A. tshark  net 192.255.255.255 mask 192.168.8.0
+B. wireshark  capture  local  masked 192.168.8.0  range 24
+C. sudo tshark  f  net 192.168.8.0/24 
+D. wireshark  fetch  192.168.8/* 
+Answer:B
+
+Question:Initiating an attack against targeted business and organizations, threat actors compromise a carefully selected website by inserting an exploit resulting in malware infection. The attackers run exploits on well-known and trusted sites likely to be visited by their targeted victims. Aside from carefully choosing sites to compromise, these attacks are known to incorporate zero-day exploits that target unpatched vulnerabilities. Thus, the targeted entities are left with little or no defense against these exploits. What type of attack is outlined in the scenario?
+A. Heartbeat Attack
+B. Spear Phishing Attack
+C. Shellshock Attack
+D. Watering Hole Attack
+Answer:D
+
+Question:What kind of detection techniques is being used in antivirus software that identifies malware by collecting data from multiple protected systems and instead of analyzing files locally it s made on the provider s environment?
+A. Behavioral based
+B. Heuristics based
+C. Honypot based
+D. Cloud based
+Answer:D
+
+Question:Which of these options is the most secure procedure for storing backup tapes?
+A. In a climate controlled facility offsite
+B. In a cool dry environment
+C. On a different floor in the same building
+D. Inside the data center for faster retrieval in a fireproof safe
+Answer:A
+
+Question:Which security strategy requires using several, varying methods to protect IT systems against attacks?
+A. Defense in depth
+B. Covert channels
+C. Exponential backoff algorithm
+D. Three-way handshake
+Answer:A
+
+Question:Which utility will tell you in real time which ports are listening or in another state?
+A. Netsat
+B. Loki
+C. Nmap
+D. TCPView
+Answer:D
+
+Question:Which of the following statements regarding ethical hacking is incorrect?
+A. An organization should use ethical hackers who do not sell vendor hardware/software or other consulting services
+B. Ethical hackers should never use tools or methods that have the potential of exploiting vulnerabilities in an organization s systems
+C. Ethical hacking should not involve writing to or modifying the target systems.
+D. Testing should be remotely performed offsite.
+Answer:B
+
+Question:A common cryptographical tool is the use of XOR. XOR the following binary values: 10110001 00111010
+A. 10011101
+B. 10001011
+C. 10111100
+D. 11011000
+Answer:B
+
+Question:Why containers are less secure than virtual machines?
+A. Host OS on containers has a larger surface attack.
+B. Containers are attached to the same virtual network.
+C. Containers may fulfill disk space of the host.
+D. A compromise container may cause a CPU starvation of the host.
+Answer:D
+
+Question:Which of the following is a component of a risk assessment?
+A. Administrative safeguards
+B. Physical security
+C. Logical interface
+D. DMZ
+Answer:A
+
+Question:Which of the following is the structure designed to verify and authenticate the identity of individuals within the enterprise taking part in a data exchange?
+A. PKI
+B. SOA
+C. biometrics
+D. single sign on
+Answer:A
+
+Question:You are monitoring the network of your organizations. You notice that:1. There are huge outbound connections from your Internal Network to External IPs2. On further investigation, you see that the external IPs are blacklisted3. Some connections are accepted, and some are dropped4. You find that it is a CnC communicationWhich of the following solution will you suggest?
+A. Block the Blacklist IP s @ Firewall
+B. Update the Latest Signatures on your IDS/IPS
+C. Clean the Malware which are trying to Communicate with the External Blacklist IP s
+D. Block the Blacklist IP s @ Firewall as well as Clean the Malware which are trying to Communicate with the External Blacklist IP s.
+Answer:D
+
+Question:Peter is surfing the internet looking for information about DX Company. Which hacking process is Peter doing?
+A. Scanning
+B. Footprinting
+C. Enumeration
+D. System Hacking
+Answer:B
+
+Question:Jim s company regularly performs backups of their critical servers. But the company cannot afford to send backup tapes to an off-site vendor for long-term storage and archiving. Instead, Jim s company keeps the backup tapes in a safe in the office. Jim s company is audited each year, and the results from this year s audit show a risk because backup tapes are not stored off-site. The Manager of Information Technology has a plan to take the backup tapes home with him and wants to know what two things he can do to secure the backup tapes while in transit?
+A. Encrypt the backup tapes and transport them in a lock box.
+B. Degauss the backup tapes and transport them in a lock box.
+C. Hash the backup tapes and transport them in a lock box.
+D. Encrypt the backup tapes and use a courier to transport them.
+Answer:A
+
+Question:A company s policy requires employees to perform file transfers using protocols which encrypt traffic. You suspect some employees are still performing file transfers using unencrypted protocols because the employees do not like changes. You have positioned a network sniffer to capture traffic from the laptops used by employees in the data ingest department. Using Wireshark to examine the captured traffic, which command can be used as display filter to find unencrypted file transfers?
+A. tcp port = = 21
+B. tcp. port = 23
+C. tcp.port = = 21 | | tcp.port = =22
+D. tcp.port ! = 21
+Answer:A
+
+Question:What is the minimum number of network connections in a multihomed firewall?
+A. 3
+B. 2
+C. 5
+D. 4
+Answer:B
+
+Question:Which of the following tools performs comprehensive tests against web servers, including dangerous files and CGIs?
+A. Dsniff
+B. John the Ripper
+C. Snort
+D. Nikto
+Answer:D
+
+Question:Session splicing is an IDS evasion technique in which an attacker delivers data in multiple, smallsized packets to the target computer, making it very difficult for an IDS to detect the attack signatures. Which tool can be used to perform session splicing attacks?
+A. tcpsplice
+B. Burp
+C. Hydra
+D. Whisker
+Answer:D
+
+Question:DHCP snooping is a great solution to prevent rogue DHCP servers on your network. Which security feature on switchers leverages the DHCP snooping database to help prevent man-in-the-middle attacks?
+A. Spanning tree
+B. Dynamic ARP Inspection (DAI)
+C. Port security
+D. Layer 2 Attack Prevention Protocol (LAPP)
+Answer:B
+
+Question:Email is transmitted across the Internet using the Simple Mail Transport Protocol. SMTP does not encrypt email, leaving the information in the message vulnerable to being read by an unauthorized person. SMTP can upgrade a connection between two mail servers to use TLS. Email transmitted by SMTP over TLS is encrypted. What is the name of the command used by SMTP to transmit email over TLS?
+A. OPPORTUNISTICTLS
+B. UPGRADETLS
+C. FORCETLS
+D. STARTTLS
+Answer:D
+
+Question:Hackers often raise the trust level of a phishing message by modeling the email to look similar to the internal email used by the target company. This includes using logos, formatting, and names of the target company. The phishing message will often use the name of the company CEO, President, or Managers. The time a hacker spends performing research to locate this information about a company is known as?
+A. Exploration
+B. Investigation
+C. Reconnaissance
+D. Enumeration
+Answer:C
+
+Question:Your business has decided to add credit card numbers to the data it backs up to tape. Which of the following represents the best practice your business should observe?
+A. Do not back up either the credit card numbers or their hashes.
+B. Encrypt backup tapes that are sent off-site.
+C. Back up the hashes of the credit card numbers not the actual credit card numbers.
+D. Hire a security consultant to provide direction.
+Answer:D
+
+Question:When you are getting information about a web server, it is very important to know the HTTP Methods (GET, POST, HEAD, PUT, DELETE, TRACE) that are available because there are two critical methods (PUT and DELETE). PUT can upload a file to the server and DELETE can delete a file from the server. You can detect all these methods (GET, POST, HEAD, DELETE, PUT, TRACE) using NMAP script engine. What Nmap script will help you with this task?
+A. http-methods
+B. http enum
+C. http-headers
+D. http-git
+Answer:A
+
+Question:Suppose your company has just passed a security risk assessment exercise. The results display that the risk of the breach in the main company application is 50%. Security staff has taken some measures and implemented the necessary controls. After that, another security risk assessment was performed showing that risk has decreased to 10%. The risk threshold for the application is 20%. Which of the following risk decisions will be the best for the project in terms of its successful continuation with the most business profit?
+A. Accept the risk
+B. Introduce more controls to bring risk to 0%
+C. Mitigate the risk
+D. Avoid the risk
+Answer:A
+
+Question:Which of the following Linux commands will resolve a domain name into IP address?
+A. >host-t a hackeddomain.com
+B. >host-t ns hackeddomain.com
+C. >host -t soa hackeddomain.com
+D. >host -t AXFR hackeddomain.com
+Answer:A
+
+Question:Which of the following is a command line packet analyzer similar to GUI-based Wireshark?
+A. Nessus
+B. Jack the ripper
+C. Tcpdump
+D. Ethereal
+Answer:C
+
+Question:User A is writing a sensitive email message to user B outside the local network. User A has chosen to use PKI to secure his message and ensure only user B can read the sensitive email. At what layer of the OSI layer does the encryption and decryption of the message take place?
+A. Application
+B. Transport
+C. Session
+D. Presentation
+Answer:D
+
+Question:Which of the following steps for risk assessment methodology refers to vulnerability identification?
+A. Assigns values to risk probabilities; Impact values
+B. Determines risk probability that vulnerability will be exploited (High, Medium, Low)
+C. Identifies sources of harm to an IT system (Natural, Human, Environmental)
+D. Determines if any flaws exist in systems, policies, or procedures
+Answer:D
+
+Question:CompanyXYZ has asked you to assess the security of their perimeter email gateway. From your office in New York, you craft a specially formatted email message and send it across the Internet to an employee of CompanyXYZ. The employee of CompanyXYZ is aware of your test. Your email message looks like this:From: jim_miller@companyxyz.comTo: michelle_saunders@companyxyz.comSubject: Test message Date: 4/3/2017 14:37 The employee of CompanyXYZ receives your email message. This proves that CompanyXYZ s email gateway doesn t prevent what?
+A. Email Masquerading
+B. Email Harvesting
+C. Email Phishing
+D. Email Spoofing
+Answer:D
+
+Question:Although FTP traffic is not encrypted by default, which layer 3 protocol would allow for end-to-end encryption of the connection?
+A. IPsec
+B. SFTP
+C. FTPS
+D. SSL
+Answer:A
+
+Question:What is one of the advantages of using both symmetric and asymmetric cryptogrsphy in SSL/TLS?
+A. Supporting both types of algorithms allows less-powerful devices such as mobile phones to use symmetric encryption instead.
+B. Symmetric algorithms such as AES provide a failsafe when asymmetric methods fail.
+C. Symmetric encryption allows the server to security transmit the session keys out-of-band.
+D. Asymmetric cryptography is computationally expensive in comparison. However, it is well-suited to securely negotiate keys for use with symmetric cryptography.
+Answer:D
+
+Question:In the field of cryptanalysis, what is meant by a  rubber-hose  attack?
+A. Forcing the targeted keystream through a hardware-accelerated device such as an ASIC.
+B. A backdoor placed into a cryptographic algorithm by its creator.
+C. Extraction of cryptographic secrets through coercion or torture.
+D. Attempting to decrypt ciphertext by making logical assumptions about the contents of the original plaintext.
+Answer:C
+
+Question:You are a Network Security Officer. You have two machines. The first machine (192.168.0.99) has snort installed, and the second machine (192.168.0.150) has kiwi syslog installed. You perform a syn scan in your network, and you notice that kiwi syslog is not receiving the alert message from snort. You decide to run wireshark in the snort machine to check if the messages are going to the kiwi syslog machine. What Wireshark filter will show the connections from the snort machine to kiwi syslog machine?
+A. tcp.srcport= = 514 && ip.src= = 192.168.0.99
+B. tcp.srcport= = 514 && ip.src= = 192.168.150
+C. tcp.dstport= = 514 && ip.dst= = 192.168.0.99
+D. tcp.dstport= = 514 && ip.dst= = 192.168.0.150
+Answer:D
+
+Question:Which of the following tools can be used for passive OS fingerprinting?
+A. tcpdump
+B. nmap
+C. ping
+D. tracert
+Answer:A
+
+Question:Why is a penetration test considered to be more thorough than vulnerability scan?
+A. Vulnerability scans only do host discovery and port scanning by default.
+B. A penetration test actively exploits vulnerabilities in the targeted infrastructure, while a vulnerability scan does not typically involve active exploitation.
+C. It is not   a penetration test is often performed by an automated tool, while a vulnerability scan requires active engagement.
+D. The tools used by penetration testers tend to have much more comprehensive vulnerability databases.
+Answer:B
+
+Question:Which of the following tools is used to detect wireless LANs using the 802.11 a/b/g/n WLAN standards on a linux platform?
+A. Kismet
+B. Netstumbler
+C. Nessus
+D. Abel
+Answer:A
+
+Question:Which of the following tools is used to analyze the files produced by several packet-capture programs such as tcpdump, WinDump, Wireshark, and EtherPeek?
+A. tcptrace
+B. Nessus
+C. OpenVAS
+D. tcptraceroute
+Answer:A
+
+Question:Which of the following is a low-tech way of gaining unauthorized access to systems?
+A. Scanning
+B. Sniffing
+C. Social Engineering
+D. Eavesdropping
+Answer:D

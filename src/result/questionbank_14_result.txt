@@ -1,0 +1,69 @@
+2023-07-31 15:11:32,551 INFO     Question 1: correct.
+2023-07-31 15:11:34,934 INFO     Question 2: correct.
+2023-07-31 15:11:36,733 INFO     Question 3: correct.
+2023-07-31 15:11:38,449 INFO     Question 4: correct.
+2023-07-31 15:11:45,134 INFO     Question 5: incorrect. correct answer: C, AI answer: The subnet 10.1.4.0/23 has a range of IP addresses from 10.1.4.1 to 10.1.5.254. 
+
+To lease the last 100 usable IP addresses, we need to exclude the first 154 IP addresses (10.1.4.1 to 10.1.4.154) and the broadcast address (10.1.5.255). 
+
+Therefore, the IP addresses that could be leased as a result of the new configuration are:
+
+- 10.1.4.155 to 10.1.5.254
+
+Out of the given options, the only IP address that falls within this range is D. 10.1.4.156.
+2023-07-31 15:11:46,914 INFO     Question 6: correct.
+2023-07-31 15:11:49,051 INFO     Question 7: incorrect. correct answer: B, AI answer: C. sudo tshark f net 192.168.8.0/24
+2023-07-31 15:11:50,974 INFO     Question 8: incorrect. correct answer: D, AI answer: The type of attack outlined in the scenario is a Watering Hole Attack.
+2023-07-31 15:11:52,586 INFO     Question 9: correct.
+2023-07-31 15:11:54,504 INFO     Question 10: correct.
+2023-07-31 15:11:56,072 INFO     Question 11: correct.
+2023-07-31 15:11:57,846 INFO     Question 12: correct.
+2023-07-31 15:12:01,326 INFO     Question 13: correct.
+2023-07-31 15:12:06,851 INFO     Question 14: incorrect. correct answer: B, AI answer: To XOR the binary values 10110001 and 00111010, we perform the XOR operation on each corresponding bit:
+
+1 XOR 0 = 1
+0 XOR 0 = 0
+1 XOR 1 = 0
+1 XOR 1 = 0
+0 XOR 1 = 1
+0 XOR 0 = 0
+0 XOR 1 = 1
+0 XOR 0 = 0
+
+Therefore, the result of XORing the binary values 10110001 and 00111010 is 10011101.
+
+So, the correct answer is A. 10011101.
+2023-07-31 15:12:08,798 INFO     Question 15: incorrect. correct answer: D, AI answer: E. Containers share the same kernel with the host OS.
+2023-07-31 15:12:10,442 INFO     Question 16: correct.
+2023-07-31 15:12:12,245 INFO     Question 17: correct.
+2023-07-31 15:12:14,805 INFO     Question 18: correct.
+2023-07-31 15:12:16,496 INFO     Question 19: correct.
+2023-07-31 15:12:19,482 INFO     Question 20: incorrect. correct answer: A, AI answer: D. Encrypt the backup tapes and use a courier to transport them.
+2023-07-31 15:12:22,820 INFO     Question 21: incorrect. correct answer: A, AI answer: The correct command to use as a display filter to find unencrypted file transfers is D. tcp.port ! = 21. This command filters out all traffic that is not using port 21, which is the standard port for FTP (File Transfer Protocol) that is often used for unencrypted file transfers.
+2023-07-31 15:12:24,363 INFO     Question 22: correct.
+2023-07-31 15:12:25,931 INFO     Question 23: correct.
+2023-07-31 15:12:27,520 INFO     Question 24: incorrect. correct answer: D, AI answer: A. tcpsplice
+2023-07-31 15:12:29,232 INFO     Question 25: correct.
+2023-07-31 15:12:31,252 INFO     Question 26: correct.
+2023-07-31 15:12:32,826 INFO     Question 27: correct.
+2023-07-31 15:12:34,600 INFO     Question 28: incorrect. correct answer: D, AI answer: B. Encrypt backup tapes that are sent off-site.
+2023-07-31 15:12:36,463 INFO     Question 29: correct.
+2023-07-31 15:12:42,312 INFO     Question 30: incorrect. correct answer: A, AI answer: C. Mitigate the risk
+
+Mitigating the risk would involve implementing additional controls to further reduce the risk from 10% to below the risk threshold of 20%. This decision would be the best for the project in terms of its successful continuation with the most business profit because it allows the project to proceed while still maintaining an acceptable level of risk. Accepting the risk would leave the project vulnerable to a breach, which could result in financial loss and damage to the company's reputation. Introducing more controls to bring the risk to 0% may not be feasible or cost-effective, and avoiding the risk would likely require abandoning the project altogether.
+2023-07-31 15:12:44,197 INFO     Question 31: correct.
+2023-07-31 15:12:45,775 INFO     Question 32: correct.
+2023-07-31 15:12:48,490 INFO     Question 33: incorrect. correct answer: D, AI answer: The encryption and decryption of the message would typically take place at the Presentation layer of the OSI model. This layer is responsible for formatting, encrypting, and decrypting data for transmission.
+2023-07-31 15:12:50,395 INFO     Question 34: correct.
+2023-07-31 15:12:52,103 INFO     Question 35: correct.
+2023-07-31 15:12:56,083 INFO     Question 36: correct.
+2023-07-31 15:12:58,643 INFO     Question 37: correct.
+2023-07-31 15:13:00,742 INFO     Question 38: correct.
+2023-07-31 15:13:03,680 INFO     Question 39: correct.
+2023-07-31 15:13:05,295 INFO     Question 40: correct.
+2023-07-31 15:13:07,494 INFO     Question 41: correct.
+2023-07-31 15:13:09,059 INFO     Question 42: correct.
+2023-07-31 15:13:10,695 INFO     Question 43: correct.
+2023-07-31 15:13:12,314 INFO     Question 44: incorrect. correct answer: D, AI answer: C. Social Engineering
+32/44
+2023-07-31 15:13:13,319 INFO     Ai correct rate: 72.72727272727273 

@@ -1,0 +1,326 @@
+# Certified Ethical Hacker 2021 v10 part (11-12)
+# from yeahhub CTF-repo: https://www.yeahhub.com/category/ctf-challenges/
+# part 1: https://www.yeahhub.com/certified-ethical-hacker-v10-multiple-choice-questions-answers-part-11/
+# part 2: https://www.yeahhub.com/certified-ethical-hacker-v10-multiple-choice-questions-answers-part-12/
+
+Question:Which of the following is the least-likely physical characteristic to be used in biometric control that supports a large company?
+A. Voice
+B. Fingerprints
+C. Iris patterns
+D. Height and Weight
+Answer:D
+
+Question:While using your bank 's online servicing you notice the following string in the URL bar:  'http: // www. MyPersonalBank. com/ account?id=368940911028389&Damount=10980&Camount=21 ' You observe that if you modify the Damount & Camount values and submit the request, that data on the web page reflects the changes. Which type of vulnerability is present on this site?
+A. Cookie Tampering
+B. SQL Injection
+C. Web Parameter Tampering
+D. XSS Reflection
+Answer:C
+
+Question:It is an entity or event with the potential to adversely impact a system through unauthorized access, destruction, disclosure, denial of service or modification of data. Which of the following terms best matches the definition?
+A. Attack
+B. Vulnerability
+C. Threat
+D. Risk
+Answer:C
+
+Question:Which of the following is one of the most effective ways to prevent Cross-site Scripting (XSS) flaws in software applications?
+A. Use security policies and procedures to define and implement proper security settings.
+B. Use digital certificates to authenticate a server prior to sending data.
+C. Validate and escape all information sent to a server.
+D. Verify access right before allowing access to protected information and UI controls.
+Answer:C
+
+Question:Gavin owns a white-hat firm and is performing a website security audit for one of his clients. He begins by running a scan which looks for common misconfigurations and outdated software versions. Which of the following tools is he most likely using?
+A. Armitage
+B. Nikto
+C. Metasploit
+D. Nmap
+Answer:B
+
+Question:Matthew, a black hat, has managed to open a meterpreter session to one of the kiosk machines in Evil Corp 's lobby. He checks his current SID, which is S-1-5-21-1223352397-1872883824-861252104-501. What needs to happen before Matthew has full administrator access?
+A. He needs to gain physical access.
+B. He must perform privilege escalation.
+C. He already has admin privileges, as shown by the  '501 ' at the end of the SID.
+D. He needs to disable antivirus protection.
+Answer:B
+
+Question:Elliot is in the process of exploiting a web application that uses SQL as a back-end database. He is determined that the application is vulnerable to SQL injection and has introduced conditional timing delays into injected queries to determine whether they are successful. What type of SQL injection is Elliot most likely performing?
+A. NoSQL injection
+B. Blind SQL injection
+C. Union-based SQL injection
+D. Error-based SQL injection
+Answer:B
+
+Question:You have successfully logged on a Linux system. You want to now cover your track. Your login attempt may be logged on several files located in /var/log. Which file does NOT belong to the list:
+A. wtmp
+B. user.log
+C. btmp
+D. auth.log
+Answer:B
+
+Question:When you return to your desk after a lunch break, you notice a strange email in your inbox. The sender is someone you did business with recently, but the subject line has strange characters in it. What should you do?
+A. Forward the message to your company 's security response team and permanently delete the message from your computer.
+B. Reply to the sender and ask them for more information about the message contents.
+C. Delete the email and pretend nothing happened.
+D. Forward the message to your supervisor and ask for her opinion on how to handle the situation.
+Answer:A
+
+Question:The  'Gray-box testing ' methodology enforces what kind of restriction?
+A. Only the internal operation of a system is known to the tester.
+B. The internal operation of a system is completely known to the tester.
+C. The internal operation of a system is only partly accessible to the tester.
+D. Only the external operation of a system is accessible to the tester.
+Answer:C
+
+Question:Log monitoring tools performing behavioral analysis have alerted several suspicious logins on a Linux server occuring during non-business hours. After further examination of all login activities, it is notices that none of the logins have occurred during typical work hours. A Linux administrator who is investigating this problem realized the system time on the Linux server is wrong by more than twelve hours. What protocol used on Linux serves to synchronize the time has stopped working?
+A. NTP
+B. TimeKeeper
+C. OSPF
+D. PPP
+Answer:A
+
+Question:The  'black box testing ' methodology enforces what kind of restriction?
+A. Only the internal operation of a system is known to the tester.
+B. The internal operation of a system is completely known to the tester.
+C. The internal operation of a system is only partly accessible to the tester.
+D. Only the external operation of a system is accessible to the tester.
+Answer:D
+
+Question:>NMAP  'sn 192.168.11.200-215 The NMAP command above performs which of the following?
+A. A port scan
+B. A ping scan
+C. An operating system detect
+D. A trace sweep
+Answer:B
+
+Question:An LDAP directory can be used to store information similar to a SQL database. LDAP uses a ____ database structure instead of SQL 's ______ structure. Because of this, LDAP has difficulty representing many-to-one relationships.
+A. Strict, Abstract
+B. Simple, Complex
+C. Relational, Hierarchical
+D. Hierarchical, Relational
+Answer:D
+
+Question:What is the purpose of DNS AAAA record?
+A. Address prefix record
+B. Address database record
+C. Authorization, Authentication and Auditing record
+D. IPv6 address resolution record
+Answer:D
+
+Question:Which of the following statements is FALSE with respect to Intrusion Detection Systems?
+A. Intrusion Detection Systems can easily distinguish a malicious payload in an encrypted traffic
+B. Intrusion Detection Systems can examine the contents of the data in context of the network protocol
+C. Intrusion Detection Systems can be configured to distinguish specific content in network packets
+D. Intrusion Detection Systems require constant update of the signature library
+Answer:A
+
+Question:You are performing a penetration test for a client and have gained shell access to a Windows machine on the internal network. You intend to retrieve all DNS records for the internal domain. If the DNS server is at 192.168.10.2 and the domain name is abccorp.local, what command would you type at the nslookup prompt to attempt a zone transfer?
+A. list domain=abccorp.local type=zone
+B. Is  'd accorp.local
+C. list server=192.168.10.2 type=all
+D. Iserver 192.168.10.2  't all
+Answer:B
+
+Question:Which command can be used to show the current TCP/IP connections?
+A. Netsh
+B. Net use connection
+C. Netstat
+D. Net use
+Answer:C
+
+Question:You are performing information gathering for an important penetration test. You have found pdf, doc, and images in your objective. You decide to extract metadata from these files and analyze it. What tool will help you with the task?
+A. Armitage
+B. DMitry
+C. Metagoofil
+D. cdpsnarf
+Answer:C
+
+Question:You have several plain-text firewall logs that you must review to evaluate network traffic. You know that in order to do fast, efficient searches of the logs you must use regular expressions. Which command-line utility are you most likely to use?
+A. Relational Database
+B. MS Excel
+C. Notepad
+D. Grep
+Answer:D
+
+Question:This phase will increase the odds of success in later phases of the penetration test. It is also the very first step in Information Gathering and it will tell you the  'landscape ' looks like. What is the most important phase of ethical hacking in which you need to spend a considerable amount of time?
+A. network mapping
+B. footprinting
+C. escalating privileges
+D. gaining access
+Answer:B
+
+Question:When you are collecting information to perform a data analysis, Google commands are very useful to find sensitive information and files. These files may contain information about passwords, system functions, or documentation. What command will help you to search files using Google as a search engine?
+A. site: target.com filetype:xls username password email
+B. domain: target.com archieve:xls username password email
+C. inurl: target.com filename:xls username password email
+D. site: target.com file:xls username password email
+Answer:A
+
+Question:You have successfully gained access to your client 's internal network and successfully comprised a Linux server which is part of the internal IP network. You want to know which Microsoft Windows workstations have file sharing enabled. Which port would you see listening on these Windows machines in the network?
+A. 161
+B. 3389
+C. 445
+D. 1433
+Answer:C
+
+Question:Which of the following is assured by the use of a hash?
+A. Authentication
+B. Confidentially
+C. Availability
+D. Integrity
+Answer:D
+
+Question:Risks=Threats x Vulnerabilities is referred to as the:
+A. BIA equation
+B. Disaster recovery formula
+C. Risk equation
+D. Threat assessment
+Answer:C
+
+Question:The tools which receive event logs from servers, network equipment, and applications, and perform analysis and correlation on those logs, and can generate alarms for security relevant issues, are known as what?
+A. Network Sniffer
+B. Vulnerability Scanner
+C. Intrusion Prevention Server
+D. Security Incident and Event Monitoring
+Answer:D
+
+Question:You have just been hired to perform a pen test on an organization that has been subjected to a large-scale attack. The CIO is concerned with mitigating threats and vulnerabilities to totally eliminate risk. What is one of the first things you should do when given the job?
+A. Establish attribution to suspected attackers
+B. Interview all employees in the company to rule out possible insider threats
+C. Explain to the CIO that you cannot eliminate all risk, but you will be able to reduce risk to acceptable levels.
+D. Start the wireshark application to start sniffing network traffic.
+Answer:C
+
+Question:The purpose of a _______is to deny network access to local area networks and other information assets by unauthorized wireless devices.
+A. Wireless Analyzer
+B. Wireless Jammer
+C. Wireless Access Point
+D. Wireless Access Control List
+Answer:D
+
+Question:What does the  'oX flag do in an Nmap scan?
+A. Perform an Xmas scan
+B. Perform an eXpress scan
+C. Output the results in truncated format to the screen
+D. Output the results in XML format to a file
+Answer:D
+
+Question:During an Xmas scan, what indicates a port is closed?
+A. RST
+B. SYN
+C. ACK
+D. No return response
+Answer:A
+
+Question:While performing online banking using a Web browser, a user receives an email that contains a link to an interesting Web site. When the user clicks on the link, another Web browser session starts and displays a video of cats playing a piano. The next business day, the user receives what looks like an email from his bank, indicating that his bank account has been accessed from a foreign country. The email asks the user to call his bank and verify the authorization of a funds transfer that took place. What Web browser-based security vulnerability was exploited to compromise the user?
+A. Clickjacking
+B. Cross-Site Scripting
+C. Cross-Site Request Forgery
+D. Web form input validation
+Answer:C
+
+Question:Tremp is an IT Security Manager, and he is planning to deploy an IDS in his small company. He is looking for an IDS with the following characteristics: -Verifies success or failure of an attack  ' Monitors system activities  ' Detects attacks that a network-based IDS fails to detect.  ' Near real-time detection and response  ' Does not require additional hardware  ' Lower entry cost. Which type of IDS is best suited for Tremp 's requirements?
+A. Network-based IDS
+B. Open source-based IDS
+C. Host-based IDS
+D. Gateway-based IDS
+Answer:C
+
+Question:Which of the following parameters describe LM Hash: I  ' The maximum password length is 14 characters II  ' There are no distinctions between uppercase and lowercase III  ' The password is split into two 7-byte halves
+A. II
+B. I
+C. I, II, and III
+D. I and II
+Answer:C
+
+Question:Which of the following is not a Bluetooth attack?
+A. Bluesnarfing
+B. Bluedriving
+C. Bluesmacking
+D. Bluejacking
+Answer:B
+
+Question:The Open Web Application Security Project (OWASP) is the worldwide not-for-profit charitable organization focused on improving the security of software. What item is the primary concern on OWASP 's Top Ten Project Most Critical Web Application Security Risks?
+A. Cross Site Scripting
+B. Injection
+C. Path disclosure
+D. Cross Site Request Forgery
+Answer:B
+
+Question:A pen-tester is configuring a Windows laptop for a test. In setting up Wireshark, what river and library are required to allow the NIC to work in promiscuous mode?
+A. Winprom
+B. Libpcap
+C. Winpsw
+D. Winpcap
+Answer:D
+
+Question:Analyst is investigating proxy logs and found out that one of the internal user visited website storing suspicious java scripts. After opening one of them, he noticed that it is very hard to understand the code and that all codes differ from the typical java script. What is the name of this technique to hide the code and extend analysis time?
+A. Steganography
+B. Code encoding
+C. Obfuscation
+D. Encryption
+Answer:C
+
+Question:During the security audit of IT processes, an IS auditor found that there were no documented security procedures. What should the IS auditor do?
+A. Create a procedures document
+B. Terminate the audit
+C. Conduct compliance testing
+D. Identify and evaluate existing practices
+Answer:D
+
+Question:You just set up a security system in your network. In what kind of system would you find the following string of characters used as a rule within its configuration? alert tcp any any -> 192.168.100.0/24 21 (msg: ' 'FTP on the network! ' ';)
+A. A firewall IPTable
+B. FTP Server rule
+C. A Router IPTable
+D. An Intrusion Detection System
+Answer:D
+
+Question:While scanning with Nmap, Patin found several hosts which have the IP ID of incremental sequences. He then decided to conduct: nmap  'Pn  'p  'sl kiosk.adobe.com www.riaa.com kiosk.adobe.com is the host with incremental IP ID sequence. What is the purpose of using  '-sl ' with Nmap?
+A. Conduct stealth scan
+B. Conduct ICMP scan
+C. Conduct IDLE scan
+D. Conduct silent scan
+Answer:C
+
+Question:What is the process of logging, recording, and resolving events that take place in an organization?
+A. Incident Management Process
+B. Security Policy
+C. Internal Procedure
+D. Metrics
+Answer:A
+
+Question:During a black-box pen test you attempt to pass IRC traffic over port 80/TCP from a compromised web enabled host. The traffic gets blocked; however, outbound HTTP traffic is unimpeded. What type of firewall is inspecting outbound traffic?
+A. Circuit
+B. Stateful
+C. Application
+D. Packet Filtering
+Answer:C
+
+Question:The change of a hard drive failure is once every three years. The cost to buy a new hard drive is $300. It will require 10 hours to restore the OS and software to the new hard disk. It will require a further 4 hours to restore the database from the last backup to the new hard disk. The recovery person earns $10/hour. Calculate the SLE, ARO, and ALE. Assume the EF = 1(100%). What is the closest approximate cost of this replacement and recovery operation per year?
+A. $1320
+B. $440
+C. $100
+D. $146
+Answer:D
+
+Question:Which of the following is an extremely common IDS evasion technique in the web world?
+A. Unicode Characters
+B. Subnetting
+C. Port Knocking
+D. Spyware
+Answer:A
+
+Question:You are attempting to man-in-the-middle a session. Which protocol will allow you to guess a sequence number?
+A. ICMP
+B. TCP
+C. UPX
+D. UPD
+Answer:B
+
+Question:What is a  'Collision attack ' in cryptography?
+A. Collision attacks try to get the public key
+B. Collision attacks try to break the hash into three parts to get the plaintext value
+C. Collision attacks try to break the hash into two parts, with the same bytes in each part to get the private key
+D. Collision attacks try to find two inputs producing the same hash
+Answer:D

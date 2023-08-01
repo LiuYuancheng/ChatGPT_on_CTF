@@ -1,0 +1,62 @@
+2023-07-31 14:39:51,312 INFO     Question 1: correct.
+2023-07-31 14:39:53,902 INFO     Question 2: correct.
+2023-07-31 14:39:55,583 INFO     Question 3: correct.
+2023-07-31 14:39:57,352 INFO     Question 4: correct.
+2023-07-31 14:40:00,126 INFO     Question 5: correct.
+2023-07-31 14:40:01,809 INFO     Question 6: correct.
+2023-07-31 14:40:03,480 INFO     Question 7: correct.
+2023-07-31 14:40:05,035 INFO     Question 8: correct.
+2023-07-31 14:40:07,199 INFO     Question 9: correct.
+2023-07-31 14:40:09,268 INFO     Question 10: correct.
+2023-07-31 14:40:10,862 INFO     Question 11: correct.
+2023-07-31 14:40:13,071 INFO     Question 12: correct.
+2023-07-31 14:40:14,911 INFO     Question 13: incorrect. correct answer: B, AI answer: The NMAP command above performs a ping scan.
+2023-07-31 14:40:16,543 INFO     Question 14: correct.
+2023-07-31 14:40:18,228 INFO     Question 15: correct.
+2023-07-31 14:40:20,071 INFO     Question 16: correct.
+2023-07-31 14:40:22,332 INFO     Question 17: incorrect. correct answer: B, AI answer: The correct command to attempt a zone transfer in nslookup would be:
+
+C. list server=192.168.10.2 type=all
+2023-07-31 14:40:23,891 INFO     Question 18: correct.
+2023-07-31 14:40:25,934 INFO     Question 19: correct.
+2023-07-31 14:40:27,575 INFO     Question 20: correct.
+2023-07-31 14:40:31,894 INFO     Question 21: correct.
+2023-07-31 14:40:33,709 INFO     Question 22: incorrect. correct answer: A, AI answer: The correct answer is D. site: target.com file:xls username password email.
+2023-07-31 14:40:35,893 INFO     Question 23: correct.
+2023-07-31 14:40:37,414 INFO     Question 24: correct.
+2023-07-31 14:40:39,430 INFO     Question 25: correct.
+2023-07-31 14:40:41,015 INFO     Question 26: correct.
+2023-07-31 14:40:44,633 INFO     Question 27: correct.
+2023-07-31 14:40:46,195 INFO     Question 28: incorrect. correct answer: D, AI answer: B. Wireless Jammer
+2023-07-31 14:40:47,886 INFO     Question 29: correct.
+2023-07-31 14:40:49,449 INFO     Question 30: incorrect. correct answer: A, AI answer: D. No return response
+2023-07-31 14:40:51,073 INFO     Question 31: incorrect. correct answer: C, AI answer: A. Clickjacking
+2023-07-31 14:40:52,748 INFO     Question 32: correct.
+2023-07-31 14:40:54,531 INFO     Question 33: correct.
+2023-07-31 14:40:56,170 INFO     Question 34: correct.
+2023-07-31 14:40:57,966 INFO     Question 35: incorrect. correct answer: B, AI answer: A. Cross Site Scripting
+2023-07-31 14:40:59,545 INFO     Question 36: correct.
+2023-07-31 14:41:01,092 INFO     Question 37: correct.
+2023-07-31 14:41:04,894 INFO     Question 38: correct.
+2023-07-31 14:41:06,586 INFO     Question 39: correct.
+2023-07-31 14:41:08,906 INFO     Question 40: incorrect. correct answer: C, AI answer: The purpose of using '-sl' with Nmap is to conduct a stealth scan.
+2023-07-31 14:41:10,565 INFO     Question 41: incorrect. correct answer: A, AI answer: E. Audit Trail
+2023-07-31 14:41:12,078 INFO     Question 42: correct.
+2023-07-31 14:41:19,784 INFO     Question 43: incorrect. correct answer: D, AI answer: To calculate the Single Loss Expectancy (SLE), we multiply the cost of a single loss event by the exposure factor (EF). In this case, the cost of a single loss event is the cost to buy a new hard drive, which is $300. The EF is given as 1 (100%), so the SLE is:
+
+SLE = $300 * 1 = $300
+
+The Annual Rate of Occurrence (ARO) is the number of times the loss event occurs in a year. In this case, the hard drive failure occurs once every three years, so the ARO is:
+
+ARO = 1 / 3 = 0.33
+
+The Annual Loss Expectancy (ALE) is the expected cost of the loss event per year. It is calculated by multiplying the SLE by the ARO. In this case, the ALE is:
+
+ALE = $300 * 0.33 = $99
+
+The closest approximate cost of this replacement and recovery operation per year is $99. Therefore, the correct answer is C. $100.
+2023-07-31 14:41:21,296 INFO     Question 44: correct.
+2023-07-31 14:41:22,783 INFO     Question 45: correct.
+2023-07-31 14:41:24,652 INFO     Question 46: correct.
+36/46
+2023-07-31 14:41:25,655 INFO     Ai correct rate: 78.26086956521739 
