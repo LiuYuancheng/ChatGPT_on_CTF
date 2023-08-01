@@ -1,0 +1,319 @@
+# Certified Ethical Hacker 2021 v10 part (9-10)
+# from yeahhub CTF-repo: https://www.yeahhub.com/category/ctf-challenges/
+# part 1: https://www.yeahhub.com/certified-ethical-hacker-v10-multiple-choice-questions-answers-part-9/
+# part 2: https://www.yeahhub.com/certified-ethical-hacker-v10-multiple-choice-questions-answers-part-10/
+
+Question:What is the role of test automation in security testing?
+A. It is an option but it tends to be very expensive.
+B. It should be used exclusively. Manual testing is outdated because of low speed and possible test setup inconsistencies.
+C. Test automation is not usable in security due to the complexity of the tests.
+D. It can accelerate benchmark tests and repeat them with a consistent test setup. But it cannot replace manual testing completely.
+Answer:D
+
+Question:A hacker has successfully infected an internet-facing server which he will then use to send junk mail, take part in coordinated attacks, or host junk email content. Which sort of trojan infects this server?
+A. Botnet Trojan
+B. Turtle Trojans
+C. Banking Trojans
+D. Ransomware Trojans
+Answer:A
+
+Question:In order to have an anonymous Internet surf, which of the following is best choice?
+A. Use SSL sites when entering personal information
+B. Use Tor network with multi-node
+C. Use shared WiFi
+D. Use public VPN
+Answer:B
+
+Question:In which phase of the ethical hacking process can Google hacking be employed? This is a technique that involves manipulating a search string with specific operators to search for vulnerabilities. Example:allintitle: root passwd
+A. Maintaining Access
+B. Gaining Access
+C. Reconnaissance
+D. Scanning and Enumeration
+Answer:C
+
+Question:Todd has been asked by the security officer to purchase a counter-based authentication system. Which of the following best describes this type of system?
+A. A biometric system that bases authentication decisions on behavioral attributes.
+B. A biometric system that bases authentication decisions on physical attributes.
+C. An authentication system that creates one-time passwords that are encrypted with secret keys.
+D. An authentication system that uses passphrases that are converted into virtual passwords.
+Answer:C
+
+Question:How can rainbow tables be defeated?
+A. Password salting
+B. Use of non-dictionary words
+C. All uppercase character passwords
+D. Lockout accounts under brute force password cracking attempts
+Answer:A
+
+Question:The network in ABC company is using the network address 192.168.1.64 with mask 255.255.255.192. In the network the servers are in the addresses 192.168.1.122, 192.168.1.123 and 192.168.1.124. An attacker is trying to find those servers but he cannot see them in his scanning. The command he is using is:nmap 192.168.1.64/28, Why he cannot see the servers?
+A. He needs to change the address to 192.168.1.0 with the same mask
+B. He needs to add the command   ip address   just before the IP address.
+C. He is scanning from 192.168.1.64 to 192.168.1.78 because of the mask /28 and the servers are not in that range.
+D. The network must be down and the nmap command and IP address are ok
+Answer:C
+
+Question:In many states sending spam is illegal. Thus, the spammers have techniques to try and ensure that no one knows they sent the spam out to thousands of users at a time. Which of the following best describes what spammers use to hide the origin of these types of e-mails?
+A. A blacklist of companies that have their mail server relays configured to allow traffic only to their specific domain name.
+B. Mail relaying, which is a technique of bouncing e-mail from internal to external mails servers continuously.
+C. A blacklist of companies that have their mail server relays configured to be wide open.
+D. Tools that will reconfigure a mail server s relay component to send the e-mail back to the spammers occasionally.
+Answer:B
+
+Question:Emil uses nmap to scan two hosts using this command: nmap -sS -T4 -O 192.168.99.1 192.168.99.7, He receives this output: What is his conclusion?
+A. Host 192.168.99.7 is an iPad.
+B. He performed a SYN scan and OS scan on hosts 192.168.99.1 and 192.168.99.7
+C. Host 192.168.99.1 is the host that he launched the scan from.
+D. Host 192.168.99.7 is down.
+Answer:B
+
+Question:Port scanning can be used as part of a technical assessment to determine network vulnerabilities. The TCP XMAS scan is used to identify listening ports on the targeted system. If a scanned port is open, what happens?
+A. The port will ignore the packets.
+B. The port will send an RST.
+C. The port will send an ACK.
+D. The port will send a SYN.
+Answer:A
+
+Question:Which of the following is a passive wireless packet analyzer that works on Linux-based systems?
+A. OpenVAS
+B. Burp Suite
+C. tshark
+D. Kismet
+Answer:D
+
+Question:Which service in a PKI will vouch for the identity of an individual or company?
+A. CBC
+B. KDC
+C. CA
+D. CR
+Answer:C
+
+Question:What mechanism in Windows prevents a user from accidentally executing a potentially malicious batch (.bat) or PowerShell (.ps1) script?
+A. User Access Control (UAC)
+B. Data Execution Prevention (DEP)
+C. Address Space Layout Randomization (ASLR)
+D. Windows firewall
+Answer:B
+
+Question:Seth is starting a penetration test from inside the network. He hasn t been given any information about the network. What type of test is he conducting?
+A. Internal, Blackbox
+B. External, Blackbox
+C. External, Whitebox
+D. Internal, Whitebox
+Answer:A
+
+Question:What is the code written for?
+A. Buffer Overflow
+B. Encryption
+C. Denial-of-service (DoS)
+D. Bruteforce
+Answer:A
+
+Question:You are performing a penetration test. You achieved access via a buffer overflow exploit and you proceed to find interesting data, such as files with usernames and passwords. You find a hidden folder that has the administrator s bank account password and login information for the administrator s bitcoin account. What should you do?
+A. Do not report it and continue the penetration test.
+B. Transfer money from the administrator s account to another account.
+C. Do not transfer the money but steal the bitcoins.
+D. Report immediately to the administrator.
+Answer:D
+
+Question:An attacker attaches a rogue router in a network. He wants to redirect traffic to a LAN attached to his router as part of a man-in-the-middle attack. What measure on behalf of the legitimate admin can mitigate this attack?
+A. Make sure that legitimate network routers are configured to run routing protocols with authentication.
+B. Disable all routing protocols and only use static routes
+C. Only using OSPFv3 will mitigate this risk.
+D. Redirection of the traffic cannot happen unless the admin allows it explicitly.
+Answer:A
+
+Question:Which system consists of a publicly available set of databases that contain domain name registration contact information?
+A. IANA
+B. CAPTCHA
+C. IETF
+D. WHOIS
+Answer:D
+
+Question:A penetration test was done at a company. After the test, a report was written and given to the company s IT authorities. A section from the report is shown below:Access List should be written between VLANs.,Port security should be enabled for the intranet. A security solution which filters data packets should be set between intranet (LAN) and DMZ. A WAF should be used in front of the web applications. According to the section from the report, which of the following choice is true?
+A. A stateful firewall can be used between intranet (LAN) and DMZ.
+B. There is access control policy between VLANs.
+C. MAC Spoof attacks cannot be performed.
+D. Possibility of SQL Injection attack is eliminated.
+Answer:A
+
+Question:In IPv6 what is the major difference concerning application layer vulnerabilities compared to IPv4?
+A. Implementing IPv4 security in a dual-stack network offers protection from IPv6 attacks too.
+B. Vulnerabilities in the application layer are independent of the network layer. Attacks and mitigation techniques are almost identical.
+C. Due to the extensive security measures built in IPv6, application layer vulnerabilities need not be addresses.
+D. Vulnerabilities in the application layer are greatly different from IPv4.
+Answer:B
+
+Question:It is a regulation that has a set of guidelines, which should be adhered to by anyone who handles any electronic medical data. These guidelines stipulate that all medical practices must ensure that all necessary measures are in place while saving, accessing, and sharing any electronic medical data to keep patient data secure. Which of the following regulations best matches the description?
+A. FISMA
+B. ISO/IEC 27002
+C. HIPAA
+D. COBIT
+Answer:C
+
+Question:Jesse receives an email with an attachment labeled  Court_Notice_21206.zip . Inside the zip file named  Court_Notice_21206.docx.exe  disguised as a word document. Upon execution, a window appears stating,  This word document is corrupt . In the background, the file copies itself to Jesse APPDATA\local directory and begins to beacon to a C2 server to download additional malicious binaries. What type of malware has Jesse encountered?
+A. Worm
+B. Macro Virus
+C. Key-Logger
+D. Trojan
+Answer:D
+
+Question:A company s Web development team has become aware of a certain type of security vulnerability in their Web software. To mitigate the possibility of this vulnerability being exploited, the team wants to modify the software requirements to disallow users from entering HTML as input into their Web application. What kind of Web application vulnerability likely exists in their software?
+A. Cross-site scripting vulnerability
+B. Session management vulnerability
+C. SQL injection vulnerability
+D. Cross-site Request Forgery vulnerability
+Answer:A
+
+Question:An attacker is trying to redirect the traffic of a small office. That office is using their own mail server, DNS server and NTP server because of the importance of their job. The attacker gain access to the DNS server and redirect the direction www.google.com to his own IP address. Now when the employees of the office wants to go to Google they are being redirected to the attacker machine. What is the name of this kind of attack?
+A. MAC Flooding
+B. Smurf Attack
+C. DNS spoofing
+D. ARP Poisoning
+Answer:C
+
+Question:Which results will be returned with the following Google search query? site:target.com site:Marketing.target.com accounting
+A. Results from matches on the site marketing.target.com that are in the domain target.com but do not include the word accounting.
+B. Results matching all words in the query.
+C. Results for matches on target.com and Marketing.target.com that include the word  accounting 
+D. Results matching  accounting  in domain target.com but not on the site Marketing.target.com
+Answer:C
+
+Question:Rebecca commonly sees an error on her Windows system that states that a Data Execution Prevention (DEP) error has taken place. Which of the following is most likely taking place?
+A. Malicious code is attempting to execute instruction a non-executable memory region.
+B. A page fault is occuring, which forces the operating system to write data from the hard drive.
+C. A race condition is being exploited, and the operating system is containing the malicious process.
+D. Malware is executing in either ROM or a cache memory area.
+Answer:A
+
+Question:As a Certified Ethical Hacker, you were contracted by a private firm to conduct an external security assessment through penetration testing. What document describes the specifics of the testing, the associated violations, and essentially protects both the organization s interest and your liabilities as a tester?
+A. Service Level Agreement
+B. Project Scope
+C. Rules of Engagement
+D. Non-Disclosure Agreement
+Answer:C
+
+Question:When analyzing the IDS logs, the system administrator noticed an alert was logged when the external router was accessed from the administrator s Computer to update the router configuration. What type of an alert is this?
+A. False negative
+B. True negative
+C. True positive
+D. False positive
+Answer:D
+
+Question:The Heartbleed bug was discovered in 2014 and is widely referred to under MITRE s Common Vulnerabilities and Exposures (CVE) as CVE-2014-0160. This bug affects the OpenSSL implementation of the Transport Layer Security (TLS) protocols defined in RFC6520. What type of key does this bug leave exposed to the Internet making exploitation of any compromised system very easy?
+A. Public
+B. Private
+C. Shared
+D. Root
+Answer:B
+
+Question:Eve stole a file named secret.txt, transferred it to her computer and she just entered these commands: What is she trying to achieve?
+A. She is using ftp to transfer the file to another hacker named John.
+B. She is using John the Ripper to crack the passwords in the secret.txt file
+C. She is encrypting the file.
+D. She is using John the Ripper to view the contents of the file.
+Answer:B
+
+Question:What is the correct process for the TCP three-way handshake connection establishment and connection termination?
+A. Connection Establishment: SYN, SYN-ACK, ACK Connection Termination: FIN, ACK-FIN, ACK
+B. Connection Establishment: ACK, ACK-SYN, SYN Connection Termination: FIN, ACK-FIN, ACK
+C. Connection Establishment: FIN, ACK-FIN, ACK Connection Termination: SYN, SYN-ACK, ACK
+D. Connection Establishment: SYN, SYN-ACK, ACK Connection Termination: ACK, ACK-SYN, SYN
+Answer:A
+
+Question:env x= (){ :;};echo exploit  bash  c  cat/etc/passwd , What is the Shellshock bash vulnerability attempting to do a vulnerable Linux host?
+A. Removes the passwd file
+B. Changes all passwords in passwd
+C. Add new user to the passwd file
+D. Display passwd content to prompt
+Answer:D
+
+Question:Ricardo wants to send secret messages to a competitor company. To secure these messages, he uses a technique of hiding a secret message within an ordinary message. The technique provides  security through obscurity . What technique is Ricardo using?
+A. Encryption
+B. Steganography
+C. RSA algorithm
+D. Public-key cryptography
+Answer:B
+
+Question:A well-intentioned researcher discovers a vulnerability on the web site of a major corporation. What should he do?
+A. Try to sell the information to a well-paying party on the dark web.
+B. Exploit the vulnerability without harming the web site owner so that attention be drawn to the problem.
+C. Ignore it.
+D. Notify the web site owner so that corrective action be taken as soon as possible to patch the vulnerability.
+Answer:D
+
+Question:Trinity needs to scan all hosts on a /16 network for TCP port 445 only. What is the fastest way she can accomplish this with Nmap? Stealth is not a concern.
+A. nmap  p 445  n  T4  open 10.1.0.0/16
+B. nmap  p 445  max  Pn 10.1.0.0/16
+C. nmap  sn  sF 10.1.0.0/16 445
+D. nmap  s 445  sU  T5 10.1.0.0/16
+Answer:A
+
+Question:It is a short-range wireless communication technology intended to replace the cables connecting portable of fixed devices while maintaining high levels of security. It allows mobile phones, computers and other devices to connect and communicate using a short-range wireless connection. Which of the following terms best matches the definition?
+A. Bluetooth
+B. WLAN
+C. InfraRed
+D. Radio-Frequency identification
+Answer:A
+
+Question:Which of the following can the administrator do to verify that a tape backup can be recovered in its entirety?
+A. Read the first 512 bytes of the tape
+B. Perform a full restore
+C. Read the last 512 bytes of the tape
+D. Restore a random file
+Answer:B
+
+Question:A company s security policy states that all Web browsers must automatically delete their HTTP browser cookies upon terminating. What sort of security breach is this policy attempting to mitigate?
+A. Attempts by attackers to access the user and password information stored in the company s SQL database.
+B. Attempts by attackers to access Web sites that trust the Web browser user by stealing the user s authentication credentials.
+C. Attempts by attackers to access password stored on the user s computer without the user s knowledge.
+D. Attempts by attackers to determine the user s Web browser usage patterns, including when sites were visited and for how long.
+Answer:B
+
+Question:To maintain compliance with regulatory requirements, a security audit of the systems on a network must be performed to determine their compliance with security policies. Which one of the following tools would most likely be used in such an audit?
+A. Protocol analyzer
+B. Intrusion Detection System
+C. Port scanner
+D. Vulnerability scanner
+Answer:D
+
+Question:You are tasked to perform a penetration test. While you are performing information gathering, you find an employee list in Google. You find the receptionist s email, and you send her an email changing the source email to her boss s email (boss@company). In this email, you ask for a pdf with information. She reads your email and sends back a pdf with links. You exchange the pdf links with your malicious links (these links contain malware) and send back the modified pdf, saying that the links don t work. She reads your email, opens the links, and her machine gets infected. You now have access to the company network. What testing method did you use?
+A. Social engineering
+B. Piggybacking
+C. Tailgating
+D. Eavesdropping
+Answer:A
+
+Question:Your team has won a contract to infiltrate an organization. The company wants to have the attack be as realistic as possible; therefore, they did not provide any information besides the company name. What should be the first step in security testing the client?
+A. Reconnaissance
+B. Escalation
+C. Scanning
+D. Enumeration
+Answer:A
+
+Question:A medium-sized healthcare IT business decides to implement a risk management strategy. Which of the following is NOT one of the five basic responses to risk?
+A. Accept
+B. Delegate
+C. Mitigate
+D. Avoid
+Answer:B
+
+Question:OpenSSL on Linux servers includes a command line tool for testing TLS. What is the name of the tool and the correct syntax to connect to a web server?
+A. openssl s_client  site www.website.com:443
+B. openssl_client  site www.website.com:443
+C. openssl_client  connect www.website.com:443
+D. openssl s_client  connect www.website.com:443
+Answer:D
+
+Question:Which of the following describes the characteristics of a Boot Sector Virus?
+A. Modifies directory table entries so that directory entries point to the virus code instead of the actual program.
+B. Moves the MBR to another location on the RAM and copies itself to the original location of the MBR.
+C. Moves the MBR to another location on the hard disk and copies itself to the original location of the MBR.
+D. Overwrites the original MBR and only executes the new virus code.
+Answer:C
+
+Question:John is an incident handler at a financial institution. His steps in a recent incident are not up to the standards of the company. John frequently forgets some steps and procedures while handling responses as they are very stressful to perform. Which of the following actions should John take to overcome this problem with the least administrative effort?
+A. Increase his technical skills
+B. Read the incident manual every time it occurs
+C. Select someone else to check the procedures
+D. Create an incident checklist
+Answer:D

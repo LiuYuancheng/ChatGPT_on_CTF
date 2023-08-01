@@ -1,0 +1,49 @@
+2023-07-31 14:12:11,284 INFO     Question 1: correct.
+2023-07-31 14:12:14,590 INFO     Question 2: correct.
+2023-07-31 14:12:17,355 INFO     Question 3: correct.
+2023-07-31 14:12:19,103 INFO     Question 4: incorrect. correct answer: B, AI answer: A. Spoof Scan
+2023-07-31 14:12:21,102 INFO     Question 5: correct.
+2023-07-31 14:12:23,777 INFO     Question 6: correct.
+2023-07-31 14:12:26,707 INFO     Question 7: correct.
+2023-07-31 14:12:28,410 INFO     Question 8: correct.
+2023-07-31 14:12:30,045 INFO     Question 9: incorrect. correct answer: A, AI answer: C. Directory traversal
+2023-07-31 14:12:33,877 INFO     Question 10: correct.
+2023-07-31 14:12:37,153 INFO     Question 11: correct.
+2023-07-31 14:12:40,117 INFO     Question 12: incorrect. correct answer: C, AI answer: A. Algorithm is not the secret; key is the secret.
+2023-07-31 14:12:42,401 INFO     Question 13: correct.
+2023-07-31 14:12:45,258 INFO     Question 14: correct.
+2023-07-31 14:12:47,831 INFO     Question 15: correct.
+2023-07-31 14:12:50,086 INFO     Question 16: correct.
+2023-07-31 14:12:52,376 INFO     Question 17: correct.
+2023-07-31 14:12:54,589 INFO     Question 18: correct.
+2023-07-31 14:12:56,166 INFO     Question 19: correct.
+2023-07-31 14:12:58,038 INFO     Question 20: correct.
+2023-07-31 14:12:59,689 INFO     Question 21: correct.
+2023-07-31 14:13:01,461 INFO     Question 22: correct.
+2023-07-31 14:13:03,663 INFO     Question 23: correct.
+2023-07-31 14:13:05,301 INFO     Question 24: correct.
+2023-07-31 14:13:06,874 INFO     Question 25: correct.
+2023-07-31 14:13:09,527 INFO     Question 26: correct.
+2023-07-31 14:13:11,616 INFO     Question 27: incorrect. correct answer: A, AI answer: B. Digital signatures may be used in different documents of the same type.
+2023-07-31 14:13:13,361 INFO     Question 28: correct.
+2023-07-31 14:13:14,967 INFO     Question 29: correct.
+2023-07-31 14:13:17,500 INFO     Question 30: correct.
+2023-07-31 14:13:19,173 INFO     Question 31: correct.
+2023-07-31 14:13:20,855 INFO     Question 32: correct.
+2023-07-31 14:13:22,890 INFO     Question 33: correct.
+2023-07-31 14:13:25,371 INFO     Question 34: correct.
+2023-07-31 14:13:26,961 INFO     Question 35: correct.
+2023-07-31 14:13:30,212 INFO     Question 36: incorrect. correct answer: D, AI answer: The type of activity that has been logged is a Port scan targeting 192.168.1.106.
+2023-07-31 14:13:31,827 INFO     Question 37: correct.
+2023-07-31 14:13:33,666 INFO     Question 38: correct.
+2023-07-31 14:13:35,344 INFO     Question 39: correct.
+2023-07-31 14:13:37,381 INFO     Question 40: incorrect. correct answer: A, AI answer: D. Polymorphic virus
+2023-07-31 14:13:38,985 INFO     Question 41: correct.
+2023-07-31 14:13:42,502 INFO     Question 42: correct.
+2023-07-31 14:13:44,747 INFO     Question 43: correct.
+2023-07-31 14:13:51,382 INFO     Question 44: incorrect. correct answer: B, AI answer: E. All of the above.
+
+The most secure way to mitigate the theft of corporate information from a laptop left in a hotel room is to implement multiple security measures. Setting a BIOS password adds an extra layer of protection by requiring a password to access the computer's BIOS settings. Encrypting the data on the hard drive ensures that even if the laptop is stolen, the data cannot be accessed without the encryption key. Using a strong logon password to the operating system further protects the laptop from unauthorized access. Finally, backing up everything on the laptop and storing the backup in a safe place ensures that even if the laptop is stolen, the data can be recovered. By combining these measures, the risk of theft and unauthorized access to corporate information is significantly reduced.
+2023-07-31 14:13:54,431 INFO     Question 45: correct.
+38/45
+2023-07-31 14:13:55,440 INFO     Ai correct rate: 84.44444444444444 

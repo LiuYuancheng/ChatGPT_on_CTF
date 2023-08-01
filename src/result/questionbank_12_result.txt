@@ -1,0 +1,49 @@
+2023-07-31 14:24:39,349 INFO     Question 1: correct.
+2023-07-31 14:24:40,941 INFO     Question 2: correct.
+2023-07-31 14:24:42,797 INFO     Question 3: correct.
+2023-07-31 14:24:44,329 INFO     Question 4: correct.
+2023-07-31 14:24:46,445 INFO     Question 5: correct.
+2023-07-31 14:24:48,210 INFO     Question 6: correct.
+2023-07-31 14:24:50,978 INFO     Question 7: correct.
+2023-07-31 14:24:52,986 INFO     Question 8: correct.
+2023-07-31 14:24:56,253 INFO     Question 9: correct.
+2023-07-31 14:24:57,954 INFO     Question 10: incorrect. correct answer: A, AI answer: B. The port will send an RST.
+2023-07-31 14:24:59,476 INFO     Question 11: correct.
+2023-07-31 14:25:01,170 INFO     Question 12: correct.
+2023-07-31 14:25:02,888 INFO     Question 13: incorrect. correct answer: B, AI answer: A. User Access Control (UAC)
+2023-07-31 14:25:04,554 INFO     Question 14: correct.
+2023-07-31 14:25:06,203 INFO     Question 15: incorrect. correct answer: A, AI answer: E. Other (please specify)
+2023-07-31 14:25:10,700 INFO     Question 16: correct.
+2023-07-31 14:25:12,596 INFO     Question 17: correct.
+2023-07-31 14:25:14,371 INFO     Question 18: correct.
+2023-07-31 14:25:17,603 INFO     Question 19: incorrect. correct answer: A, AI answer: The correct choice is B. There is access control policy between VLANs. 
+
+This is indicated by the statement "Access List should be written between VLANs." Access control lists (ACLs) are used to control traffic between VLANs by specifying which traffic is allowed or denied.
+2023-07-31 14:25:19,622 INFO     Question 20: incorrect. correct answer: B, AI answer: D. Vulnerabilities in the application layer are greatly different from IPv4.
+2023-07-31 14:25:21,155 INFO     Question 21: correct.
+2023-07-31 14:25:23,823 INFO     Question 22: correct.
+2023-07-31 14:25:25,493 INFO     Question 23: correct.
+2023-07-31 14:25:27,135 INFO     Question 24: correct.
+2023-07-31 14:25:29,113 INFO     Question 25: correct.
+2023-07-31 14:25:31,089 INFO     Question 26: correct.
+2023-07-31 14:25:32,613 INFO     Question 27: correct.
+2023-07-31 14:25:34,230 INFO     Question 28: incorrect. correct answer: D, AI answer: C. True positive
+2023-07-31 14:25:35,825 INFO     Question 29: correct.
+2023-07-31 14:25:37,837 INFO     Question 30: incorrect. correct answer: B, AI answer: D. She is using John the Ripper to view the contents of the file.
+2023-07-31 14:25:40,915 INFO     Question 31: correct.
+2023-07-31 14:25:42,746 INFO     Question 32: incorrect. correct answer: D, AI answer: C. Add new user to the passwd file
+2023-07-31 14:25:44,324 INFO     Question 33: correct.
+2023-07-31 14:25:46,346 INFO     Question 34: correct.
+2023-07-31 14:25:49,976 INFO     Question 35: incorrect. correct answer: A, AI answer: The fastest way Trinity can accomplish this with Nmap is option B: nmap -p 445 -Pn 10.1.0.0/16. This command will scan all hosts on the /16 network for TCP port 445 only, without performing a host discovery scan (-Pn).
+2023-07-31 14:25:51,586 INFO     Question 36: correct.
+2023-07-31 14:25:53,194 INFO     Question 37: correct.
+2023-07-31 14:25:55,210 INFO     Question 38: correct.
+2023-07-31 14:25:56,807 INFO     Question 39: correct.
+2023-07-31 14:25:58,324 INFO     Question 40: correct.
+2023-07-31 14:25:59,895 INFO     Question 41: correct.
+2023-07-31 14:26:01,453 INFO     Question 42: correct.
+2023-07-31 14:26:03,938 INFO     Question 43: incorrect. correct answer: D, AI answer: The correct answer is A. openssl s_client site www.website.com:443
+2023-07-31 14:26:06,134 INFO     Question 44: correct.
+2023-07-31 14:26:10,741 INFO     Question 45: correct.
+35/45
+2023-07-31 14:26:11,758 INFO     Ai correct rate: 77.77777777777777 

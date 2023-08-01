@@ -1,0 +1,319 @@
+# Certified Ethical Hacker 2021 v10 part (7-8)
+# from yeahhub CTF-repo: https://www.yeahhub.com/category/ctf-challenges/
+# part 1: https://www.yeahhub.com/certified-ethical-hacker-v10-multiple-choice-questions-answers-part-7/
+# part 2: https://www.yeahhub.com/certified-ethical-hacker-v10-multiple-choice-questions-answers-part-8/
+
+Question:An attacker with access to the inside network of a small company launches a successful STP manipulation attack. What will he do next?
+A. He will create a SPAN entry on the spoofed root bridge and redirect traffic to his computer.
+B. He will activate OSPF on the spoofed root bridge.
+C. He will repeat this action so that it escalates to a DoS attack.
+D. He will repeat the same attack against all L2 switches of the network.
+Answer:A
+
+Question:Which access control mechanism allows for multiple systems to use a central authentication server (CAS) that permits users to authenticate once and gain access to multiple systems?
+A. Single sign-on
+B. Windows authentication
+C. Role Based Access Control (RBAC)
+D. Discretionary Access Control (DAC)
+Answer:A
+
+Question:To reach a bank web site, the traffic from workstations must pass through a firewall. You have been asked to review the firewall configuration to ensure that workstations in network 10.10.10.0/24 can only reach the bank web site 10.20.20.1 using https. Which of the following firewall rules meets this requirement?
+A. If (source matches 10.10.10.0/24 and destination matches 10.20.20.1 and port matches 443) then permit
+B. If (source matches 10.10.10.0/24 and destination matches 10.20.20.1 and port matches 80 or 443) then permit
+C. If (source matches 10.20.20.1 and destination matches 10.10.10.0/24 and port matches 443) then permit
+D. If (source matches 10.10.10.0 and destination matches 10.20.20.1 and port matches 443) then permit
+Answer:A
+
+Question:If there is an Intrusion Detection System (IDS) in intranet, which port scanning technique cannot be used?
+A. Spoof Scan
+B. TCP SYN
+C. TCP Connect scan
+D. Idle scan
+Answer:B
+
+Question:There are several ways to gain insight on how a cryptosystem works with the goal of reverse engineering the process. A term describes when two pieces of data result in the value is?
+A. Polymorphism
+B. Escrow
+C. Collusion
+D. Collision
+Answer:D
+
+Question:A large company intends to use Blackberry for corporate mobile phones and a security analyst is assigned to evaluate the possible threats. The analyst will use the Blackjacking attack method to demonstrate how an attacker could circumvent perimeter defenses and gain access to the Prometric Online Testing  Reports https://ibt1.prometric.com/users/custom/report_queue/rq_str corporate network. What tool should the analyst use to perform a Blackjacking attack?
+A. Paros Proxy
+B. BBProxy
+C. Blooover
+D. BBCrack
+Answer:B
+
+Question:What attack is used to crack passwords by using a precomputed table of hashed passwords?
+A. Brute Force Attack
+B. Rainbow Table Attack
+C. Dictionary Attack
+D. Hybrid Attack
+Answer:B
+
+Question:The configuration allows a wired or wireless network interface controller to pass all traffic it receives to the Central Processing Unit (CPU), rather than passing only the frames that the controller is intended to receive. Which of the following is being described?
+A. Multi-cast mode
+B. Promiscuous mode
+C. WEM
+D. Port forwarding
+Answer:B
+
+Question:A network administrator discovers several unknown files in the root directory of his Linux FTP server. One of the files is a tarball, two are shell script files, and the third is a binary file is named  nc. The FTP server s access logs show that the anonymous user account logged in to the server, uploaded the files, and extracted the contents of the tarball and ran the script using a function provided by the FTP server s software. The  ps command shows that the  nc file is running as process, and the netstat command shows the  nc process is listening on a network port. What kind of vulnerability must be present to make this remote attack possible?
+A. File system permissions
+B. Privilege escalation
+C. Directory traversal
+D. Brute force login
+Answer:A
+
+Question:When you are testing a web application, it is very useful to employ a proxy tool to save every request and response. You can manually test every request and analyze the response to find vulnerabilities. You can test parameter and headers manually to get more precise results than if using web vulnerability scanners. What proxy tool will help you find web vulnerabilities?
+A. Burpsuite
+B. Maskgen
+C. Dimitry
+D. Proxychains
+Answer:A
+
+Question:By using a smart card and pin, you are using a two-factor authentication that satisfies
+A. Something you know and something you are
+B. Something you have and something you know
+C. Something you have and something you are
+D. Something you are and something you remember
+Answer:B
+
+Question:Cryptography is the practice and study of techniques for secure communication in the presence of third parties (called adversaries). More generally, it is about constructing and analyzing protocols that overcome the influence of adversaries and that are related to various aspects in information security such as data confidentially, data integrity, authentication, and non-repudiation. Modern cryptography intersects the disciplines of mathematics, computer science, and electrical engineering. Applications of cryptography include ATM cards, computer passwords, and electronic commerce. Basic example to understand how cryptography works is given below: Which of the following choices true about cryptography?
+A. Algorithm is not the secret; key is the secret.
+B. Public-key cryptography, also known as asymmetric cryptography, public key is for decrypt, private key is for encrypt.
+C. Secure Sockets Layer (SSL) use the asymmetric encryption both (public/private key pair) to deliver the shared session key and to achieve a communication way.
+D. Symmetric-key algorithms are a class of algorithms for cryptography that use the different cryptographic keys for both encryption of plaintext and decryption of ciphertext.
+Answer:C
+
+Question:What is the difference between the AES and RSA algorithms?
+A. Both are symmetric algorithms, but AES uses 256-bit keys
+B. AES is asymmetric, which is used to create a public/private key pair; RSA is symmetric, which is used to encrypt data
+C. Both are asymmetric algorithms, but RSA uses 1024-bit keys
+D. RSA is asymmetric, which is used to create a public/private key pair; AES is symmetric, which is used to encrypt data
+Answer:D
+
+Question:In 2007, this wireless security algorithm was rendered useless by capturing packets and discovering the passkey in a matter of seconds. This security flaw led to a network invasion of TJ Maxx and data theft through a technique known as wardriving. Which Algorithm is this referring to?
+A. Wired Equivalent Privacy (WEP)
+B. Wi-Fi Protected Access (WPA)
+C. Wi-Fi Protected Access 2 (WPA2)
+D. Temporal Key Integrity Protocol (TKIP)
+Answer:A
+
+Question:You are an Ethical Hacker who is auditing the ABC company. When you verify the NOC one of the machines has 2 connections, one wired and the other wireless. When you verify the configuration of this Windows system you find two static routes.route add 10.0.0.0 mask 255.0.0.0 10.0.0.1route add 0.0.0.0 mask 255.0.0.0 199.168.0.1What is the main purpose of those static routes?
+A. Both static routes indicate that the traffic is external with different gateway.
+B. The first static route indicates that the internal traffic will use an external gateway and the second static route indicates that the traffic will be rerouted.
+C. Both static routes indicate that the traffic is internal with different gateway.
+D. The first static route indicates that the internal addresses are using the internal gateway and the second static route indicates that all the traffic that is not internal must go to an external gateway.
+Answer:D
+
+Question:An incident investigator asks to receive a copy of the event logs from all firewalls, proxy servers, and Intrusion Detection Systems (IDS) on the network of an organization that has experienced a possible breach of security. When the investigator attempts to correlate the information in all of the logs, the sequence of many of the logged events do not match up. What is the most likely cause?
+A. The network devices are not all synchronized.
+B. Proper chain of custody was not observed while collecting the logs.
+C. The attacker altered or erased events from the logs.
+D. The security breach was a false positive.
+Answer:A
+
+Question:An attacker is using nmap to do a ping sweep and a port scanning in a subnet of 254 addresses. In which order should he perform these steps?
+A. The sequence does not matter. Both steps have to be performed against all hosts.
+B. First the port scan to identify interesting services and then the ping sweep to find hosts responding to icmp echo requests.
+C. First the ping sweep to identify live hosts and then the port scan on the live hosts. This way he saves time.
+D. The port scan alone is adequate. This way he saves time.
+Answer:C
+
+Question:Look at the following output. What did the hacker accomplish?
+A. The hacker used who is to gather publicly available records for the domain.
+B. The hacker used the  fierce tool to brute force the list of available domains.
+C. The hacker listed DNS records on his own domain.
+D. The hacker successfully transferred the zone and enumerated the hosts.
+Answer:D
+
+Question:Which tier in the N-tier application architecture is responsible for moving and processing data between the tiers?
+A. Application Layer
+B. Data tier
+C. Presentation tier
+D. Logic tier
+Answer:D
+
+Question:An enterprise recently moved to a new office and the new neighborhood is a little risky. The CEO wants to monitor the physical perimeter and the entrance doors 24 hours. What is the best option to do this job?
+A. Use fences in the entrance doors.
+B. Install a CCTV with cameras pointing to the entrance doors and the street.
+C. Use an IDS in the entrance doors and install some of them near the corners.
+D. Use lights in all the entrance doors and along the company s perimeter.
+Answer:B
+
+Question:Bob learned that his username and password for a popular game has been compromised. He contacts the company and resets all the information. The company suggests he use two-factor authentication; which option below offers that?
+A. A fingerprint scanner and his username and password
+B. His username and a stronger password
+C. A new username and password
+D. Disable his username and use just a fingerprint scanner
+Answer:A
+
+Question:A bank stores and processes sensitive privacy information related to home loans. However, auditing has never been enabled on the system. What is the first step that the bank should take before enabling the audit feature?
+A. Perform a vulnerability scan of the system.
+B. Determine the impact of enabling the audit feature.
+C. Perform a cost/benefit analysis of the audit feature.
+D. Allocate funds for staffing of audit log review.
+Answer:B
+
+Question:Which of the following Nmap commands will produce the following output?
+A. nmap  sT  sX  Pn  p 1-65535 192.168.1.1
+B. nmap  sN  Ps  T4 192.168.1.1
+C. nmap  sS  sU  Pn  p 1-65535 192.168.1.1
+D. nmap  sS  Pn 192.168.1.1
+Answer:C
+
+Question:As an Ethical Hacker you are capturing traffic from your customer network with Wireshark and you need to find and verify just SMTP traffic. What command in Wireshark will help you to find this kind of traffic?
+A. request smtp 25
+B. tcp.port eq 25
+C. smtp port
+D. tcp.contains port 25
+Answer:B
+
+Question:Which of the following programs is usually targeted at Microsoft Office products?
+A. Polymorphic virus
+B. Multipart virus
+C. Macro virus
+D. Stealth virus
+Answer:C
+
+Question:A new wireless client is configured to join a 802.11 network. This client uses the same hardware and software as many of the other clients on the network. The client can see the network, but cannot connect. A wireless packet sniffer shows that the Wireless Access Point (WAP) is not responding to the association requests being sent by the wireless client. What is a possible source of this problem?
+A. The WAP does not recognize the client s MAC address
+B. The client cannot see the SSID of the wireless network
+C. Client is configured for the wrong channel
+D. The wireless client is not configured to use DHCP
+Answer:A
+
+Question:What is correct about digital signatures?
+A. A digital signature cannot be moved from one signed document to another because it is the hash of the original document encrypted with the private key of the signing party.
+B. Digital signatures may be used in different documents of the same type.
+C. A digital signature cannot be moved from one signed document to another because it is a plain hash of the document content.
+D. Digital signatures are issued once for each user and can be used everywhere until they expire.
+Answer:A
+
+Question:What does a firewall check to prevent particular ports and applications from getting packets into an organization?
+A. Transport layer port numbers and application layer headers
+B. Presentation layer headers and the session layer port numbers
+C. Network layer headers and the session layer port numbers
+D. Application layer port numbers and the transport layer headers
+Answer:A
+
+Question:Which of the following programming languages is most susceptible to buffer overflow attacks, due to its lack of a built-in bounds checking mechanism?:Code:int main(){char buffer[8];strcpy(buffer,   11111111111111111111111111111  );}Output:Segmentation fault
+A. C#
+B. Python
+C. Java
+D. C++
+Answer:D
+
+Question:Scenario:1. Victim opens the attacker s web site.2. Attacker sets up a web site which contains interesting and attractive content like  Do you want to make $1000 in a day? .3. Victim clicks to the interesting and attractive content URL.4. Attacker creates a transparent  iframe in front of the URL which victim attempts to click, so victim thinks that he/she clicks to the  Do you want to make $1000 in a day? url but actually he/she clicks to the content or UPL that exists in the transparent  iframe which is setup by the attacker.What is the name of the attack which is mentioned in the scenario?
+A. Session Fixation
+B. HTML Injection
+C. HTTP Parameter Pollution
+D. Clickjacking Attack
+Answer:D
+
+Question:John the Ripper is a technical assessment tool used to test the weakness of which of the following?
+A. Usernames
+B. File permissions
+C. Firewall rulesets
+D. Passwords
+Answer:D
+
+Question:A tester has been hired to do a web application security test. The tester notices that the site is dynamic and must make use of a back end database. In order for the tester to see if SQL injection is possible, what is the first character that the tester should use to attempt breaking a valid SQL request?
+A. Semicolon
+B. Single quote
+C. Exclamation mark
+D. Double quote
+Answer:B
+
+Question:You have successfully compromised a machine on the network and found a server that is alive on the same network. You tried to ping it but you didn t get any response back. What is happening?
+A. ICMP could be disabled on the target server.
+B. The ARP is disabled on the target server.
+C. TCP/IP doesn t support ICMP.
+D. You need to run the ping command with root privileges.
+Answer:A
+
+Question:A large mobile telephony and data network operator has a data center that houses network elements. These are essentially large computers running on Linux. The perimeter of the data center is secured with firewalls andIPS systems. What is the best security policy concerning this setup?
+A. Network elements must be hardened with user ids and strong passwords. Regular security tests and audits should be performed.
+B. As long as the physical access to the network elements is restricted, there is no need for additional measures.
+C. There is no need for specific security measures on the network elements as long as firewalls and IPS systems exist.
+D. The operator knows that attacks and down time are inevitable and should have a backup site.
+Answer:A
+
+Question:Which of the following incident handling process phases is responsible for defining rules, collaborating human workforce, creating a back-up plan, and testing the plans for an organization?
+A. Preparation phase
+B. Containment phase
+C. Identification phase
+D. Recovery phase
+Answer:A
+
+Question:The following is part of a log file taken from the machine on the network with the IP address of 192.168.1.106: What type of activity has been logged?
+A. Port scan targeting 192.168.1.103
+B. Teardrop attack targeting 192.168.1.106
+C. Denial of service attack targeting 192.168.1.103
+D. Port scan targeting 192.168.1.106
+Answer:D
+
+Question:A security analyst is performing an audit on the network to determine if there are any deviations from the security policies in place. The analyst discovers that a user from the IT department had a dial-out modem installed. Which security policy must the security analyst check to see if dial-out modems are allowed?
+A. Firewall-management policy
+B. Acceptable-use policy
+C. Remote-access policy
+D. Permissive policy
+Answer:C
+
+Question:Which of the following areas is considered a strength of symmetric key cryptography when compared with asymmetric algorithms?
+A. Scalability
+B. Speed
+C. Key distribution
+D. Security
+Answer:B
+
+Question:Which type of security feature stops vehicles from crashing through the doors of a building?
+A. Turnstile
+B. Bollards
+C. Mantrap
+D. Receptionist
+Answer:B
+
+Question:Which of the following viruses tries to hide from anti-virus programs by actively altering and corrupting the chosen service call interruptions when they are being run?
+A. Stealth/ Tunneling virus
+B. Macro virus
+C. Cavity virus
+D. Polymorphic virus
+Answer:A
+
+Question:Which of the following is considered an exploit framework and has the ability to perform automated attacks on services, ports, applications an unpatched security flaws in a computer system?
+A. Nessus
+B. Metasploit
+C. Maltego
+D. Wireshark
+Answer:B
+
+Question:You want to analyze packets on your wireless network. Which program would you use?
+A. Wireshark with Airpcap
+B. Airsnort with Airpcap
+C. Wireshark with Winpcap
+D. Ethereal with Winpcap
+Answer:A
+
+Question:Jimmy is standing outside a secure entrance to a facility. He is pretending to have a tense conversation on his cell phone as an authorized employee badges in. Jimmy, while still on the phone, grabs the door as it begins to close. What just happened?
+A. Masquerading
+B. Tailgating
+C. Phishing
+D. Whaling
+Answer:B
+
+Question:What is the most secure way to mitigate the theft of corporate information from a laptop that was left in a hotel room?
+A. Set a BIOS password
+B. Encrypt the data on the hard drive.
+C. Use a strong logon password to the operating system.
+D. Back up everything on the laptop and store the backup in a safe place.
+Answer:B
+
+Question:In both pharming and phishing attacks an attacker can create websites that look similar to legitimate sites with the intent of collecting personal identifiable information from its victims. What is the difference between pharming and phishing attacks?
+A. Both pharming and phishing attacks are identical.
+B. In a pharming attack a victim is redirected to a fake website by modifying their host configuration file or by exploiting vulnerabilities in DNS. In a phishing attack an attacker provides the victim with a URL that is either misspelled or looks similar to the actual websites domain name.
+C. In a phishing attack a victim is redirected to a fake website by modifying their host configuration file or by exploiting vulnerabilities in DNS. In a phishing attack an attacker provides the victim with a URL that is either misspelled or looks similar to the actual websites domain name.
+D. Both pharming and phishing attacks are purely technical and are not considered forms of social engineering
+Answer:B

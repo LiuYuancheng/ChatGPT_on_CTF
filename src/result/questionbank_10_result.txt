@@ -1,0 +1,53 @@
+2023-07-31 13:40:50,061 INFO     Question 1: correct.
+2023-07-31 13:40:51,431 INFO     Question 2: correct.
+2023-07-31 13:40:52,481 INFO     Question 3: correct.
+2023-07-31 13:40:53,856 INFO     Question 4: correct.
+2023-07-31 13:40:55,167 INFO     Question 5: correct.
+2023-07-31 13:40:56,213 INFO     Question 6: correct.
+2023-07-31 13:40:57,809 INFO     Question 7: incorrect. correct answer: A, AI answer: B. Traffic is Blocked on TCP Port 80
+2023-07-31 13:40:58,914 INFO     Question 8: correct.
+2023-07-31 13:41:00,141 INFO     Question 9: correct.
+2023-07-31 13:41:04,196 INFO     Question 10: correct.
+2023-07-31 13:41:05,203 INFO     Question 11: correct.
+2023-07-31 13:41:06,288 INFO     Question 12: incorrect. correct answer: A, AI answer: D. A behavior-based IDS
+2023-07-31 13:41:07,406 INFO     Question 13: correct.
+2023-07-31 13:41:08,664 INFO     Question 14: correct.
+2023-07-31 13:41:09,770 INFO     Question 15: correct.
+2023-07-31 13:41:11,143 INFO     Question 16: correct.
+2023-07-31 13:41:16,938 INFO     Question 17: incorrect. correct answer: D, AI answer: The best course of action would depend on the specific situation and the ethical guidelines of your profession. However, in general, it is important to prioritize the privacy and confidentiality of client data. Option A, confronting the client in a respectful manner and asking about the data, could be a reasonable approach to clarify any concerns or discrepancies. Option B, copying the data to removable media, may not be appropriate without proper authorization or consent. Option C, ignoring the data and continuing the assessment, may not be ethical if there are potential legal or ethical violations involved. Option D, stopping work and contacting the proper legal authorities, may be necessary if there is evidence of illegal activity or if the situation poses a significant risk to the client or others. Ultimately, it is important to consult with your supervisor or follow the guidelines of your profession to determine the most appropriate course of action.
+2023-07-31 13:41:22,382 INFO     Question 18: incorrect. correct answer: B, AI answer: E. All of the above.
+
+In order to analyze the severity of the situation, it is appropriate to analyze all of the mentioned logs. Each log can provide valuable information that can help in understanding the extent of the issue and the potential impact on the company's network. The event logs on the PC can provide information about any suspicious activities or processes running on the machine. The internet firewall/proxy log can show any unauthorized connections or traffic to the blacklisted IP address. The IDS log can provide details about the alert triggered and any other related events. Lastly, the event logs on the domain controller can help in identifying any unusual user activity or authentication attempts. By analyzing all of these logs, the security officer can gather a comprehensive understanding of the situation and take appropriate actions to mitigate the risk.
+2023-07-31 13:41:23,398 INFO     Question 19: correct.
+2023-07-31 13:41:24,418 INFO     Question 20: correct.
+2023-07-31 13:41:25,564 INFO     Question 21: correct.
+2023-07-31 13:41:26,813 INFO     Question 22: correct.
+2023-07-31 13:41:27,960 INFO     Question 23: correct.
+2023-07-31 13:41:29,089 INFO     Question 24: correct.
+2023-07-31 13:41:29,603 INFO     Question 25 got problem: None.
+2023-07-31 13:41:30,251 INFO     Question 26: incorrect. correct answer: B, AI answer: A. Denial-of-Service
+2023-07-31 13:41:31,491 INFO     Question 27: incorrect. correct answer: C, AI answer: A. A request sent by a malicious user from a browser to a server
+2023-07-31 13:41:33,846 INFO     Question 28: incorrect. correct answer: C, AI answer: The option * typically indicates a wildcard or a placeholder. It can represent any character or sequence of characters in a search or programming context. Therefore, it does not correspond to any specific option listed (A, B, C, or D) in the question.
+2023-07-31 13:41:34,649 INFO     Question 29: incorrect. correct answer: B, AI answer: error
+2023-07-31 13:41:35,726 INFO     Question 30: correct.
+2023-07-31 13:41:36,820 INFO     Question 31: incorrect. correct answer: C, AI answer: D. Public and private keys
+2023-07-31 13:41:38,370 INFO     Question 32: correct.
+2023-07-31 13:41:39,430 INFO     Question 33: incorrect. correct answer: D, AI answer: C. AH Tunnel mode
+2023-07-31 13:41:40,932 INFO     Question 34: correct.
+2023-07-31 13:41:44,900 INFO     Question 35: correct.
+2023-07-31 13:41:46,047 INFO     Question 36: correct.
+2023-07-31 13:41:47,030 INFO     Question 37: correct.
+2023-07-31 13:41:48,418 INFO     Question 38: correct.
+2023-07-31 13:41:49,487 INFO     Question 39: correct.
+2023-07-31 13:41:50,748 INFO     Question 40: correct.
+2023-07-31 13:41:55,960 INFO     Question 41: incorrect. correct answer: C, AI answer: The correct answer is D. The firewall itself is blocking ports 21 through 23 and a service is listening on port 23 of the target host. 
+
+Explanation: 
+When a TCP port scan is performed, the scanner sends TCP SYN packets to the target host on specific ports to determine if they are open or closed. In this scenario, the lack of response from ports 21 and 22 indicates that those services are not running on the destination server. However, the "Time-to-live exceeded" error message on port 23 suggests that the firewall is blocking the connection attempt. This means that the firewall is actively blocking ports 21 through 23, and there is a service listening on port 23 of the target host.
+2023-07-31 13:41:57,110 INFO     Question 42: incorrect. correct answer: D, AI answer: C. Brute-force attack
+2023-07-31 13:41:58,403 INFO     Question 43: incorrect. correct answer: B, AI answer: D. The host is likely a Windows machine.
+2023-07-31 13:42:00,015 INFO     Question 44: correct.
+2023-07-31 13:42:01,490 INFO     Question 45: incorrect. correct answer: C, AI answer: D. The amount of time it takes to convert biometric data into a template on a smart card
+2023-07-31 13:42:02,720 INFO     Question 46: correct.
+31/62
+2023-07-31 13:42:03,222 INFO     Ai correct rate: 50.0 

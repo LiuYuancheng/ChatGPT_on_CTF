@@ -1,0 +1,344 @@
+# Certified Ethical Hacker 2021 v10 part (5-6)
+# from yeahhub CTF-repo: https://www.yeahhub.com/category/ctf-challenges/
+# part 1: https://www.yeahhub.com/certified-ethical-hacker-v10-multiple-choice-questions-answers-part-5/
+# part 2: https://www.yeahhub.com/certified-ethical-hacker-v10-multiple-choice-questions-answers-part-6/
+
+Question:Which of the following security policies defines the use of VPN for gaining access to an internal corporate network?
+A. Network security policy
+B. Information protection policy
+C. Access control policy
+D. Remote access policy
+Answer:D
+
+Question:To determine if a software program properly handles a wide range of invalid input, a form of automated testing can be used to randomly generate invalid input in an attempt to crash the program. What term is commonly used when referring to this type of testing?
+A. Randomizing
+B. Bounding
+C. Mutating
+D. Fuzzing
+Answer:D
+
+Question:If you want only to scan fewer ports than the default scan using Nmap tool, which option would you use?
+A. -sP
+B. -P
+C. -r
+D. -F
+Answer:D
+
+Question:In Risk Management, how is the term likelihood related to the concept of threat?
+A. Likelihood is the likely source of a threat that could exploit a vulnerability.
+B. Likelihood is the probability that a threat-source will exploit a vulnerability.
+C. Likelihood is a possible threat-source that may exploit a vulnerability.
+D. Likelihood is the probability that a vulnerability is a threat-source.
+Answer:B
+
+Question:Which of the following statements is TRUE?
+A. Sniffers operate on Layer 2 of the OSI model
+B. Sniffers operate on Layer 3 of the OSI model
+C. Sniffers operate on both Layer 2 & Layer 3 of the OSI model.
+D. Sniffers operate on the Layer 1 of the OSI model.
+Answer:A
+
+Question:What is the least important information when you analyze a public IP address in a security alert?
+A. ARP
+B. Whois
+C. DNS
+D. Geolocation
+Answer:A
+
+Question:You are the Network Admin, and you get a complaint that some of the websites are no longer accessible. You try to ping the servers and find them to be reachable. Then you type the IP address and then you try on the browser, and find it to be accessible. But they are not accessible when you try using the URL. What may be the problem?
+A. Traffic is Blocked on UDP Port 53
+B. Traffic is Blocked on TCP Port 80
+C. Traffic is Blocked on TCP Port 54
+D. Traffic is Blocked on UDP Port 80
+Answer:A
+
+Question:Internet Protocol Security IPSec is actually a suite of protocols. Each protocol within the suite provides different functionality. Collective IPSec does everything except.
+A. Work at the Data Link Layer
+B. Protect the payload and the headers
+C. Encrypt
+D. Authenticate
+Answer:A
+
+Question:On performing a risk assessment, you need to determine the potential impacts when some of the critical business process of the company interrupt its service. What is the name of the process by which you can determine those critical business?
+A. Risk Mitigation
+B. Emergency Plan Response (EPR)
+C. Disaster Recovery Planning (DRP)
+D. Business Impact Analysis (BIA)
+Answer:D
+
+Question:Assume a business-crucial web-site of some company that is used to sell handsets to the customers worldwide. All the developed components are reviewed by the security team on a monthly basis. In order to drive business further, the web-site developers decided to add some 3rd party marketing tools on it. The tools are written in JavaScript and can track the customers activity on the site. These tools are located on the servers of the marketing company. What is the main security risk associated with this scenario?
+A. External script contents could be maliciously modified without the security team knowledge
+B. External scripts have direct access to the company servers and can steal the data from there
+C. There is no risk at all as the marketing services are trustworthy
+D. External scripts increase the outbound company data traffic which leads greater financial losses
+Answer:A
+
+Question:What type of analysis is performed when an attacker has partial knowledge of inner-workings of the application?
+A. Black-box
+B. Announced
+C. White-box
+D. Grey-box
+Answer:D
+
+Question:Bob finished a C programming course and created a small C application to monitor the network traffic and produce alerts when any origin sends many IP packets, based on the average number of packets sent by all origins and using some thresholds. In concept, the solution developed by Bob is actually:
+A. Just a network monitoring tool
+B. A signature-based IDS
+C. A hybrid IDS
+D. A behavior-based IDS
+Answer:A
+
+Question:Which of the following is a low-tech way of gaining unauthorized access to systems?
+A. Scanning
+B. Sniffing
+C. Social Engineering
+D. Enumeration
+Answer:C
+
+Question:When tuning security alerts, what is the best approach?
+A. Tune to avoid False positives and False Negatives
+B. Rise False positives Rise False Negatives
+C. Decrease the false positives
+D. Decrease False negatives
+Answer:A
+
+Question:In an internal security audit, the white hat hacker gains control over a user account and attempts to acquire access to another accounts confidential files and information. How can he achieve this?
+A. Privilege Escalation
+B. Shoulder-Surfing
+C. Hacking Active Directory
+D. Port Scanning
+Answer:A
+
+Question:Which regulation defines security and privacy controls for Federal information systems and organizations?
+A. HIPAA
+B. EU Safe Harbor
+C. PCI-DSS
+D. NIST-800-53
+Answer:D
+
+Question:Your company performs penetration tests and security assessments for small and medium-sized business in the local area. During a routine security assessment, you discover information that suggests your client is involved with human trafficking.
+Question:What should you do?
+A. Confront the client in a respectful manner and ask her about the data.
+B. Copy the data to removable media and keep it in case you need it.
+C. Ignore the data and continue the assessment until completed as agreed.
+D. Immediately stop work and contact the proper legal authorities.
+Answer:D
+
+Question:You are a security officer of a company. You had an alert from IDS that indicates that one PC on your Intranet is connected to a blacklisted IP address (C2 Server) on the Internet. The IP address was blacklisted just before the alert. You are staring an investigation to roughly analyze the severity of the situation. Which of the following is appropriate to analyze?
+A. Event logs on the PC
+B. Internet Firewall/Proxy log
+C. IDS log
+D. Event logs on domain controller
+Answer:B
+
+Question:Identify the UDP port that Network Time Protocol (NTP) uses as its primary means of communication?
+A. 123
+B. 161
+C. 69
+D. 113
+Answer:A
+
+Question:It has been reported to you that someone has caused an information spillage on their computer. You go to the computer, disconnect it from the network, remove the keyboard and mouse, and power it down. What step in incident handling did you just complete?
+A. Discovery
+B. Recovery
+C. Containment
+D. Eradication
+Answer:C
+
+Question:Which of the following cryptography attack is an understatement for the extraction of cryptographic secrets (e.g. the password to an encrypted file) from a person by a coercion or torture?
+A. Chosen-Cipher text Attack
+B. Ciphertext-only Attack
+C. Timing Attack
+D. Rubber Hose Attack
+Answer:D
+
+Question:In cryptanalysis and computer security, pass the hash is a hacking technique that allows an attacker to authenticate to a remote server/service by using the underlying NTLM and/or LanMan hash of a users password, instead of requiring the associated plaintext password as is normally the case. Metasploit Framework has a module for this technique: psexec. The psexec module is often used by penetration testers to obtain access to a given system whose credentials are known. It was written by sysinternals and has been integrated within the framework. The penetration testers successfully gain access to a system through some exploit, use meterpreter to grab the passwords or other methods like fgdump, pwdump, or cachedump and then utilize rainbowtables to crack those hash values. Which of the following is true hash type and sort order that is used in the psexec modules smbpass option?
+A. LM:NT
+B. NTLM:LM
+C. NT:LM
+D. LM:NTLM
+Answer:A
+
+Question:You are looking for SQL injection vulnerability by sending a special character to web applications. Which of the following is the most useful for quick validation?
+A. Double quotation
+B. Backslash
+C. Semicolon
+D. Single quotation
+Answer:D
+
+Question:A virus that attempts to install itself inside the file it is infecting is called?
+A. Tunneling virus
+B. Cavity virus
+C. Polymorphic virus
+D. Stealth virus
+Answer:B
+
+Bob, a system administrator at TPNQM SA, concluded one day that a DMZ is not needed if he properly configures the firewall to allow access just to servers/ports, which can have direct internet access, and block the access to workstations. Bob also concluded that DMZ makes sense just when a stateful firewall is available, which is not the case of TPNQM SA. In this context, what can you say?
+A. Bob can be right since DMZ does not make sense when combined with stateless firewalls
+B. Bob is partially right. He does not need to separate networks if he can create rules by destination IPs, one by one
+C. Bob is totally wrong. DMZ is always relevant when the company has internet servers and workstations
+D. Bob is partially right. DMZ does not make sense when a stateless firewall is available
+Answer:C
+
+Question:Sam is working as a pen-tester in an organization in Houston. He performs penetration testing on IDS in order to find the different ways an attacker uses to evade the IDS. Sam sends a large amount of packets to the target IDS that generates alerts, which enable Sam to hide the real traffic. What type of method is Sam using to evade IDS?
+A. Denial-of-Service
+B. False Positive Generation
+C. Insertion Attack
+D. Obfuscating
+Answer:B
+
+Question:Cross-site request forgery involves:
+A. A request sent by a malicious user from a browser to a server
+B. Modification of a request by a proxy between client and server
+C. A browser making a request to a server without the users knowledge
+D. A server making a request to another server without the users knowledge
+Answer:C
+
+Question:What does the option * indicate?
+A. s
+B. t
+C. n
+D. a
+Answer:C
+
+Question:An Internet Service Provider (ISP) has a need to authenticate users connecting via analog modems, Digital Subscriber Lines (DSL), wireless data services, and Virtual Private Networks (VPN) over a Frame Relay network. Which AAA protocol is the most likely able to handle this requirement?
+A. DIAMETER
+B. RADIUS
+C. TACACS+
+D. Kerberos
+Answer:B
+
+Question:What network security concept requires multiple layers of security controls to be placed throughout an IT infrastructure, which improves the security posture of an organization to defend against malicious attacks or potential vulnerabilities? What kind of Web application vulnerability likely exists in their software?
+A. Host-Based Intrusion Detection System
+B. Security through obscurity
+C. Defense in depth
+D. Network-Based Intrusion Detection System
+Answer:C
+
+Question:During the process of encryption and decryption, what keys are shared?
+A. Private keys
+B. User passwords
+C. Public keys
+D. Public and private keys
+Answer:C
+
+Question:How does the Address Resolution Protocol (ARP) work?
+A. It sends a request packet to all the network elements, asking for the domain name from a specific IP.
+B. It sends a request packet to all the network elements, asking for the MAC address from a specific IP.
+C. It sends a reply packet to all the network elements, asking for the MAC address from a specific IP.
+D. It sends a reply packet for a specific IP, asking for the MAC address.
+Answer:B
+
+Question:Which mode of IPSec should you use to assure security and confidentiality of data within the same LAN?
+A. AH promiscuous
+B. ESP confidential
+C. AH Tunnel mode
+D. ESP transport mode
+Answer:D
+
+Question:What type of analysis is performed when an attacker has partial knowledge of inner-workings of the application?
+A. Black-box
+B. Announced
+C. White-box
+D. Grey-box
+Answer:D
+
+Question:A regional bank hires your company to perform a security assessment on their network after a recent data breach. The attacker was able to steal financial data from the bank by compromising only a single server. Based on this information, what should be one of your key recommendations to the bank?
+A. Place a front-end web server in a demilitarized zone that only handles external web traffic
+B. Require all employees to change their anti-virus program with a new one
+C. Move the financial data to another server on the same IP subnet
+D. Issue new certificates to the web servers from the root certificate authority
+Answer:A
+
+Question:You want to do an ICMP scan on a remote computer using hping2. What is the proper syntax?
+A. hping2 -1 host.domain.com
+B. hping2-i host.domain.com
+C. hping2 set-ICMP host.domain.com
+D. hping2 host.domain.com
+Answer:A
+
+Question:If executives are found liable for not properly protecting their companys assets and information systems, what type of law would apply in this situation?
+A. Common
+B. Criminal
+C. Civil
+D. International
+Answer:C
+
+Question:The company ABC recently contract a new accountant. The accountant will be working with the financial statements. Those financial statements need to be approved by the CFO and then they will be sent to the accountant but the CFO is worried because he wants to be sure that the information sent to the accountant was not modified once he approved it. What is the following options can be useful to ensure the integrity of the data?
+A. The CFO can use a hash algorithm in the document once he approved the financial statements
+B. The CFO can use an excel file with a password
+C. The financial statements can be sent twice, one by email and the other delivered in USB and the accountant can compare both to be sure is the same document
+D. The document can be sent to the accountant using an exclusive USB for that document
+Answer:A
+
+Question:What is the way to decide how a packet will move from an untrusted outside host to a protected inside that is behind a firewall, which permits the hacker to determine which ports are open and if the packets can pass through the packet-filtering of the firewall?
+A. Session hijacking
+B. Firewalking
+C. Man-in-the middle attack
+D. Network sniffing
+Answer:B
+
+Question:What type of OS fingerprinting technique sends specially crafted packets to the remote OS and analyzes the received response?
+A. Passive
+B. Active
+C. Reflective
+D. Distributive
+Answer:B
+
+Question:Firewalk has just completed the second phase (the scanning phase) and a technician receives the output shown below. What conclusions can be drown based on these scan results?
+Question:TCP port 21  no response
+Question:TCP port 22  no response
+Question:TCP port 23  Time-to-live exceeded
+A. The scan on port 23 was able to make a connection to the destination host prompting the firewall to respond with a TTL error
+B. The lack of response from ports 21 and 22 indicate that those services are not running on the destination server
+C. The scan on port 23 passed through the filtering device. This indicates that port 23 was not blocked at the firewall
+D. The firewall itself is blocking ports 21 through 23 and a service is listening on port 23 of the target host
+Answer:C
+
+Question:A computer science student needs to fill some information into a secured Adobe PDF job application that was received from a prospective employer. Instead of requesting a new document that allowed the forms to be completed, the student decides to write a script that pulls passwords from a list of commonly used passwords to try against the secured PDF until the correct password is found or the list is exhausted. Which cryptography attack is the student attempting?
+A. Man-in-the-middle attack
+B. Session hijacking
+C. Brute-force attack
+D. Dictionary-attack
+Answer:D
+
+Question:A penetration tester is conducting a port scan on a specific host. The tester found several ports opened that were confusing in concluding the Operating System (OS) version installed. Considering that NMAP result below, which of the following is likely to be installed on the target machine by the OS?
+Question:Starting NMAP 5.21 at 2011-03-15 11:06
+Question:NMAP scan report for 172.16.40.65 Host is up (1.00s latency). Not shown: 993 closed ports
+Question:PORT STATE SERVICE
+Question:21/tcp open ftp
+Question:23/tcp open telnet
+Question:80/tcp open http
+Question:139/tcp open netbios-ssn
+Question:515/tcp open
+Question:631/tcp open ipp
+Question:9100/tcp open
+Question:MAC Address: 00:00:48:0D:EE:8
+A. The host is likely a Linux machine.
+B. The host is likely a printer.
+C. The host is likely a router.
+D. The host is likely a Windows machine.
+Answer:B
+
+Question:Bob received this text message on his mobile phone: Hello, this is Scott Smelby from the Yahoo Bank. Kindly contact me for a vital transaction on: scottsmelby@yahoo.com. Which statement below is true?
+A. This is a scam as everybody can get a @yahoo address, not the Yahoo customer service employees.
+B. This is a scam because Bob does not know Scott.
+C. Bob should write to scottmelby@yahoo.com to verify the identity of Scott.
+D. This is probably a legitimate message as it comes from a respectable organization.
+Answer:A
+
+Question:When purchasing a biometric system, one of the considerations that should be reviewed is the processing speed. Which of the following best describes what it is meant by processing?
+A. The amount of time and resources that are necessary to maintain a biometric system
+B. How long it takes to setup individual user accounts
+C. The amount of time it takes to be either accepted or rejected from when an individual provides identification and authentication information
+D. The amount of time it takes to convert biometric data into a template on a smart card
+Answer:C
+
+Question:An attacker changes the profile information of a particular user (victim) on the target website. The attacker uses this string to update the victims profile to a text file and then submit the data to the attackers database.
+Question:<iframe src=http://www.vulnweb.com/updateif.php style=display:none></iframe>
+Question:What is this type of attack (that can use either HTTP GET or HTTP POST) called?
+A. Cross-Site Request Forgery
+B. SQL Injection
+C. Browser Hacking
+D. Cross-Site Scripting
+Answer:A
+
