@@ -1,0 +1,417 @@
+# CCNA Security Implementing Cisco Network Security
+# https://www.examtopics.com/exams/cisco/210-260/
+
+Question:Which two services define cloud networks? (Choose two.)
+A. Infrastructure as a Service
+B. Platform as a Service
+C. Security as a Service
+D. Compute as a Service
+E. Tenancy as a Service
+Answer:AB
+
+Question:In which two situations should you use out-of-band management? (Choose two.)
+A. when a network device fails to forward packets
+B. when you require ROMMON access
+C. when management applications need concurrent access to the device
+D. when you require administrator access from multiple locations
+E. when the control plane fails to respond
+Answer:AB
+
+Question:In which three ways does the TACACS protocol differ from RADIUS? (Choose three.)
+A. TACACS uses TCP to communicate with the NAS.
+B. TACACS can encrypt the entire packet that is sent to the NAS.
+C. TACACS supports per-command authorization.
+D. TACACS authenticates and authorizes simultaneously, causing fewer packets to be transmitted.
+E. TACACS uses UDP to communicate with the NAS.
+F. TACACS encrypts only the password field in an authentication packet.
+Answer:ABC
+
+Question:According to Cisco best practices, which three protocols should the default ACL allow on an access port to enable wired BYOD devices to supply valid credentials and connect to the network? (Choose three.)
+A. BOOTP
+B. TFTP
+C. DNS
+D. MAB
+E. HTTP
+F. 802.1x
+Answer:ABC
+
+Question:Which two next-generation encryption algorithms does Cisco recommend? (Choose two.)
+A. AES
+B. 3DES
+C. DES
+D. MD5
+E. DH-1024
+F. SHA-384
+Answer:AF
+
+Question:Which three ESP fields can be encrypted during transmission? (Choose three.)
+A. Security Parameter Index
+B. Sequence Number
+C. MAC Address
+D. Padding
+E. Pad Length
+F. Next Header
+Answer:DEF
+
+Question:What are two default Cisco IOS privilege levels? (Choose two.)
+A. 0
+B. 1
+C. 5
+D. 7
+E. 10
+F. 15
+Answer:BF
+
+Question:Which two authentication types does OSPF support? (Choose two.)
+A. plaintext
+B. MD5
+C. HMAC
+D. AES 256
+E. SHA-1
+F. DES
+Answer:AB
+
+Question:Which two features do CoPP and CPPr use to protect the control plane? (Choose two.)
+A. QoS
+B. traffic classification
+C. access lists
+D. policy maps
+E. class maps
+F. Cisco Express Forwarding
+Answer:AB
+
+Question:Which two statements about stateless firewalls are true? (Choose two.)
+A. They compare the 5-tuple of each incoming packet against configurable rules.
+B. They cannot track connections.
+C. They are designed to work most efficiently with stateless protocols such as HTTP or HTTPS.
+D. Cisco IOS cannot implement them because the platform is stateful by nature.
+E. The Cisco ASA is implicitly stateless because it blocks all traffic by default.
+Answer:AB
+
+Question:Which three statements about host-based IPS are true? (Choose three.)
+A. It can view encrypted files.
+B. It can have more restrictive policies than network-based IPS.
+C. It can generate alerts based on behavior at the desktop level.
+D. It can be deployed at the perimeter.
+E. It uses signature-based policies.
+F. It works with deployed firewalls.
+Answer:ABC
+
+Question:When an IPS detects an attack, which action can the IPS take to prevent the attack from spreading?
+A. Deny the connection inline.
+B. Perform a Layer 6 reset.
+C. Deploy an antimalware system.
+D. Enable bypass mode.
+Answer:A
+
+Question:What is an advantage of implementing a Trusted Platform Module for disk encryption?
+A. It provides hardware authentication.
+B. It allows the hard disk to be transferred to another device without requiring re-encryption.dis
+C. It supports a more complex encryption algorithm than other disk-encryption technologies.
+D. It can protect against single points of failure.
+Answer:A
+
+Question:What is the purpose of the Integrity component of the CIA triad?
+A. to ensure that only authorized parties can modify data
+B. to determine whether data is relevant
+C. to create a process for accessing data
+D. to ensure that only authorized parties can view data
+Answer:A
+
+Question:In a security context, which action can you take to address compliance?
+A. Implement rules to prevent a vulnerability.
+B. Correct or counteract a vulnerability.
+C. Reduce the severity of a vulnerability.
+D. Follow directions from the security appliance manufacturer to remediate a vulnerability.
+Answer:A
+
+Question:Which type of secure connectivity does an extranet provide?
+A. other company networks to your company network
+B. remote branch offices to your company network
+C. your company network to the Internet
+D. new networks to your company network
+Answer:A
+
+Question:Which tool can an attacker use to attempt a DDoS attack?
+A. botnet
+B. Trojan horse
+C. virus
+D. adware
+Answer:A
+
+Question:What type of security support is provided by the Open Web Application Security Project?
+A. Education about common Web site vulnerabilities.
+B. A Web site security framework.
+C. A security discussion forum for Web site developers.
+D. Scoring of common vulnerabilities and exposures.
+Answer:A
+
+Question:What type of attack was the Stuxnet virus?
+A. cyber warfare
+B. hacktivism
+C. botnet
+D. social engineering
+Answer:A
+
+Question:What type of algorithm uses the same key to encrypt and decrypt data?
+A. a symmetric algorithm
+B. an asymmetric algorithm
+C. a Public Key Infrastructure algorithm
+D. an IP security algorithm
+Answer:A
+
+Question:How does the Cisco ASA use Active Directory to authorize VPN users?
+A. It queries the Active Directory server for a specific attribute for the specified user.
+B. It sends the username and password to retrieve an ACCEPT or REJECT message from the Active Directory server.
+C. It downloads and stores the Active Directory database to query for future authorization requests.
+D. It redirects requests to the Active Directory server defined for the VPN group.
+Answer:A
+
+Question:Which statement about Cisco ACS authentication and authorization is true?
+A. ACS servers can be clustered to provide scalability.
+B. ACS can query multiple Active Directory domains.
+C. ACS uses TACACS to proxy other authentication servers.
+D. ACS can use only one authorization profile to allow or deny requests.
+Answer:A
+
+Question:Which EAP method uses Protected Access Credentials?
+A. EAP-FAST
+B. EAP-TLS
+C. EAP-PEAP
+D. EAP-GTC
+Answer:A
+
+Question:What is one requirement for locking a wired or wireless device from ISE?
+A. The ISE agent must be installed on the device.
+B. The device must be connected to the network when the lock command is executed.
+C. The user must approve the locking action.
+D. The organization must implement an acceptable use policy allowing device locking.
+Answer:A
+
+Question:What VPN feature allows traffic to exit the security appliance through the same interface it entered?
+A. hairpinning
+B. NAT
+C. NAT traversal
+D. split tunneling
+Answer:A
+
+Question:What VPN feature allows Internet traffic and local LAN/WAN traffic to use the same network connection?
+A. split tunneling
+B. hairpinning
+C. tunnel mode
+D. transparent mode
+Answer:A
+
+Question:What is the effect of the send-lifetime local 23:59:00 31 December 31 2013 infinite command?
+A. It configures the device to begin transmitting the authentication key to other devices at 00:00:00 local time on January 1, 2014 and continue using the key indefinitely.
+B. It configures the device to begin transmitting the authentication key to other devices at 23:59:00 local time on December 31, 2013 and continue using the key indefinitely.
+C. It configures the device to begin accepting the authentication key from other devices immediately and stop accepting the key at 23:59:00 local time on December 31, 2013.
+D. It configures the device to generate a new authentication key and transmit it to other devices at 23:59:00 local time on December 31, 2013.
+E. It configures the device to begin accepting the authentication key from other devices at 23:59:00 local time on December 31, 2013 and continue accepting the key indefinitely.
+F. It configures the device to begin accepting the authentication key from other devices at 00:00:00 local time on January 1, 2014 and continue accepting the key indefinitely.
+Answer:B
+
+Question:After reloading a router, you issue the dir command to verify the installation and observe that the image file appears to be missing. For what reason could the image file fail to appear in the dir output?
+A. The secure boot-image command is configured.
+B. The secure boot-comfit command is configured.
+C. The confreg 0x24 command is configured.
+D. The reload command was issued from ROMMON.
+Answer:A
+
+Question:What type of packet creates and performs network operations on a network device?
+A. control plane packets
+B. data plane packets
+C. management plane packets
+D. services plane packets
+Answer:A
+
+Question:An attacker installs a rogue switch that sends superior BPDUs on your network. What is a possible result of this activity?
+A. The switch could offer fake DHCP addresses.
+B. The switch could become the root bridge.
+C. The switch could be allowed to join the VTP domain.
+D. The switch could become a transparent bridge.
+Answer:B
+
+Question:In what type of attack does an attacker virtually change a device's burned-in address in an attempt to circumvent access lists and mask the device's true identity?
+A. gratuitous ARP
+B. ARP poisoning
+C. IP spoofing
+D. MAC spoofing
+Answer:D
+
+Question:What command can you use to verify the binding table status?
+A. show ip dhcp snooping database
+B. show ip dhcp snooping binding
+C. show ip dhcp snooping statistics
+D. show ip dhcp pool
+E. show ip dhcp source binding
+Answer:A
+
+Question:If a switch receives a superior BPDU and goes directly into a blocked state, what mechanism must be in use?
+A. root guard
+B. EtherChannel guard
+C. loop guard
+D. BPDU guard
+Answer:A
+
+Question:Which statement about a PVLAN isolated port configured on a switch is true?
+A. The isolated port can communicate only with the promiscuous port.
+B. The isolated port can communicate with other isolated ports and the promiscuous port.
+C. The isolated port can communicate only with community ports.
+D. The isolated port can communicate only with other isolated ports.
+Answer:A
+
+Question:If you change the native VLAN on the trunk port to an unused VLAN, what happens if an attacker attempts a double-tagging attack?
+A. The trunk port would go into an error-disabled state.
+B. A VLAN hopping attack would be successful.
+C. A VLAN hopping attack would be prevented.
+D. The attacked VLAN will be pruned.
+Answer:C
+
+Question:What is a reason for an organization to deploy a personal firewall?
+A. To protect endpoints such as desktops from malicious activity.
+B. To protect one virtual network segment from another.
+C. To determine whether a host meets minimum security posture requirements.
+D. To create a separate, non-persistent virtual environment that can be destroyed after a session.
+E. To protect the network from DoS and syn-flood attacks.
+Answer:A
+
+Question:Which statement about personal firewalls is true?
+A. They can protect a system by denying probing requests.
+B. They are resilient against kernel attacks.
+C. They can protect email messages and private documents in a similar way to a VPN.
+D. They can protect the network against attacks.
+Answer:A
+
+Question:What is the only permitted operation for processing multicast traffic on zone-based firewalls?
+A. Only control plane policing can protect the control plane against multicast traffic.
+B. Stateful inspection of multicast traffic is supported only for the self-zone.
+C. Stateful inspection for multicast traffic is supported only between the self-zone and the internal zone.
+D. Stateful inspection of multicast traffic is supported only for the internal zone.
+Answer:A
+
+Question:How does a zone-based firewall implementation handle traffic between interfaces in the same zone?
+A. Traffic between two interfaces in the same zone is allowed by default.
+B. Traffic between interfaces in the same zone is blocked unless you configure the same-security permit command.
+C. Traffic between interfaces in the same zone is always blocked.
+D. Traffic between interfaces in the same zone is blocked unless you apply a service policy to the zone pair.
+Answer:A
+
+Question:Which two statements about Telnet access to the ASA are true? (Choose two).
+A. You may VPN to the lowest security interface to telnet to an inside interface.
+B. You must configure an AAA server to enable Telnet.
+C. You can access all interfaces on an ASA using Telnet.
+D. You must use the command virtual telnet to enable Telnet.
+E. Best practice is to disable Telnet and use SSH.
+Answer:AE
+
+Question:Which statement about communication over failover interfaces is true?
+A. All information that is sent over the failover and stateful failover interfaces is sent as clear text by default.
+B. All information that is sent over the failover interface is sent as clear text, but the stateful failover link is encrypted by default.
+C. All information that is sent over the failover and stateful failover interfaces is encrypted by default.
+D. User names, passwords, and preshared keys are encrypted by default when they are sent over the failover and stateful failover interfaces, but other
+Answer:A
+
+Question:If a packet matches more than one class map in an individual feature type's policy map, how does the ASA handle the packet?
+A. The ASA will apply the actions from only the first matching class map it finds for the feature type.
+B. The ASA will apply the actions from only the most specific matching class map it finds for the feature type.
+C. The ASA will apply the actions from all matching class maps it finds for the feature type.
+D. The ASA will apply the actions from only the last matching class map it finds for the feature type.
+Answer:A
+
+Question:For what reason would you configure multiple security contexts on the ASA firewall?
+A. To separate different departments and business units.
+B. To enable the use of VRFs on routers that are adjacently connected.
+C. To provide redundancy and high availability within the organization.
+D. To enable the use of multicast routing and QoS through the firewall.
+Answer:A
+
+Question:What is an advantage of placing an IPS on the inside of a network?
+A. It can provide higher throughput.
+B. It receives traffic that has already been filtered.
+C. It receives every inbound packet.
+D. It can provide greater security.
+Answer:B
+
+Question:What is the FirePOWER impact flag used for?
+A. A value that indicates the potential severity of an attack.
+B. A value that the administrator assigns to each signature.
+C. A value that sets the priority of a signature.
+D. A value that measures the application awareness.
+Answer:A
+
+Question:Which FirePOWER preprocessor engine is used to prevent SYN attacks?
+A. Rate-Based Prevention
+B. Portscan Detection
+C. IP Defragmentation
+D. Inline Normalization
+Answer:A
+
+Question:Which Sourcefire logging action should you choose to record the most detail about a connection?
+A. Enable logging at the end of the session.
+B. Enable logging at the beginning of the session.
+C. Enable alerts via SNMP to log events off-box.
+D. Enable eStreamer to log events off-box.
+Answer:A
+
+Question:What can the SMTP preprocessor in FirePOWER normalize?
+A. It can extract and decode email attachments in client to server traffic.
+B. It can look up the email sender.
+C. It compares known threats to the email sender.
+D. It can forward the SMTP traffic to an email filter server.
+E. It uses the Traffic Anomaly Detector.
+Answer:A
+
+Question:You want to allow all of your company's users to access the Internet without allowing other Web servers to collect the IP addresses of individual users. What two solutions can you use? (Choose two).
+A. Configure a proxy server to hide users' local IP addresses.
+B. Assign unique IP addresses to all users.
+C. Assign the same IP address to all users.
+D. Install a Web content filter to hide users' local IP addresses.
+E. Configure a firewall to use Port Address Translation.
+Answer:AE
+
+Question:You have implemented a Sourcefire IPS and configured it to block certain addresses utilizing Security Intelligence IP Address Reputation. A user calls and is not able to access a certain IP address. What action can you take to allow the user access to the IP address?
+A. Create a whitelist and add the appropriate IP address to allow the traffic.
+B. Create a custom blacklist to allow the traffic.
+C. Create a user based access control rule to allow the traffic.
+D. Create a network based access control rule to allow the traffic.
+E. Create a rule to bypass inspection to allow the traffic.
+Answer:A
+
+Question:A specific URL has been identified as containing malware. What action can you take to block users from accidentally visiting the URL and becoming infected with malware.
+A. Enable URL filtering on the perimeter router and add the URLs you want to block to the router's local URL list.
+B. Enable URL filtering on the perimeter firewall and add the URLs you want to allow to the router's local URL list.
+C. Enable URL filtering on the perimeter router and add the URLs you want to allow to the firewall's local URL list.
+D. Create a blacklist that contains the URL you want to block and activate the blacklist on the perimeter router.
+E. Create a whitelist that contains the URLs you want to allow and activate the whitelist on the perimeter router.
+Answer:A
+
+Question:When is the best time to perform an anti-virus signature update?
+A. Every time a new update is available.
+B. When the local scanner has detected a new virus.
+C. When a new virus is discovered in the wild.
+D. When the system detects a browser hook.
+Answer:A
+
+Question:Which statement about application blocking is true?
+A. It blocks access to specific programs.
+B. It blocks access to files with specific extensions.
+C. It blocks access to specific network addresses.
+D. It blocks access to specific network services.
+Answer:A
+
+Question:What features can protect the data plane? (Choose three.)
+A. policing
+B. ACLs
+C. IPS
+D. antispoofing
+E. QoS
+F. DHCP-snooping
+Answer:BDF
+
+Question:How many crypto map sets can you apply to a router interface?
+A. 3
+B. 2
+C. 4
+D. 1
+Answer:D

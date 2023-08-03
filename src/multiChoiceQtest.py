@@ -109,6 +109,20 @@ for i in range(count):
         answerList[i]+'.' in answer:
         correctCount+=1
         Log.info('Question %s: correct.' %str(i+1))
+    elif len(answerList[i]) > 1:
+        res = True
+        # handler multi-choice question wich more than one answer
+        for val in answerList[i]:
+            if val+')' in answer or val+'.' in answer:
+                res = res and True
+            else:
+                res = res and False
+        if res:
+            correctCount+=1
+            Log.info('Question %s: correct.' %str(i+1))
+            #Log.info('Question %s: correct. correct answer: %s, AI answer: %s' %(str(i+1),str(answerList[i]), str(answer) ))
+        else:
+            Log.info('Question %s: incorrect. correct answer: %s, AI answer: %s' %(str(i+1),str(answerList[i]), str(answer) ))
     else:
         Log.info('Question %s: incorrect. correct answer: %s, AI answer: %s' %(str(i+1),str(answerList[i]), str(answer) ))
     time.sleep(1) # speed to avoid reach the 1 min text limitation.

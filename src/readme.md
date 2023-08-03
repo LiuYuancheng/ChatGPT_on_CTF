@@ -51,6 +51,7 @@ Answer:A
 | 11   | Yeahhub CTF-repo: Certified Ethical Hacker 2021 v10 exam part (9-10) | questionbank_12.txt    | 35                   | 45                 | 77.77%                       |
 | 12   | Yeahhub CTF-repo: Certified Ethical Hacker 2021 v10 exam part (11-12) | questionbank_13.txt    | 36                   | 46                 | 78.26%                       |
 | 13   | Yeahhub CTF-repo: Certified Ethical Hacker 2021 v10 exam part (13-14) | questionbank_14.txt    | 32                   | 44                 | 72.72 %                      |
+| 14   | CCNA Security Implementing Cisco Network Security Exam       | questionbank_15.txt    | 34                   | 55                 | 61.81%                       |
 
 
 

@@ -1,0 +1,77 @@
+2023-08-03 17:20:54,105 INFO     Question 1: correct.
+2023-08-03 17:20:56,658 INFO     Question 2: incorrect. correct answer: AB, AI answer: A. when a network device fails to forward packets
+D. when you require administrator access from multiple locations
+2023-08-03 17:20:59,685 INFO     Question 3: correct.
+2023-08-03 17:21:02,639 INFO     Question 4: incorrect. correct answer: ABC, AI answer: The three protocols that the default ACL should allow on an access port to enable wired BYOD devices to supply valid credentials and connect to the network are:
+
+A. BOOTP
+C. DNS
+E. HTTP
+2023-08-03 17:21:04,938 INFO     Question 5: incorrect. correct answer: AF, AI answer: The two next-generation encryption algorithms that Cisco recommends are AES and SHA-384.
+2023-08-03 17:21:08,279 INFO     Question 6: incorrect. correct answer: DEF, AI answer: The three ESP fields that can be encrypted during transmission are:
+
+1. Sequence Number
+2. Padding
+3. Pad Length
+2023-08-03 17:21:13,089 INFO     Question 7: correct.
+2023-08-03 17:21:15,500 INFO     Question 8: incorrect. correct answer: AB, AI answer: The two authentication types that OSPF supports are:
+
+B. MD5
+E. SHA-1
+2023-08-03 17:21:17,855 INFO     Question 9: incorrect. correct answer: AB, AI answer: C. access lists 
+E. class maps
+2023-08-03 17:21:20,541 INFO     Question 10: correct.
+2023-08-03 17:21:23,107 INFO     Question 11: incorrect. correct answer: ABC, AI answer: B. It can have more restrictive policies than network-based IPS.
+C. It can generate alerts based on behavior at the desktop level.
+E. It uses signature-based policies.
+2023-08-03 17:21:25,160 INFO     Question 12: correct.
+2023-08-03 17:21:27,089 INFO     Question 13: correct.
+2023-08-03 17:21:29,386 INFO     Question 14: correct.
+2023-08-03 17:21:31,873 INFO     Question 15: incorrect. correct answer: A, AI answer: D. Follow directions from the security appliance manufacturer to remediate a vulnerability.
+2023-08-03 17:21:33,610 INFO     Question 16: correct.
+2023-08-03 17:21:35,316 INFO     Question 17: correct.
+2023-08-03 17:21:37,143 INFO     Question 18: incorrect. correct answer: A, AI answer: E. All of the above.
+2023-08-03 17:21:38,990 INFO     Question 19: correct.
+2023-08-03 17:21:40,724 INFO     Question 20: correct.
+2023-08-03 17:21:43,228 INFO     Question 21: incorrect. correct answer: A, AI answer: B. It sends the username and password to retrieve an ACCEPT or REJECT message from the Active Directory server.
+2023-08-03 17:21:45,382 INFO     Question 22: correct.
+2023-08-03 17:21:47,467 INFO     Question 23: correct.
+2023-08-03 17:21:49,331 INFO     Question 24: correct.
+2023-08-03 17:21:51,395 INFO     Question 25: correct.
+2023-08-03 17:21:53,198 INFO     Question 26: correct.
+2023-08-03 17:21:56,166 INFO     Question 27: incorrect. correct answer: B, AI answer: The correct answer is E. It configures the device to begin accepting the authentication key from other devices at 23:59:00 local time on December 31, 2013 and continue accepting the key indefinitely.
+2023-08-03 17:21:58,004 INFO     Question 28: incorrect. correct answer: A, AI answer: D. The reload command was issued from ROMMON.
+2023-08-03 17:22:00,082 INFO     Question 29: correct.
+2023-08-03 17:22:02,010 INFO     Question 30: correct.
+2023-08-03 17:22:03,729 INFO     Question 31: correct.
+2023-08-03 17:22:06,198 INFO     Question 32: incorrect. correct answer: A, AI answer: B. show ip dhcp snooping binding
+2023-08-03 17:22:07,756 INFO     Question 33: incorrect. correct answer: A, AI answer: C. loop guard
+2023-08-03 17:22:10,880 INFO     Question 34: incorrect. correct answer: A, AI answer: D. The isolated port can communicate only with other isolated ports.
+2023-08-03 17:22:13,397 INFO     Question 35: correct.
+2023-08-03 17:22:15,255 INFO     Question 36: correct.
+2023-08-03 17:22:17,202 INFO     Question 37: correct.
+2023-08-03 17:22:19,733 INFO     Question 38: incorrect. correct answer: A, AI answer: C. Stateful inspection for multicast traffic is supported only between the self-zone and the internal zone.
+2023-08-03 17:22:21,698 INFO     Question 39: correct.
+2023-08-03 17:22:24,466 INFO     Question 40: incorrect. correct answer: AE, AI answer: The two statements that are true about Telnet access to the ASA are:
+
+E. Best practice is to disable Telnet and use SSH.
+C. You can access all interfaces on an ASA using Telnet.
+2023-08-03 17:22:27,832 INFO     Question 41: incorrect. correct answer: A, AI answer: information is sent as clear text. 
+
+The correct answer is D. User names, passwords, and preshared keys are encrypted by default when they are sent over the failover and stateful failover interfaces, but other information is sent as clear text.
+2023-08-03 17:22:30,156 INFO     Question 42: incorrect. correct answer: A, AI answer: B. The ASA will apply the actions from only the most specific matching class map it finds for the feature type.
+2023-08-03 17:22:32,274 INFO     Question 43: correct.
+2023-08-03 17:22:34,164 INFO     Question 44: correct.
+2023-08-03 17:22:35,986 INFO     Question 45: correct.
+2023-08-03 17:22:37,690 INFO     Question 46: correct.
+2023-08-03 17:22:39,597 INFO     Question 47: incorrect. correct answer: A, AI answer: B. Enable logging at the beginning of the session.
+2023-08-03 17:22:41,559 INFO     Question 48: correct.
+2023-08-03 17:22:43,954 INFO     Question 49: correct.
+2023-08-03 17:22:46,080 INFO     Question 50: correct.
+2023-08-03 17:22:48,511 INFO     Question 51: correct.
+2023-08-03 17:22:50,865 INFO     Question 52: incorrect. correct answer: A, AI answer: E. Every time the computer is turned on.
+2023-08-03 17:22:52,629 INFO     Question 53: correct.
+2023-08-03 17:23:03,019 INFO     Question 54: correct.
+2023-08-03 17:23:04,672 INFO     Question 55: correct.
+34/55
+2023-08-03 17:23:05,677 INFO     Ai correct rate: 61.81818181818182 
