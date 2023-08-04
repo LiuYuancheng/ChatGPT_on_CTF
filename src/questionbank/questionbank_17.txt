@@ -1,0 +1,191 @@
+# CCNP Security Implementing Cisco Secure Access Solutions (SISAS)
+# https://www.examtopics.com/exams/cisco/300-208/
+
+Question:A network administrator needs to implement a service that enables granular control of IOS commands that can be executed. Which AAA authentication method should be selected?
+A. TACACS+
+B. RADIUS
+C. Windows Active Directory
+D. Generic LDAP
+Answer:A
+
+Question:Cisco 802.1X phasing enables flexible deployments through the use of open, low-impact, and closed modes. What is a unique characteristic of the most secure mode?
+A. Granular ACLs applied prior to authentication
+B. Per user dACLs applied after successful authentication
+C. Only EAPoL traffic allowed prior to authentication
+D. Adjustable 802.1X timers to enable successful authentication
+Answer:C
+
+Question:An administrator can leverage which attribute to assign privileges based on Microsoft Active Directory user groups?
+A. member of
+B. group
+C. class
+D. person
+Answer:A
+
+Question:Changes were made to the ISE server while troubleshooting, and now all wireless certificate authentications are failing. Logs indicate an EAP failure. What is the most likely cause of the problem?
+A. EAP-TLS is not checked in the Allowed Protocols list
+B. Certificate authentication profile is not configured in the Identity Store
+C. MS-CHAPv2-is not checked in the Allowed Protocols list
+D. Default rule denies all traffic
+E. Client root certificate is not included in the Certificate Store
+Answer:A
+
+Question:Which two conditions are valid when configuring ISE for posturing? (Choose two.)
+A. Dictionary
+B. member Of
+C. Profile status
+D. File
+E. Service
+Answer:DE
+
+Question:Which identity store option allows you to modify the directory services that run on TCP/IP?
+A. Lightweight Directory Access Protocol
+B. RSA SecurID server
+C. RADIUS
+D. Active Directory
+Answer:A
+
+Question:Which term describes a software application that seeks connectivity to the network via a network access device?
+A. authenticator
+B. server
+C. supplicant
+D. WLC
+Answer:C
+
+Question:What is the first step that occurs when provisioning a wired device in a BYOD scenario?
+A. The smart hub detects that the physically connected endpoint requires configuration and must use MAB to authenticate.
+B. The URL redirects to the Cisco ISE Guest Provisioning portal.
+C. Cisco ISE authenticates the user and deploys the SPW package.
+D. The device user attempts to access a network URL.
+Answer:A
+
+Question:An organization has recently deployed ISE with the latest models of Cisco switches, and it plans to deploy Trustsec to secure its infrastructure. The company also wants to allow different network access policies for different user groups (e.g., administrators). Which solution is needed to achieve these goals?
+A. Cisco Security Group Access Policies in order to use SGACLs to control access based on SGTs assigned to different users
+B. MACsec in Multiple-Host Mode in order to open or close a port based on a single authentication
+C. Identity-based ACLs on the switches with user identities provided by ISE
+D. Cisco Threat Defense for user group control by leveraging Netflow exported from the switches and login information from ISE
+Answer:A
+
+Question:Security Group Access requires which three syslog messages to be sent to Cisco ISE? (Choose three.)
+A. IOS-7-PROXY_DROP
+B. AP-1-AUTH_PROXY_DOS_ATTACK
+C. MKA-2-MACDROP
+D. AUTHMGR-5-MACMOVE
+E. ASA-6-CONNECT_BUILT
+F. AP-1-AUTH_PROXY_FALLBACK_REQ
+Answer:BDF
+
+Question:Which set of commands allows IPX inbound on all interfaces?
+A. ASA1(config)# access-list IPX-Allow ethertype permit ipx ASA1(config)# access-group IPX-Allow in interface global
+B. ASA1(config)# access-list IPX-Allow ethertype permit ipx ASA1(config)# access-group IPX-Allow in interface inside
+C. ASA1(config)# access-list IPX-Allow ethertype permit ipx ASA1(config)# access-group IPX-Allow in interface outside
+D. ASA1(config)# access-list IPX-Allow ethertype permit ipx
+Answer:A
+
+Question:Which command enables static PAT for TCP port 25?
+A. nat (outside,inside) static 209.165.201.3 209.165.201.226 eq smtp
+B. nat static 209.165.201.3 eq smtp
+C. nat (inside,outside) static 209.165.201.3 service tcp smtp smtp
+D. static (inside,outside) 209.165.201.3 209.165.201.226 netmask 255.255.255.255
+Answer:C
+
+Question:Wireless client supplicants attempting to authenticate to a wireless network are generating excessive log messages. Which three WLC authentication settings should be disabled? (Choose three.)
+A. RADIUS Server Timeout
+B. RADIUS Aggressive-Failover
+C. Idle Timer
+D. Session Timeout
+E. Client Exclusion
+F. Roaming
+Answer:BCD
+
+Question:Which two authentication stores are supported to design a wireless network using PEAP EAP-MSCHAPv2 as the authentication method? (Choose two.)
+A. Microsoft Active Directory
+B. ACS
+C. LDAP
+D. RSA Secure-ID
+E. Certificate Server
+Answer:AB
+
+Question:What is another term for 802.11i wireless network security?
+A. 802.1x
+B. WEP
+C. TKIP
+D. WPA
+E. WPA2
+Answer:E
+
+Question:Where is client traffic decrypted in a controller-based wireless network protected with WPA2 Security?
+A. Access Point
+B. Switch
+C. Wireless LAN Controller
+D. Authentication Server
+Answer:A
+
+Question:What is a requirement for posture administration services in Cisco ISE?
+A. at least one Cisco router to store Cisco ISE profiling policies
+B. Cisco NAC Agents that communicate with the Cisco ISE server
+C. an ACL that points traffic to the Cisco ISE deployment
+D. the advanced license package must be installed
+Answer:D
+
+Question:In an 802.1X authorization process, a network access device provides which three functions? (Choose three.)
+A. Filters traffic prior to authentication
+B. Passes credentials to authentication server
+C. Enforces policy provided by authentication server
+D. Hosts a central web authentication page
+E. Confirms supplicant protocol compliance
+F. Validates authentication credentials
+Answer:ABC
+
+Question:Which three algorithms should be avoided due to security concerns? (Choose three.)
+A. DES for encryption
+B. SHA-1 for hashing
+C. 1024-bit RSA
+D. AES GCM mode for encryption
+E. HMAC-SHA-1
+F. 256-bit Elliptic Curve Diffie-Hellman
+G. 2048-bit Diffie-Hellman
+Answer:ABC
+
+Question:A network engineer is configuring HTTP based CWA on a switch. Which three configuration elements are required? (Choose three.)
+A. HTTP server enabled
+B. Radius authentication on the port with MAB
+C. Redirect access-list
+D. Redirect-URL
+E. HTTP secure server enabled
+F. Radius authentication on the port with 802.1x
+G. Pre-auth port based access-list
+Answer:ABC
+
+Question:Which three network access devices allow for static security group tag assignment? (Choose three.)
+A. intrusion prevention system
+B. access layer switch
+C. data center access switch
+D. load balancer
+E. VPN concentrator
+F. wireless LAN controller
+Answer:BCE
+
+Question:Which option is required for inline security group tag propagation?
+A. Cisco Secure Access Control System
+B. hardware support
+C. Security Group Tag Exchange Protocol (SXP) v4
+D. Cisco Identity Services Engine
+Answer:B
+
+Question:The corporate security policy requires multiple elements to be matched in an authorization policy. Which elements can be combined to meet the requirement?
+A. Device registration status and device activation status
+B. Network access device and time condition
+C. User credentials and server certificate
+D. Built-in profile and custom profile
+Answer:B
+
+Question:Which three posture states can be used for authorization rules? (Choose three.)
+A. unknown
+B. known
+C. noncompliant
+D. quarantined
+E. compliant
+F. no access
+G. limited
+Answer:ACE

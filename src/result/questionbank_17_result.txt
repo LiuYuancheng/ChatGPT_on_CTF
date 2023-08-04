@@ -1,0 +1,51 @@
+2023-08-04 15:42:51,405 INFO     Question 1: correct.
+2023-08-04 15:42:53,718 INFO     Question 2: incorrect. correct answer: C, AI answer: B. Per user dACLs applied after successful authentication
+2023-08-04 15:42:55,908 INFO     Question 3: correct.
+2023-08-04 15:42:59,689 INFO     Question 4: incorrect. correct answer: A, AI answer: The most likely cause of the problem is option E. Client root certificate is not included in the Certificate Store. If the client root certificate is not included in the Certificate Store, the ISE server will not be able to validate the client's certificate during the authentication process, resulting in an EAP failure.
+2023-08-04 15:43:03,610 INFO     Question 5: incorrect. correct answer: DE, AI answer: The two valid conditions when configuring ISE for posturing are:
+
+C. Profile status
+D. File
+2023-08-04 15:43:05,274 INFO     Question 6: correct.
+2023-08-04 15:43:07,554 INFO     Question 7: correct.
+2023-08-04 15:43:10,358 INFO     Question 8: correct.
+2023-08-04 15:43:14,250 INFO     Question 9: incorrect. correct answer: A, AI answer: The correct solution to achieve these goals is C. Identity-based ACLs on the switches with user identities provided by ISE. This solution allows the organization to assign different network access policies to different user groups by using the user identities provided by ISE.
+2023-08-04 15:43:17,651 INFO     Question 10: incorrect. correct answer: BDF, AI answer: The three syslog messages that need to be sent to Cisco ISE for Security Group Access are:
+
+A. IOS-7-PROXY_DROP
+B. AP-1-AUTH_PROXY_DOS_ATTACK
+D. AUTHMGR-5-MACMOVE
+2023-08-04 15:43:20,519 INFO     Question 11: incorrect. correct answer: A, AI answer: The correct answer is D. ASA1(config)# access-list IPX-Allow ethertype permit ipx
+2023-08-04 15:43:25,415 INFO     Question 12: incorrect. correct answer: C, AI answer: The correct answer is A. nat (outside,inside) static 209.165.201.3 209.165.201.226 eq smtp. This command enables static PAT (Port Address Translation) for TCP port 25 (SMTP) by mapping the external IP address 209.165.201.3 to the internal IP address 209.165.201.226 for incoming SMTP traffic.
+2023-08-04 15:43:35,175 INFO     Question 13: correct.
+2023-08-04 15:43:37,089 INFO     Question 14: correct.
+2023-08-04 15:43:38,729 INFO     Question 15: correct.
+2023-08-04 15:43:40,880 INFO     Question 16: incorrect. correct answer: A, AI answer: C. Wireless LAN Controller
+2023-08-04 15:43:44,176 INFO     Question 17: incorrect. correct answer: D, AI answer: B. Cisco NAC Agents that communicate with the Cisco ISE server
+2023-08-04 15:43:55,659 INFO     Question 18: incorrect. correct answer: ABC, AI answer: The correct answers are B. Passes credentials to authentication server, C. Enforces policy provided by authentication server, and F. Validates authentication credentials. 
+
+A network access device, such as a switch or wireless access point, plays a crucial role in the 802.1X authorization process. It acts as an intermediary between the supplicant (client device) and the authentication server. 
+
+B. Passes credentials to authentication server: The network access device forwards the credentials provided by the supplicant to the authentication server for verification. 
+
+C. Enforces policy provided by authentication server: Once the authentication server verifies the credentials, it provides the network access device with the appropriate policy for the supplicant. The network access device enforces this policy, which may include granting or denying access to specific resources or services. 
+
+F. Validates authentication credentials: The network access device validates the authentication credentials provided by the supplicant before passing them to the authentication server. This helps ensure that only valid credentials are sent for verification. 
+
+The other options (A, D, and E) are not functions typically performed by a network access device in the 802.1X authorization process.
+2023-08-04 15:43:57,987 INFO     Question 19: correct.
+2023-08-04 15:44:01,094 INFO     Question 20: incorrect. correct answer: ABC, AI answer: The three required configuration elements for HTTP based CWA on a switch are:
+
+A. HTTP server enabled
+C. Redirect access-list
+D. Redirect-URL
+2023-08-04 15:44:03,904 INFO     Question 21: incorrect. correct answer: BCE, AI answer: The three network access devices that allow for static security group tag assignment are:
+
+B. access layer switch
+C. data center access switch
+F. wireless LAN controller
+2023-08-04 15:44:06,199 INFO     Question 22: incorrect. correct answer: B, AI answer: C. Security Group Tag Exchange Protocol (SXP) v4
+2023-08-04 15:44:08,043 INFO     Question 23: incorrect. correct answer: B, AI answer: A. Device registration status and device activation status
+2023-08-04 15:44:10,066 INFO     Question 24: correct.
+10/24
+2023-08-04 15:44:11,075 INFO     Ai correct rate: 41.666666666666664 
