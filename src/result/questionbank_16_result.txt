@@ -1,0 +1,100 @@
+2023-08-04 15:11:22,041 INFO     Question 1: correct.
+2023-08-04 15:11:27,705 INFO     Question 2: correct.
+2023-08-04 15:11:30,160 INFO     Question 3: correct.
+2023-08-04 15:11:33,490 INFO     Question 4: correct.
+2023-08-04 15:11:35,648 INFO     Question 5: correct.
+2023-08-04 15:11:38,624 INFO     Question 6: correct.
+2023-08-04 15:11:40,893 INFO     Question 7: incorrect. correct answer: C, AI answer: A. It will permit or deny traffic based on the access-list criteria.
+2023-08-04 15:11:43,380 INFO     Question 8: incorrect. correct answer: A, AI answer: B. It will prevent traffic from traversing from one enclave to the next without proper access configuration.
+2023-08-04 15:11:46,009 INFO     Question 9: incorrect. correct answer: ACD, AI answer: A. limiting access to infrastructure with access control lists
+C. using SSH whenever possible
+F. enabling DHCP snooping
+2023-08-04 15:11:48,676 INFO     Question 10: correct.
+2023-08-04 15:11:51,075 INFO     Question 11: incorrect. correct answer: ACE, AI answer: B. dynamic routing
+C. the Cisco VNMC policy agent
+E. active/standby failover
+2023-08-04 15:11:53,053 INFO     Question 12: correct.
+2023-08-04 15:11:55,288 INFO     Question 13: incorrect. correct answer: A, AI answer: B. sslciphers
+2023-08-04 15:11:57,989 INFO     Question 14: incorrect. correct answer: A, AI answer: The correct CLI command to enable SNMPv3 on the Cisco Web Security Appliance is C. configsnmp.
+2023-08-04 15:12:00,165 INFO     Question 15: incorrect. correct answer: ABD, AI answer: A. LDAP authentication
+B. RADIUS Authentication
+C. TACAS
+2023-08-04 15:12:01,951 INFO     Question 16: correct.
+2023-08-04 15:12:04,215 INFO     Question 17: incorrect. correct answer: ABC, AI answer: B. Change Audit
+C. Vendor Advisory
+D. TAC Service Request
+2023-08-04 15:12:06,651 INFO     Question 18: correct.
+2023-08-04 15:12:09,810 INFO     Question 19: incorrect. correct answer: AC, AI answer: A. HTTPS-enabled Mozilla Firefox version 3.x
+D. Microsoft Internet Explorer version 8 in all Internet Explorer modes
+2023-08-04 15:12:13,363 INFO     Question 20: correct.
+2023-08-04 15:12:15,544 INFO     Question 21: correct.
+2023-08-04 15:12:17,694 INFO     Question 22: incorrect. correct answer: D, AI answer: A. It is replaced by the Cisco AIP-SSM home page.
+2023-08-04 15:12:20,684 INFO     Question 23: correct.
+2023-08-04 15:12:25,176 INFO     Question 24: incorrect. correct answer: ABC, AI answer: The correct options are:
+
+B. An SNMPv3 user is assigned to SNMPv3 group and defines the encryption and authentication credentials.
+C. An SNMPv3 host is configured to define where the SNMPv3 traps will be sent.
+D. An SNMPv3 host is used to configure the encryption and authentication credentials for SNMPv3 traps.
+2023-08-04 15:12:29,048 INFO     Question 25: incorrect. correct answer: A, AI answer: The correct configuration to enable sampling one of every 100 packets on a router's fa0/0 interface with NetFlow already configured and running is:
+
+C. flow-sampler-map flow1 one-out-of 100 interface fas0/0 flow-sampler flow1
+2023-08-04 15:12:30,758 INFO     Question 26: correct.
+2023-08-04 15:12:32,931 INFO     Question 27: correct.
+2023-08-04 15:12:35,097 INFO     Question 28: correct.
+2023-08-04 15:12:37,959 INFO     Question 29: correct.
+2023-08-04 15:12:40,182 INFO     Question 30: correct.
+2023-08-04 15:12:48,773 INFO     Question 31: incorrect. correct answer: BE, AI answer: The correct answers are:
+
+A. The configuration will be updated with MAC addresses from traffic seen ingressing the port. The configuration will automatically be saved to NVRAM if no other changes to the configuration have been made.
+
+B. The configuration will be updated with MAC addresses from traffic seen ingressing the port. The configuration will not automatically be saved to NVRAM.
+
+Explanation:
+
+The switchport port-security mac-address sticky command allows the switch to dynamically learn and store MAC addresses from the traffic seen ingressing the port. This means that the switch will automatically update its configuration with the learned MAC addresses.
+
+However, the configuration will not automatically be saved to NVRAM. The administrator must manually save the configuration if they want to ensure that the learned MAC addresses are retained after a reboot or power cycle.
+
+Therefore, options A and B are the correct considerations when using the switchport port-security mac-address sticky command.
+2023-08-04 15:12:51,299 INFO     Question 32: incorrect. correct answer: A, AI answer: B. When the Cisco Unified Communications Manager cluster is in secure mode only
+2023-08-04 15:12:53,349 INFO     Question 33: incorrect. correct answer: A, AI answer: B. By enabling ARP inspection or by configuring ACLs
+2023-08-04 15:12:55,670 INFO     Question 34: incorrect. correct answer: AD, AI answer: A. identifying Layer 2 ARP attacks
+C. detecting and preventing MAC address spoofing in switched environments
+2023-08-04 15:12:58,042 INFO     Question 35: correct.
+2023-08-04 15:13:01,174 INFO     Question 36: correct.
+2023-08-04 15:13:02,861 INFO     Question 37: correct.
+2023-08-04 15:13:05,803 INFO     Question 38: incorrect. correct answer: AD, AI answer: B. It is used for installations that require strong network-based protection and that include sensor tuning.
+D. It is used to monitor critical systems and to avoid false positives that block traffic.
+2023-08-04 15:13:08,757 INFO     Question 39: correct.
+2023-08-04 15:13:11,715 INFO     Question 40: incorrect. correct answer: ACDG, AI answer: The four IPv6 First Hop Security technologies are:
+
+B. Dynamic ARP Inspection
+C. Router Advertisement Guard
+D. Neighbor Discovery Inspection
+G. DHCPv6 Guard
+2023-08-04 15:18:23,978 INFO     Question 41: incorrect. correct answer: A, AI answer: error
+2023-08-04 15:18:25,959 INFO     Question 42: incorrect. correct answer: BD, AI answer: A. Cisco ESA
+B. Cisco ASA
+2023-08-04 15:18:27,710 INFO     Question 43: incorrect. correct answer: A, AI answer: C. Control Plane Protection
+2023-08-04 15:18:29,985 INFO     Question 44: correct.
+2023-08-04 15:18:31,935 INFO     Question 45: correct.
+2023-08-04 15:18:33,583 INFO     Question 46: incorrect. correct answer: A, AI answer: C. Control Plane Protection
+2023-08-04 15:18:35,759 INFO     Question 47: correct.
+2023-08-04 15:18:38,331 INFO     Question 48: correct.
+2023-08-04 15:18:41,181 INFO     Question 49: correct.
+2023-08-04 15:18:45,009 INFO     Question 50: correct.
+2023-08-04 15:18:48,242 INFO     Question 51: incorrect. correct answer: AD, AI answer: A. Enter a copy of the administrator's public key within the SSH key-chain
+C. Generate a 512-bit RSA key to enable SSH on the router
+2023-08-04 15:18:50,212 INFO     Question 52: correct.
+2023-08-04 15:18:56,797 INFO     Question 53: incorrect. correct answer: CE, AI answer: The correct answers are A. rogue DHCP servers and D. MAC spoofing. 
+
+The switchport port-security maximum command allows you to limit the number of MAC addresses that can be learned on a switchport. This helps to prevent rogue DHCP servers from being connected to the network, as well as mitigating MAC spoofing attacks where an attacker tries to impersonate a legitimate device by using its MAC address. 
+
+ARP attacks, DHCP starvation, CAM attacks, and IP spoofing are not directly mitigated by the switchport port-security maximum command.
+2023-08-04 15:19:07,893 INFO     Question 54: correct.
+2023-08-04 15:19:09,979 INFO     Question 55: incorrect. correct answer: E, AI answer: C. Host A on an isolated port and Host B on a promiscuous port
+2023-08-04 15:19:12,675 INFO     Question 56: correct.
+2023-08-04 15:19:14,528 INFO     Question 57: correct.
+2023-08-04 15:19:16,544 INFO     Question 58: incorrect. correct answer: A, AI answer: D. no confreg 0x2142
+32/58
+2023-08-04 15:19:17,558 INFO     Ai correct rate: 55.172413793103445 

@@ -1,0 +1,444 @@
+# CCNP Security Implementing Cisco Edge Network Security Solutions (SENSS)
+# https://www.examtopics.com/exams/cisco/300-206/
+
+Question:All 30 users on a single floor of a building are complaining about network slowness. After investigating the access switch, the network administrator notices that the MAC address table is full (10,000 entries) and all traffic is being flooded out of every port. Which action can the administrator take to prevent this from occurring?
+A. Configure port-security to limit the number of mac-addresses allowed on each port
+B. Upgrade the switch to one that can handle 20,000 entries
+C. Configure private-vlans to prevent hosts from communicating with one another
+D. Enable storm-control to limit the traffic rate
+E. Configure a VACL to block all IP traffic except traffic to and from that subnet
+Answer:A
+
+Question:A network printer has a DHCP server service that cannot be disabled. How can a layer 2 switch be configured to prevent the printer from causing network issues?
+A. Remove the ip helper-address
+B. Configure a Port-ACL to block outbound TCP port 68
+C. Configure DHCP snooping
+D. Configure port-security
+Answer:C
+
+Question:A switch is being configured at a new location that uses statically assigned IP addresses. Which will ensure that ARP inspection works as expected?
+A. Configure the 'no-dhcp' keyword at the end of the ip arp inspection command
+B. Enable static arp inspection using the command 'ip arp inspection static vlan vlan-number
+C. Configure an arp access-list and apply it to the ip arp inspection command
+D. Enable port security
+Answer:C
+
+Question:Which of the following would need to be created to configure an application-layer inspection of SMTP traffic operating on port 2525?
+A. A class-map that matches port 2525 and applying an inspect ESMTP policy-map for that class in the global inspection policy
+B. A policy-map that matches port 2525 and applying an inspect ESMTP class-map for that policy
+C. An access-list that matches on TCP port 2525 traffic and applying it on an interface with the inspect option
+D. A class-map that matches port 2525 and applying it on an access-list using the inspect option
+Answer:A
+
+Question:Which command is used to nest objects in a pre-existing group?
+A. object-group
+B. network group-object
+C. object-group network
+D. group-object
+Answer:D
+
+Question:Which threat-detection feature is used to keep track of suspected attackers who create connections to too many hosts or ports?
+A. complex threat detection
+B. scanning threat detection
+C. basic threat detection
+D. advanced threat detection
+Answer:B
+
+Question:What is the default behavior of an access list on the Cisco ASA security appliance?
+A. It will permit or deny traffic based on the access-list criteria.
+B. It will permit or deny all traffic on a specified interface.
+C. An access group must be configured before the access list will take effect for traffic control.
+D. It will allow all traffic.
+Answer:C
+
+Question:What is the default behavior of NAT control on Cisco ASA Software Version 8.3?
+A. NAT control has been deprecated on Cisco ASA Software Version 8.3.
+B. It will prevent traffic from traversing from one enclave to the next without proper access configuration.
+C. It will allow traffic to traverse from one enclave to the next without proper access configuration.
+D. It will deny all traffic.
+Answer:A
+
+Question:Which three options are hardening techniques for Cisco IOS routers? (Choose three.)
+A. limiting access to infrastructure with access control lists
+B. enabling service password recovery
+C. using SSH whenever possible
+D. encrypting the service password
+E. using Telnet whenever possible
+F. enabling DHCP snooping
+Answer:ACD
+
+Question:Which three commands can be used to harden a switch? (Choose three.)
+A. switch(config-if)# spanning-tree bpdufilter enable
+B. switch(config)# ip dhcp snooping
+C. switch(config)# errdisable recovery interval 900
+D. switch(config-if)# spanning-tree guard root
+E. switch(config-if)# spanning-tree bpduguard disable
+F. switch(config-if)# no cdp enable
+Answer:BDF
+
+Question:What are three features of the Cisco ASA 1000V? (Choose three.)
+A. cloning the Cisco ASA 1000V
+B. dynamic routing
+C. the Cisco VNMC policy agent
+D. IPv6
+E. active/standby failover
+F. QoS
+Answer:ACE
+
+Question:A network administrator is creating an ASA-CX administrative user account with the following parameters:1.The user will be responsible for configuring security policies on network devices.2. The user needs read-write access to policies.3.The account has no more rights than necessary for the job. What role will the administrator assign to the user?
+A. Administrator
+B. Security administrator
+C. System administrator
+D. Root Administrator
+E. Exec administrator
+Answer:B
+
+Question:What command alters the SSL ciphers used by the Cisco Email Security Appliance for TLS sessions and HTTPS access?
+A. sslconfig
+B. sslciphers
+C. tlsconifg
+D. certconfig
+Answer:A
+
+Question:What is the CLI command to enable SNMPv3 on the Cisco Web Security Appliance?
+A. snmpconfig
+B. snmpenable
+C. configsnmp
+D. enablesnmp
+Answer:A
+
+Question:The Cisco Email Security Appliance can be managed with both local and external users of different privilege levels. What three external modes of authentication are supported? (Choose three.)
+A. LDAP authentication
+B. RADIUS Authentication
+C. TACAS
+D. SSH host keys
+E. Common Access Card Authentication
+F. RSA Single use tokens
+Answer:ABD
+
+Question:Which tool provides the necessary information to determine hardware lifecycle and compliance details for deployed network devices?
+A. Prime Infrastructure
+B. Prime Assurance
+C. Prime Network Registrar
+D. Prime Network Analysis Module
+Answer:A
+
+Question:Which three compliance and audit report types are available in Cisco Prime Infrastructure? (Choose three.)
+A. Service
+B. Change Audit
+C. Vendor Advisory
+D. TAC Service Request
+E. Validated Design
+F. Smart Business Architecture
+Answer:ABC
+
+Question:Cisco Security Manager can manage which three products? (Choose three.)
+A. Cisco IOS
+B. Cisco ASA
+C. Cisco IPS
+D. Cisco WLC
+E. Cisco Web Security Appliance
+F. Cisco Email Security Appliance
+G. Cisco ASA CX
+H. Cisco CRS
+Answer:ABC
+
+Question:Which two web browsers are supported for the Cisco ISE GUI? (Choose two.)
+A. HTTPS-enabled Mozilla Firefox version 3.x
+B. Netscape Navigator version 9
+C. Microsoft Internet Explorer version 8 in Internet Explorer 8-only mode
+D. Microsoft Internet Explorer version 8 in all Internet Explorer modes
+E. Google Chrome (all versions)
+Answer:AC
+
+Question:When a Cisco ASA is configured in multicontext mode, which command is used to change between contexts?
+A. changeto config context
+B. changeto context
+C. changeto/config context change
+D. changeto/config context 2
+Answer:B
+
+Question:Which statement about the Cisco Security Manager 4.4 NAT Rediscovery feature is true?
+A. It provides NAT policies to existing clients that connect from a new switch port.
+B. It can update shared policies even when the NAT server is offline.
+C. It enables NAT policy discovery as it updates shared polices.
+D. It enables NAT policy rediscovery while leaving existing shared polices unchanged.
+Answer:D
+
+Question:When you install a Cisco ASA AIP-SSM, which statement about the main Cisco ASDM home page is true?
+A. It is replaced by the Cisco AIP-SSM home page.
+B. It must reconnect to the NAT policies database.
+C. The administrator can manually update the page.
+D. It displays a new Intrusion Prevention panel.
+Answer:D
+
+Question:Which statement about Cisco IPS Manager Express is true?
+A. It provides basic device management for large-scale deployments.
+B. It provides a GUI for configuring IPS sensors and security modules.
+C. It enables communication with Cisco ASA devices that have no administrative access.
+D. It provides greater security than simple ACLs.
+Answer:B
+
+Question:Which three options describe how SNMPv3 traps can be securely configured to be sent by IOS? (Choose three.)
+A. An SNMPv3 group is defined to configure the read and write views of the group.
+B. An SNMPv3 user is assigned to SNMPv3 group and defines the encryption and authentication credentials.
+C. An SNMPv3 host is configured to define where the SNMPv3 traps will be sent.
+D. An SNMPv3 host is used to configure the encryption and authentication credentials for SNMPv3 traps.
+E. An SNMPv3 view is defined to configure the address of where the traps will be sent.
+F. An SNMPv3 group is used to configure the OIDs that will be reported.
+Answer:ABC
+
+Question:A network engineer is asked to configure NetFlow to sample one of every 100 packets on a router's fa0/0 interface. Which configuration enables sampling, assuming that NetFlow is already configured and running on the router's fa0/0 interface?
+A. flow-sampler-map flow1 mode random one-out-of 100 interface fas0/0 flow-sampler flow1
+B. flow monitor flow1 mode random one-out-of 100 interface fas0/0 ip flow monitor flow1
+C. flow-sampler-map flow1 one-out-of 100 interface fas0/0 flow-sampler flow1
+D. ip flow-export source fas0/0 one-out-of 100
+Answer:A
+
+Question:What is the default log level on the Cisco Web Security Appliance?
+A. Trace
+B. Debug
+C. Informational
+D. Critical
+Answer:C
+
+Question:Which command sets the source IP address of the NetFlow exports of a device?
+A. ip source flow-export
+B. ip source netflow-export
+C. ip flow-export source
+D. ip netflow-export source
+Answer:C
+
+Question:Which two SNMPv3 features ensure that SNMP packets have been sent securely?" Choose two.
+A. host authorization
+B. authentication
+C. encryption
+D. compression
+Answer:BC
+
+Question:A network engineer is troubleshooting and configures the ASA logging level to debugging. The logging-buffer is dominated by %ASA-6-305009 log messages.
+Which command suppresses those syslog messages while maintaining ability to troubleshoot?
+A. no logging buffered 305009
+B. message 305009 disable
+C. no message 305009 logging
+D. no logging message 305009
+Answer:D
+
+Question:Which two options are two purposes of the packet-tracer command? (Choose two.)
+A. to filter and monitor ingress traffic to a switch
+B. to configure an interface-specific packet trace
+C. to inject virtual packets into the data path
+D. to debug packet drops in a production network
+E. to correct dropped packets in a production network
+Answer:CD
+
+Question:An administrator is deploying port-security to restrict traffic from certain ports to specific MAC addresses. Which two considerations must an administrator take into account when using the switchport port-security mac-address sticky command? (Choose two.)
+A. The configuration will be updated with MAC addresses from traffic seen ingressing the port. The configuration will automatically be saved to NVRAM if no other changes to the configuration have been made.
+B. The configuration will be updated with MAC addresses from traffic seen ingressing the port. The configuration will not automatically be saved to NVRAM.
+C. Only MAC addresses with the 5th most significant bit of the address (the 'sticky' bit) set to 1 will be learned.
+D. If configured on a trunk port without the 'vlan' keyword, it will apply to all vlans.
+E. If configured on a trunk port without the 'vlan' keyword, it will apply only to the native vlan.
+Answer:BE
+
+Question:A Cisco ASA is configured for TLS proxy. When should the security appliance force remote IP phones connecting to the phone proxy through the internet to be in secured mode?
+A. When the Cisco Unified Communications Manager cluster is in non-secure mode
+B. When the Cisco Unified Communications Manager cluster is in secure mode only
+C. When the Cisco Unified Communications Manager is not part of a cluster
+D. When the Cisco ASA is configured for IPSec VPN
+Answer:A
+
+Question:When a Cisco ASA is configured in transparent mode, how can ARP traffic be controlled?
+A. By enabling ARP inspection; however, it cannot be controlled by an ACL
+B. By enabling ARP inspection or by configuring ACLs
+C. By configuring ACLs; however, ARP inspection is not supported
+D. By configuring NAT and ARP inspection
+Answer:A
+
+Question:What are two primary purposes of Layer 2 detection in Cisco IPS networks? (Choose two.)
+A. identifying Layer 2 ARP attacks
+B. detecting spoofed MAC addresses and tracking 802.1X actions and data communication after a successful client association
+C. detecting and preventing MAC address spoofing in switched environments
+D. mitigating man-in-the-middle attacks
+Answer:AD
+
+Question:What is the primary purpose of stateful pattern recognition in Cisco IPS networks?
+A. mitigating man-in-the-middle attacks
+B. using multipacket inspection across all protocols to identify vulnerability-based attacks and to thwart attacks that hide within a data stream
+C. detecting and preventing MAC address spoofing in switched environments
+D. identifying Layer 2 ARP attacks
+Answer:B
+
+Question:What are two reasons to implement Cisco IOS MPLS Bandwidth-Assured Layer 2 Services? (Choose two.)
+A. guaranteed bandwidth and peak rates as well as low cycle periods, regardless of which systems access the device
+B. increased resiliency through MPLS FRR for AToM circuits and better bandwidth utilization through MPLS TE
+C. enabled services over an IP/MPLS infrastructure, for enhanced MPLS Layer 2 functionality
+D. provided complete proactive protection against frame and device spoofing
+Answer:BC
+
+Question:What is the maximum jumbo frame size for IPS standalone appliances with 1G and 10G fixed or add-on interfaces?
+A. 1024 bytes
+B. 1518 bytes
+C. 2156 bytes
+D. 9216 bytes
+Answer:D
+
+Question:Which two statements about Cisco IDS are true? (Choose two.)
+A. It is preferred for detection-only deployment.
+B. It is used for installations that require strong network-based protection and that include sensor tuning.
+C. It is used to boost sensor sensitivity at the expense of false positives.
+D. It is used to monitor critical systems and to avoid false positives that block traffic.
+E. It is used primarily to inspect egress traffic, to filter outgoing threats.
+Answer:AD
+
+Question:What are two reasons for implementing NIPS at enterprise Internet edges? (Choose two.)
+A. Internet edges typically have a lower volume of traffic and threats are easier to detect.
+B. Internet edges typically have a higher volume of traffic and threats are more difficult to detect.
+C. Internet edges provide connectivity to the Internet and other external networks.
+D. Internet edges are exposed to a larger array of threats.
+E. NIPS is more optimally designed for enterprise Internet edges than for internal network configurations.
+Answer:CD
+
+Question:Which four are IPv6 First Hop Security technologies? (Choose four.)
+A. Send
+B. Dynamic ARP Inspection
+C. Router Advertisement Guard
+D. Neighbor Discovery Inspection
+E. Traffic Storm Control
+F. Port Security
+G. DHCPv6 Guard
+Answer:ACDG
+
+Question:IPv6 addresses in an organization's network are assigned using Stateless Address Autoconfiguration. What is a security concern of using SLAAC for IPv6 address assignment?
+A. Man-In-The-Middle attacks or traffic interception using spoofed IPv6 Router Advertisements
+B. Smurf or amplification attacks using spoofed IPv6 ICMP Neighbor Solicitations
+C. Denial of service attacks using TCP SYN floods
+D. Denial of Service attacks using spoofed IPv6 Router Solicitations
+Answer:A
+
+Question:Which two device types can Cisco Prime Security Manager manage in Multiple Device mode? (Choose two.)
+A. Cisco ESA
+B. Cisco ASA
+C. Cisco WSA
+D. Cisco ASA CX
+Answer:BD
+
+Question:Enabling what security mechanism can prevent an attacker from gaining network topology information from CDP?
+A. MACsec
+B. Flex VPN
+C. Control Plane Protection
+D. Dynamic Arp Inspection
+Answer:A
+
+Question:SNMP users have a specified username, a group to which the user belongs, authentication password, encryption password, and authentication and encryption algorithms to use. The authentication algorithm options are MD5 and SHA. The encryption algorithm options are DES, 3DES, and AES (which is available in128,192, and 256 versions). When you create a user, with which option must you associate it?
+A. an SNMP group
+B. at least one interface
+C. the SNMP inspection in the global_policy
+D. at least two interfaces
+Answer:A
+
+Question:An SNMP host is an IP address to which SNMP notifications and traps are sent. To configure SNMFV3 hosts, which option must you configure in addition to the target IP address?
+A. the Cisco ASA as a DHCP server, so the SNMFV3 host can obtain an IP address
+B. a username, because traps are only sent to a configured user
+C. SSH, so the user can connect to the Cisco ASA
+D. the Cisco ASA with a dedicated interface only for SNMP, to process the SNMP host traffic.
+Answer:B
+
+Question:Enabling what security mechanism can prevent an attacker from gaining network topology information from CDP via a man-in-the-middle attack?
+A. MACsec
+B. Flex VPN
+C. Control Plane Protection
+D. Dynamic Arp Inspection
+Answer:A
+
+Question:Which ASA feature is used to keep track of suspected attackers who create connections to too many hosts or ports?
+A. complex threat detection
+B. scanning threat detection
+C. basic threat detection
+D. advanced threat detection
+Answer:B
+
+Question:Which statement describes the correct steps to enable Botnet Traffic Filtering on a Cisco ASA version 9.0 transparent-mode firewall with an active Botnet Traffic Filtering license?
+A. Enable DNS snooping, traffic classification, and actions.
+B. Botnet Traffic Filtering is not supported in transparent mode.
+C. Enable the use of the dynamic database, enable DNS snooping, traffic classification, and actions.
+D. Enable the use of dynamic database, enable traffic classification and actions.
+Answer:C
+
+Question:You are a security engineer at a large multinational retailer. Your Chief Information Officer recently attended a security conference and has asked you to secure the network infrastructure from VLAN hopping. Which statement describes how VLAN hopping can be avoided?
+A. There is no such thing as VLAN hopping because VLANs are completely isolated.
+B. VLAN hopping can be avoided by using IEEE 802.1X to dynamically assign the access VLAN to all endpoints and setting the default access VLAN to an unused VLAN ID.
+C. VLAN hopping is avoided by configuring the native (untagged) VLAN on both sides of an ISL trunk to an unused VLAN ID.
+D. VLAN hopping is avoided by configuring the native (untagged) VLAN on both sides of an IEEE 802.1Q trunk to an unused VLAN ID.
+Answer:D
+
+Question:You are the administrator of a Cisco ASA 9.0 firewall and have been tasked with ensuring that the Firewall Admins Active Directory group has full access to the ASA configuration. The Firewall Operators Active Directory group should have a more limited level of access. Which statement describes how to set these access levels?
+A. Use Cisco Directory Agent to configure the Firewall Admins group to have privilege level 15 access. Also configure the Firewall Operators group to have privilege level 6 access.
+B. Use TACACS+ for Authentication and Authorization into the Cisco ASA CLI, with ACS as the AAA server. Configure ACS CLI command authorization sets for the Firewall Operators group. Configure level 15 access to be assigned to members of the Firewall Admins group.
+C. Use RADIUS for Authentication and Authorization into the Cisco ASA CLI, with ACS as the AAA server. Configure ACS CLI command authorization sets for the Firewall Operators group. Configure level 15 access to be assigned to members of the Firewall Admins group.
+D. Active Directory Group membership cannot be used as a determining factor for accessing the Cisco ASA CLI.
+Answer:B
+
+Question:Which two configurations are necessary to enable password-less SSH login to an IOS router? (Choose two.)
+A. Enter a copy of the administrator's public key within the SSH key-chain
+B. Enter a copy of the administrator's private key within the SSH key-chain
+C. Generate a 512-bit RSA key to enable SSH on the router
+D. Generate an RSA key of at least 768 bits to enable SSH on the router
+E. Generate a 512-bit ECDSA key to enable SSH on the router
+F. Generate a ECDSA key of at least 768 bits to enable SSH on the router
+Answer:AD
+
+Question:Which two features does Cisco Security Manager provide? (Choose two.)
+A. Configuration and policy deployment before device discovery
+B. Health and performance monitoring
+C. Event management and alerting
+D. Command line menu for troubleshooting
+E. Ticketing management and tracking
+Answer:BC
+
+Question:When it is configured in accordance to Cisco best practices, the switchport port-security maximum command can mitigate which two types of Layer 2 attacks?(Choose two.)
+A. rogue DHCP servers
+B. ARP attacks
+C. DHCP starvation
+D. MAC spoofing
+E. CAM attacks
+F. IP spoofing
+Answer:CE
+
+Question:When configured in accordance to Cisco best practices, the ip verify source command can mitigate which two types of Layer 2 attacks? (Choose two.)
+A. rogue DHCP servers
+B. ARP attacks
+C. DHCP starvation
+D. MAC spoofing
+E. CAM attacks
+F. IP spoofing
+Answer:DF
+
+Question:To protect Host A and Host B from communicating with each other, which type of PVLAN port should be used for each host?
+A. Host A on a promiscuous port and Host B on a community port
+B. Host A on a community port and Host B on a promiscuous port
+C. Host A on an isolated port and Host B on a promiscuous port
+D. Host A on a promiscuous port and Host B on a promiscuous port
+E. Host A on an isolated port and host B on an isolated port
+F. Host A on a community port and Host B on a community port
+Answer:E
+
+Question:Which security operations management best practice should be followed to enable appropriate network access for administrators?
+A. Provide full network access from dedicated network administration systems
+B. Configure the same management account on every network device
+C. Dedicate a separate physical or logical plane for management traffic
+D. Configure switches as terminal servers for secure device access
+Answer:C
+
+Question:Which two SNMPv3 features ensure that SNMP packets have been sent securely? (Choose two.)
+A. host authorization
+B. authentication
+C. encryption
+D. compression
+Answer:BC
+
+Question:An attacker has gained physical access to a password protected router. Which command will prevent access to the startup-config in NVRAM?
+A. no service password-recovery
+B. no service startup-config
+C. service password-encryption
+D. no confreg 0x2142
+Answer:A
