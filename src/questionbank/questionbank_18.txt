@@ -1,0 +1,289 @@
+# CCNP Security Implementing Cisco Threat Control Solutions
+# https://www.examtopics.com/exams/cisco/300-210/
+
+Question:Which feature requires the network discovery policy for it to work on the Cisco Next Generation Intrusion Prevention System?
+A. impact flags
+B. URL filtering
+C. security intelligence
+D. health monitoring
+Answer:C
+
+Question:What is a difference between a Cisco Content Security Management virtual appliance and a physical appliance?
+A. Migration between virtual appliances of varying sizes is possible, but physical appliances must be of equal size.
+B. The virtual appliance requires an additional license to run on a host.
+C. The physical appliance requires an additional license to activate its adapters.
+D. The physical appliance is configured with a DHCP-enabled management port to receive an IP address automatically, but you must assign the virtual appliance an IP address manually in your management subnet.
+Answer:B
+
+Question:Which Cisco technology secures the network through malware filtering, category-based control, and reputation-based control?
+A. Cisco ASA 5500 Series appliances
+B. Cisco IPS
+C. Cisco remote-access VPNs
+D. Cisco WSA
+Answer:D
+
+Question:Which detection method is also known as machine learning on Network-based Cisco Advanced Malware Protection?
+A. custom file detection
+B. hashing
+C. Spero engine
+D. dynamic analysis
+Answer:C
+
+Question:Which policy is used to capture host information on the Cisco Next Generation Intrusion Prevention System?
+A. network discovery
+B. correlation
+C. intrusion
+D. access control
+Answer:C
+
+Question:When you create a new server profile on the Cisco ESA, which subcommand of the ldapconfig command configures spam quarantine end-user authentication?
+A. server
+B. test
+C. isqalias
+D. isqauth
+Answer:D
+
+Question:Which option is a benefit of Cisco Email Security virtual appliance over the Cisco ESA appliance?
+A. global threat intelligence updates from Talos
+B. reduced space and power requirements
+C. outbound message protection
+D. automated administration
+Answer:B
+
+Question:Which three sender reputation ranges identify the default behavior of the Cisco Email Security Appliance? (Choose three.)
+A. If it is between -10 and -4, the email is blocked
+B. If it is between +1 and +10, the email is accepted
+C. If it is between -10 and -3, the email is blocked
+D. If it is between -10 and -3, the email is sent to the virus and spam engines for additional scanning
+E. If it is between -3 and +1, the email is accepted and additional emails from the sender are throttled
+F. If it is between -1 and +10, the email is accepted
+G. If it is between -3 and -1, the email is accepted and additional emails from the sender are throttled
+H. If it is between -4 and +1, the email is accepted and additional emails from the sender are throttled
+Answer:CFG
+
+Question:What is the function of the Web Proxy Auto-Discovery protocol?
+A. It enables a web client's traffic flows to be redirected in real time.
+B. It enables web clients to dynamically resolve hostname records.
+C. It enables a web client to download a script or configuration file that is named by a URL.
+D. It enables a web client to discover the URL of a configuration file.
+Answer:D
+
+Question:Which Cisco Advanced Malware Protection for Endpoints deployment architecture is designed to keep data within a network perimeter?
+A. cloud web services
+B. network AMP
+C. private cloud
+D. public cloud
+Answer:C
+
+Question:Which feature of the Cisco Hybrid Email Security services enables you to create multiple email senders on a single Cisco ESA?
+A. Email Marketing Connector
+B. Virtual Routing and Forwarding
+C. Virtual Gateway
+D. Mail Flow Policy Connector
+E. Sender Groups
+Answer:C
+
+Question:When attempting to tunnel FTP traffic through a stateful firewall that may be performing NAT or PAT, which type of VPN tunneling should be used to allow the
+VPN traffic through the stateful firewall?
+A. clientless SSL VPN
+B. IPsec over TCP
+C. Smart Tunnel
+D. SSL VPN plug-ins
+Answer:B
+
+Question:Upon receiving a digital certificate, what are three steps that a Cisco ASA will perform to authenticate the digital certificate? (Choose three.)
+A. The identity certificate validity period is verified against the system clock of the Cisco ASA.
+B. Identity certificates are exchanged during IPsec negotiations.
+C. The identity certificate signature is validated by using the stored root certificate.
+D. The signature is validated by suing the stored identity certificate.
+E. If enabled, the Cisco ASA locates the CRL and validates the identity certificate.
+Answer:ACE
+
+Question:To enable the Cisco ASA Host Scan with remediation capabilities, an administrator must have which two Cisco ASA licenses enabled on its security appliance?(Choose two.)
+A. Cisco AnyConnect Premium license
+B. Cisco AnyConnect Essentials license
+C. Cisco AnyConnect Mobile license
+D. Host Scan license
+E. Advanced Endpoint Assessment license
+F. Cisco Security Agent license
+Answer:AE
+
+Question:What is the CLI command to create a new Message Filter in a Cisco Email Security Appliance?
+A. filterconfig
+B. filters new
+C. messagefilters
+D. policyconfig-- inbound or outbound-- filters
+Answer:B
+
+Question:A Cisco Email Security Appliance uses which message filter to drop all executable attachments entering and leaving the Cisco Email Security Appliance?
+A. drop-exe: if (attachment-filename == "\\.exe$") OR (attachment-filetype == "exe") { drop(); }
+B. drop-exe: if (recv-listener == "InboundMail" ) AND ( (attachment-filename == "\\.exe$") OR (attachment-filetype == "exe")) { drop(); }
+C. drop-exe! if (attachment-filename == "\\.exe$") OR (attachment-filetype == "exe") { drop(); }
+D. drop-exe! if (recv-listener == "InboundMail" ) AND ( (attachment-filename == "\\.exe$") OR (attachment-filetype == "exe")) { drop(); }
+Answer:A
+
+Question:What can Cisco Prime Security Manager (PRSM) be used to achieve?
+A. Configure and Monitor Cisco CX Application Visibility and Control, web filtering, access and decryption policies
+B. Configure Cisco ASA connection limits
+C. Configure TCP state bypass in Cisco ASA and IOS
+D. Configure Cisco IPS signature and monitor signature alerts
+E. Cisco Cloud Security on Cisco ASA
+Answer:A
+
+Question:Which two types of digital certificate enrollment processes are available for the Cisco ASA security appliance? (Choose two.)
+A. LDAP
+B. FTP
+C. TFTP
+D. HTTP
+E. SCEP
+F. Manual
+Answer:EF
+
+Question:Your corporate finance department purchased a new non-web-based TCP application tool to run on one of its servers. The finance employees need remote access to the software during non- business hours. The employees do not have "admin" privileges to their PCs. How would you configure the SSL VPN tunnel to allow this application to run?
+A. Configure a smart tunnel for the application.
+B. Configure a "finance tool" VNC bookmark on the employee clientless SSL VPN portal.
+C. Configure the plug-in that best fits the application.
+D. Configure the Cisco ASA appliance to download the Cisco AnyConnect SSL VPN client to the finance employee each time an SSL VPN tunnel is established.
+Answer:A
+
+Question:What are the initial actions that can be performed on an incoming SMTP session by the workqueue of a Cisco Email Security Appliance?
+A. Accept, Reject, Relay, TCPRefuse
+B. LDAP Verification, Envelope Sender Verification, Bounce Verification, Alias Table Verification
+C. Recipient Access Table Verification, Host DNS Verification, Masquerading, Spam Payload Check
+D. SMTP Authentication, SBRS Verification, Sendergroup matching, DNS host verification
+Answer:A
+
+Question:Which antispam technology assumes that email from server A, which has a history of distributing spam, is more likely to be spam than email from server B, which does not have a history of distributing spam?
+A. Reputation-based filtering
+B. Context-based filtering
+C. Cisco ESA multilayer approach
+D. Policy-based filtering
+Answer:A
+
+Question:Which Cisco technology is a modular security service that combines a stateful inspection firewall with next-generation application awareness, providing near real- time threat protection?
+A. Cisco ASA 5500 series appliances
+B. Cisco ASA CX Context-Aware Security
+C. WSA
+D. Internet Edge Firewall / IPS
+Answer:B
+
+Question:The Web Security Appliance has identities defined for faculty and staff, students, and default access. The faculty and staff identity identifies users based on the source network and authenticated credentials. The identity for students identifies users based on the source network along with successful authentication credentials. The global identity is for guest users not authenticated against the domain. Recently, a change was made to the organization's security policy to allow faculty and staff access to a social network website, and the security group changed the access policy for faculty and staff to allow the social networking category. Which are the two most likely reasons that the category is still being blocked for a faculty and staff user? (Choose two.)
+A. The user is being matched against the student policy because the user did not enter credentials.
+B. The user is using an unsupported browser so the credentials are not working.
+C. The social networking URL was entered into a custom URL category that is blocked in the access policy.
+D. The user is connected to the wrong network and is being blocked by the student policy.
+E. The social networking category is being allowed but the AVC policy is still blocking the website.
+Answer:CE
+
+Question:Which IPS signature regular expression CLI command matches a host issuing a domain lookup for www.theblock.com?
+A. regex-string (\x03[Tt][Hh][Ee]\x05[Bb][Ll][Oo][Cc][Kk])
+B. regex-string (\x0b[theblock.com])
+C. regex-string (\x03[the]\x05[block]0x3[com])
+D. regex-string (\x03[T][H][E]\x05[B][L][O][C][K]\x03[.][C][O][M]
+Answer:A
+
+Question:A Cisco Web Security Appliance's policy can provide visibility and control of which two elements? (Choose two.)
+A. Voice and Video Applications
+B. Websites with a reputation between -100 and -60
+C. Secure websites with certificates signed under an unknown CA
+D. High bandwidth websites during business hours
+Answer:CD
+
+Question:What step is required to enable HTTPS Proxy on the Cisco Web Security Appliance?
+A. Web Security Manager HTTPS Proxy click Enable
+B. Security Services HTTPS Proxy click Enable
+C. HTTPS Proxy is enabled by default
+D. System Administration HTTPS Proxy click Enable
+Answer:B
+
+Question:Which two statements about Cisco Cloud Web Security functionality are true? (Choose two.)
+A. It integrates with Cisco Integrated Service Routers.
+B. It supports threat avoidance and threat remediation.
+C. It extends web security to the desktop, laptop, and PDA.
+D. It integrates with Cisco ASA Firewalls.
+Answer:AD
+
+Question:Which Cisco Cloud Web Security tool provides URL categorization?
+A. Cisco Dynamic Content Analysis Engine
+B. Cisco ScanSafe
+C. ASA Firewall Proxy
+D. Cisco Web Usage Control
+Answer:A
+
+Question:The security team needs to limit the number of e-mails they receive from the Intellishield Alert Service. Which three parameters can they adjust to restrict alerts to specific product sets? (Choose three.)
+A. Vendor
+B. Chassis/Module
+C. Device ID
+D. Service Contract
+E. Version/Release
+F. Service Pack/Platform
+Answer:AEF
+
+Question:Joe was asked to secure access to the Cisco Web Security Appliance to prevent unauthorized access. Which four steps should Joe implement to accomplish this goal? (Choose four.)
+A. Implement IP access lists to limit access to the management IP address in the Cisco Web Security Appliance GUI.
+B. Add the Cisco Web Security Appliance IP address to the local access list.
+C. Enable HTTPS access via the GUI/CLI with redirection from HTTP.
+D. Replace the Cisco self-signed certificate with a publicly signed certificate.
+E. Put the Cisco WSA Management interface on a private management VLAN.
+F. Change the netmask on the Cisco WSA Management interface to a 32-bit mask.
+G. Create an MX record for the Cisco Web Security Appliance in DNS.
+Answer:ACDE
+
+Question:Which command is used to enable strong ciphers on the Cisco Web Security Appliance?
+A. interfaceconfig
+B. strictssl
+C. etherconfig
+D. adminaccessconfig
+Answer:B
+
+Question:In order to set up HTTPS decryption on the Cisco Web Security Appliance, which two steps must be performed? (Choose two.)
+A. Enable and accept the EULA under Security Services > HTTPS Proxy.
+B. Upload a publicly signed server certificate.
+C. Configure or upload a certificate authority certificate.
+D. Enable HTTPS decryption in Web Security Manager > Access Policies.
+Answer:AC
+
+Question:A user is deploying a Cisco IPS appliance in a data center to mitigate most attacks, including atomic attacks. Which two modes does Cisco recommend using to configure for this? (Choose two.)
+A. VLAN pair
+B. interface pair
+C. transparent mode
+D. EtherChannel load balancing
+E. promiscuous mode
+Answer:AD
+
+Question:What Event Action in an IPS signature is used to stop an attacker from communicating with a network using an access-list?
+A. Request Block Host
+B. Deny Attacker Inline
+C. Deny Connection Inline
+D. Deny Packet Inline
+E. Request Block Connection
+Answer:A
+
+Question:You ran the ssh generate-key command on the Cisco IPS and now administrators are unable to connect. Which action can be taken to correct the problem?
+A. Replace the old key with a new key on the client.
+B. Run the ssh host-key command.
+C. Add the administrator IP addresses to the trusted TLS host list on the IPS.
+D. Run the ssh authorized-keys command.
+Answer:A
+
+Question:When you deploy a sensor to send connection termination requests, which additional traffic- monitoring function can you configure the sensor to perform?
+A. Monitor traffic as it flows to the sensor.
+B. Monitor traffic as it flows through the sensor.
+C. Monitor traffic from the Internet only.
+D. Monitor traffic from both the Internet and the intranet.
+Answer:B
+
+Question:Which Cisco Cloud Web Security Connector feature allows access by all of an organization's users while applying Active Directory group policies?
+A. a company authentication key
+B. a group authentication key
+C. a PAC file
+D. proxy forwarding
+E. a user authentication key
+Answer:A
+
+Question:What is the function of the Cisco Context Adaptive Scanning Engine in Cisco Hybrid Email Security services?
+A. It uses real-time traffic threat assessment to identify suspicious email senders and messages.
+B. It provides a preventive defense against viruses by scanning messages before they enter the network.
+C. It analyzes message content and attachments to protect an organization's intellectual property.
+D. It protects against blended threats by using human-like logic to review and evaluate traffic.
+Answer:D

@@ -1,0 +1,61 @@
+2023-08-04 16:24:20,022 INFO     Question 1: correct.
+2023-08-04 16:24:23,361 INFO     Question 2: incorrect. correct answer: B, AI answer: D. The physical appliance is configured with a DHCP-enabled management port to receive an IP address automatically, but you must assign the virtual appliance an IP address manually in your management subnet.
+2023-08-04 16:24:25,032 INFO     Question 3: correct.
+2023-08-04 16:24:27,260 INFO     Question 4: correct.
+2023-08-04 16:24:29,536 INFO     Question 5: incorrect. correct answer: C, AI answer: A. network discovery
+2023-08-04 16:24:31,857 INFO     Question 6: correct.
+2023-08-04 16:24:33,586 INFO     Question 7: correct.
+2023-08-04 16:24:38,938 INFO     Question 8: incorrect. correct answer: CFG, AI answer: The three sender reputation ranges that identify the default behavior of the Cisco Email Security Appliance are:
+
+B. If it is between +1 and +10, the email is accepted
+D. If it is between -10 and -3, the email is sent to the virus and spam engines for additional scanning
+F. If it is between -1 and +10, the email is accepted
+2023-08-04 16:24:41,650 INFO     Question 9: incorrect. correct answer: D, AI answer: C. It enables a web client to download a script or configuration file that is named by a URL.
+2023-08-04 16:24:43,978 INFO     Question 10: correct.
+2023-08-04 16:24:46,077 INFO     Question 11: incorrect. correct answer: C, AI answer: E. Sender Groups
+2023-08-04 16:24:48,816 INFO     Question 12: correct.
+2023-08-04 16:24:52,490 INFO     Question 13: correct.
+2023-08-04 16:24:56,346 INFO     Question 14: correct.
+2023-08-04 16:24:58,657 INFO     Question 15: correct.
+2023-08-04 16:25:02,045 INFO     Question 16: correct.
+2023-08-04 16:25:04,142 INFO     Question 17: incorrect. correct answer: A, AI answer: F. All of the above
+2023-08-04 16:25:05,891 INFO     Question 18: correct.
+2023-08-04 16:25:07,849 INFO     Question 19: correct.
+2023-08-04 16:25:15,659 INFO     Question 20: incorrect. correct answer: A, AI answer: The correct answer is C. Recipient Access Table Verification, Host DNS Verification, Masquerading, Spam Payload Check. 
+
+The workqueue of a Cisco Email Security Appliance can perform several initial actions on an incoming SMTP session. These actions include:
+
+1. Recipient Access Table Verification: The appliance checks if the recipient's email address is valid and allowed to receive emails.
+
+2. Host DNS Verification: The appliance performs a DNS lookup to verify the validity of the sending host.
+
+3. Masquerading: The appliance checks if the sender's email address is valid and not spoofed.
+
+4. Spam Payload Check: The appliance scans the email content for spam or malicious payloads.
+
+These initial actions help ensure the security and validity of the incoming SMTP session.
+2023-08-04 16:25:17,337 INFO     Question 21: correct.
+2023-08-04 16:25:19,309 INFO     Question 22: correct.
+2023-08-04 16:25:22,587 INFO     Question 23: incorrect. correct answer: CE, AI answer: A. The user is being matched against the student policy because the user did not enter credentials.
+D. The user is connected to the wrong network and is being blocked by the student policy.
+2023-08-04 16:25:25,716 INFO     Question 24: correct.
+2023-08-04 16:25:33,221 INFO     Question 25: correct.
+2023-08-04 16:25:35,408 INFO     Question 26: incorrect. correct answer: B, AI answer: The correct answer is A. Web Security Manager HTTPS Proxy click Enable.
+2023-08-04 16:25:37,852 INFO     Question 27: incorrect. correct answer: AD, AI answer: A. It integrates with Cisco Integrated Service Routers.
+B. It supports threat avoidance and threat remediation.
+2023-08-04 16:25:40,004 INFO     Question 28: incorrect. correct answer: A, AI answer: B. Cisco ScanSafe
+2023-08-04 16:25:42,131 INFO     Question 29: correct.
+2023-08-04 16:25:46,669 INFO     Question 30: correct.
+2023-08-04 16:25:48,292 INFO     Question 31: correct.
+2023-08-04 16:25:50,482 INFO     Question 32: correct.
+2023-08-04 16:25:53,552 INFO     Question 33: incorrect. correct answer: AD, AI answer: The two modes that Cisco recommends using to configure a Cisco IPS appliance in a data center to mitigate most attacks, including atomic attacks, are:
+
+C. Transparent mode
+E. Promiscuous mode
+2023-08-04 16:25:56,929 INFO     Question 34: incorrect. correct answer: A, AI answer: The correct answer is B. Deny Attacker Inline. This event action in an IPS signature is used to block or deny the attacker from communicating with a network by dropping or blocking their traffic inline.
+2023-08-04 16:25:59,258 INFO     Question 35: correct.
+2023-08-04 16:26:01,409 INFO     Question 36: correct.
+2023-08-04 16:26:03,620 INFO     Question 37: incorrect. correct answer: A, AI answer: C. a PAC file
+2023-08-04 16:26:06,230 INFO     Question 38: incorrect. correct answer: D, AI answer: A. It uses real-time traffic threat assessment to identify suspicious email senders and messages.
+23/38
+2023-08-04 16:26:07,236 INFO     Ai correct rate: 60.526315789473685 
