@@ -1,0 +1,53 @@
+# Question back: questionbank_14.txt
+# A. Forensics, 
+# B. Cryptography,  
+# C. Web Exploitation, 
+# D. Reverse Engineering, 
+# E. Binary Exploitation, 
+# F. None of above
+# ------------------------------------------------------------------------
+# reuslt: 
+2023-08-01 11:04:11,422 INFO     Question 1 category: B. Cryptography
+2023-08-01 11:04:13,129 INFO     Question 2 category: F. None of above
+2023-08-01 11:04:14,932 INFO     Question 3 category: C. Web Exploitation
+2023-08-01 11:04:16,629 INFO     Question 4 category: B. Cryptography
+2023-08-01 11:04:18,481 INFO     Question 5 category: F. None of above
+2023-08-01 11:04:20,378 INFO     Question 6 category: F. None of above
+2023-08-01 11:04:21,993 INFO     Question 7 category: F. None of above
+2023-08-01 11:04:24,322 INFO     Question 8 category: C. Web Exploitation.
+2023-08-01 11:04:26,242 INFO     Question 9 category: F. None of above
+2023-08-01 11:04:27,953 INFO     Question 10 category: F. None of above
+2023-08-01 11:04:29,592 INFO     Question 11 category: F. None of above
+2023-08-01 11:04:31,334 INFO     Question 12 category: F. None of above
+2023-08-01 11:04:33,127 INFO     Question 13 category: F. None of above
+2023-08-01 11:04:34,846 INFO     Question 14 category: B. Cryptography
+2023-08-01 11:04:36,782 INFO     Question 15 category: F. None of above
+2023-08-01 11:04:38,455 INFO     Question 16 category: F. None of above
+2023-08-01 11:04:41,303 INFO     Question 17 category: B. Cryptography.
+2023-08-01 11:04:43,372 INFO     Question 18 category: F. None of the above.
+2023-08-01 11:04:45,340 INFO     Question 19 category: F. None of above
+2023-08-01 11:04:46,969 INFO     Question 20 category: F. None of above
+2023-08-01 11:04:48,639 INFO     Question 21 category: F. None of above
+2023-08-01 11:04:50,415 INFO     Question 22 category: F. None of above
+2023-08-01 11:04:52,013 INFO     Question 23 category: C. Web Exploitation
+2023-08-01 11:04:53,841 INFO     Question 24 category: C. Web Exploitation
+2023-08-01 11:04:55,592 INFO     Question 25 category: F. None of above
+2023-08-01 11:04:57,313 INFO     Question 26 category: B. Cryptography
+2023-08-01 11:04:59,036 INFO     Question 27 category: F. None of above
+2023-08-01 11:05:00,635 INFO     Question 28 category: F. None of above
+2023-08-01 11:05:02,400 INFO     Question 29 category: C. Web Exploitation
+2023-08-01 11:05:04,152 INFO     Question 30 category: F. None of above
+2023-08-01 11:05:05,880 INFO     Question 31 category: F. None of above
+2023-08-01 11:05:07,621 INFO     Question 32 category: F. None of above
+2023-08-01 11:05:09,145 INFO     Question 33 category: B. Cryptography
+2023-08-01 11:05:10,900 INFO     Question 34 category: F. None of above
+2023-08-01 11:05:14,975 INFO     Question 35 category: F. None of the above.
+2023-08-01 11:05:16,716 INFO     Question 36 category: B. Cryptography
+2023-08-01 11:05:18,407 INFO     Question 37 category: B. Cryptography
+2023-08-01 11:05:20,557 INFO     Question 38 category: B. Cryptography
+2023-08-01 11:05:22,365 INFO     Question 39 category: F. None of above
+2023-08-01 11:05:24,125 INFO     Question 40 category: F. None of above
+2023-08-01 11:05:25,880 INFO     Question 41 category: F. None of above
+2023-08-01 11:05:27,622 INFO     Question 42 category: F. None of above
+2023-08-01 11:05:29,375 INFO     Question 43 category: A. Forensics
+2023-08-01 11:05:31,064 INFO     Question 44 category: F. None of above

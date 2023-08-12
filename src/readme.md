@@ -54,7 +54,8 @@ Answer:A
 | 14   | CCNA Security Implementing Cisco Network Security Exam       | questionbank_15.txt    | 34                   | 55                 | 61.81%                       |
 | 15   | CCNP Security Implementing Cisco Edge Network Security Solutions (SENSS) Exam | questionbank_16.txt    | 32                   | 58                 | 55.17%                       |
 | 16   | CCNP Security Implementing Cisco Secure Access Solutions (SISAS) Exam | questionbank_17.txt    | 10                   | 24                 | 41.66 %                      |
-| 17   | CCNP Security Implementing Cisco Threat Control Solutions Exam | questionbank_17.txt    | 23                   | 38                 | 60.52 %                      |
+| 17   | CCNP Security Implementing Cisco Threat Control Solutions Exam | questionbank_18.txt    | 23                   | 38                 | 60.52 %                      |
+| 18   | CISS-Red 2023 stage1                                         | questionbank_19.txt    | 6                    | 10                 | 60%                          |
 
 
 
