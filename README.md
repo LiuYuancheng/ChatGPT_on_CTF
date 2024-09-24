@@ -180,6 +180,8 @@ flowchart TD
     F[Capture the flag]
 ```
 
+
+
 **Challenge Question mode A3**
 
 If the Question's solving process is linear and almost don't have the fork steps (such as need to install some tool then analyze the log to solve the problem ), this kind of the challenge will be easily solved by AI-LLM. The question mode graph is shown below:
