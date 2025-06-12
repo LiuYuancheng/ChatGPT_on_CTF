@@ -4,6 +4,15 @@
 
 ![](doc/img/rm/introduction.png)
 
+This is the project related paper: [Using Large Language Models for Cybersecurity Capture-The-Flag Challenges and Certification Questions](https://arxiv.org/abs/2308.10443) and current got 51 citations.
+
+```python
+# version:     v0.1.4
+# Created:     2023/05/21
+# Copyright:   Copyright (c) 2025 LiuYuancheng
+# License:     MIT License
+```
+
 [TOC]
 
 **Table of Contents**
