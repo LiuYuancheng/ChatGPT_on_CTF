@@ -4,7 +4,10 @@ In 2026, cybersecurity Capture The Flag (CTF) competitions are experiencing a si
 
 ![](img/s_01.png)
 
-The goal of this discussion is not aim to argue that AI should be removed from CTF competitions. Rather, it is to examine how the competition ecosystem is changing and to consider how organizers, challenge designers, and participants can adapt to an environment where autonomous AI agents are becoming an increasingly important competitive tool.
+The goal of this discussion is not aim to argue that AI should be removed from CTF competitions. Rather, it is to examine how the competition ecosystem is changing and to consider how organizers, challenge designers, and participants can adapt to an environment where autonomous AI agents are becoming an increasingly important competitive tool. In this article, I will introduce two parts related AI agent: 
+
+- The widely used AI agents we saw used in different CTF competition and the some paper about the performance of these auto CTF challenge solvers. 
+- Some simple features which may delay the AI agents for a while and make the question difficult for people who "only" use AI agent to solve the challenge. 
 
 ```python
 # Author:      Yuancheng Liu
@@ -28,6 +31,8 @@ This development has created a new competitive environment. For participants who
 
 In this paper ["Cybersecurity AI: The World’s Top AI Agent for Security Capture-the-Flag (CTF)"](https://arxiv.org/pdf/2512.02654)  introduced how the AI agent can dominate the completion, in the discussion "Are Jeopardy CTFs still meaningful?", the paper give the conclusion "Jeopardy CTFs now primarily reward automation velocity rather than security insight". 
 
+![](img/s_03.png)
+
 The following video provides a simple example of the type of workflow that is increasingly possible in lower- and middle-level CTF competitions. Instead of manually working through every challenge, a participant can initialize an automated agent and allow it to attempt the challenges continuously. The participant's role may be reduced to monitoring the progress, reviewing successful submissions, and waiting for the competition to finish.
 
 https://youtu.be/Wd2kvWxDvIo
@@ -50,16 +55,87 @@ This question does not necessarily mean that CTF competitions are disappearing. 
 
 
 
-And below is an example video to shows what we widely see in some of the low/middle level CTF competition, the participants only need to type in their username and password then just wait the agent to finish all then go get award. And with the improvement of the agent, in some competition, the agent solve all the challenges correctly can not even get into top-5 (especially when set the dynamic score...) The Agent swarm will finish all the challenges in the first hour for a 24/48 hours CTF competition, so not only user the single thread CTF solver will harder to get the better place in the competition. 
+------
 
+### 2. Auto CTF Solvers Overview
 
+In this section, I will introduce several Auto CTF Solver tools and frameworks that have been publicly released and, in some cases, demonstrated in real-world CTF competitions. These projects provide an indication of how quickly AI-assisted and autonomous CTF solving is developing.  This is not intended to be a complete list of all available AI CTF tools. The ecosystem is evolving extremely quickly, and new agents, MCP servers, skills, and agent frameworks are continuously being released.
 
-Now most of the writeup from the participants includes "Codex gives the flag". 
+#### 2.1 Type 1 – Fully Automated AI Competition Agents
 
-In this article, I will introduce two parts: 
+These systems represent the most significant change to the traditional CTF competition model. A fully autonomous CTF agent attempts to automate this entire process analyze each challenge, select the appropriate tools, execute commands, investigate the results, develop an exploit, and finally submit the flag. The human participant provides the agent with the CTF platform credentials and the competition environment.
 
-- The widely used AI agents we saw participants use during Different CTF competition and the some paper about the performance of these auto CTF challenge solvers. 
-- Some simple features which may delay the AI agents for a while and make the question difficult for people who only use AI agent to solve.
+The workflow is approximately:
+
+> **Login → Discover Challenges → Assign Challenges → Launch Solver Agents → Analyze Results → Submit Flags → Repeat**
+
+**2.1.1 VeriaLabs CTF Agent**
+
+- A CTF solver swarm developed by Rank #1 US CTF team on CTFTime in 2024 and 2025 and current world rank 13 and this agent just got the 1st place of BSidesSF 2026. 
+- Repo Link : https://github.com/verialabs/ctf-agent
+
+**2.1.2 CTF-Solver**
+
+- Professional penetration testing and CTF-solving tools developed by the current top Korea team support and coverage most categories of the chellenge. 
+- Repo Link : https://github.com/foxibu/CTF-Solver
+
+**2.1.3 Cybersecurity AI (`CAI`)**
+
+- Auto CTF agent developed by  European EIC accelerator project which can used to  help solve special (Such as OT challenge) challenge, 1st place in AI vs Humans CTF, 1st place in Neurogrid CTF and #6 in Dragos OT CTF 2025. 
+- Repo Link : https://github.com/aliasrobotics/cai
+
+**2.1.4 Other Fully Automated CTF Agents**
+
+These projects demonstrate different approaches to automating the CTF-solving lifecycle, but they didn't share the award in the CTF competition:
+
+- CTF-Agent by hvbhanot : https://github.com/hvbhanot/CTF-Agent
+- NYU LLM CTF Solver :  https://nyu-llm-ctf.github.io/docs/
+- BUUCTF_CTF_Agent : https://github.com/MuWinds/BUUCTF_Agent
+
+#### 2.2 Type 2 – Cybersecurity AI Agent Frameworks
+
+Unlike fully automated CTF competition agents, these frameworks are not necessarily designed to participate in an entire CTF automatically. But these tools can help participants to bypass the AI's security policy to build the attack malware or attack the web or cyber range directly. 
+
+The typical workflow looks like:
+
+>  **Human → AI Agent → Cybersecurity Framework → Security Tools → Target Environment**
+
+**2.2.1 PentestGPT**
+
+- PentestGPT is designed to support penetration-testing activities by combining LLM reasoning with cybersecurity workflows. This makes it potentially useful for CTF challenges where the participant must interact with a black-box target environment.
+- Repo link :  https://github.com/GreyDGL/PentestGPT
+
+**2.2.2 Supperpowers**
+
+- The supperppowers is a frame work which we used to bypass the AI security policy role so we can use it to develop attack script or malware. 
+- Repo Link: https://github.com/obra/superpowers#claude-code
+
+#### 2.3 Type 3 – AI Agent Skills and MCP-Based CTF Tools
+
+The third category consists of **AI agent skills, plugins, and Model Context Protocol (MCP) servers** that can be integrated into existing AI agents, coding assistants, or IDEs. The user does not necessarily need to deploy a completely independent CTF-solving system. Instead, they can extend an existing AI agent with additional cybersecurity knowledge and tools.
+
+The architecture can be represented as:
+
+>  **Existing AI Agent + CTF Skills + MCP Tools + Kali Linux / Security Environment**
+
+- https://github.com/ljagiello/ctf-skills
+- https://spl.team/blog/squid-agent-csaw/
+- https://github.com/0x4m4/hexstrike-ai
+- MCP design for agent using (optimized for CTF participants who will gave the Kali TX machine ) https://github.com/Wh0am123/MCP-Kali-Server
+
+#### 2.4 Recommended Agent Selection by CTF Challenge Type
+
+The following table provides our recommended starting point for selecting an AI agent architecture based on the challenge category.
+
+| CTF Category                  | Recommended Agent Type                                | Recommended MCP / Tool Integration                           | Human Involvement | Why                                                          |
+| ----------------------------- | ----------------------------------------------------- | ------------------------------------------------------------ | ----------------- | ------------------------------------------------------------ |
+| **Web**                       | Type 1 Fully Automated Agent or Type 3 Agent + Skills | Browser automation, HTTP client, Burp Suite, Nmap, SQLMap, web fuzzers | Low               | Web challenges often have clear feedback loops and can be automated effectively. Agents can enumerate endpoints, test parameters, analyze responses, and iterate quickly. |
+| **Pwn / Binary Exploitation** | Type 2 Cybersecurity Framework or Type 3 Agent + MCP  | GDB, pwndbg/GEF, pwntools, checksec, ROP tools, ELF analysis | Low - Medium      | Exploitation often requires precise reasoning about memory layout, mitigations, offsets, and crashes. AI can generate and debug exploits, but human guidance is often valuable. |
+| **Reverse Engineering**       | Type 3 Agent + Skills or Type 2 Framework             | Ghidra, IDA, Binary Ninja, radare2, strings, objdump, debugger | Medium            | Large binaries require iterative analysis and contextual understanding. AI is useful for code explanation and script generation but may struggle with long-range program logic. |
+| **Cryptography**              | Type 3 Agent + Coding Skills                          | Python, SageMath, SymPy, Z3, RsaCtfTool, custom scripts      | Medium            | AI is effective at identifying common cryptographic weaknesses and generating mathematical scripts, but unusual or novel constructions often require human insight. |
+| **Forensics**                 | Type 1 Fully Automated Agent or Type 3 Agent + MCP    | Wireshark, tshark, Volatility, binwalk, exiftool, foremost, YARA | Low               | Many forensic tasks involve systematic searching, filtering, extraction, and pattern recognition, making them suitable for automation. |
+| **OSINT**                     | Type 1 Fully Automated Agent + Browser / Search Tools | Browser automation, search engines, WHOIS, DNS tools, public databases | Low–Medium        | OSINT involves large-scale information gathering and correlation. Agents can automate repetitive searches, but human verification remains important. |
+| **Miscellaneous**             | Type 1 or Type 3 depending on challenge               | General-purpose Kali MCP, scripting environment, browser, custom tools | Medium            | Miscellaneous challenges vary significantly. A flexible general-purpose agent is usually more useful than a specialized solver. |
 
 
 
