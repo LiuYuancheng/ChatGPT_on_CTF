@@ -139,7 +139,95 @@ The following table provides our recommended starting point for selecting an AI 
 
 
 
+------
+
+### 3. CTF Challenge AI Agent Defense Functions in a Cyber Range
+
+Now for CTF challenge designer, it is more and more difficult to create a challenge, if a challenge can not solve by AI agent directly, there will be high possibility most of the participants will not able to solve it also. 
+
+Historically, the difficulty of a CTF challenge was primarily determined by how much cybersecurity knowledge and technical skill was required from the participant. Today, however, challenge designers must also consider another question:
+
+> **How easily can an autonomous AI agent solve this challenge without meaningful human participation?**
+
+The objective of the techniques presented in this section is therefore **not to completely prevent AI agents from participating**. That is likely to be unrealistic, and it may also be undesirable. Instead, the goal is to introduce additional interaction, uncertainty, context, and time costs that make fully autonomous solving less efficient.
+
+We divide these techniques into three major categories:
+
+1. Human Interaction and Behavioral Friction
+2. AI-Resistant Information and Misleading Content
+3. Multimedia, Stateful, and Computational Challenges
+
+Most of the function can delay the challenge for AI agent to solve from 3 mins to about half to one hour and will use 5 - 10 times tokens. 
+
+#### 3.1 Human Interaction and Behavioral Friction
+
+The first category introduces interaction requirements that are relatively easy for a human to perform but require additional work for an autonomous AI agent. In the CTF challenge cyber range such as a web server, I will add several human activates detection mechanism to make sure all the button click, text field  filling are done by human, if we detected a headless request not program browser, the web cyber range will show the fake flag or poison message to misguide AI agent. 
+
+**3.1.1 Browser Request and Session Validation**
+
+A CTF web application can use standard web security mechanisms such as CSRF tokens, session cookies, and short-lived server-side state.
 
 
 
 
+
+
+
+**3.1.1 Browser Request Detection**
+
+The cyber range web host will have function CSRF token + session to verify all the request is from a browser to against the AI agents web scanning, if the host detect a headless request, then it will not provide the web page or timeout the session or provide a fake flag to the AI agent. 
+
+**3.1.2 Robot Verification** 
+
+The AI agent can Provide "I am not robot " verification code picture for every challenge's start page.
+
+**3.1.3 Mouse and Keyboard Event Tracking**
+
+- For the data submitting button in our maritime challenge, we will track the user' mouse trace, if we don't detect mouse event or not a linear mouse trace, the program will provide fake flag. 
+- For the value submission text field, if we didn't detect the keyboard event when received the submit request, then we provide fake flag. 
+
+**3.1.4 Human View and Action triggering** 
+
+Make some hints web page height more than 2K pixel, then we detecting mouse mid wheel event or the mouse drag event or key keyboard direction button event, that means human use browser to read the page, if not, we know that it is an agent analysis page. If not then web will provide the poison hints for AI. (as shown below)
+
+![](img/s_05.png)
+
+For showing sea chart way point, we show the below 4 image to represent different result state, for human it is very easy to detection whether the way point is correct in 1 second, but for AI agent, it will take 10+ second to analysis the image, and the waypoint is only valid in 5 second, so if people don't use the most expensive LLM service, the auto AI will not fast enought to solve the challenge. 
+
+![](img/s_06.png)
+
+#### **3.2 AI Poison Hints and Misguide Information:** 
+
+For a web page, people may more focus on the page contents but as the AI agent will download all the source and analysis the whole page, so some time AI agent will treat the "human invisible" part in the CTF cyber range as hint, then we hide the poison hits in them to misguide the AI agent. 
+
+**3.2.1 Investable base 64 poison hints** 
+
+In the web page, hide encrypted invisible hide link / information which only for AI to read. 
+
+**3.2.2 human invisible watermark poison message**
+
+In the picture, added the human invisible watermark with the poison message in the web pictures. Such as this picture: 
+
+![](img/s_07.png)
+
+If use python water mark spillier, ai agent will find the fake flag `CISS26{PLZUPDATE2THEMOSTADVANCELLMMODE***`
+
+**3.2.3 Over messages in the pages for AI to summarize** 
+
+Split the wrong hint sentence in multiple pieces and put then in different web page (human will not link them as they see page by page, but AI will fetch all the page at same time, so AI will easily combine distributed words in different web pages together to get the misguide sentence )
+
+
+
+### 3. Add Multimedia Hints and unsolvable section : 
+
+**3.3.1 Over fake messages in the Multimedia file**
+
+We hide a hint in low frequency morse code sound, then use the reverse Fourier transform to covert it to a noisy audio file then combine this noisy audio with a normal audio file to make AI difficult to analysis as people are sensitive when hear a noisy in a family song. 
+
+**3.3.2** 
+
+Add some town's name so people need to find these towns/city in map and use Google map router planning to build a world from the travel path. 
+
+**3.3.4 Add unsolvable section** 
+
+Give 5 files (2 fake in them) as hints but didn't tell the encryption algo, which file is the key, the nonce and the cyphertext, For human, this kind of decryption task will be treated as possible unsolvable. But AI agent will start hundreds thread and try all possible solution, once we detect continuously more than 10K requests per mins, we provide the fake flag. 
