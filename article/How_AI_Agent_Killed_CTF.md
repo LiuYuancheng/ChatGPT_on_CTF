@@ -165,69 +165,150 @@ The first category introduces interaction requirements that are relatively easy 
 
 **3.1.1 Browser Request and Session Validation**
 
-A CTF web application can use standard web security mechanisms such as CSRF tokens, session cookies, and short-lived server-side state.
+A CTF web application can use standard web security mechanisms such as CSRF tokens, session cookies, and short-lived server-side state. The work flow is shown below:
 
+```mermaid
+flowchart LR
+    A[GET /challenge] --> B 
+    B[Generate Session] --> C
+    C[Generate Short-Lived Token] --> D
+    D[Render Challenge] --> E
+    E[User Interaction] --> F
+    F[POST /submit] --> G
+    G[Validate Session + Token + State]
 
+```
 
+This prevents simple stateless automation in which an agent repeatedly sends independent HTTP requests without maintaining a valid session.
 
+**3.1.2 Robot Verification**
 
+A challenge can introduce a lightweight robot-verification step at the beginning of a challenge.
 
-
-**3.1.1 Browser Request Detection**
-
-The cyber range web host will have function CSRF token + session to verify all the request is from a browser to against the AI agents web scanning, if the host detect a headless request, then it will not provide the web page or timeout the session or provide a fake flag to the AI agent. 
-
-**3.1.2 Robot Verification** 
-
-The AI agent can Provide "I am not robot " verification code picture for every challenge's start page.
+- For example, the participant may need to identify an object, select a specific image, or complete a simple interaction before the challenge is activated.
+- The objective is not simply to ask "Are you human?" but to require the participant to perform a meaningful action that is easy for a human but requires additional perception and reasoning for an autonomous agent.
 
 **3.1.3 Mouse and Keyboard Event Tracking**
 
-- For the data submitting button in our maritime challenge, we will track the user' mouse trace, if we don't detect mouse event or not a linear mouse trace, the program will provide fake flag. 
-- For the value submission text field, if we didn't detect the keyboard event when received the submit request, then we provide fake flag. 
+Another technique is to record interaction events associated with important challenge actions: 
 
-**3.1.4 Human View and Action triggering** 
+- For the data submitting button in the maritime challenge, we will track the user' mouse trace, if we don't detect mouse event or not a linear mouse trace, the program will provide fake flag. 
+- For the value submission text field, if we didn't detect the keyboard event when received the submit request, then the cyber range will provide fake flag. 
 
-Make some hints web page height more than 2K pixel, then we detecting mouse mid wheel event or the mouse drag event or key keyboard direction button event, that means human use browser to read the page, if not, we know that it is an agent analysis page. If not then web will provide the poison hints for AI. (as shown below)
+**3.1.4 Human View and Action Triggering** 
+
+Another technique is to make certain challenge information easier for humans to understand through visual interaction.
+
+For example, make some hints web page height more than 2K pixels, then we detecting mouse mid wheel event or the mouse drag event or key keyboard direction button event, that means human use browser to read the page, if not, we know that it is an agent analyzing the page source directly. Then the cyber range's web will provide the poison hints for AI. (as shown below)
 
 ![](img/s_05.png)
 
-For showing sea chart way point, we show the below 4 image to represent different result state, for human it is very easy to detection whether the way point is correct in 1 second, but for AI agent, it will take 10+ second to analysis the image, and the waypoint is only valid in 5 second, so if people don't use the most expensive LLM service, the auto AI will not fast enought to solve the challenge. 
+**3.1.5 Time-Limited Visual State**
+
+A more interesting technique is to introduce short-lived visual states. The key principle is:
+
+> **Humans are often faster at recognizing simple visual patterns, while AI agents may spend significant time processing and reasoning about them.**
+
+For example, a maritime navigation challenge may display four possible waypoint states as shown below:
 
 ![](img/s_06.png)
 
-#### **3.2 AI Poison Hints and Misguide Information:** 
+The participant must identify the correct state within a limited time window. A human can recognize the correct image almost immediately in 1 sec, but for AI agent, it needs to invoke a vision model, analyze the image, and reason about the result, that will take 10+ seconds. This creates a latency-sensitive challenge. Then we set the waypoint valid time to less than 10 sec. But in the future will the improvement of the LLM and agent, this function make not work if people use the most expensive LLM service.
 
-For a web page, people may more focus on the page contents but as the AI agent will download all the source and analysis the whole page, so some time AI agent will treat the "human invisible" part in the CTF cyber range as hint, then we hide the poison hits in them to misguide the AI agent. 
 
-**3.2.1 Investable base 64 poison hints** 
+
+#### 3.2 AI Poison Hints and Misleading Information
+
+The second category involves introducing information that may confuse automated analysis. The underlying observation is that human participants typically focus on information that is visually visitable prominent and relevant to the task. An AI agent, however, may attempt to collect and analyze: HTML source code, Hidden elements, Metadata, Comments, Encoded strings, Image data, JavaScript variables, URLs, Page structure. This difference can be exploited to increase the cost of automated analysis.
+
+**3.2.1 Decoy Encoded Information**
+
+A human participant may ignore irrelevant strings because they do not appear to belong to the visible challenge. An autonomous agent may automatically decode every suspicious string.
 
 In the web page, hide encrypted invisible hide link / information which only for AI to read. 
 
-**3.2.2 human invisible watermark poison message**
+**3.2.2 Human-Invisible or Machine-Readable Decoys**
+
+Another technique is to embed additional information in images or multimedia.
+
+For example, an image may contain: Metadata, Steganographic content, Invisible watermarking, Low-contrast text and Additional encoded information.
 
 In the picture, added the human invisible watermark with the poison message in the web pictures. Such as this picture: 
 
 ![](img/s_07.png)
 
-If use python water mark spillier, ai agent will find the fake flag `CISS26{PLZUPDATE2THEMOSTADVANCELLMMODE***`
+If use python watermark splitter, AI agent will find the fake flag `CISS26{PLZUPDATE2THEMOSTADVANCELLMMODE***` which has no relation ship to the question. 
 
-**3.2.3 Over messages in the pages for AI to summarize** 
+**3.2.3 Distributed Decoy Information**
 
-Split the wrong hint sentence in multiple pieces and put then in different web page (human will not link them as they see page by page, but AI will fetch all the page at same time, so AI will easily combine distributed words in different web pages together to get the misguide sentence )
+A more sophisticated approach is to distribute decoy information across multiple pages.
+
+For example:
+
+```
+Web Page A: "The answer..."
+Web Page B: "...is located..."
+Web Page C: "...inside the..."
+Web Page D: "...wrong file."
+```
+
+A human participant navigating naturally through the challenge may never combine these fragments.
+
+An AI agent that crawls the entire application and builds a global knowledge base may combine them automatically.
 
 
 
-### 3. Add Multimedia Hints and unsolvable section : 
+#### 3.3 Multimedia and Cross-Domain Challenges
 
-**3.3.1 Over fake messages in the Multimedia file**
+The third category introduces information that requires multiple forms of perception or external reasoning.
 
-We hide a hint in low frequency morse code sound, then use the reverse Fourier transform to covert it to a noisy audio file then combine this noisy audio with a normal audio file to make AI difficult to analysis as people are sensitive when hear a noisy in a family song. 
+This can include: Audio, Images, Maps, Geographic information, Video, Physical-world references and Time-based signals.
 
-**3.3.2** 
+**3.3.1 Audio-Based Information**
 
-Add some town's name so people need to find these towns/city in map and use Google map router planning to build a world from the travel path. 
+We hide a hint in low frequency morse code sound, then use the reverse Fourier Transform to covert it to a noisy audio file then combine this noisy audio with a normal audio file to make AI difficult to analysis as people are sensitive when hear a noisy in a familiar song. 
+
+**3.3.2 Geographic and Map-Based Reasoning**
+
+Another technique is to require participants to connect information from multiple geographic locations.
+
+The participant must identify the locations, place them on a map, and determine a route or geometric relationship. A human participant can use a mapping service to visually inspect the route.
 
 **3.3.4 Add unsolvable section** 
 
-Give 5 files (2 fake in them) as hints but didn't tell the encryption algo, which file is the key, the nonce and the cyphertext, For human, this kind of decryption task will be treated as possible unsolvable. But AI agent will start hundreds thread and try all possible solution, once we detect continuously more than 10K requests per mins, we provide the fake flag. 
+One particularly interesting technique is to create challenges that are extremely difficult for brute-force autonomous exploration,
+
+Give 5 files (2 fake in them) as hints but didn't tell the encryption algo, which file is the key, the nonce and the cyphertext. The participant must determine:
+
+- Which file contains the key.
+- Which contains the nonce.
+- Which contains the ciphertext.
+- Which encryption algorithm is being used.
+
+For a human, this may appear to be an intentionally under-specified problem and therefore may not be worth pursuing without additional clues.
+
+But the AI agent will start hundreds thread and try all possible solution, once we detect continuously more than 10K requests per mins, we provide the fake flag. 
+
+
+
+#### 3.4 Recommended AI-Resistant CTF Design Strategy
+
+Based on the techniques discussed above, we recommend combining several lightweight mechanisms rather than relying on a single "AI detection" feature.
+
+The most effective challenge design principle is therefore:
+
+> **Make the human solving path short and intuitive, while making the fully autonomous path expensive, uncertain, and time-consuming.**
+
+The human therefore follows the intended path, while the AI agent is forced to spend more tokens, more API calls, and more time exploring the environment. The objective is to move from:
+
+> **"AI cannot solve this challenge."**
+
+to:
+
+> **"AI can solve this challenge, but a fully autonomous approach is no longer significantly faster than having a skilled human participant."**
+
+
+
+------
+
+> last edit by LiuYuancheng (liu_yuan_cheng@hotmail.com) by 01/08/2026 if you have any problem, please send me a message. 
