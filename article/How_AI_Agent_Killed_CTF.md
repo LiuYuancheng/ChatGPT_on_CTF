@@ -2,7 +2,7 @@
 
 In 2026, cybersecurity Capture The Flag (CTF) competitions are experiencing a significant transformation driven by the rapid development of fully automated AI agents. In previous years, participants typically relied on their own technical knowledge, experience, and teamwork to analyze vulnerabilities, reverse engineer binaries, investigate network traffic, exploit vulnerable services, and develop custom solutions. Today, however, an increasing number of participants are turning to autonomous AI agents and multi-agent swarms that can perform many of these tasks with minimal human intervention.
 
-![](img/s_01.png)
+![](img/DesignDoc.png)
 
 The goal of this discussion is not aim to argue that AI should be removed from CTF competitions. Rather, it is to examine how the competition ecosystem is changing and to consider how organizers, challenge designers, and participants can adapt to an environment where autonomous AI agents are becoming an increasingly important competitive tool. In this article, I will introduce two parts related AI agent: 
 
@@ -21,6 +21,22 @@ The goal of this discussion is not aim to argue that AI should be removed from C
 
 [TOC]
 
+- [How Fully Automated AI Agent Dominated Cyber Security CTF Competition](#how-fully-automated-ai-agent-dominated-cyber-security-ctf-competition)
+    + [1. Introduction](#1-introduction)
+    + [2. Auto CTF Solvers Overview](#2-auto-ctf-solvers-overview)
+      - [2.1 Type 1 – Fully Automated AI Competition Agents](#21-type-1---fully-automated-ai-competition-agents)
+      - [2.2 Type 2 – Cybersecurity AI Agent Frameworks](#22-type-2---cybersecurity-ai-agent-frameworks)
+      - [2.3 Type 3 – AI Agent Skills and MCP-Based CTF Tools](#23-type-3---ai-agent-skills-and-mcp-based-ctf-tools)
+      - [2.4 Recommended Agent Selection by CTF Challenge Type](#24-recommended-agent-selection-by-ctf-challenge-type)
+    + [3. CTF Challenge AI Agent Defense Functions in a Cyber Range](#3-ctf-challenge-ai-agent-defense-functions-in-a-cyber-range)
+      - [3.1 Human Interaction and Behavioral Friction](#31-human-interaction-and-behavioral-friction)
+      - [3.2 AI Poison Hints and Misleading Information](#32-ai-poison-hints-and-misleading-information)
+      - [3.3 Multimedia and Cross-Domain Challenges](#33-multimedia-and-cross-domain-challenges)
+      - [3.4 Recommended AI-Resistant CTF Design Strategy](#34-recommended-ai-resistant-ctf-design-strategy)
+    + [4. Conclusion and Reference](#4-conclusion-and-reference)
+      - [4.1 Conclusion](#41-conclusion)
+      - [4.2 Reference Link](#42-reference-link)
+
 ------
 
 ### 1. Introduction
@@ -28,6 +44,8 @@ The goal of this discussion is not aim to argue that AI should be removed from C
 The impact of this change is becoming increasingly visible across CTF competitions we organized and participated. During recent competitions, it has become common to see participants using full automated CTF challenge solvers capable of independently analyzing challenges, executing tools, generating exploit code, retrieving flags, and moving on to the next challenge. Participants only need to provide their credentials or initialize the agent to login the CTF-D before allowing it to operate autonomously for the remainder of the competition.
 
 This development has created a new competitive environment. For participants who do not use AI-assisted or fully autonomous agents, achieving into top group position can become significantly more difficult, particularly in competitions where challenges are designed to be solved quickly and where scoring mechanisms reward the earliest successful submissions. One of the most visible discussions surrounding this trend is the claim that **"CTF is dying because of AI."** such as this article post by the people who get the 1st in the world in CTF (ctftime solo score board)  https://blog.krauq.com/post/ctf-is-dying-because-of-ai by using Ai agent. 
+
+![](img/s_01.png)
 
 In this paper ["Cybersecurity AI: The World’s Top AI Agent for Security Capture-the-Flag (CTF)"](https://arxiv.org/pdf/2512.02654)  introduced how the AI agent can dominate the completion, in the discussion "Are Jeopardy CTFs still meaningful?", the paper give the conclusion "Jeopardy CTFs now primarily reward automation velocity rather than security insight". 
 
@@ -308,6 +326,19 @@ to:
 > **"AI can solve this challenge, but a fully autonomous approach is no longer significantly faster than having a skilled human participant."**
 
 
+
+### 4. Conclusion and Reference
+
+#### 4.1 Conclusion
+
+The emergence of fully automated AI agents and agent swarms marks a pivotal moment in the evolution of cybersecurity CTF competitions. These systems have fundamentally shifted the competitive landscape, transforming what was once a test of human technical acumen into a race of automation velocity and orchestration. While this development challenges traditional notions of skill and competition, the purpose of CTF is not rendered obsolete but rather redefined. As argued in this article, the ecosystem can adapt by designing challenges that leverage human intuition, perception, and reasoning while imposing time and resource costs on autonomous agents. By integrating AI-resistant mechanisms—ranging from behavioral friction and decoy information to cross-domain tasks—organizers can preserve the spirit of the game, ensuring that CTFs continue to cultivate meaningful cybersecurity expertise. The future of CTF lies not in excluding AI but in embracing a hybrid model where the most effective participants are those who can skillfully orchestrate human and machine intelligence. This evolution challenges all stakeholders to rethink how we measure, teach, and test security knowledge in an AI-augmented world.
+
+#### 4.2 Reference Link 
+
+- https://www.usenix.org/conference/usenixsecurity25/presentation/ayzenshteynTo 
+- [GitHub - Daniel-Ayz/CHeaT: Cloak, Honey, Trap: Proactive Defenses Against LLM Agents](https://github.com/Daniel-Ayz/CHeaT)
+- [The Disruptive Impact of Large Language Models on Capture the Flag...](https://arxiv.org/abs/2607.25425)
+- [CTFusion: A CTF-based Benchmark for LLM Agent Evaluation](https://arxiv.org/abs/2605.11504)
 
 ------
 
